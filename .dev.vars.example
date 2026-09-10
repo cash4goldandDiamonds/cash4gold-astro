@@ -1,0 +1,12 @@
+# Server-only, owner-managed secrets. Never paste real values into Git or Studio.
+SANITY_READ_TOKEN=
+FACEBOOK_PAGE_TOKEN=
+INSTAGRAM_ACCESS_TOKEN=
+SOCIAL_STATUS_TOKEN=
+# Non-secret account identifiers still require ownership verification.
+FACEBOOK_PAGE_ID=
+INSTAGRAM_ACCOUNT_ID=
+# Copy expiry timestamps from the actual issued-token response/debugger, never from app creation time.
+# Missing or expired timestamps prevent posting; renewalDue is reported seven days before expiry.
+FACEBOOK_PAGE_TOKEN_EXPIRES_AT=
+INSTAGRAM_TOKEN_EXPIRES_AT=

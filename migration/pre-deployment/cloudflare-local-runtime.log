@@ -1,0 +1,15 @@
+
+ ⛅️ wrangler 4.129.0
+────────────────────
+
+X [ERROR] Build failed with 2 errors:
+
+  X [ERROR] Cannot read directory "../../../../..": Access is denied.
+  
+  
+  X [ERROR] Could not resolve "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-audit\\node_modules\\.pnpm\\wrangler@4.129.0_@cloudflare+workers-types@5.20260903.1\\node_modules\\wrangler\\templates\\no-op-worker.js"
+  
+  
+
+
+🪵  Logs were written to "C:\Users\judit\Documents\Codex\2026-09-09\realtime-voice-chat\cash4gold-audit\.cache\wrangler-logs\wrangler-2026-09-10_17-45-01_506.log"

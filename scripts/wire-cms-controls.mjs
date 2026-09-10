@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+const file='src/lib/cms-page.mjs';let source=await fs.readFile(file,'utf8');
+source=source.replaceAll('doc._updatedAt||old?.modifiedAt','doc.modifiedAt||old?.modifiedAt');
+source=source.replace("const p={...old,path:doc.path", "const p={...old,cmsRevision:doc._rev,breadcrumbLabel:doc.seo?.breadcrumbLabel||doc.title,path:doc.path");
+source=source.replace("name:p.heading,item:p.canonical}]", "name:p.breadcrumbLabel,item:p.canonical}]");
+source=source.replace(" const main={'@type':isArticle?", " if(doc.seo?.schemaType&&((isArticle&&doc.seo.schemaType!=='BlogPosting')||(!isArticle&&doc.seo.schemaType==='BlogPosting')))throw Error('Schema selection conflicts with content type: '+doc.path);\n const main={'@type':isArticle?");
+source=source.replace(" for(const n of extra)"," if(!isArticle&&doc.seo?.schemaType==='Service'&&!extra.some(n=>n['@type']==='Service'))extra.push({'@type':'Service','@id':p.canonical+'#service',url:p.canonical,provider:{'@id':origin+'/#organization'}});\n for(const n of extra)");
+await fs.writeFile(file,source);
+const template='src/pages/[...slug].astro';let html=await fs.readFile(template,'utf8');html=html.replace('<span>{page.heading}</span>','<span>{\'breadcrumbLabel\' in page?String(page.breadcrumbLabel):page.heading}</span>');await fs.writeFile(template,html);
+console.log('Connected CMS revision, intentional modified date, breadcrumb label and schema choice to rendered output.');

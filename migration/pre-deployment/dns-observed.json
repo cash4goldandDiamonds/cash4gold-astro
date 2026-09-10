@@ -1,0 +1,21 @@
+{
+  "observedOn": "2026-09-10",
+  "source": "Cloudflare authenticated DNS records table; 1-12 of 12",
+  "scope": "Public DNS records only. This is an observed snapshot, not a full provider configuration export. Preserve all records until an approved cutover procedure specifies otherwise.",
+  "domain": "cash4goldanddiamond.com",
+  "records": [
+    {"name":"@","type":"A","content":"160.153.0.111","proxied":true,"ttl":"Auto"},
+    {"name":"3a1b417ec80d9d5627ea0d26d2fb8ce9","type":"CNAME","content":"verify.bing.com","proxied":false,"ttl":"Auto"},
+    {"name":"autodiscover","type":"CNAME","content":"autodiscover.outlook.com","proxied":true,"ttl":"Auto"},
+    {"name":"_domainconnect","type":"CNAME","content":"_domainconnect.gd.domaincontrol.com","proxied":true,"ttl":"Auto"},
+    {"name":"email","type":"CNAME","content":"email.secureserver.net","proxied":true,"ttl":"Auto"},
+    {"name":"pay","type":"CNAME","content":"paylinks.commerce.godaddy.com","proxied":true,"ttl":"Auto"},
+    {"name":"www","type":"CNAME","content":"cash4goldanddiamond.com","proxied":true,"ttl":"Auto"},
+    {"name":"@","type":"MX","content":"cash4goldanddiamond-com.mail.protection.outlook.com","priority":0,"proxied":false,"ttl":"Auto"},
+    {"name":"@","type":"TXT","content":"v=spf1 include:secureserver.net -all","proxied":false,"ttl":"Auto"},
+    {"name":"@","type":"TXT","content":"MS=ms45003513","proxied":false,"ttl":"Auto"},
+    {"name":"@","type":"TXT","content":"uefrmarf3n6f87j5khqt1ak2nm","proxied":false,"ttl":"Auto"},
+    {"name":"_cf-custom-hostname","type":"TXT","content":"b78b92a5-ce0e-4ccd-8125-7d9b6b5ccea2","proxied":false,"ttl":"Auto"}
+  ],
+  "notes": ["No DMARC or DKIM record is present in the 12-record table. No email/DNS remediation was performed during this audit.","Actual email send/receive and complete DNS export remain launch checks."]
+}

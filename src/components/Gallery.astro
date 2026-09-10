@@ -1,0 +1,5 @@
+---
+import EditorialImage from "./EditorialImage.astro";
+const items=[{title:'Diamonds',image:'diamond',href:'/sell-your-diamonds-in-los-angeles/'},{title:'Gemstone',image:'gemstone',href:'/sell-gemstones-for-cash-in-los-angeles/'},{title:'Watches',image:'watch',href:'/sell-luxury-watches-in-los-angeles/'},{title:'Gold',image:'gold',href:'/sell-your-golds/'},{title:'Necklaces',image:'necklace',href:'/sell-your-golds/'}];
+---
+<section class="collection-section" aria-label="Jewelry gallery"><div class="collection-grid">{items.map(c=><a class="collection-tile" href={c.href}><EditorialImage name={c.image} sizes="(max-width: 640px) 90vw, 45vw"/><span>{c.title}<b aria-hidden="true">↗</b></span></a>)}</div></section>

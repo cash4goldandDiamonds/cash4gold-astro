@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-09-10T14:05:09.053Z",
+  "sourceArchive": "migration/source-evidence/privacy-before-home-review.json",
+  "findings": [
+    "Imported policy named the unrelated KP Contracting, LLC.",
+    "Imported statements described disabled registration, payments, advertising and analytics features.",
+    "Replaced with factual private-preview information and contact details; original preserved."
+  ],
+  "releaseRequirement": "Before a public launch, confirm the live data collection, vendors, retention, privacy rights and request process and prepare the matching public privacy policy. This local preview notice does not claim legal compliance for a future deployment."
+}

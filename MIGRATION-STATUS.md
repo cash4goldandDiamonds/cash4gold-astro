@@ -1,69 +1,40 @@
 # Migration status
 
-Updated: 2026-09-09
+Updated September 10, 2026. **NOT READY TO GO LIVE.**
 
-## Verified
+## Starting point and preserved work
 
-- Repository: cash4goldandDiamonds/cash4gold-astro, private.
-- GitHub ChatGPT Codex Connector installed with access to this repository only.
-- Source website: https://cash4goldanddiamond.com/
-- Homepage was readable in the browser during initial discovery.
-- Source homepage title: Los Angeles Gold & Diamond Sales for Top Dollar.
-- Source H1: Gold Buyer Los Angeles | Cash 4 Gold & Diamonds.
-- Displayed phone: 310-663-1340.
-- Displayed address: 617 S. Hill Street, Los Angeles, CA 90014.
-- Requirements recovered from Platform recommendation research.
-- Owner requires review and explicit approval before launch.
+The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point. It found five planning/configuration files on private GitHub main at `ed8571bd28de71525eec46b14f56956934e26410`, plus two local implementations. The original files and requirements remain preserved; older status documents are archived in `migration/pre-deployment/prior-instructions/`.
 
-## Initial URL seeds — not a complete inventory
+The latest implementation is in `C:/Users/judit/Documents/Codex/2026-09-09/realtime-voice-chat/cash4gold-audit`, branch `audit/pre-deployment-2026-09-10`. The earlier copy at `C:/Users/judit/Documents/Codex/2026-09-09/cash-for-gold/cash4gold-astro` remains intact. Earlier 196-page/109-article and work-PC transfer counts are historical.
 
-The following links were visible on the homepage. Their status, redirects, content and metadata have NOT yet been audited.
+## Verified implementation
 
-| Source path | Target path | Status |
-| --- | --- | --- |
-| / | / | Homepage observed; not migrated |
-| /about-us-sell-gold-and-diamonds-online/ | Preserve pending crawl | Not migrated |
-| /start-selling-gold-and-diamonds/ | Preserve pending crawl | Not migrated |
-| /reviews/ | Preserve pending crawl | Not migrated |
-| /faqs/ | Preserve pending crawl | Not migrated |
-| /contact-us/ | Preserve pending crawl | Not migrated |
-| /sell-your-diamond/ | Preserve pending crawl | Not migrated |
-| /sell-luxury-watches-in-los-angeles/ | Preserve pending crawl | Not migrated |
-| /sell-your-golds/ | Preserve pending crawl | Not migrated |
-| /sell-gemstones-for-cash-in-los-angeles/ | Preserve pending crawl | Not migrated |
-| /about/ | Verify existing redirect behavior | Not audited |
-| /faq/ | Verify existing redirect behavior | Not audited |
-| /start-selling/ | Verify existing redirect behavior | Not audited |
-| /privacy-policy/ | Preserve pending crawl | Not migrated |
+- 198 content pages, 111 articles, 107 distinct guide-card images, 15 redirects and 214 generated routes including 404.
+- All 111 substantive article reviews recorded, including the two recovered articles; no pending automated review entries.
+- 431 prepared Sanity documents; projection checks cover 111 articles, 222 images and 2,688 anchors. Prepared records do not prove a remote import.
+- Astro 7.3.2, Sanity 6.13.0, React 19.2.8 and the existing Cloudflare/worker architecture preserved.
+- Source, scripts, tests, current images, schema/SEO, redirects, configuration examples, migration evidence and GitHub quality workflow retained.
+- Full selected source installation and 12 verification stages passed. All 29 unit tests passed. The fresh optimized build and hosting finalization generated 214 routes.
+- Secret scans of source, staged changes and generated output found no remaining secrets. Copied account-verification values were removed from tracked metadata; ignored local originals and empty build settings are preserved.
+- No high or critical dependency findings; one moderate finding remains. Eight documented source-text warnings remain for reviewed differences.
 
-Navigation and footer use different About, FAQ, and Start Selling URLs. Record actual HTTP redirect chains before deciding which URLs to retain or redirect. Do not assume these are broken.
+Full evidence: [REPOSITORY_SYNC_VALIDATION.json](reports/REPOSITORY_SYNC_VALIDATION.json). About 405 MB of unneeded raw originals, duplicate captures and historical media are excluded from Git and retained locally. Required current media stays in the implementation. See [LOCAL_ONLY_FILES.json](reports/LOCAL_ONLY_FILES.json).
 
-## Required access and inputs
+## Consolidation and staging sequence
 
-1. WordPress read/export access or a complete export including pages, posts, media, Rank Math metadata, redirects and relevant configuration. Do not export customer form submissions into this repository.
-2. Sanity owner account/project and staging dataset. Not yet connected.
-3. Cloudflare owner account and staging deployment access. Not yet connected.
-4. Existing form and appointment provider configuration.
-5. GA4/GTM, conversion events, Search Console verification and relevant advertising configuration.
-6. A full private backup and restoration method before any production change.
+GitHub consolidation is in progress in the existing private repository. A remote branch or commit must be verified before claiming the push is complete. After the reviewed source is saved, retrieve that exact GitHub revision into a fresh directory and rerun installation, tests and the full build. Record the final commit and that independent result in the final synchronization/QA report.
 
-## Environment limitations observed
+Protected Cloudflare staging is now explicitly authorized. Use the saved GitHub source, authenticated access and noindex protections. Do not attach the live domain. Prior account observations of no Cloudflare project and an empty private Sanity staging dataset require fresh verification; they are dated observations, not assumed current state.
 
-- Bundled Git failed to clone because its HTTPS helper is missing.
-- Command-based source retrieval failed; network escalation was rejected by the session approval policy.
-- GitHub connector installation is verified, but this task does not currently expose callable GitHub repository tools.
-- No dependency install, Astro build, content import, preview deployment or full crawl has succeeded.
+## Remaining acceptance work
 
-## Next sequence
+1. Protected hosted staging and real HTTP behavior: all content/article routes, redirects, canonicals, robots, sitemap policy, schema, assets, internal links, 404s, mobile navigation and headers.
+2. Genuine inquiry delivery and appointment journeys using approved test data and recipients; no customer leads as tests.
+3. Existing Sanity project `gisdw6qa`, private `migration-staging`: scoped access, import, assets, roles, editing, publishing and protected draft preview. Do not replace or expose the production dataset.
+4. Analytics/consent, correct properties and conversion IDs, review integrations and privacy disclosures matching the enabled services.
+5. Measured mobile/desktop performance, accessibility and interaction checks. Local static checks do not establish field Core Web Vitals.
+6. Complete WordPress/Rank Math/media/redirect export reconciliation, the 222-fetched/223-reported media discrepancy, private backup and isolated restoration evidence, and owner content/business/media approval.
+7. Social authorization and real workflow tests remain separate unfinished work; keep schedules paused.
 
-1. Obtain a complete source inventory and preserve originals.
-2. Record per-URL metadata, text, schema, links, image references and redirect chains.
-3. Confirm source totals against WordPress exports and sitemaps.
-4. Scaffold and test Astro/Sanity in a build-capable environment.
-5. Import content into private staging, tracking every source item.
-6. Implement SEO, redirects, schema, forms, appointments and tracking.
-7. Run the acceptance checklist and provide evidence to the owner.
-8. Request explicit production launch approval only after staging is complete.
-
-No claim of migration completeness or production readiness has been made.
-
+**Stop before DNS, nameserver, GoDaddy or production changes. A separate explicit owner launch approval is required after staging review.**

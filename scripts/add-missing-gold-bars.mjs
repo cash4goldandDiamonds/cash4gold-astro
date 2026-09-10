@@ -1,0 +1,41 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import {load} from 'cheerio';
+import sharp from 'sharp';
+import {projectCmsPage} from '../src/lib/cms-page.mjs';
+const file='src/data/pages.json',pages=JSON.parse(await fs.readFile(file,'utf8'));
+const urlPath='/best-gold-bars-2026-top-dealers-ranked/';
+if(pages.some(p=>p.path===urlPath))throw new Error('Page already exists; refuse to overwrite it.');
+const capture=JSON.parse(await fs.readFile('migration/pre-deployment/live-source/crawl.json','utf8')),source=capture.find(p=>p.sourcePath===urlPath);
+const full=load(await fs.readFile('migration/pre-deployment/live-source/html/'+source.originalFile,'utf8'));
+const publishedAt=source.meta.find(m=>m.name==='article:published_time')?.content;
+const author=full('.meta-author,.author-name,[rel=author]').first().text().trim();
+const images=[];await fs.mkdir('public/media/audit-gold-bars',{recursive:true});
+for(let i=0;i<2;i++){
+ const input='migration/pre-deployment/new-gold-bars/source-'+i+'.jpg',meta=await sharp(input).metadata(),variants=[];
+ for(const width of [480,800,940]){const src=`/media/audit-gold-bars/bar-records-${i}-${width}.webp`;const data=await sharp(input).resize({width,withoutEnlargement:true}).webp({quality:82}).toBuffer();await fs.writeFile('public'+src,data);variants.push({src,width,bytes:data.length});}
+ images.push({key:'audit-gold-bars-'+i,src:variants.at(-1).src,width:meta.width,height:meta.height,variants,srcset:variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 900px) 92vw, 880px',alt:i?'Two gold-colored bars marked with weight and fineness on euro banknotes':'Close view of gold-colored bars with stamped weight and fine-gold markings',caption:'Photograph retained from the original gold-bars article. Images do not establish authenticity, purity or current inventory.',sourceUrl:source.images.filter(p=>p.src.includes('images.pexels.com'))[i].src});
+}
+let html=await fs.readFile('src/data/editorial-reviews/gold-bars-audit.html','utf8');
+for(const [i,img]of images.entries())html=html.replace('{{IMAGE_'+i+'}}',`<figure class="${i?'article-inline-image':'article-hero'}"><img src="${img.src}" srcset="${img.srcset}" sizes="${img.sizes}" width="${img.width}" height="${img.height}" alt="${img.alt}" loading="${i?'lazy':'eager'}" ${i?'':'fetchpriority="high"'} decoding="async"><figcaption>${img.caption}</figcaption></figure>`);
+const $=load(html,{},false);const heading='Gold Bars: Compare Dealer Quotes, Records and Resale Terms';
+const description='Compare gold-bar quotes, premiums, assay records and resale terms. Prepare questions and existing records for a gold evaluation in Downtown Los Angeles.';
+const sources=$('.article-resources a').map((i,e)=>({title:$(e).text(),url:$(e).attr('href')})).get();
+const editorial={title:heading,description,focusKeyword:'compare gold bar dealer quotes',secondaryKeywords:['gold bar assay records','gold bullion resale terms','Los Angeles gold bar evaluation'],answer:$('.article-takeaway').text(),group:'gold',topic:'gold-bars',service:'/sell-your-golds/',sources,canonical:source.canonical,images,related:['/gold-coins-buyer-near-me-downtown/','/gold-valuation-how-gold-is-valued/']};
+const originalPage={path:urlPath,title:source.title,heading:full('h1').first().text()||source.title,description:source.description,canonical:source.canonical,robots:source.robots,html:source.mainHtml,sections:[],images:source.images,meta:source.meta,schema:source.schema,sourceText:source.mainText,sourceUrl:source.url,sourceSha256:source.sourceSha256,publishedAt,modifiedAt:source.meta.find(m=>m.name==='article:modified_time')?.content,isArticle:true,author,categories:full('.meta-cat a,[rel="category tag"]').map((i,e)=>full(e).text()).get()};
+const now=new Date().toISOString();
+const old={...originalPage,html,sections:[],images,editorial,modifiedAt:now};
+const page=projectCmsPage({path:urlPath,title:heading,kind:'article',contentMode:'imported',seo:{title:heading,description,canonical:source.canonical,focusKeyword:editorial.focusKeyword,secondaryKeywords:editorial.secondaryKeywords},author:{name:author},publishedAt,_updatedAt:now,answer:editorial.answer,sources,related:editorial.related.map(path=>({path,title:pages.find(p=>p.path===path)?.heading})),service:{path:editorial.service}},old);
+page.editorial={...editorial,images:page.images};
+pages.push(page);
+const blog=pages.find(p=>p.path==='/blogs/'),b=load(blog.html,{},false),hero=images[0];
+const goldGroup=b('.blog-card-grid').filter((i,e)=>b(e).find('a[href="/best-gold-coin-buyers-los-angeles-2026/"]').length).first();
+if(!goldGroup.length)throw Error('Gold guide group not found.');
+goldGroup.prepend(`<a class="blog-card" href="${urlPath}"><img src="${hero.src}" srcset="${hero.srcset}" sizes="(max-width: 600px) 90vw, (max-width: 900px) 44vw, 400px" width="${hero.width}" height="${hero.height}" alt="${hero.alt}" loading="lazy" decoding="async"><div class="blog-card-copy"><h3>${heading}</h3><p>${description}</p></div></a>`);
+blog.html=b.html();blog.sourceText=b.text().replace(/\s+/g,' ').trim();
+const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
+const review={path:urlPath,status:'reviewed',decision:'rewrite',reviewedAt:now,findings:['Fresh live crawl discovered an article absent from the original 196-page capture.','Removed unsupported competitor ratings/accusations, fabricated comparative testing, outdated dollar quotes, claimed 2007 opening date and guaranteed authentication/payment assertions. Original source and metadata remain archived.','Preserved the URL, original author and publication date, gold-bar comparison intent, original photographs and useful transaction questions.'],beforeHtmlSha256:hash(source.mainHtml),afterHtmlSha256:hash(page.html),title:heading,description,focusKeyword:editorial.focusKeyword,sources,sourceArchive:'migration/pre-deployment/live-source/html/'+source.originalFile};
+const ledger=JSON.parse(await fs.readFile('migration/substantive-review.json','utf8'));ledger.rows.push(review);ledger.total=pages.filter(p=>p.isArticle).length;ledger.reviewed=ledger.rows.filter(r=>r.status==='reviewed').length;ledger.uniqueReviewedPaths=ledger.reviewed;ledger.updatedAt=now;
+await fs.writeFile(file,JSON.stringify(pages));await fs.writeFile('migration/substantive-review.json',JSON.stringify(ledger,null,2));
+await fs.writeFile('migration/pre-deployment/additions.json',JSON.stringify([{path:urlPath,originalPage,review}],null,2));
+console.log(JSON.stringify({added:urlPath,articleCount:pages.filter(p=>p.isArticle).length,guideCards:b('.blog-card').length,sourcePhotosRetained:2,review}));

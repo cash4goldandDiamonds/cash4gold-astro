@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-09T22:33:00Z",
+  "environment": "Existing loopback Astro development preview on the home computer",
+  "origin": "http://127.0.0.1:4321",
+  "observations": [
+    {"path":"/","viewport":"desktop, default browser viewport","checks":["Homepage renders with gold/Cuban imagery","Desktop category menu opens","All five category images visually inspected; actual Rolex Daytona and antique diamond estate imagery retained"]},
+    {"path":"/14k-gold-price-per-gram-los-angeles/","viewport":"390 by 844 requested; 375 CSS pixels available after scrollbar","checks":["Revised article, original publication date, source links and worked example rendered","No horizontal overflow","Hero image loaded; second image deferred below fold","Phone navigation expands all five categories","Main menu button has an accessible name after fix"]},
+    {"path":"/sell-your-golds/","viewport":"390 by 844 requested; 375 CSS pixels available after scrollbar","checks":["Gold category link navigates to correct service page","Menus close after navigation","No horizontal overflow","Gold-buying scope, location and contact controls visible"]},
+    {"path":"/best-gold-bracelet-buyers-los-angeles-2026/","viewport":"desktop; 1265 CSS pixel document width","checks":["Rewritten guide renders","Unsupported competitor ratings and FTC fraud claim absent","Heavy Cuban/gold hero displayed","Second bracelet image remains lazy-loaded","No horizontal overflow"]}
+  ],
+  "buildChecks": {"routes":211,"contentPages":196,"aliases":14,"articleChecks":109,"canonicalArticles":105,"preparedCmsDocumentsAtBuild":756,"pageFailures":0,"articleFailures":0,"designChecksPassed":true,"schemaContentTypes":13,"knownSourceComparisonWarning":"Two intentionally rewritten homepage hero blocks differ from the original capture."},
+  "limits": ["Focused browser checks, not a manual inspection of every route or breakpoint","No measured Lighthouse or Core Web Vitals traces; Chrome DevTools MCP tools unavailable","No production release or CMS import"]
+}

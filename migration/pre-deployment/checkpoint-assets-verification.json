@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-10T20:20:15.320Z",
+  "scope": "All built HTML/CSS local asset references compared with current Git index; not a fresh install/build or remote CI test.",
+  "htmlFiles": 214,
+  "uniqueLocalAssets": 434,
+  "publicAssets": 433,
+  "generatedAssets": 1,
+  "errors": []
+}

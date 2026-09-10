@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-10T17:59:52.531Z",
+  "method": "Public GET requests only; published posts/pages and public taxonomy/media. No authenticated records or leads requested.",
+  "endpoints": [
+    {
+      "type": "posts",
+      "complete": true,
+      "publicItems": 111,
+      "uniqueIds": 111,
+      "totalReported": 111,
+      "requests": [
+        {
+          "page": 1,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        },
+        {
+          "page": 2,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "type": "pages",
+      "complete": true,
+      "publicItems": 13,
+      "uniqueIds": 13,
+      "totalReported": 13,
+      "requests": [
+        {
+          "page": 1,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "type": "categories",
+      "complete": true,
+      "publicItems": 3,
+      "uniqueIds": 3,
+      "totalReported": 3,
+      "requests": [
+        {
+          "page": 1,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "type": "tags",
+      "complete": true,
+      "publicItems": 54,
+      "uniqueIds": 54,
+      "totalReported": 54,
+      "requests": [
+        {
+          "page": 1,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "complete": false,
+      "publicItems": 222,
+      "uniqueIds": 222,
+      "totalReported": 223,
+      "requests": [
+        {
+          "page": 1,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        },
+        {
+          "page": 2,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        },
+        {
+          "page": 3,
+          "status": 200,
+          "contentType": "application/json; charset=UTF-8"
+        }
+      ]
+    }
+  ]
+}

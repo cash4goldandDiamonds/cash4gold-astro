@@ -1,0 +1,792 @@
+{
+  "gemstoneRings": {
+    "key": "gemstoneRings",
+    "src": "/media/4cf2afaf8b79-pexels-photo-35697086.optimized.webp",
+    "alt": "Assorted colored gemstone rings in a display tray",
+    "width": 940,
+    "height": 627,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/gemstonerings-400.webp",
+        "bytes": 13202
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/gemstonerings-800.webp",
+        "bytes": 34630
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/gemstonerings-940.webp",
+        "bytes": 53632
+      }
+    ]
+  },
+  "gemstones": {
+    "key": "gemstones",
+    "src": "/media/2d50a789516b-A-Comprehensive-List-of-Gemstones-by-img-1.webp",
+    "alt": "Assorted faceted colored gemstones with a stone held in tweezers",
+    "width": 800,
+    "height": 473,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/gemstones-400.webp",
+        "bytes": 15830
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/gemstones-800.webp",
+        "bytes": 32420
+      }
+    ]
+  },
+  "rolexYachtMaster": {
+    "key": "rolexYachtMaster",
+    "src": "/media/0b60a8652b7a-pexels-photo-3809175.optimized.webp",
+    "alt": "Two-tone Rolex Yacht-Master with white dial",
+    "width": 940,
+    "height": 627,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/rolexyachtmaster-400.webp",
+        "bytes": 8856
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/rolexyachtmaster-800.webp",
+        "bytes": 21204
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/rolexyachtmaster-940.webp",
+        "bytes": 29126
+      }
+    ]
+  },
+  "rolexDaytona": {
+    "key": "rolexDaytona",
+    "src": "/media/fc357e8225af-61291ab29ef1e50018f86fedimg.webp",
+    "alt": "Two-tone Rolex Daytona with black dial",
+    "width": 800,
+    "height": 600,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/rolexdaytona-400.webp",
+        "bytes": 14436
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/rolexdaytona-800.webp",
+        "bytes": 37224
+      }
+    ]
+  },
+  "goldCoins": {
+    "key": "goldCoins",
+    "src": "/media/de8f2df17e14-5405cbb1d431255a7c5564945310766d1mg-1.webp",
+    "alt": "Gold Krugerrand among bullion coins",
+    "width": 800,
+    "height": 530,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldcoins-400.webp",
+        "bytes": 19708
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldcoins-800.webp",
+        "bytes": 45594
+      }
+    ]
+  },
+  "goldBullion": {
+    "key": "goldBullion",
+    "src": "/media/40af87209cc7-pexels-photo-8442330.optimized.webp",
+    "alt": "Gold bullion bars and gold coins",
+    "width": 940,
+    "height": 627,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldbullion-400.webp",
+        "bytes": 27264
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldbullion-800.webp",
+        "bytes": 72106
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/goldbullion-940.webp",
+        "bytes": 105664
+      }
+    ]
+  },
+  "diamondEvaluation": {
+    "key": "diamondEvaluation",
+    "src": "/media/bb087f4f9bfc-sell-diamonds-at-unigloimg-1.webp",
+    "alt": "Loose diamonds with jeweler loupe and tweezers",
+    "width": 1600,
+    "height": 640,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/diamondevaluation-400.webp",
+        "bytes": 9754
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/diamondevaluation-800.webp",
+        "bytes": 35554
+      },
+      {
+        "width": 1200,
+        "src": "/media/articles/diamondevaluation-1200.webp",
+        "bytes": 66442
+      }
+    ]
+  },
+  "looseDiamonds": {
+    "key": "looseDiamonds",
+    "src": "/media/1cb222fd0ac3-pexels-photo-5442447.optimized.webp",
+    "alt": "Loose faceted diamonds in several shapes",
+    "width": 940,
+    "height": 627,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/loosediamonds-400.webp",
+        "bytes": 6528
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/loosediamonds-800.webp",
+        "bytes": 18298
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/loosediamonds-940.webp",
+        "bytes": 29682
+      }
+    ]
+  },
+  "heavyCubanGold": {
+    "key": "heavyCubanGold",
+    "src": "/media/editorial/cuban-scrap-gold-960.webp",
+    "alt": "Heavy Cuban-link chains, bangles and mixed gold jewelry piled on black velvet",
+    "width": 960,
+    "height": 640,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/heavycubangold-400.webp",
+        "bytes": 34694
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/heavycubangold-800.webp",
+        "bytes": 102984
+      },
+      {
+        "width": 960,
+        "src": "/media/articles/heavycubangold-960.webp",
+        "bytes": 162694
+      }
+    ]
+  },
+  "goldWeighing": {
+    "key": "goldWeighing",
+    "src": "/media/738b9a669c18-gold-jewelry-testing-weighing-los-angeles.webp.optimized.webp",
+    "alt": "Gold jewelry arranged beside a digital scale and testing tools",
+    "width": 1536,
+    "height": 1024,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldweighing-400.webp",
+        "bytes": 16208
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldweighing-800.webp",
+        "bytes": 43204
+      },
+      {
+        "width": 1200,
+        "src": "/media/articles/goldweighing-1200.webp",
+        "bytes": 72618
+      }
+    ]
+  },
+  "necklaceDisplay": {
+    "key": "necklaceDisplay",
+    "src": "/media/4e625fe623cc-display-shiny-elegant-gold-chain-1.webp",
+    "alt": "Gold-tone necklaces and earrings on display blocks",
+    "width": 800,
+    "height": 1198,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/necklacedisplay-400.webp",
+        "bytes": 20108
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/necklacedisplay-800.webp",
+        "bytes": 50958
+      }
+    ]
+  },
+  "roundDiamond": {
+    "key": "roundDiamond",
+    "src": "/media/63bb566234b7-pexels-photo-5362404.optimized.webp",
+    "alt": "Round faceted diamond held in tweezers",
+    "width": 940,
+    "height": 528,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/rounddiamond-400.webp",
+        "bytes": 3528
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/rounddiamond-800.webp",
+        "bytes": 8450
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/rounddiamond-940.webp",
+        "bytes": 11200
+      }
+    ]
+  },
+  "diamondLoupe": {
+    "key": "diamondLoupe",
+    "src": "/media/a71eb3bac2f8-pexels-photo-5912127.optimized.webp",
+    "alt": "Close view of a stone being inspected through a loupe",
+    "width": 940,
+    "height": 627,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/diamondloupe-400.webp",
+        "bytes": 4822
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/diamondloupe-800.webp",
+        "bytes": 12182
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/diamondloupe-940.webp",
+        "bytes": 16404
+      }
+    ]
+  },
+  "goldBangles": {
+    "key": "goldBangles",
+    "src": "/media/d66c228ab887-pexels-photo-37485307.optimized.webp",
+    "alt": "Detailed gold bangles on a dark surface",
+    "width": 940,
+    "height": 628,
+    "position": "Inside the general gold material, valuation, or comparison section; caption the visible jewelry without claiming specialty design or Cartier identity.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldbangles-400.webp",
+        "bytes": 9994
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldbangles-800.webp",
+        "bytes": 24564
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/goldbangles-940.webp",
+        "bytes": 35122
+      }
+    ]
+  },
+  "goldBracelet": {
+    "key": "goldBracelet",
+    "src": "/media/0b8a49fe64dd-pexels-photo-12194299.jpeg",
+    "alt": "Textured gold bracelet on a display cushion",
+    "width": 764,
+    "height": 650,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldbracelet-400.webp",
+        "bytes": 3912
+      },
+      {
+        "width": 764,
+        "src": "/media/articles/goldbracelet-764.webp",
+        "bytes": 10864
+      }
+    ]
+  },
+  "estateDiamonds": {
+    "key": "estateDiamonds",
+    "src": "/media/editorial/estate-diamonds-960.webp",
+    "alt": "Ornate diamond-style brooch, bracelet and necklace on black velvet",
+    "width": 960,
+    "height": 640,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/estatediamonds-400.webp",
+        "bytes": 25636
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/estatediamonds-800.webp",
+        "bytes": 80140
+      },
+      {
+        "width": 960,
+        "src": "/media/articles/estatediamonds-960.webp",
+        "bytes": 129276
+      }
+    ]
+  },
+  "diamondPendant": {
+    "key": "diamondPendant",
+    "src": "/media/40892952442f-pexels-photo-10215179.optimized.webp",
+    "alt": "White-metal floral diamond pendant necklace",
+    "width": 940,
+    "height": 627,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/diamondpendant-400.webp",
+        "bytes": 5430
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/diamondpendant-800.webp",
+        "bytes": 14986
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/diamondpendant-940.webp",
+        "bytes": 23046
+      }
+    ]
+  },
+  "sapphireSet": {
+    "key": "sapphireSet",
+    "src": "/media/f871b707d384-pexels-photo-32988651.optimized.webp",
+    "alt": "Sapphire and diamond necklace with matching earrings",
+    "width": 940,
+    "height": 627,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/sapphireset-400.webp",
+        "bytes": 17110
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/sapphireset-800.webp",
+        "bytes": 45332
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/sapphireset-940.webp",
+        "bytes": 65290
+      }
+    ]
+  },
+  "sapphire": {
+    "key": "sapphire",
+    "src": "/media/2a267fbdb028-sapphireimg-1.webp",
+    "alt": "Blue sapphire held in gemstone tweezers",
+    "width": 800,
+    "height": 799,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/sapphire-400.webp",
+        "bytes": 10982
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/sapphire-800.webp",
+        "bytes": 23574
+      }
+    ]
+  },
+  "goldRings": {
+    "key": "goldRings",
+    "src": "/media/dc2d3cc159f6-pexels-photo-21928764.optimized.webp",
+    "alt": "Two yellow-gold-tone bands and a stone-set ring",
+    "width": 940,
+    "height": 627,
+    "position": "Inside the general gold material, valuation, or comparison section; caption the visible jewelry without claiming specialty design or Cartier identity.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldrings-400.webp",
+        "bytes": 4862
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldrings-800.webp",
+        "bytes": 12024
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/goldrings-940.webp",
+        "bytes": 18074
+      }
+    ]
+  },
+  "goldRingPair": {
+    "key": "goldRingPair",
+    "src": "/media/e39d2e62c993-pexels-photo-30206324.optimized.webp",
+    "alt": "Two gold bands on a dark surface",
+    "width": 940,
+    "height": 627,
+    "position": "Inside the general gold material, valuation, or comparison section; caption the visible jewelry without claiming specialty design or Cartier identity.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldringpair-400.webp",
+        "bytes": 5596
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldringpair-800.webp",
+        "bytes": 12506
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/goldringpair-940.webp",
+        "bytes": 15946
+      }
+    ]
+  },
+  "rolexDayDate": {
+    "key": "rolexDayDate",
+    "src": "/media/3006c1bd2dc3-rolex_4ab371b3-b0f5-44fb-b2e1-fe031cfaa801_1024x1024-1.optimized.webp",
+    "alt": "Gold Rolex Day-Date with blue dial",
+    "width": 1024,
+    "height": 675,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/rolexdaydate-400.webp",
+        "bytes": 13434
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/rolexdaydate-800.webp",
+        "bytes": 34172
+      },
+      {
+        "width": 1024,
+        "src": "/media/articles/rolexdaydate-1024.webp",
+        "bytes": 48308
+      }
+    ]
+  },
+  "rolexGreenDaytona": {
+    "key": "rolexGreenDaytona",
+    "src": "/media/c8c37b04f534-pexels-photo-36450789.optimized.webp",
+    "alt": "Gold Rolex Daytona with green dial",
+    "width": 940,
+    "height": 627,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/rolexgreendaytona-400.webp",
+        "bytes": 5650
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/rolexgreendaytona-800.webp",
+        "bytes": 13402
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/rolexgreendaytona-940.webp",
+        "bytes": 17736
+      }
+    ]
+  },
+  "diamondColorDiagram": {
+    "key": "diamondColorDiagram",
+    "src": "/media/5e8f15d4d493-diamond-colour.optimized.webp",
+    "width": 318,
+    "height": 159,
+    "alt": "Existing diamond color scale diagram",
+    "tags": [
+      "diamond",
+      "diagram"
+    ],
+    "evidence": "Visually inspected local source; captions describe visible subject, not independently authenticated material, age, carat, or brand ownership.",
+    "variants": [
+      {
+        "width": 318,
+        "src": "/media/articles/diamondcolordiagram-318.webp",
+        "bytes": 9082
+      }
+    ]
+  },
+  "diamondClarityDiagram": {
+    "key": "diamondClarityDiagram",
+    "src": "/media/5201975a3492-calarity-image.optimized.webp",
+    "width": 1362,
+    "height": 388,
+    "alt": "Existing diamond clarity chart",
+    "tags": [
+      "diamond",
+      "diagram"
+    ],
+    "evidence": "Visually inspected local source; captions describe visible subject, not independently authenticated material, age, carat, or brand ownership.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/diamondclaritydiagram-400.webp",
+        "bytes": 9720
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/diamondclaritydiagram-800.webp",
+        "bytes": 25452
+      },
+      {
+        "width": 1200,
+        "src": "/media/articles/diamondclaritydiagram-1200.webp",
+        "bytes": 40730
+      }
+    ]
+  },
+  "goldChain": {
+    "key": "goldChain",
+    "src": "/media/c67bb9e8adda-pexels-photo-12194343.optimized.webp",
+    "alt": "Gold chain arranged on pale stone blocks",
+    "width": 741,
+    "height": 650,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldchain-400.webp",
+        "bytes": 8984
+      },
+      {
+        "width": 741,
+        "src": "/media/articles/goldchain-741.webp",
+        "bytes": 26208
+      }
+    ]
+  },
+  "whiteRing": {
+    "key": "whiteRing",
+    "src": "/media/e9ac00d496b6-pexels-photo-8875420.optimized.webp",
+    "alt": "White-metal solitaire ring worn on a hand",
+    "width": 940,
+    "height": 625,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/whitering-400.webp",
+        "bytes": 5732
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/whitering-800.webp",
+        "bytes": 12776
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/whitering-940.webp",
+        "bytes": 16526
+      }
+    ]
+  },
+  "goldWhiteBands": {
+    "key": "goldWhiteBands",
+    "src": "/media/d68a8964f6bc-pexels-photo-5370658.optimized.webp",
+    "alt": "Yellow-gold-tone and white-metal diamond bands",
+    "width": 940,
+    "height": 626,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/goldwhitebands-400.webp",
+        "bytes": 3856
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/goldwhitebands-800.webp",
+        "bytes": 10082
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/goldwhitebands-940.webp",
+        "bytes": 13730
+      }
+    ]
+  },
+  "emeralds": {
+    "key": "emeralds",
+    "src": "/media/016b45477328-img7-1.webp",
+    "alt": "Emeralds in several cut shapes",
+    "width": 500,
+    "height": 332,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/emeralds-400.webp",
+        "bytes": 14864
+      },
+      {
+        "width": 500,
+        "src": "/media/articles/emeralds-500.webp",
+        "bytes": 20244
+      }
+    ]
+  },
+  "tiffany": {
+    "key": "tiffany",
+    "src": "/media/f7f57213516d-pexels-photo-10772741.optimized.webp",
+    "alt": "Two rings on a Tiffany & Co. pouch",
+    "width": 940,
+    "height": 627,
+    "position": "After the introductory paragraph, before the first substantive H2.",
+    "display": "Responsive editorial image; retain original aspect ratio and avoid cropping product details.",
+    "variants": [
+      {
+        "width": 400,
+        "src": "/media/articles/tiffany-400.webp",
+        "bytes": 7068
+      },
+      {
+        "width": 800,
+        "src": "/media/articles/tiffany-800.webp",
+        "bytes": 16218
+      },
+      {
+        "width": 940,
+        "src": "/media/articles/tiffany-940.webp",
+        "bytes": 21054
+      }
+    ]
+  },
+  "scrapGold": {
+    "key": "scrapGold",
+    "src": "/media/fec2f4d8919b-scrap-gold.jpeg",
+    "alt": "Mixed gold chains and jewelry in a scrap-gold pile",
+    "width": 311,
+    "height": 162,
+    "position": "Near the first H2 discussing evaluation, types, comparison, or the pictured subject; place after its opening explanatory paragraph.",
+    "display": "Small inline image, maximum natural width; never use as large hero.",
+    "variants": [
+      {
+        "width": 311,
+        "src": "/media/articles/scrapgold-311.webp",
+        "bytes": 19136
+      }
+    ]
+  },
+  "diamondRolex": {
+    "key": "diamondRolex",
+    "src": "/media/f8c4ed97a4fa-download.jpg",
+    "width": 275,
+    "height": 183,
+    "alt": "Diamond-set Rolex with a red dial",
+    "tags": [
+      "watch",
+      "diamond-watch"
+    ],
+    "evidence": "Individually viewed local source photograph.",
+    "variants": [
+      {
+        "width": 275,
+        "src": "/media/articles/diamondrolex-275.webp",
+        "bytes": 8244
+      }
+    ]
+  },
+  "ovalRing": {
+    "key": "ovalRing",
+    "src": "/media/6debf96eafb8-oval-diamond-ring-2.optimized.webp",
+    "width": 176,
+    "height": 148,
+    "alt": "Side view of an oval stone ring held between fingers",
+    "tags": [
+      "oval",
+      "diamond-ring"
+    ],
+    "evidence": "Individually viewed local source photograph.",
+    "variants": [
+      {
+        "width": 176,
+        "src": "/media/articles/ovalring-176.webp",
+        "bytes": 2744
+      }
+    ]
+  }
+}

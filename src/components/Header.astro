@@ -1,0 +1,55 @@
+---
+import EditorialImage from "./EditorialImage.astro";
+import {getSiteSettings} from '../lib/content';
+const {path}=Astro.props;
+const {business,navigation}=await getSiteSettings();
+const categories=[
+ {label:'Gold & Jewelry',detail:'Cuban chains, scrap gold & coins',href:'/sell-your-golds/',image:'goldCollection'},
+ {label:'Natural Diamonds',detail:'Any size & shape · Cut and polished',href:'/sell-your-diamonds-in-los-angeles/',image:'diamond'},
+ {label:'Luxury Watches',detail:'Rolex & other luxury watches',href:'/sell-luxury-watches-in-los-angeles/',image:'watch'},
+ {label:'Large, Fine Gemstones',detail:'High-quality stones · Reports optional',href:'/sell-gemstones-for-cash-in-los-angeles/',image:'gemstone'},
+ {label:'Estate Jewelry',detail:'Inherited & vintage jewelry',href:'/sell-estate-jewelry-los-angeles/',image:'estate'},
+];
+const links=navigation.filter(n=>!['Home','Contact Us','Start Selling'].includes(n.label));
+---
+<header class="site-header redesigned-header" data-site-header>
+ <div class="header-inner">
+  <a class="wordmark" href="/" aria-label="Cash 4 Gold and Diamonds home"><img src="/media/2a8f9fa11254-Cash-4-Gold-Logo-1-1te-1.webp" width="400" height="98" alt="Cash 4 Gold & Diamonds — We Built Trust and Business"/></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+   <details class="selling-menu" data-nav-disclosure>
+    <summary class:list={{'current-category':categories.some(c=>c.href===path)}}>What We Buy <span class="chevron" aria-hidden="true"></span></summary>
+    <div class="mega-menu">
+     <div class="mega-heading"><span>EXPLORE OUR SERVICES</span><a href="/start-selling-gold-and-diamonds/">Start Selling <span aria-hidden="true">↗</span></a></div>
+     <div class="mega-grid">{categories.map(c=><a class="mega-category" href={c.href} aria-current={path===c.href?'page':undefined}><EditorialImage name={c.image} sizes="(max-width: 1100px) 48px, 220px"/><span><strong>{c.label}</strong><small>{c.detail}</small></span><span class="category-arrow" aria-hidden="true">↗</span></a>)}</div>
+     <div class="mega-footer"><span>Cash 4 Gold &amp; Diamonds · Downtown Los Angeles</span><a href="/contact-us/">Plan your visit <span aria-hidden="true">→</span></a></div>
+    </div>
+   </details>
+   {links.map(n=><a aria-current={path===n.href?'page':undefined} href={n.href}>{n.label}</a>)}
+  </nav>
+  <a class="button header-appointment" href="/contact-us/">Book an Appointment <span aria-hidden="true">↗</span></a>
+  <button class="nav-sound" type="button" data-sound-toggle aria-pressed="false" aria-label="Turn menu sounds on" title="Turn menu sounds on" hidden><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-muted" d="m16 9 6 6m0-6-6 6"/></svg></button>
+  <details class="mobile-nav redesigned-mobile" data-nav-disclosure>
+   <summary aria-label="Main menu" aria-controls="mobile-main-panel"><span class="menu-glyph" aria-hidden="true"><i></i><i></i></span><span class="menu-label">Menu</span></summary>
+   <div class="mobile-panel" id="mobile-main-panel"><nav aria-label="Mobile navigation">
+    <a class="mobile-main-link" href="/">Home</a>
+    <details class="mobile-categories" data-nav-disclosure><summary>What We Buy <span class="chevron" aria-hidden="true"></span></summary><div>{categories.map(c=><a class="mobile-category" href={c.href} aria-current={path===c.href?'page':undefined}><EditorialImage name={c.image} sizes="(max-width: 1100px) 48px, 220px"/><span>{c.label}</span><span aria-hidden="true">↗</span></a>)}<a class="all-services" href="/start-selling-gold-and-diamonds/">Start Selling →</a></div></details>
+    {links.map(n=><a class="mobile-main-link" aria-current={path===n.href?'page':undefined} href={n.href}>{n.label}</a>)}
+    <a class="mobile-main-link" href="/contact-us/">Contact Us</a>
+   </nav><div class="mobile-panel-contact"><a class="button" href="/contact-us/">Book an Appointment ↗</a><a href={business.tel}>Call {business.phone}</a></div></div>
+  </details>
+ </div>
+</header>
+<script>
+ import {initializeMenuSound} from '../lib/menu-sound';
+ const header=document.querySelector<HTMLElement>('[data-site-header]');
+ if(header){
+  const disclosures=Array.from(header.querySelectorAll<HTMLDetailsElement>('[data-nav-disclosure]'));
+  const closeAll=()=>disclosures.forEach(d=>d.open=false);
+  document.addEventListener('pointerdown',event=>{if(!header.contains(event.target as Node))closeAll();});
+  document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const opened=disclosures.filter(d=>d.open);const active=opened.findLast(d=>d.contains(document.activeElement))||opened.at(-1);if(active){event.preventDefault();active.open=false;active.querySelector('summary')?.focus();}});
+  header.addEventListener('click',event=>{if((event.target as Element).closest('a[href]'))closeAll();});
+  header.addEventListener('focusout',()=>requestAnimationFrame(()=>{if(!header.contains(document.activeElement))closeAll();}));
+  matchMedia('(min-width: 1101px)').addEventListener('change',closeAll);
+  initializeMenuSound(header);
+ }
+</script>

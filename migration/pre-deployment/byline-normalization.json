@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-10T19:17:27.836Z",
+  "changes": [
+    {
+      "path": "/best-gold-bars-2026-top-dealers-ranked/",
+      "before": "Post author:Navid",
+      "after": "Navid",
+      "reason": "Remove the captured WordPress interface label from the author field; preserve the actual author name. No body or date change."
+    }
+  ],
+  "sourceEvidencePreserved": true
+}

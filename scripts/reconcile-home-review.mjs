@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import {load} from 'cheerio';
+const pages=JSON.parse(await fs.readFile('src/data/pages.json','utf8'));
+const other=JSON.parse(await fs.readFile('migration/substantive-editorial-review.json','utf8'));
+const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
+const selected=other.reviews.map(r=>pages.find(p=>p.path===r.path));
+const core=html=>{const $=load(html);$('.article-takeaway,.article-toc,.article-resources,.article-related,.article-next-step,figure').remove();return $.text().replace(/\s+/g,' ').trim();};
+const rows=selected.map(p=>({path:p.path,currentHtmlSha256:hash(p.html),currentCoreSha256:hash(core(p.html)),priorReview:other.reviews.find(r=>r.path===p.path),retained:true}));
+await fs.writeFile('migration/reconciled-home-gold-pages.json',JSON.stringify(selected),{flag:'wx'});
+await fs.writeFile('migration/home-review-reconciliation.json',JSON.stringify({at:new Date().toISOString(),explanation:'Preserved four existing task edits in the original checkout. Primary site owner independently read all four final bodies; gold-buyer and bracelet retained, final 14K guide retained, broader valuation guide receives adjacent primary citations. Continue with one site writer. Both historical review records remain evidence; migration/substantive-review.json is the ongoing all-article ledger.',rows},null,2));
+console.log(JSON.stringify(rows.map(({path,currentHtmlSha256})=>({path,currentHtmlSha256}))));

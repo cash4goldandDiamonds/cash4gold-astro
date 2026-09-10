@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-09-10",
+  "source": "Full HTML in migration/pre-deployment/live-source/html, referenced by crawl.json",
+  "sourcePages": ["/", "/contact-us/", "/about-us-sell-gold-and-diamonds-online/"],
+  "profiles": [
+    {"label":"Instagram","href":"https://www.instagram.com/cash4goldanddiamond/"},
+    {"label":"Facebook","href":"https://www.facebook.com/cash4goldanddiamond"},
+    {"label":"Yelp","href":"https://www.yelp.com/biz/cash-4-gold-and-diamonds-los-angeles-2"}
+  ],
+  "authorization": "Owner explicitly requested importing all social-media links from the live site.",
+  "integration": "Shared footer-area navigation on every page; business sameAs structured data; editable Sanity business.socialProfiles field; export seeded with source URLs.",
+  "externalAccountControl": "Not tested. Link preservation does not prove account ownership or logged-in platform availability.",
+  "newProfilesInvented": false,
+  "thirdPartyScriptsAdded": false
+}

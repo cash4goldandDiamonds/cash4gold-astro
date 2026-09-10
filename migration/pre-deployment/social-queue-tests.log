@@ -1,0 +1,21 @@
+✔ three weekly Los Angeles slots retain local hour across daylight saving (25.2885ms)
+✔ only reviewed, opted-in canonical public articles become jobs; tracked links stay on the site (1.3041ms)
+✔ queue claim is atomic per network/day; revisions and restarts never repost a published item (12.1845ms)
+✔ removing opt-in cancels queued items, and explicit reapproval only restores unsent cancelled items (2.1855ms)
+✔ draft/noindex/stale/redirected site responses cannot trigger a promotion (23.2353ms)
+✔ Facebook uses a single publish request and never automatically retries an ambiguous timeout (1.3348ms)
+✔ Instagram stores its container before publishing and retains success when permalink lookup fails (2.4343ms)
+✔ scheduler paused means no network or database access; status endpoint requires its own secret (5.5849ms)
+✔ full mocked scheduler publishes once per channel slot and reports real stored states on retry (5.0701ms)
+✔ an unavailable first batch rotates without consuming a slot or rewriting unchanged jobs (4.5256ms)
+✔ missing or expired token metadata blocks requests; renewal warnings contain no token values (0.7096ms)
+✔ an article network failure does not prevent another article from publishing (4.2473ms)
+✔ expired credentials leave article and daily slot available after reconnection (3.3765ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 186.0974

@@ -1,0 +1,37 @@
+✔ CMS images use responsive sizes and the selected crop without upscaling (1.6827ms)
+✔ CMS reference links resolve to current page paths and reject missing documents (14.4928ms)
+✔ CMS nofollow is preserved independently from noindex (5.2385ms)
+✔ CMS navigation rejects executable and external URLs (1.3237ms)
+✔ CMS breadcrumb/schema controls render, and approval edits do not fabricate content freshness (3.9161ms)
+✔ production requires the published production CMS; snapshot exception is isolated (3.3998ms)
+✔ duplicate, missing, incomplete and unreviewed CMS pages block releases (1.2321ms)
+✔ import is deterministic, resumable and never overwrites a conflicting document (16.7056ms)
+✔ only transient provider failures receive bounded retries (1.0869ms)
+✔ preview fails closed and never advertises URLs for indexing (5.3296ms)
+✔ production indexing requires both explicit settings and published content (1.1799ms)
+✔ production sitemap excludes aliases, noindex pages, errors and future dates (8.1362ms)
+✔ CMS redirects support 302 while rejecting missing targets, loops and dangerous paths (1.6382ms)
+✔ editor checks compare real peer metadata and references without counting itself twice (6.9367ms)
+✔ preserved business profiles are safe, deduplicated links (4.7138ms)
+✔ social structured data belongs to the business, not an unrelated author (0.9608ms)
+✔ three weekly Los Angeles slots retain local hour across daylight saving (82.4555ms)
+✔ only reviewed, opted-in canonical public articles become jobs; tracked links stay on the site (3.9131ms)
+✔ queue claim is atomic per network/day; revisions and restarts never repost a published item (67.6447ms)
+✔ removing opt-in cancels queued items, and explicit reapproval only restores unsent cancelled items (61.7031ms)
+✔ draft/noindex/stale/redirected site responses cannot trigger a promotion (110.5376ms)
+✔ Facebook uses a single publish request and never automatically retries an ambiguous timeout (4.4175ms)
+✔ Instagram stores its container before publishing and retains success when permalink lookup fails (4.5462ms)
+✔ scheduler paused means no network or database access; status endpoint requires its own secret (15.0489ms)
+✔ full mocked scheduler publishes once per channel slot and reports real stored states on retry (17.7888ms)
+✔ an unavailable first batch rotates without consuming a slot or rewriting unchanged jobs (15.5851ms)
+✔ missing or expired token metadata blocks requests; renewal warnings contain no token values (1.0346ms)
+✔ an article network failure does not prevent another article from publishing (12.9486ms)
+✔ expired credentials leave article and daily slot available after reconnection (18.3878ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9173.3546

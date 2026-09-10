@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-10T19:38:35.186Z",
+  "original": "C:/Users/judit/Documents/Codex/2026-09-09/cash-for-gold/cash4gold-astro",
+  "baseline": "migration/pre-deployment/baseline.json",
+  "filesCompared": 1752,
+  "changed": [],
+  "missing": [],
+  "scope": "Read-only comparison of pre-audit original files; no original file was modified by this script."
+}

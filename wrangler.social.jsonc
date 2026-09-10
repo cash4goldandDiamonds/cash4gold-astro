@@ -1,0 +1,13 @@
+{
+ "$schema":"./node_modules/wrangler/config-schema.json",
+ "name":"cash4gold-social-publishing",
+ "main":"workers/social/index.mjs",
+ "compatibility_date":"2026-09-03",
+ "workers_dev":false,
+ "preview_urls":false,
+ "routes":[],
+ "triggers":{"crons":[]},
+ "vars":{"SITE_ENV":"preview","SOCIAL_PUBLISHING_ENABLED":"false","SANITY_PROJECT_ID":"gisdw6qa","SANITY_DATASET":"production","META_API_VERSION":"","FACEBOOK_PAGE_ID":"107008765832415","INSTAGRAM_ACCOUNT_ID":"17841461592404304","FACEBOOK_PAGE_TOKEN_EXPIRES_AT":"","INSTAGRAM_TOKEN_EXPIRES_AT":""},
+ "observability":{"enabled":true,"head_sampling_rate":1},
+ "d1_databases":[]
+}

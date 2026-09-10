@@ -1,0 +1,46 @@
+---
+import {buildEnvironment} from '../lib/build-environment';
+import {getSiteSettings,services,type Page} from '../lib/content';
+import '../styles/site.css';
+import '../styles/redesign.css';
+import '../styles/editorial.css';
+import Header from '../components/Header.astro';
+import {releasePolicy,pageRobots} from '../lib/release-policy.mjs';
+import {schemaWithSocialProfiles} from '../lib/social-profiles.mjs';
+interface Props {page:Page;}
+const {page}=Astro.props;
+const {business,navigation,socialProfiles}=await getSiteSettings();
+const home=page.path==='/';
+const policy=releasePolicy(buildEnvironment);
+const og=(name:string)=>page.meta?.find(m=>m.name===name)?.content;
+const safeSchema=(s:string)=>schemaWithSocialProfiles(s,socialProfiles);
+const googleVerification=import.meta.env.GOOGLE_SITE_VERIFICATION?.trim();
+const bingVerification=import.meta.env.BING_SITE_VERIFICATION?.trim();
+---
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+ <title>{page.title}</title><meta name="description" content={page.description}/>
+ <meta name="robots" content={pageRobots(page,policy)}/>
+ {'cmsRevision' in page&&<meta name="cash4gold:content-revision" content={String(page.cmsRevision)}/>}
+ {page.path!=='/404/'&&<link rel="canonical" href={page.canonical||`https://cash4goldanddiamond.com${page.path}`}/>}
+ <meta property="og:title" content={og('og:title')||page.title}/><meta property="og:description" content={og('og:description')||page.description}/>
+ <meta property="og:type" content={page.isArticle?'article':'website'}/><meta property="og:url" content={page.canonical}/>
+ {og('og:image')&&<meta property="og:image" content={og('og:image')}/>}
+ {page.meta?.filter(m=>m.name&&!['og:title','og:description','og:type','og:url','og:image'].includes(m.name)&&/^(og:|twitter:|article:)/.test(m.name)).map(m=>m.name?.startsWith('twitter:')?<meta name={m.name} content={m.content}/>:<meta property={m.name} content={m.content}/>)}
+ {googleVerification&&<meta name="google-site-verification" content={googleVerification}/>}
+ {bingVerification&&<meta name="msvalidate.01" content={bingVerification}/>}
+ {page.schema?.map(s=><script type="application/ld+json" set:html={safeSchema(s)}/>)}
+ <meta name="theme-color" content="#222831"/>
+</head>
+<body class:list={{'home-page':home,'article-page':page.isArticle}}>
+ <a class="skip-link" href="#main">Skip to content</a>
+ {!policy.indexable&&<div class="preview-note">Private local preview · Website migration in progress</div>}
+ <div class="location-bar"><span>{business.address}</span><a href={business.tel}>{business.phone}</a></div>
+ <Header path={page.path}/>
+ <main id="main" tabindex="-1"><slot/></main>
+ <footer class="site-footer"><div class="footer-grid"><div><a class="wordmark" href="/"><span>CASH <b>4</b> GOLD</span><small>&amp; DIAMONDS</small></a><p>Downtown L.A Jewelry District<br/>California Jewelry Mart<br/>{business.address}</p><a href={business.tel}>{business.phone}</a><br/><a href={`mailto:${business.email}`}>{business.email}</a></div><div><h2>Explore</h2>{navigation.map(n=><a href={n.href}>{n.label}</a>)}</div><div><h2>Start Selling</h2>{services.map(s=><a href={s.href}>{s.label}</a>)}<a href="/privacy-policy/">Privacy Policy</a></div></div><div class="footer-bottom"><span>Cash 4 Gold &amp; Diamonds · Los Angeles</span><a href="#main">Back to top ↑</a></div></footer>
+ {socialProfiles.length>0&&<nav class="social-profiles" aria-label="Social profiles">{socialProfiles.map(profile=><a href={profile.href} target="_blank" rel="noopener noreferrer" aria-label={`${business.name} on ${profile.label} (opens a new tab)`}>{profile.label}<span aria-hidden="true"> ↗</span></a>)}</nav>}
+ <div class="mobile-contact"><a href={business.tel}>Call {business.phone}</a><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(business.address)}`}>Get Directions</a></div>
+</body></html>

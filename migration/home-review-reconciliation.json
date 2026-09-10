@@ -1,0 +1,100 @@
+{
+  "at": "2026-09-09T22:36:04.355Z",
+  "explanation": "Preserved four existing task edits in the original checkout. Primary site owner independently read all four final bodies; gold-buyer and bracelet retained, final 14K guide retained, broader valuation guide receives adjacent primary citations. Continue with one site writer. Both historical review records remain evidence; migration/substantive-review.json is the ongoing all-article ledger.",
+  "rows": [
+    {
+      "path": "/gold-buyer-downtown-los-angeles/",
+      "currentHtmlSha256": "8ca06e88382327c737a6ce968bbe9b242843d638a8c5987e5d7a052b94a31650",
+      "currentCoreSha256": "af2a96b3a5147a58fd90efab8aae3d94f6eac47c3e3227b6921dd1f68aa33e52",
+      "priorReview": {
+        "path": "/gold-buyer-downtown-los-angeles/",
+        "decision": "rewrite",
+        "reason": "Unsupported 60–90% payout expectations, universal free-appraisal claims, unverified reputation claims, and blanket claims against online buyers obscured the useful offer-comparison intent.",
+        "reviewedAt": "2026-09-09T22:28:02.729Z",
+        "bodyReadInFull": true,
+        "originalPublishedAt": "2026-07-21T13:22:13+00:00",
+        "beforeSha256": "b3ef0e6dd12b102290a0c44e2703db91ba20a7e2a2c6aa1e4e87bb7861c51d61",
+        "afterSha256": "5afca79fd6975e7a25b7db92dd73d8ab30a9f00360471b071248ed9117addd6d",
+        "wordsBefore": 1679,
+        "wordsAfter": 900,
+        "images": 2,
+        "sources": [
+          "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry",
+          "https://www.gold.org/about-gold/about-gold-jewellery"
+        ]
+      },
+      "retained": true
+    },
+    {
+      "path": "/best-gold-bracelet-buyers-los-angeles-2026/",
+      "currentHtmlSha256": "495e5eb26a02590f4d14bb5211913bebcbeac8be8851efb77f3c03e82e75b49b",
+      "currentCoreSha256": "74bd4ca336a05b4fb0b9972758c24d5bb18c6634da79d27db36b77156818192f",
+      "priorReview": {
+        "path": "/best-gold-bracelet-buyers-los-angeles-2026/",
+        "decision": "rewrite",
+        "reason": "Removed unsupported competitor ratings, invented comparative research, misleading FTC fraud attribution, cash-as-solvency claims, and incorrect blanket advice that antique bracelet condition hardly matters.",
+        "reviewedAt": "2026-09-09T22:28:02.729Z",
+        "bodyReadInFull": true,
+        "originalPublishedAt": "2026-09-05T13:17:18+00:00",
+        "beforeSha256": "0d3009ac7adf018fdaa08763122d6c5bfe99eb7fc802b7f80022f408b04feb39",
+        "afterSha256": "a7229f34a91d885834386bcfa4cc85201a268527b107390f949a39452bc42619",
+        "wordsBefore": 1139,
+        "wordsAfter": 896,
+        "images": 2,
+        "sources": [
+          "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry",
+          "https://www.gia.edu/diamond-quality-factor"
+        ]
+      },
+      "retained": true
+    },
+    {
+      "path": "/14k-gold-price-per-gram-los-angeles/",
+      "currentHtmlSha256": "446e7d0fa68e682095c42f4b421fd19df69826db7f484ed86074d2e960acd4a8",
+      "currentCoreSha256": "8f61b50deba6198f8f25a2acd1df80a73c16dff6d87e7dc2ac98f0b28734c1fd",
+      "priorReview": {
+        "path": "/14k-gold-price-per-gram-los-angeles/",
+        "decision": "rewrite",
+        "reason": "Removed a run of repetitive exact-keyword sentences and repeated conclusions; retained the useful valuation intent with a precise net-alloy-weight formula, nominal 14K versus 585 distinction, unit conversion, and worked examples.",
+        "reviewedAt": "2026-09-09T22:28:02.729Z",
+        "bodyReadInFull": true,
+        "originalPublishedAt": "2026-08-28T00:44:14+00:00",
+        "beforeSha256": "eb3dcd837450225bc4c5ee4169eb14a808627910dd673bf8fafbc1325274cd06",
+        "afterSha256": "446e7d0fa68e682095c42f4b421fd19df69826db7f484ed86074d2e960acd4a8",
+        "wordsBefore": 3172,
+        "wordsAfter": 939,
+        "images": 2,
+        "sources": [
+          "https://www.gold.org/about-gold/about-gold-jewellery",
+          "https://www.nist.gov/pml/owm/si-units-mass",
+          "https://www.gold.org/goldhub/data/gold-prices"
+        ]
+      },
+      "retained": true
+    },
+    {
+      "path": "/gold-valuation-how-gold-is-valued/",
+      "currentHtmlSha256": "6ff43788286f78cdf9decb756d3e181c5f4d67a1a6596aa99a61477e97020449",
+      "currentCoreSha256": "b490966e4280a10c2d32971a4f86eaf9b525c10004619e20de06f5b2198df250",
+      "priorReview": {
+        "path": "/gold-valuation-how-gold-is-valued/",
+        "decision": "improve",
+        "reason": "Retained the substantive explanation of purity, hallmarks, testing, condition, and offers. Clarified net alloy weight in calculations and replaced the additive gold-plus-stone-plus-resale expression to avoid double counting.",
+        "reviewedAt": "2026-09-09T22:28:02.729Z",
+        "bodyReadInFull": true,
+        "originalPublishedAt": "2026-08-13T21:40:12+00:00",
+        "beforeSha256": "f46ea6321cbaa4415f5f5e30614773973c06717161c10c02791a79f44354daf0",
+        "afterSha256": "6ff43788286f78cdf9decb756d3e181c5f4d67a1a6596aa99a61477e97020449",
+        "wordsBefore": 2251,
+        "wordsAfter": 2324,
+        "images": 2,
+        "sources": [
+          "https://www.gold.org/about-gold/about-gold-jewellery",
+          "https://www.gold.org/goldhub/data/gold-prices",
+          "https://www.nist.gov/pml/owm/si-units-mass"
+        ]
+      },
+      "retained": true
+    }
+  ]
+}

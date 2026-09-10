@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-10T14:24:26.444Z",
+  "decision": "Consolidate each original near-duplicate with its established preferred guide. Preserve all 109 URLs and publication dates, with 105 canonical pictured guides.",
+  "pairs": [
+    {
+      "path": "/best-14k-yellow-gold-rings-2026-2/",
+      "preferred": "/best-14k-yellow-gold-rings-2026/",
+      "similarity": 0.979874213836478
+    },
+    {
+      "path": "/best-14k-white-gold-engagement-rings-2026-2/",
+      "preferred": "/best-14k-white-gold-engagement-rings-2026/",
+      "similarity": 0.9873570138470801
+    },
+    {
+      "path": "/best-18k-gold-rings-2026-ranked-2/",
+      "preferred": "/best-18k-gold-rings-2026-ranked/",
+      "similarity": 0.9820289855072464
+    },
+    {
+      "path": "/best-black-hills-gold-rings-2026-2/",
+      "preferred": "/best-black-hills-gold-rings-2026/",
+      "similarity": 0.9905956112852664
+    }
+  ]
+}

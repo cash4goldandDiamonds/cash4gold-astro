@@ -1,0 +1,44 @@
+{
+  "name": "cash4gold-astro",
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.19.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build && node scripts/finalize-build.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "crawl": "node scripts/crawl.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:design": "node scripts/verify-design.mjs",
+    "verify:editorial": "node scripts/verify-editorial.mjs",
+    "verify:schema": "node scripts/check-schema.mjs",
+    "export:cms": "node scripts/export-sanity.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify:cms": "node scripts/verify-cms-projection.mjs",
+    "verify:substantive": "node scripts/verify-substantive.mjs",
+    "verify:source-security": "node scripts/sanitize-source-metadata.mjs --check",
+    "audit:source": "node scripts/crawl.mjs --audit"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@portabletext/to-html": "6.0.0",
+    "@sanity/client": "8.6.1",
+    "astro": "7.3.2",
+    "cheerio": "1.2.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sanitize-html": "2.17.7",
+    "sanity": "6.13.0",
+    "sharp": "0.35.4",
+    "styled-components": "6.5.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@cloudflare/workers-types": "5.20260903.1",
+    "typescript": "6.0.3",
+    "wrangler": "4.129.0"
+  }
+}

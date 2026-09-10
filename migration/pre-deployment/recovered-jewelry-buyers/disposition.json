@@ -1,0 +1,106 @@
+{
+  "review": {
+    "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+    "status": "reviewed",
+    "decision": "rewrite",
+    "reviewedAt": "2026-09-10T18:32:23.716Z",
+    "findings": [
+      "Recovered published WordPress REST post 3728 missed by the public redirect-loop URL.",
+      "Preserved URL, original date, author, category and buyer-comparison intent; original source remains in wordpress-api/posts.json.",
+      "Replaced unsupported ratings, claimed firsthand testing, competitor accusations, false 550 address, 2007 opening date and unconditional same-day payment claims with a reviewable factual comparison.",
+      "Original gold-display photograph retained; unrelated shopping-cart stock photo retained only in source evidence and replaced by a unique AI illustration under the owner image request.",
+      "Original private Rank Math fields unavailable; proposed metadata requires export reconciliation.",
+      "Human editorial and media-rights approval remains pending."
+    ],
+    "beforeHtmlSha256": "771e764ad581265a9aa4310ccdf430bed74720fa81f8c10b5f35c585c21a25bc",
+    "afterHtmlSha256": "8968e896b603f99fcc86975c74ae6b1e9534f088806b5409f732660057092c1c",
+    "title": "Compare Gold and Jewelry Buyer Offers in Los Angeles",
+    "description": "Compare gold and jewelry offers in Los Angeles: understand evaluations, fees, payment terms and the records to bring before deciding whether to sell.",
+    "focusKeyword": "compare jewelry buyer offers Los Angeles",
+    "sources": [
+      {
+        "title": "FTC: Precious-metal jewelry descriptions",
+        "url": "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry"
+      },
+      {
+        "title": "GIA: Diamond quality factors",
+        "url": "https://www.gia.edu/diamond-quality-factor"
+      },
+      {
+        "title": "GIA: Selling gemstones and jewelry",
+        "url": "https://4cs.gia.edu/en-us/blog/sell-gemstones-jewelry/"
+      }
+    ],
+    "sourceArchive": "migration/pre-deployment/wordpress-api/posts.json (id 3728)"
+  },
+  "archiveChanges": [
+    {
+      "path": "/e-commerce-retail/page/10/",
+      "before": "<article id=\"post-3728\">\n\n\t\t<div>\n\n\t\t\t\n\n<header>\n\t<h2>\n\t\t<a href=\"/gold-buyer-downtown-los-angeles/\" rel=\"bookmark\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\t</h2>\n</header>\n\n\n<ul>\n\n\t\n\t\t\t\t\t<li><span>Post author:</span><i></i><a href=\"/author/navid-lalezari/\" rel=\"author\">Navid</a></li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\t\t<li><span>Post published:</span><i></i>June 26, 2026</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\t<li><span>Post category:</span><i></i><a href=\"/e-commerce-retail/\" rel=\"category tag\">E-commerce &amp; Retail</a></li>\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n</ul>\n\n\n\n<div>\n\n\t\n\t\t<p>Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins.</p>\n\n\t\t\n</div>\n\n\n\n<div>\n\t\n<a href=\"/gold-buyer-downtown-los-angeles/\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\n</div>\n\n\n\t\t\t\n\t\t</div>\n\n\t</article>",
+      "after": "<article id=\"post-3728\">\n\n\t\t<div>\n\n\t\t\t\n\n<header>\n\t<h2>\n\t\t<a href=\"/best-gold-jewelry-buyers-los-angeles-2026/\" rel=\"bookmark\">Compare Gold and Jewelry Buyer Offers in Los Angeles</a>\n\t</h2>\n</header>\n\n\n<ul>\n\n\t\n\t\t\t\t\t<li><span>Post author:</span><i></i><a href=\"/author/navid-lalezari/\" rel=\"author\">Navid</a></li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\t\t<li><span>Post published:</span><i></i>June 26, 2026</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\t<li><span>Post category:</span><i></i><a href=\"/e-commerce-retail/\" rel=\"category tag\">E-commerce &amp; Retail</a></li>\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n</ul>\n\n\n\n<div>\n\n\t\n\t\t<p>Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins.</p>\n\n\t\t\n</div>\n\n\n\n<div>\n\t\n<a href=\"/best-gold-jewelry-buyers-los-angeles-2026/\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\n</div>\n\n\n\t\t\t\n\t\t</div>\n\n\t</article>"
+    },
+    {
+      "path": "/author/navid-lalezari/page/10/",
+      "before": "<article id=\"post-3728\">\n\n\t\t<div>\n\n\t\t\t\n\n<header>\n\t<h2>\n\t\t<a href=\"/gold-buyer-downtown-los-angeles/\" rel=\"bookmark\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\t</h2>\n</header>\n\n\n<ul>\n\n\t\n\t\t\t\t\t<li><span>Post author:</span><i></i><a href=\"/author/navid-lalezari/\" rel=\"author\">Navid</a></li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\t\t<li><span>Post published:</span><i></i>June 26, 2026</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\t<li><span>Post category:</span><i></i><a href=\"/e-commerce-retail/\" rel=\"category tag\">E-commerce &amp; Retail</a></li>\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n</ul>\n\n\n\n<div>\n\n\t\n\t\t<p>Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins.</p>\n\n\t\t\n</div>\n\n\n\n<div>\n\t\n<a href=\"/gold-buyer-downtown-los-angeles/\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\n</div>\n\n\n\t\t\t\n\t\t</div>\n\n\t</article>",
+      "after": "<article id=\"post-3728\">\n\n\t\t<div>\n\n\t\t\t\n\n<header>\n\t<h2>\n\t\t<a href=\"/best-gold-jewelry-buyers-los-angeles-2026/\" rel=\"bookmark\">Compare Gold and Jewelry Buyer Offers in Los Angeles</a>\n\t</h2>\n</header>\n\n\n<ul>\n\n\t\n\t\t\t\t\t<li><span>Post author:</span><i></i><a href=\"/author/navid-lalezari/\" rel=\"author\">Navid</a></li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\t\t<li><span>Post published:</span><i></i>June 26, 2026</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\t<li><span>Post category:</span><i></i><a href=\"/e-commerce-retail/\" rel=\"category tag\">E-commerce &amp; Retail</a></li>\n\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\n</ul>\n\n\n\n<div>\n\n\t\n\t\t<p>Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins.</p>\n\n\t\t\n</div>\n\n\n\n<div>\n\t\n<a href=\"/best-gold-jewelry-buyers-los-angeles-2026/\">Choosing a Gold Buyer in Downtown Los Angeles</a>\n\n</div>\n\n\n\t\t\t\n\t\t</div>\n\n\t</article>"
+    }
+  ],
+  "images": [
+    {
+      "src": "/media/audit-jewelry-buyers/large-diamond-band-cuban-1200.webp",
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "/media/audit-jewelry-buyers/large-diamond-band-cuban-480.webp",
+          "width": 480,
+          "bytes": 22746
+        },
+        {
+          "src": "/media/audit-jewelry-buyers/large-diamond-band-cuban-800.webp",
+          "width": 800,
+          "bytes": 55938
+        },
+        {
+          "src": "/media/audit-jewelry-buyers/large-diamond-band-cuban-1200.webp",
+          "width": 1200,
+          "bytes": 109238
+        }
+      ],
+      "srcset": "/media/audit-jewelry-buyers/large-diamond-band-cuban-480.webp 480w, /media/audit-jewelry-buyers/large-diamond-band-cuban-800.webp 800w, /media/audit-jewelry-buyers/large-diamond-band-cuban-1200.webp 1200w",
+      "sizes": "(max-width: 900px) 92vw, 880px",
+      "alt": "Large emerald-cut diamond eternity band beside a heavy yellow-gold Cuban-link bracelet",
+      "caption": "AI-generated editorial illustration. These pieces do not represent current inventory.",
+      "illustrative": true
+    },
+    {
+      "src": "/media/audit-jewelry-buyers/gold-jewelry-display-1080.webp",
+      "width": 1080,
+      "height": 606,
+      "variants": [
+        {
+          "src": "/media/audit-jewelry-buyers/gold-jewelry-display-480.webp",
+          "width": 480,
+          "bytes": 36218
+        },
+        {
+          "src": "/media/audit-jewelry-buyers/gold-jewelry-display-800.webp",
+          "width": 800,
+          "bytes": 77552
+        },
+        {
+          "src": "/media/audit-jewelry-buyers/gold-jewelry-display-1080.webp",
+          "width": 1080,
+          "bytes": 117240
+        }
+      ],
+      "srcset": "/media/audit-jewelry-buyers/gold-jewelry-display-480.webp 480w, /media/audit-jewelry-buyers/gold-jewelry-display-800.webp 800w, /media/audit-jewelry-buyers/gold-jewelry-display-1080.webp 1080w",
+      "sizes": "(max-width: 900px) 92vw, 880px",
+      "alt": "Gold-colored necklaces and substantial bangles arranged on jewelry display stands",
+      "caption": "Photograph retained from the original article; it does not identify this business or establish current inventory.",
+      "sourceUrl": "https://images.unsplash.com/photo-1709295208567-ce817387e977?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDgxNDV8MHwxfHNlYXJjaHwzfHxFLWNvbW1lcmNlJTIwJTI2JTIwUmV0YWlsJTIwR29sZCUyMGJ1eWVyJTIwTG9zfGVufDB8MHx8fDE3ODE3MjMyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "illustrative": false
+    }
+  ],
+  "originalMediaPreservedInEvidence": true
+}

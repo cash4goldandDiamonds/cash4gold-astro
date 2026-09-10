@@ -1,0 +1,15 @@
+# Existing rebuild architecture
+
+Astro statically renders marketing pages, articles and archives from the preserved local snapshot or an explicitly configured Sanity dataset. The same canonical domain and existing paths are retained. Components, styles and original layout sections are reused rather than replaced by a new framework.
+
+`src/lib/content.ts` loads content, validated navigation and business/social settings. `cms-page.mjs` projects structured documents, responsive images, internal references and central metadata/schema. `cms-release-gates.mjs` rejects missing/duplicate/unapproved production documents. `build-environment.ts` accesses each server build setting explicitly so Astro does not omit policy values when compiling. Credentials remain server-only. The tested environment-variable correction is documented in the production policy evidence; see [Astro environment variables](https://docs.astro.build/en/guides/environment-variables/).
+
+`Base.astro` supplies the shared document/head and accessible navigation/footer. Most content needs no client JavaScript. The small navigation interaction is the exception. No social feeds, trackers or booking widgets are embedded on the current private preview. Appointment links lead to the existing Calendly service. Phone and email links remain visible; a real inquiry backend is still missing.
+
+`release-policy.mjs` controls robots, canonical sitemap entries and security/cache headers. Preview defaults exclude indexing. Production requires an explicit indexing switch plus approved published Sanity content. An isolated `.cache/production-audit` snapshot build exercises production configuration only; it is never a release candidate. `finalize-build.mjs` writes hosting files and removes the temporary build manifest. Cloudflare static assets are configured in `wrangler.preview.jsonc`, with no public route enabled. Real Cloudflare runtime tests remain blocked.
+
+Social scheduling is a separate worker, never browser JavaScript: Sanity approved published article -> live revision check -> D1 claim -> Meta publishing API -> persistent provider receipt. Cloudflare secrets hold tokens; the CMS holds only editorial choices. `wrangler.social.jsonc` has no cron/database/route active. See `SOCIAL_PUBLISHING.md`.
+
+Repository source, source capture, manifests, correction ledgers and tests are distinct from generated `dist`, private exports/backups and ignored secrets. The original checkout is untouched; the audit branch contains a verified copy plus additional fixes. The owned private GitHub repository exists and admin/push access was verified, but the complete audit has not been pushed or run in remote CI. `.github/workflows/quality.yml` is a read-only PR/manual quality workflow with no deployment action.
+
+Missing connected components are deliberately visible in the audit: authenticated staging, real CMS lifecycle and complete global/service editing, inquiry delivery/spam/acceptance, consent/analytics, Meta authorization/renewal, deployment hooks and rollback/alerts. No component's source code is counted as a successful integration test.

@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-10T18:23:25.159Z",
+  "approval": "Owner factual review pending before launch",
+  "changes": [
+    {
+      "path": "/",
+      "before": "our certified experts",
+      "after": "our team",
+      "reason": "Remove an unverified business credential or evaluation guarantee from the private proposed copy"
+    },
+    {
+      "path": "/",
+      "before": "Our team of certified professionals ensures accurate and fair appraisals.",
+      "after": "Our team explains the factors considered in your purchase evaluation.",
+      "reason": "Remove an unverified business credential or evaluation guarantee from the private proposed copy"
+    },
+    {
+      "path": "/",
+      "before": "We use the latest technology and industry insights to evaluate your items thoroughly and transparently, explaining how we determine their market value.",
+      "after": "We explain the factors considered in your purchase evaluation and the offer for the items inspected.",
+      "reason": "Remove an unverified business credential or evaluation guarantee from the private proposed copy"
+    },
+    {
+      "path": "/",
+      "before": "If you accept our competitive offer, we finalize the deal with immediate payment. Choose your preferred payment method—cash, bank transfer, or check—for a quick and secure transaction.",
+      "after": "If you accept an offer, we confirm the payment method and timing for the agreed purchase. Cash, bank wire and business check are available.",
+      "reason": "Remove an unverified business credential or evaluation guarantee from the private proposed copy"
+    },
+    {
+      "path": "/",
+      "before": "Receive an Expert Evaluation",
+      "after": "Receive a Purchase Evaluation",
+      "reason": "Remove an unverified business credential or evaluation guarantee from the private proposed copy"
+    }
+  ]
+}

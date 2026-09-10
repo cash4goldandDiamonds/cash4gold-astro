@@ -1,0 +1,41 @@
+name: Private preview quality checks
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      SITE_ENV: preview
+      ENABLE_PRODUCTION_INDEXING: 'false'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.19.0'
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          version: '11.19.0'
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/check-schema.mjs
+      - run: pnpm verify:source-security
+      - run: node node_modules/astro/bin/astro.mjs check
+      - run: pnpm build
+      - run: node scripts/verify-built-site.mjs
+      - run: node scripts/verify-cms-projection.mjs
+      - run: node scripts/verify-editorial.mjs
+      - run: node scripts/verify-substantive.mjs
+      - run: node scripts/verify.mjs
+      - run: pnpm audit --audit-level high
+      # No deploy, publish, repository write or secret is used in this workflow.

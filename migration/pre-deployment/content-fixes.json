@@ -1,0 +1,168 @@
+{
+  "changedAt": "2026-09-10T16:53:08.896Z",
+  "scope": "Explicit safe changes made during the predeployment audit. Original content remains in the original checkout and local pre-audit backup.",
+  "changes": [
+    {
+      "path": "/",
+      "changes": [
+        {
+          "type": "unsupported-claim",
+          "before": "Get Paid Instantly",
+          "after": "Agree on Payment"
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Decorative step numbers are not section headings."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Decorative step numbers are not section headings."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Decorative step numbers are not section headings."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Card headings follow their H2 section without skipping levels."
+        }
+      ],
+      "beforeSha256": "17b8fac955275d42af3b4b8e1587f4326efa414564c3c4367dedc6174f58d66a",
+      "afterSha256": "83cfbbbcc8d7d3d468445305e5ddade95471d1ded90e7ed050c1d5defc97b5e7"
+    },
+    {
+      "path": "/sell-your-diamonds-in-los-angeles/",
+      "changes": [
+        {
+          "type": "broken-link",
+          "before": "https://cash4goldanddiamond.com/author/",
+          "after": "/author/navid-lalezari/"
+        }
+      ],
+      "beforeSha256": "b0d48d96a0156a465457e4002a7eed07cb295d3deac43740807e3176b4e4a019",
+      "afterSha256": "7a3c103dcc273c5ac23df164194eb20722c00fcd0bc921de0489b66a24488614"
+    },
+    {
+      "path": "/e-commerce-retail/page/10/",
+      "changes": [
+        {
+          "type": "broken-link",
+          "before": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "after": "/gold-buyer-downtown-los-angeles/",
+          "reason": "Existing source destination loops. Related working gold-buyer guide used for navigation; legacy URL disposition remains unresolved."
+        },
+        {
+          "type": "broken-link",
+          "before": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "after": "/gold-buyer-downtown-los-angeles/",
+          "reason": "Existing source destination loops. Related working gold-buyer guide used for navigation; legacy URL disposition remains unresolved."
+        }
+      ],
+      "beforeSha256": "d221b4eb2cdf5e189fe78f528b19365637d01bd10602f6628539dbe4127a5fb4",
+      "afterSha256": "56f6bc26c2489cbdfcff642a0e6ea19891340d510fa1cc9ab68251a15574c5a0"
+    },
+    {
+      "path": "/author/navid-lalezari/page/10/",
+      "changes": [
+        {
+          "type": "broken-link",
+          "before": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "after": "/gold-buyer-downtown-los-angeles/",
+          "reason": "Existing source destination loops. Related working gold-buyer guide used for navigation; legacy URL disposition remains unresolved."
+        },
+        {
+          "type": "broken-link",
+          "before": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "after": "/gold-buyer-downtown-los-angeles/",
+          "reason": "Existing source destination loops. Related working gold-buyer guide used for navigation; legacy URL disposition remains unresolved."
+        }
+      ],
+      "beforeSha256": "891925e00836b1f21b7421306a3eec4785ca29e4334309d33c3bb267fa93ba7f",
+      "afterSha256": "3afaf6b09a05edbf6bc3b7b1d8bea0d495555b281cfb45deaf63ef4cb7ae1224"
+    }
+  ]
+}

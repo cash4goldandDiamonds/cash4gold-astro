@@ -1,0 +1,46 @@
+✓ Lockfile passes supply-chain policies (verified 22h ago)
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 122, reused 55, downloaded 0, added 0
+Progress: resolved 274, reused 195, downloaded 0, added 0
+Progress: resolved 557, reused 367, downloaded 0, added 0
+Progress: resolved 1016, reused 813, downloaded 0, added 0
+Progress: resolved 1075, reused 964, downloaded 18, added 0
+[WARN] 1 deprecated subdependencies found: whatwg-encoding@3.1.1
+Progress: resolved 1095, reused 964, downloaded 19, added 0
+Packages: +979
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1095, reused 964, downloaded 22, added 0
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\judit\Documents\Codex\2026-09-09\realtime-voice-chat\.pnpm-store\v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 1095, reused 964, downloaded 22, added 8
+Progress: resolved 1095, reused 964, downloaded 22, added 16
+Progress: resolved 1095, reused 964, downloaded 22, added 30
+Progress: resolved 1095, reused 964, downloaded 22, added 71
+Progress: resolved 1095, reused 964, downloaded 22, added 194
+Progress: resolved 1095, reused 964, downloaded 22, added 246
+Progress: resolved 1095, reused 964, downloaded 22, added 339
+Progress: resolved 1095, reused 964, downloaded 22, added 380
+Progress: resolved 1095, reused 964, downloaded 22, added 581
+Progress: resolved 1095, reused 964, downloaded 22, added 679
+Progress: resolved 1095, reused 964, downloaded 22, added 818
+Progress: resolved 1095, reused 964, downloaded 22, added 838
+Progress: resolved 1095, reused 964, downloaded 22, added 939
+Progress: resolved 1095, reused 964, downloaded 22, added 978
+Progress: resolved 1095, reused 964, downloaded 22, added 979, done
+.../esbuild@0.28.2/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.28.2/node_modules/esbuild postinstall: Done
+
+dependencies:
++ @portabletext/to-html 6.0.0
++ @sanity/client 8.6.1
++ astro 7.3.2
++ cheerio 1.2.0
++ react 19.2.8
++ react-dom 19.2.8
++ sanitize-html 2.17.7
++ sanity 6.13.0 (6.13.1 is available)
++ sharp 0.35.4
++ styled-components 6.5.3
+
+Done in 29s using pnpm v11.19.0

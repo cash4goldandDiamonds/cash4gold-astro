@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-10T20:22:02.504Z",
+  "masterRequirements": 135,
+  "requirementsIncludingLaterSocial": 143,
+  "subcriteria": 421,
+  "mandatoryPrelaunchUnresolved": 111,
+  "artifactCount": 18,
+  "errors": [],
+  "recommendation": "NOT READY"
+}

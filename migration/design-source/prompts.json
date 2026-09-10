@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hero-jewelry",
+    "prompt": "Use case: product-mockup. Asset type: generic decorative fine-jewelry website illustration, not a claim of actual inventory. Cohesive sophisticated premium editorial studio product photography, real material texture, restrained accurate reflections, crisp facets, subtle natural shadows. Palette: charcoal #222831, antique gold #d4c989, platinum and white highlights. No text, logos, watermarks, people, shop, certificates, currency, or provenance claims. No sparkly CGI look. Wide 16:9 landscape composition on dark charcoal velvet. An elegant yellow-gold curb bracelet and one platinum round brilliant solitaire ring carefully arranged entirely in the right-hand 45% of the frame, with subtle champagne warm rim lighting and realistic subtle shadows. The left 55% is quiet nearly black charcoal negative space for a website headline, with no objects or bright highlights. Lower-right jewelry detail is visible. Ring and bracelet entirely within margins. Beautiful restrained fine-jewelry campaign macro product photograph.",
+    "source": "C:\\Users\\judit\\.codex\\generated_images\\01a0877d-6824-7d31-a83f-ebce53cf852b\\exec-3b5c1cbd-e52f-4ca5-a2aa-84e06bfc2cdb.png",
+    "saved": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\cash-for-gold\\work\\new-imagery\\hero-jewelry.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "diamond-ring",
+    "prompt": "Use case: product-mockup. Asset type: generic decorative fine-jewelry website illustration, not a claim of actual inventory. Cohesive sophisticated premium editorial studio product photography, real material texture, restrained accurate reflections, crisp facets, subtle natural shadows. Palette: charcoal #222831, antique gold #d4c989, platinum and white highlights. No text, logos, watermarks, people, shop, certificates, currency, or provenance claims. No sparkly CGI look. Square premium macro product photo of a single classic platinum six-prong round brilliant solitaire ring on charcoal satin, centered with generous 20% empty safe margins around the whole ring. Front three-quarter view, visually precise metal and prongs, clear gemstone facets, soft champagne edge highlights, no exaggerated starbursts.",
+    "source": "C:\\Users\\judit\\.codex\\generated_images\\01a0877d-6824-7d31-a83f-ebce53cf852b\\exec-ca8efec9-020c-4e75-81a0-3fdc958c7672.png",
+    "saved": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\cash-for-gold\\work\\new-imagery\\diamond-ring.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "gold-jewelry",
+    "prompt": "Use case: product-mockup. Asset type: generic decorative fine-jewelry website illustration, not a claim of actual inventory. Cohesive sophisticated premium editorial studio product photography, real material texture, restrained accurate reflections, crisp facets, subtle natural shadows. Palette: charcoal #222831, antique gold #d4c989, platinum and white highlights. No text, logos, watermarks, people, shop, certificates, currency, or provenance claims. No sparkly CGI look. Square premium still-life photograph of a yellow-gold curb chain coiled neatly beside two simple polished gold bangles, centered on charcoal velvet with generous 20% empty safe margins around all jewelry. Harmonious gold reflections, believable construction and weight. No coins, bars, stamps or currency.",
+    "source": "C:\\Users\\judit\\.codex\\generated_images\\01a0877d-6824-7d31-a83f-ebce53cf852b\\exec-625f64a9-7d12-405a-8836-4a5647a58c25.png",
+    "saved": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\cash-for-gold\\work\\new-imagery\\gold-jewelry.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "gemstone",
+    "prompt": "Use case: product-mockup. Asset type: generic decorative fine-jewelry website illustration, not a claim of actual inventory. Cohesive sophisticated premium editorial studio product photography, real material texture, restrained accurate reflections, crisp facets, subtle natural shadows. Palette: charcoal #222831, antique gold #d4c989, platinum and white highlights. No text, logos, watermarks, people, shop, certificates, currency, or provenance claims. No sparkly CGI look. Square editorial macro photo of a single emerald-cut green gemstone set in an understated yellow-gold ring with tiny clear side stones. Ring centered and entirely visible with 20% empty safe margins on charcoal satin. Subtle natural inclusions and crisp facets, refined lighting. No labels or provenance claims.",
+    "source": "C:\\Users\\judit\\.codex\\generated_images\\01a0877d-6824-7d31-a83f-ebce53cf852b\\exec-d4d413ee-5b70-4445-9ad6-e627617cf9b5.png",
+    "saved": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\cash-for-gold\\work\\new-imagery\\gemstone.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "luxury-watch",
+    "prompt": "Use case: product-mockup. Asset type: generic decorative fine-jewelry website illustration, not a claim of actual inventory. Cohesive sophisticated premium editorial studio product photography, real material texture, restrained accurate reflections, crisp facets, subtle natural shadows. Palette: charcoal #222831, antique gold #d4c989, platinum and white highlights. No text, logos, watermarks, people, shop, certificates, currency, or provenance claims. No sparkly CGI look. Square premium studio product photograph of one unbranded stainless-steel luxury wristwatch, deep charcoal sunburst dial, simple baton hour indices, two hands at 10:10, center seconds hand, no date window, no dial text, no logos. Integrated steel bracelet curves naturally behind the watch. Centered complete watch with 20% empty safe margins on dark charcoal stone. Restrained precise steel reflections and warm rim light, clear physically plausible geometry. Generic illustrative watch, not a real branded model.",
+    "source": "C:\\Users\\judit\\.codex\\generated_images\\01a0877d-6824-7d31-a83f-ebce53cf852b\\exec-42cdb806-243b-4219-baa4-32fe74eac2ce.png",
+    "saved": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\cash-for-gold\\work\\new-imagery\\luxury-watch.png",
+    "generator": "built-in image_gen"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "appliedAt": "2026-09-10T14:24:25.417Z",
+  "mode": "built-in image_gen",
+  "articlePaths": [
+    "/best-gold-rolex-buyers-2026/",
+    "/rolex-buyer-los-angeles-cash/",
+    "/best-gold-watches-2026-top-5-ranked/",
+    "/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+    "/best-gold-bracelet-buyers-los-angeles-2026/",
+    "/best-estate-jewelry-buyers-los-angeles-2026/"
+  ],
+  "serviceAndHomePaths": [
+    "/",
+    "/sell-luxury-watches-in-los-angeles/",
+    "/sell-your-golds/",
+    "/sell-estate-jewelry-los-angeles/"
+  ],
+  "cardPropagation": "Matching guide-library and archive cards inherit each updated article image.",
+  "preservation": "migration/source-evidence/iced-jewelry-before-2026-09-10.json",
+  "assets": [
+    {
+      "key": "iced-rolex-day-date-yellow-gold-v1",
+      "src": "/media/iced-jewelry/iced-rolex-day-date-yellow-gold-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/iced-rolex-day-date-yellow-gold-v1-480.webp",
+          "width": 480,
+          "bytes": 18776
+        },
+        {
+          "src": "/media/iced-jewelry/iced-rolex-day-date-yellow-gold-v1-800.webp",
+          "width": 800,
+          "bytes": 57216
+        },
+        {
+          "src": "/media/iced-jewelry/iced-rolex-day-date-yellow-gold-v1-1200.webp",
+          "width": 1200,
+          "bytes": 127560
+        }
+      ]
+    },
+    {
+      "key": "iced-rolex-daytona-white-metal-v1",
+      "src": "/media/iced-jewelry/iced-rolex-daytona-white-metal-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/iced-rolex-daytona-white-metal-v1-480.webp",
+          "width": 480,
+          "bytes": 23872
+        },
+        {
+          "src": "/media/iced-jewelry/iced-rolex-daytona-white-metal-v1-800.webp",
+          "width": 800,
+          "bytes": 64782
+        },
+        {
+          "src": "/media/iced-jewelry/iced-rolex-daytona-white-metal-v1-1200.webp",
+          "width": 1200,
+          "bytes": 134320
+        }
+      ]
+    },
+    {
+      "key": "iced-patek-nautilus-rose-gold-v1",
+      "src": "/media/iced-jewelry/iced-patek-nautilus-rose-gold-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-rose-gold-v1-480.webp",
+          "width": 480,
+          "bytes": 33978
+        },
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-rose-gold-v1-800.webp",
+          "width": 800,
+          "bytes": 87850
+        },
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-rose-gold-v1-1200.webp",
+          "width": 1200,
+          "bytes": 171486
+        }
+      ]
+    },
+    {
+      "key": "iced-patek-nautilus-white-metal-v1",
+      "src": "/media/iced-jewelry/iced-patek-nautilus-white-metal-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-white-metal-v1-480.webp",
+          "width": 480,
+          "bytes": 20870
+        },
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-white-metal-v1-800.webp",
+          "width": 800,
+          "bytes": 55828
+        },
+        {
+          "src": "/media/iced-jewelry/iced-patek-nautilus-white-metal-v1-1200.webp",
+          "width": 1200,
+          "bytes": 117600
+        }
+      ]
+    },
+    {
+      "key": "iced-heavy-gold-cuban-bracelet-v1",
+      "src": "/media/iced-jewelry/iced-heavy-gold-cuban-bracelet-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/iced-heavy-gold-cuban-bracelet-v1-480.webp",
+          "width": 480,
+          "bytes": 43030
+        },
+        {
+          "src": "/media/iced-jewelry/iced-heavy-gold-cuban-bracelet-v1-800.webp",
+          "width": 800,
+          "bytes": 111852
+        },
+        {
+          "src": "/media/iced-jewelry/iced-heavy-gold-cuban-bracelet-v1-1200.webp",
+          "width": 1200,
+          "bytes": 216552
+        }
+      ]
+    },
+    {
+      "key": "antique-diamond-festoon-necklace-v1",
+      "src": "/media/iced-jewelry/antique-diamond-festoon-necklace-v1-1200.webp",
+      "variants": [
+        {
+          "src": "/media/iced-jewelry/antique-diamond-festoon-necklace-v1-480.webp",
+          "width": 480,
+          "bytes": 15592
+        },
+        {
+          "src": "/media/iced-jewelry/antique-diamond-festoon-necklace-v1-800.webp",
+          "width": 800,
+          "bytes": 43560
+        },
+        {
+          "src": "/media/iced-jewelry/antique-diamond-festoon-necklace-v1-1200.webp",
+          "width": 1200,
+          "bytes": 110354
+        }
+      ]
+    }
+  ]
+}

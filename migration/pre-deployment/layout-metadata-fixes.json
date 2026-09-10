@@ -1,0 +1,986 @@
+{
+  "changedAt": "2026-09-10T17:05:29.520Z",
+  "changes": [
+    {
+      "path": "/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/ec390e7ae8c3-top-banner-768x320.webp",
+          "width": 768,
+          "height": 320
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/39dfcc459e65-img6-1.webp",
+          "width": 500,
+          "height": 500
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/161ff1528d07-img3-1.webp",
+          "width": 500,
+          "height": 323
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/0ae3d50733e6-img5-2.webp",
+          "width": 500,
+          "height": 313
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/de8f2df17e14-5405cbb1d431255a7c5564945310766d1mg-1.webp",
+          "width": 800,
+          "height": 530
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cb72856e3eb-img2-1.webp",
+          "width": 500,
+          "height": 333
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/161ff1528d07-img3-1.webp",
+          "width": 500,
+          "height": 323
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cb72856e3eb-img2-1.webp",
+          "width": 500,
+          "height": 333
+        }
+      ],
+      "beforeSha256": "83cfbbbcc8d7d3d468445305e5ddade95471d1ded90e7ed050c1d5defc97b5e7",
+      "afterSha256": "97febda25844e7dfed256518ed2651f2769d7400039bfffefe8fd702fa5b1471"
+    },
+    {
+      "path": "/sell-luxury-watches-in-los-angeles/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/59b3ee19cfd3-Modern-Rolex-Sports-Watches-with-Blue-Bezels-and-Dials-1-1200x700-1-1.webp",
+          "width": 1200,
+          "height": 700
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/fc357e8225af-61291ab29ef1e50018f86fedimg.webp",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/1266df71f509-1b9f0e42605ebefa4dd3d0cddae42c19img-1.optimized.webp",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "beforeSha256": "ecf5c0290da1c948e6d636a35503130e237abace5fff01f51f0d198e310e5ca5",
+      "afterSha256": "77042a939e5e42aebea8369d166ec4f7dc4232e371431ad91a0ceb9e5398c1d0"
+    },
+    {
+      "path": "/sell-your-diamonds-in-los-angeles/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/bb087f4f9bfc-sell-diamonds-at-unigloimg-1.webp",
+          "width": 1600,
+          "height": 640
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/4c06a709695e-PWApr20_diamonds_1200img-1.webp",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/4c06a709695e-PWApr20_diamonds_1200img-1.webp",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/38991a740c1b-do-diamonds-hold-value-1.webp",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cfc26671287-dreamstime_xxl_259719012-scaled-1img-1.webp",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "type": "heading-semantics",
+          "text": "Best Price for Gold Coins in Los Angeles, CA | Cash 4 Gold & Diamonds",
+          "before": 4,
+          "after": 3
+        }
+      ],
+      "beforeSha256": "7a3c103dcc273c5ac23df164194eb20722c00fcd0bc921de0489b66a24488614",
+      "afterSha256": "a6e24e48fdab9a4ed0618f84c8c669788fea04e6e3261438023cb51a21bf33e1"
+    },
+    {
+      "path": "/start-selling-gold-and-diamonds/",
+      "changes": [
+        {
+          "type": "heading-semantics",
+          "text": "Welcome to our store!",
+          "before": 4,
+          "after": 3
+        }
+      ],
+      "beforeSha256": "51970d133aa3a5443f071598cd4109db10029dd068f7b36eaa16113d4fa4fd78",
+      "afterSha256": "d3d95383bda4b519446896eaeb77eccc9fc7cee09097e4b89a28af2d42c30928"
+    },
+    {
+      "path": "/reviews/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cfc26671287-dreamstime_xxl_259719012-scaled-1img-1.webp",
+          "width": 1600,
+          "height": 1067
+        }
+      ],
+      "beforeSha256": "bad1495f88732d994f0731498a43a3cd1eb1426ed33f6d12fff2b3e79261deb0",
+      "afterSha256": "dcd01662a7dec1c0f6509800bf86cc93a5ed0d019f0544a85d9024d7d8a9388f"
+    },
+    {
+      "path": "/about-us-sell-gold-and-diamonds-online/",
+      "changes": [
+        {
+          "type": "heading-semantics",
+          "reason": "Introductory paragraph was incorrectly a heading."
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Top-level section follows the page heading."
+        }
+      ],
+      "beforeSha256": "860b5e74628b025ce1855073140f32a1b4811dc6740d6886fc72b124f956df9a",
+      "afterSha256": "726f51406a5d4150958df2c4f2a81c0b5df7e0aee47b49152a6d7fe3afbf2032"
+    },
+    {
+      "path": "/contact-us/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cfc26671287-dreamstime_xxl_259719012-scaled-1img-1.webp",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Decorative eyebrow appears before H1."
+        },
+        {
+          "type": "heading-semantics",
+          "text": "STORE ADDRESS",
+          "before": 5,
+          "after": 2
+        },
+        {
+          "type": "heading-semantics",
+          "text": "CALL US",
+          "before": 5,
+          "after": 3
+        },
+        {
+          "type": "heading-semantics",
+          "text": "EMAIL US",
+          "before": 5,
+          "after": 4
+        }
+      ],
+      "beforeSha256": "df5be984f57e2715b0464b2f20fb33a4a369f0d42b9ffdba619f6a2214348e3f",
+      "afterSha256": "758e7d58188c86e6f2a0ab191eebf88b30bf7f1242bbf950d5831d265986f065"
+    },
+    {
+      "path": "/sell-estate-jewelry-los-angeles/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/4e625fe623cc-display-shiny-elegant-gold-chain-1.webp",
+          "width": 800,
+          "height": 1198
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Place the single H1 on the opening estate-service title; retain the former H1 text as a section heading."
+        },
+        {
+          "type": "heading-semantics",
+          "text": "Sell Your Gold, Fast.",
+          "before": 5,
+          "after": 3
+        }
+      ],
+      "beforeSha256": "e504477be0d0c828c36b917f4e1e43daa85f88b80c6d58a1e7a8c97fe652ec55",
+      "afterSha256": "a6500f71f620d7f255d0203f4f0b287fac851c82c5d49095cce16150ad0d4c3a"
+    },
+    {
+      "path": "/faqs/",
+      "changes": [
+        {
+          "type": "image-dimensions",
+          "src": "/media/9cfc26671287-dreamstime_xxl_259719012-scaled-1img-1.webp",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "type": "heading-semantics",
+          "reason": "Decorative eyebrow appears before H1."
+        }
+      ],
+      "beforeSha256": "f02cb4dac5c18d2c26a87e456c5141f3b6ea43c698552436212cd0950c3525c1",
+      "afterSha256": "a54d0113f54e979ab1a4b0f5702810c227ad06b0a8c4146623fa29964ceb3170"
+    },
+    {
+      "path": "/author/navid-lalezari/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "1266b9c51efd2ed29ab5b95068b873d2246e20197088712574892b415e863f1c",
+      "afterSha256": "1266b9c51efd2ed29ab5b95068b873d2246e20197088712574892b415e863f1c"
+    },
+    {
+      "path": "/e-commerce-retail/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "badc5fc33d2bd41fbd1d0f3a787258bdb00dc6ea4467ee16824d31e46a01b423",
+      "afterSha256": "badc5fc33d2bd41fbd1d0f3a787258bdb00dc6ea4467ee16824d31e46a01b423"
+    },
+    {
+      "path": "/cash-for-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Cash For Gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "d2cf5303dfe062ad7f68cb1d450ff243697e6f79ca818bb9b0aac29f38b7aa72",
+      "afterSha256": "d2cf5303dfe062ad7f68cb1d450ff243697e6f79ca818bb9b0aac29f38b7aa72"
+    },
+    {
+      "path": "/tag/14k-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse 14K gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/uncategorized/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Uncategorized guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/14k-gold-price/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse 14K gold price guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/14k-gold-value/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse 14K gold value guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/14k-gold-price-per-gram/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse 14K gold price per gram guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/downtown-los-angeles-gold-buyer/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Downtown Los Angeles gold buyer guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/gold-price-per-gram/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse gold price per gram guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/sell-14k-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse sell 14K gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/gold-buyer-los-angeles/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse gold buyer los angeles guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c",
+      "afterSha256": "8aa339a5648b66cc72c18a431444e6801d2d9cff7d736763a75e008d228f8c2c"
+    },
+    {
+      "path": "/tag/gold-buyers-los-angeles/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Gold Buyers Los Angeles guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "b7f69559053d8ecf20d5d2caa93344538930011f120a9441598d016771716b6a",
+      "afterSha256": "b7f69559053d8ecf20d5d2caa93344538930011f120a9441598d016771716b6a"
+    },
+    {
+      "path": "/tag/sell-gold-los-angeles/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Sell Gold Los Angeles guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "b7f69559053d8ecf20d5d2caa93344538930011f120a9441598d016771716b6a",
+      "afterSha256": "b7f69559053d8ecf20d5d2caa93344538930011f120a9441598d016771716b6a"
+    },
+    {
+      "path": "/tag/selling-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Selling Gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "339b4ea2defb83df4e6a8d04e9b2b22d4b2f787a1b1b8eeab536f5bb3eff9e31",
+      "afterSha256": "339b4ea2defb83df4e6a8d04e9b2b22d4b2f787a1b1b8eeab536f5bb3eff9e31"
+    },
+    {
+      "path": "/tag/gold-price/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse gold price guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea",
+      "afterSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea"
+    },
+    {
+      "path": "/tag/gold-vlue/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse gold vlue guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea",
+      "afterSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea"
+    },
+    {
+      "path": "/tag/gold-purity/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse gold purity guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea",
+      "afterSha256": "c34bd31104cc43f7da18969bd43100273811a394ef564bc74a9fba73169f3eea"
+    },
+    {
+      "path": "/tag/antique-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Learn where to sell antique gold jewelry for the best price. Discover expert tips, valuation insights, and how to maximize your payout.",
+          "after": "Browse Antique gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053",
+      "afterSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053"
+    },
+    {
+      "path": "/tag/best-worth-of-your-gold/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Learn where to sell antique gold jewelry for the best price. Discover expert tips, valuation insights, and how to maximize your payout.",
+          "after": "Browse best worth of your gold guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053",
+      "afterSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053"
+    },
+    {
+      "path": "/tag/cash4goldanddiamond/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Learn where to sell antique gold jewelry for the best price. Discover expert tips, valuation insights, and how to maximize your payout.",
+          "after": "Browse cash4goldanddiamond guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053",
+      "afterSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053"
+    },
+    {
+      "path": "/tag/se-your-antique-gold-jewelry/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Learn where to sell antique gold jewelry for the best price. Discover expert tips, valuation insights, and how to maximize your payout.",
+          "after": "Browse se;; your antique gold jewelry guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053",
+      "afterSha256": "16eb68ccc564193b53eb5ff7141c71ba7a339be65a25efa41ef5c9f6e7ab3053"
+    },
+    {
+      "path": "/tag/real-diamond-watches/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Top Diamond Real Watches for Men.The ultimate guide to buying the best diamond watches for men in 2024. Choose the Best Diamond Watch for You",
+          "after": "Browse Real Diamond Watches guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "11cd2b91f731f2e63f10c8062299dceeeb30b65d70770426aeaae6aadf19926b",
+      "afterSha256": "11cd2b91f731f2e63f10c8062299dceeeb30b65d70770426aeaae6aadf19926b"
+    },
+    {
+      "path": "/tag/sell-your-gold-offline/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Local Gold Buyers vs Online Gold Buyers in Los Angeles. Compare payouts, safety, and transparency before selling your gold.",
+          "after": "Browse sell your gold offline guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b",
+      "afterSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b"
+    },
+    {
+      "path": "/tag/sell-your-gold-online/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Local Gold Buyers vs Online Gold Buyers in Los Angeles. Compare payouts, safety, and transparency before selling your gold.",
+          "after": "Browse sell your Gold online guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b",
+      "afterSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b"
+    },
+    {
+      "path": "/tag/online-vs-offline-gold-selling/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Local Gold Buyers vs Online Gold Buyers in Los Angeles. Compare payouts, safety, and transparency before selling your gold.",
+          "after": "Browse online vs offline gold selling guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b",
+      "afterSha256": "1d78567a05fc8bd665806fbb3e62268c931b39e89e7c184cde319eeac6256a1b"
+    },
+    {
+      "path": "/tag/best-real-diamond/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "3.5 Carat Oval Diamond Ring What did you do before buying an Oval Diamond Ring? Tips for Choosing a 3.5-Carat Oval Diamond Ring",
+          "after": "Browse best real diamond guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd",
+      "afterSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd"
+    },
+    {
+      "path": "/tag/diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "3.5 Carat Oval Diamond Ring What did you do before buying an Oval Diamond Ring? Tips for Choosing a 3.5-Carat Oval Diamond Ring",
+          "after": "Browse diamond ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd",
+      "afterSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd"
+    },
+    {
+      "path": "/tag/3-5-carat-oval-diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "3.5 Carat Oval Diamond Ring What did you do before buying an Oval Diamond Ring? Tips for Choosing a 3.5-Carat Oval Diamond Ring",
+          "after": "Browse 3.5 Carat Oval Diamond Ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd",
+      "afterSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd"
+    },
+    {
+      "path": "/tag/2-carat-diamond-price/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "2. carat Diamond Ring with our expert guide. Learn about quality, and pricing, Follow our tips for how to pick the best diamond for your budget.",
+          "after": "Browse 2 carat diamond price guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0",
+      "afterSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0"
+    },
+    {
+      "path": "/tag/oval-diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "3.5 Carat Oval Diamond Ring What did you do before buying an Oval Diamond Ring? Tips for Choosing a 3.5-Carat Oval Diamond Ring",
+          "after": "Browse Oval Diamond ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd",
+      "afterSha256": "aa0c80095d9891fb86e1a7df944ba08111fa3ce2af469239be2384b4b1578ddd"
+    },
+    {
+      "path": "/tag/2-carat-diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "2. carat Diamond Ring with our expert guide. Learn about quality, and pricing, Follow our tips for how to pick the best diamond for your budget.",
+          "after": "Browse 2 carat diamond ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0",
+      "afterSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0"
+    },
+    {
+      "path": "/tag/anniversary-diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "2. carat Diamond Ring with our expert guide. Learn about quality, and pricing, Follow our tips for how to pick the best diamond for your budget.",
+          "after": "Browse anniversary diamond ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0",
+      "afterSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0"
+    },
+    {
+      "path": "/tag/wedding-diamond-ring/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "2. carat Diamond Ring with our expert guide. Learn about quality, and pricing, Follow our tips for how to pick the best diamond for your budget.",
+          "after": "Browse wedding diamond ring guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0",
+      "afterSha256": "6289e2c181dabc645f9f9603cd4877a32e13550b2084f169e908b970f83bfdc0"
+    },
+    {
+      "path": "/tag/real-diamond-watches-for-men/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Top Diamond Real Watches for Men.The ultimate guide to buying the best diamond watches for men in 2024. Choose the Best Diamond Watch for You",
+          "after": "Browse Real Diamond Watches for Men guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "4da697abf8b61954b4ad2b919f61172266802f399136aae6a5ea2c025e83c18d",
+      "afterSha256": "4da697abf8b61954b4ad2b919f61172266802f399136aae6a5ea2c025e83c18d"
+    },
+    {
+      "path": "/tag/top-7-real-diamond-watches/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "Top Diamond Real Watches for Men.The ultimate guide to buying the best diamond watches for men in 2024. Choose the Best Diamond Watch for You",
+          "after": "Browse Top 7 Real Diamond Watches guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "4da697abf8b61954b4ad2b919f61172266802f399136aae6a5ea2c025e83c18d",
+      "afterSha256": "4da697abf8b61954b4ad2b919f61172266802f399136aae6a5ea2c025e83c18d"
+    },
+    {
+      "path": "/author/navid-lalezari/page/3/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 3 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "0d00e40f2b1f22920de98aba0029c6cce3320b397b48830116d8d1da5bc62f51",
+      "afterSha256": "0d00e40f2b1f22920de98aba0029c6cce3320b397b48830116d8d1da5bc62f51"
+    },
+    {
+      "path": "/author/navid-lalezari/page/4/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 4 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "46482e3a8ad8e61c38a8bf86aa59a39584d622e9ae72007ce45317d34fa8c3a1",
+      "afterSha256": "46482e3a8ad8e61c38a8bf86aa59a39584d622e9ae72007ce45317d34fa8c3a1"
+    },
+    {
+      "path": "/author/navid-lalezari/page/2/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 2 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "bd54641c47957c4be027dc6a5acc5530ba6413f98bca668eace9ad399a85be13",
+      "afterSha256": "bd54641c47957c4be027dc6a5acc5530ba6413f98bca668eace9ad399a85be13"
+    },
+    {
+      "path": "/e-commerce-retail/page/3/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 3 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "13bb6585075e301476dae84399865be1d0fdb6b6aba09c5c54917088c987cab5",
+      "afterSha256": "13bb6585075e301476dae84399865be1d0fdb6b6aba09c5c54917088c987cab5"
+    },
+    {
+      "path": "/e-commerce-retail/page/2/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 2 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "2dd6ccfe38683fe5ebe57d00d687f217a7b6038b4caf0ba27ec317a2a58b3a54",
+      "afterSha256": "2dd6ccfe38683fe5ebe57d00d687f217a7b6038b4caf0ba27ec317a2a58b3a54"
+    },
+    {
+      "path": "/e-commerce-retail/page/4/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 4 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "052ddc7b8e3ac163ec8ed8c028acbc729ab80233d2cf39e96ff5c062696c2c8e",
+      "afterSha256": "052ddc7b8e3ac163ec8ed8c028acbc729ab80233d2cf39e96ff5c062696c2c8e"
+    },
+    {
+      "path": "/e-commerce-retail/page/10/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 10 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "56f6bc26c2489cbdfcff642a0e6ea19891340d510fa1cc9ab68251a15574c5a0",
+      "afterSha256": "56f6bc26c2489cbdfcff642a0e6ea19891340d510fa1cc9ab68251a15574c5a0"
+    },
+    {
+      "path": "/cash-for-gold/page/2/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Cash For Gold - Page 2 of 2 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "400a668165d73ffa775eea8c59bdb5b8088888fc713cd67abdcd5065372cdad4",
+      "afterSha256": "400a668165d73ffa775eea8c59bdb5b8088888fc713cd67abdcd5065372cdad4"
+    },
+    {
+      "path": "/tag/rolex-watches/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "how to spot fake Rolex. Rolex Watch Weight, Serial Number: Model Number, Winding Crown, and Date Appear Bigger: A Complete Step-by-Step Guide",
+          "after": "Browse Rolex Watches guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "90a31ffe28a83f19d715e50e43d1f4d8fcac6098382d09d37f0151d9018195b4",
+      "afterSha256": "90a31ffe28a83f19d715e50e43d1f4d8fcac6098382d09d37f0151d9018195b4"
+    },
+    {
+      "path": "/tag/watches/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "how to spot fake Rolex. Rolex Watch Weight, Serial Number: Model Number, Winding Crown, and Date Appear Bigger: A Complete Step-by-Step Guide",
+          "after": "Browse Watches guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "90a31ffe28a83f19d715e50e43d1f4d8fcac6098382d09d37f0151d9018195b4",
+      "afterSha256": "90a31ffe28a83f19d715e50e43d1f4d8fcac6098382d09d37f0151d9018195b4"
+    },
+    {
+      "path": "/author/navid-lalezari/page/6/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 6 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "0c50084f32343ce9fedb10098b3d2dd2b9237989df191a8dbda37dcc8048220a",
+      "afterSha256": "0c50084f32343ce9fedb10098b3d2dd2b9237989df191a8dbda37dcc8048220a"
+    },
+    {
+      "path": "/author/navid-lalezari/page/5/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 5 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "d3d89febb532a2a26ade8f55ec253b014bfe294dea5fe494cab2422ad424facd",
+      "afterSha256": "d3d89febb532a2a26ade8f55ec253b014bfe294dea5fe494cab2422ad424facd"
+    },
+    {
+      "path": "/e-commerce-retail/page/5/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 5 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "bf3c6c7f93d08dc4b6e759a12c461031897356c7fe86227061520f312c072382",
+      "afterSha256": "bf3c6c7f93d08dc4b6e759a12c461031897356c7fe86227061520f312c072382"
+    },
+    {
+      "path": "/author/navid-lalezari/page/7/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 7 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "427dc5449f213a965076f3b49c8a3ff54f2002255c2cf8862208994712dd69d7",
+      "afterSha256": "427dc5449f213a965076f3b49c8a3ff54f2002255c2cf8862208994712dd69d7"
+    },
+    {
+      "path": "/author/navid-lalezari/page/10/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 10 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "3afaf6b09a05edbf6bc3b7b1d8bea0d495555b281cfb45deaf63ef4cb7ae1224",
+      "afterSha256": "3afaf6b09a05edbf6bc3b7b1d8bea0d495555b281cfb45deaf63ef4cb7ae1224"
+    },
+    {
+      "path": "/e-commerce-retail/page/6/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 6 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "85e1584cc74b7465f841cede648e04af857e75b7d29b2dae96d3ff17a325c750",
+      "afterSha256": "85e1584cc74b7465f841cede648e04af857e75b7d29b2dae96d3ff17a325c750"
+    },
+    {
+      "path": "/author/navid-lalezari/page/8/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 8 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "24203fe58f3621e4c64620cefafa7de149d377ff16e10e9c9089f8f4ee9a0c91",
+      "afterSha256": "24203fe58f3621e4c64620cefafa7de149d377ff16e10e9c9089f8f4ee9a0c91"
+    },
+    {
+      "path": "/e-commerce-retail/page/9/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 9 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "98b4cd21282d97e32f16dbaae81563054ed0a2c0102da995cc60b6e9898811b3",
+      "afterSha256": "98b4cd21282d97e32f16dbaae81563054ed0a2c0102da995cc60b6e9898811b3"
+    },
+    {
+      "path": "/e-commerce-retail/page/7/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 7 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "ececc1f232c0271635ccb441e8f3a852aec52fe66ec20caf840c0ee31dc6026b",
+      "afterSha256": "ececc1f232c0271635ccb441e8f3a852aec52fe66ec20caf840c0ee31dc6026b"
+    },
+    {
+      "path": "/author/navid-lalezari/page/9/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse Navid, Author at Cash 4 Gold and Diamond - Page 9 of 11 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "8f85103f4331c8dd7654392307f8393cadc2f41a140b1a86bb541604f9edfa32",
+      "afterSha256": "8f85103f4331c8dd7654392307f8393cadc2f41a140b1a86bb541604f9edfa32"
+    },
+    {
+      "path": "/e-commerce-retail/page/8/",
+      "changes": [
+        {
+          "type": "description",
+          "before": "",
+          "after": "Browse E-commerce & Retail - Page 8 of 10 guides from Cash 4 Gold & Diamonds, with related reading for gold and jewelry owners in Los Angeles.",
+          "reason": "Describe the actual archive topic; retain the source noindex directive."
+        }
+      ],
+      "beforeSha256": "f003a6eb81ae2c8b67b227ec2587811de01cc42a50bc72919e9ed0fa554dbd52",
+      "afterSha256": "f003a6eb81ae2c8b67b227ec2587811de01cc42a50bc72919e9ed0fa554dbd52"
+    }
+  ],
+  "scope": "Non-article semantics, missing dimensions and archive descriptions. All text preserved except logged description changes; existing index/noindex policy and URL paths preserved."
+}

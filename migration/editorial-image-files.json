@@ -1,0 +1,87 @@
+[
+  {
+    "file": "public/media/editorial/hero-jewelry-960.webp",
+    "width": 960,
+    "bytes": 38898
+  },
+  {
+    "file": "public/media/editorial/hero-jewelry-1440.webp",
+    "width": 1440,
+    "bytes": 72128
+  },
+  {
+    "file": "public/media/editorial/hero-jewelry-1672.webp",
+    "width": 1672,
+    "bytes": 88684
+  },
+  {
+    "file": "public/media/editorial/diamond-ring-480.webp",
+    "width": 480,
+    "bytes": 32884
+  },
+  {
+    "file": "public/media/editorial/diamond-ring-960.webp",
+    "width": 960,
+    "bytes": 106154
+  },
+  {
+    "file": "public/media/editorial/diamond-ring-1254.webp",
+    "width": 1254,
+    "bytes": 159558
+  },
+  {
+    "file": "public/media/editorial/gold-jewelry-480.webp",
+    "width": 480,
+    "bytes": 38750
+  },
+  {
+    "file": "public/media/editorial/gold-jewelry-960.webp",
+    "width": 960,
+    "bytes": 128654
+  },
+  {
+    "file": "public/media/editorial/gold-jewelry-1254.webp",
+    "width": 1254,
+    "bytes": 194338
+  },
+  {
+    "file": "public/media/editorial/gemstone-480.webp",
+    "width": 480,
+    "bytes": 24572
+  },
+  {
+    "file": "public/media/editorial/gemstone-960.webp",
+    "width": 960,
+    "bytes": 81758
+  },
+  {
+    "file": "public/media/editorial/gemstone-1254.webp",
+    "width": 1254,
+    "bytes": 126356
+  },
+  {
+    "file": "public/media/editorial/necklace-480.webp",
+    "width": 480,
+    "bytes": 29684
+  },
+  {
+    "file": "public/media/editorial/necklace-960.webp",
+    "width": 960,
+    "bytes": 141416
+  },
+  {
+    "file": "public/media/editorial/necklace-1254.webp",
+    "width": 1254,
+    "bytes": 227908
+  },
+  {
+    "file": "public/media/editorial/rolex-daytona-480.webp",
+    "width": 480,
+    "bytes": 21198
+  },
+  {
+    "file": "public/media/editorial/rolex-daytona-800.webp",
+    "width": 800,
+    "bytes": 39784
+  }
+]

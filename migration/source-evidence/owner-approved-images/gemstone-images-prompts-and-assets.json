@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-10",
+  "purpose": "Replace all four repeated gemstone card pictures on /blogs/; use each image once on the index.",
+  "assets": [
+    {
+      "name": "large-sapphire-diamond-three-stone-ring",
+      "target": "/best-gemstone-ring-buyers-los-angeles/",
+      "alt": "Large cushion-cut blue sapphire between two substantial trapezoid diamonds in a platinum ring",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. A single substantial platinum three-stone ring, standing at a natural three-quarter angle on pale gray limestone. Very large richly saturated cushion-cut blue sapphire at center, flanked by TWO LARGE broad trapezoid white diamonds. Heavy polished platinum shank, realistic well-separated prongs and physical stone settings. Whole ring visible with generous breathing room, focal stones exceptionally crisp, refined soft studio reflections, strong tangible scale and weight. Premium macro product photography with natural materials, no tiny stone halo, no pave, no text, no logo, no watermark, no collage, no hands. Illustrative editorial jewelry image, not an authenticity diagram. Each major stone must look large and impressive, restrained realistic brilliance rather than starbursts.",
+      "source": "C:\\Users\\judit\\.codex\\generated_images\\01a08744-8d73-7f11-a93c-fa7d1701e287\\exec-417bf19c-6e88-4b30-9684-32973e0a218e.png",
+      "savedPath": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\outputs\\gemstone-images\\large-sapphire-diamond-three-stone-ring.png",
+      "mode": "built-in image_gen",
+      "visualCheck": "Passed: distinct composition, large major stones, complete jewelry piece, no small-stone halos or pave, no text or watermarks. Illustrative image, not actual inventory or proof of gemstone identity."
+    },
+    {
+      "name": "large-emerald-diamond-yellow-gold-ring",
+      "target": "/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "alt": "Large emerald-cut green gemstone and two broad emerald-cut diamonds in a substantial yellow-gold ring",
+      "prompt": "Generate one exceptional photorealistic high jewelry product photograph, 1536 by 1024 landscape. A heavy yellow-gold three-stone ring with an exceptionally large rectangular emerald-cut rich green emerald and two broad emerald-cut white diamond side stones. Flat-to-three-quarter view with ring placed diagonally across warm charcoal suede; emerald table faces camera clearly, thick solid gold band and open setting visible. Stone inclusions subtly realistic, crisp stepped facets, physically plausible separate prongs, premium luxury editorial lighting. Large substantial stones only: no micro diamonds, no pave, no halo. Whole object uncut within frame, shallow soft background but all three stones sharp. No printed text, branding, hallmark numerals, watermark, hands or collage. An illustrative editorial photograph, not claimed inventory.",
+      "source": "C:\\Users\\judit\\.codex\\generated_images\\01a08744-8d73-7f11-a93c-fa7d1701e287\\exec-0bddfee1-1bab-4301-aea7-682b5d932b5b.png",
+      "savedPath": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\outputs\\gemstone-images\\large-emerald-diamond-yellow-gold-ring.png",
+      "mode": "built-in image_gen",
+      "visualCheck": "Passed: distinct composition, large major stones, complete jewelry piece, no small-stone halos or pave, no text or watermarks. Illustrative image, not actual inventory or proof of gemstone identity."
+    },
+    {
+      "name": "oversized-ruby-diamond-earrings",
+      "target": "/trusted-jewelry-buyer-los-angeles-reviews/",
+      "alt": "A pair of substantial ruby and large pear-shaped diamond drop earrings on ivory silk",
+      "prompt": "Create a single ultra high quality photorealistic fine-jewelry editorial photograph in landscape 1536 by 1024. A matching pair of lavish articulated drop earrings resting together on matte ivory silk. Each earring has ONE large cushion-cut saturated red ruby stud connected by a tiny plain platinum joint to ONE very large pear-shaped white diamond drop. Four major gemstones total, all substantial, no tiny accent stones or halos. Clear polished platinum prongs, realistic matched construction and proportions. Earrings arranged side by side with a gentle opposing angle, both completely visible with room around, crisp facets and subtle ruby depth, luxurious directional softbox light and believable shadows, natural white diamond sparkle not exaggerated rainbow effects. No text, logos, watermark, hands, collage. This is an illustrative image for an editorial guide, not a photograph of sale inventory.",
+      "source": "C:\\Users\\judit\\.codex\\generated_images\\01a08744-8d73-7f11-a93c-fa7d1701e287\\exec-9e1d32e2-41e8-4c20-8b05-bf17ee354f89.png",
+      "savedPath": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\outputs\\gemstone-images\\oversized-ruby-diamond-earrings.png",
+      "mode": "built-in image_gen",
+      "visualCheck": "Passed: distinct composition, large major stones, complete jewelry piece, no small-stone halos or pave, no text or watermarks. Illustrative image, not actual inventory or proof of gemstone identity."
+    },
+    {
+      "name": "large-yellow-diamond-three-stone-ring",
+      "target": "/best-place-to-sell-jewelry-los-angeles/",
+      "alt": "Substantial yellow-gold ring with a large cushion-cut yellow diamond and two large colorless diamond side stones",
+      "prompt": "Create a premium luxury jewelry editorial photograph, landscape 1536 by 1024. One weighty yellow-gold ring with a very large cushion-cut golden-yellow diamond at center and two LARGE broad half-moon colorless diamonds at the sides. Natural three-quarter side view on muted deep teal velvet, entire ring visible, stone tables aimed toward the lens, thick substantial band visible below and behind. Main yellow stone occupies much of ring width, side stones strong and individually prominent. Minimal clean prongs and structurally credible settings, flawless high-end product lighting, sharp detailed facets and restrained realistic reflections, softly out-of-focus background. No halo, no pave or little stones, no text, logos, watermark, collage, jewelry boxes or hands. Do not imply exact authenticated gemstone origin or actual store inventory; editorial illustrative product image.",
+      "source": "C:\\Users\\judit\\.codex\\generated_images\\01a08744-8d73-7f11-a93c-fa7d1701e287\\exec-dfc8da78-c9ae-4f49-a48f-8f2d38e64540.png",
+      "savedPath": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\outputs\\gemstone-images\\large-yellow-diamond-three-stone-ring.png",
+      "mode": "built-in image_gen",
+      "visualCheck": "Passed: distinct composition, large major stones, complete jewelry piece, no small-stone halos or pave, no text or watermarks. Illustrative image, not actual inventory or proof of gemstone identity."
+    }
+  ]
+}

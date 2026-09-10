@@ -1,0 +1,218 @@
+{
+  "advisories": {
+    "1112714": {
+      "findings": [
+        {
+          "version": "3.13.1",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>js-yaml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1112714,
+      "title": "js-yaml has prototype pollution in merge (<<)",
+      "module_name": "js-yaml",
+      "vulnerable_versions": "<3.14.2",
+      "patched_versions": ">=3.14.2",
+      "severity": "moderate",
+      "cwe": "CWE-1321",
+      "github_advisory_id": "GHSA-mh29-5h37-fv8m",
+      "url": "https://github.com/advisories/GHSA-mh29-5h37-fv8m"
+    },
+    "1115393": {
+      "findings": [
+        {
+          "version": "1.5.2",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>smol-toml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1115393,
+      "title": "smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines",
+      "module_name": "smol-toml",
+      "vulnerable_versions": "<1.6.1",
+      "patched_versions": ">=1.6.1",
+      "severity": "moderate",
+      "cwe": "CWE-674",
+      "github_advisory_id": "GHSA-v3rj-xjv7-4jmq",
+      "url": "https://github.com/advisories/GHSA-v3rj-xjv7-4jmq"
+    },
+    "1119441": {
+      "findings": [
+        {
+          "version": "10.0.0",
+          "paths": [
+            ".>sanity>@sanity/cli>typeid-js>uuid"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1119441,
+      "title": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "module_name": "uuid",
+      "vulnerable_versions": "<11.1.1",
+      "patched_versions": ">=11.1.1",
+      "severity": "moderate",
+      "cwe": "CWE-787, CWE-1285",
+      "github_advisory_id": "GHSA-w5hq-g745-h8pq",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq"
+    },
+    "1121859": {
+      "findings": [
+        {
+          "version": "3.13.1",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>js-yaml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1121859,
+      "title": "JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
+      "module_name": "js-yaml",
+      "vulnerable_versions": "<3.15.0",
+      "patched_versions": ">=3.15.0",
+      "severity": "moderate",
+      "cwe": "CWE-407",
+      "github_advisory_id": "GHSA-h67p-54hq-rp68",
+      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68"
+    },
+    "1123912": {
+      "findings": [
+        {
+          "version": "3.13.1",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>js-yaml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1123912,
+      "title": "js-yaml: YAML merge-key chains can force quadratic CPU consumption",
+      "module_name": "js-yaml",
+      "vulnerable_versions": ">=3.0.0 <3.15.0",
+      "patched_versions": ">=3.15.0",
+      "severity": "high",
+      "cwe": "CWE-400, CWE-407",
+      "github_advisory_id": "GHSA-52cp-r559-cp3m",
+      "url": "https://github.com/advisories/GHSA-52cp-r559-cp3m"
+    },
+    "1138114": {
+      "findings": [
+        {
+          "version": "3.13.1",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>js-yaml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1138114,
+      "title": "JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
+      "module_name": "js-yaml",
+      "vulnerable_versions": ">=3.0.0 <3.15.1",
+      "patched_versions": ">=3.15.1",
+      "severity": "high",
+      "cwe": "CWE-407",
+      "github_advisory_id": "GHSA-5p4m-2wfm-xmqj",
+      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj"
+    },
+    "1193726": {
+      "findings": [
+        {
+          "version": "3.13.1",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>js-yaml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1193726,
+      "title": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+      "module_name": "js-yaml",
+      "vulnerable_versions": ">=3.0.0 <3.15.2",
+      "patched_versions": ">=3.15.2",
+      "severity": "high",
+      "cwe": "CWE-400, CWE-407",
+      "github_advisory_id": "GHSA-2883-xcg3-v3hh",
+      "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh"
+    },
+    "1193734": {
+      "findings": [
+        {
+          "version": "0.6.0",
+          "paths": [
+            ".>sanity>@sanity/cli>@sanity/cli-build>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/runtime-cli>@sanity/cli-build>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/runtime-cli>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1193734,
+      "title": "adm-zip extraction follows destination symlinks, allowing arbitrary file overwrite",
+      "module_name": "adm-zip",
+      "vulnerable_versions": ">=0.5.9 <=0.6.0",
+      "patched_versions": ">=0.6.1",
+      "severity": "moderate",
+      "cwe": "CWE-59",
+      "github_advisory_id": "GHSA-vwc7-r8mq-g2x9",
+      "url": "https://github.com/advisories/GHSA-vwc7-r8mq-g2x9"
+    },
+    "1193945": {
+      "findings": [
+        {
+          "version": "1.5.2",
+          "paths": [
+            ".>sanity>@sanity/cli>@vercel/frameworks>smol-toml"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1193945,
+      "title": "smol-toml: Denial of Service via malformed TOML documents",
+      "module_name": "smol-toml",
+      "vulnerable_versions": "<=1.7.0",
+      "patched_versions": ">=1.7.1",
+      "severity": "high",
+      "cwe": "CWE-606, CWE-835",
+      "github_advisory_id": "GHSA-7w5x-hrqm-74c2",
+      "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2"
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 5,
+      "high": 4,
+      "critical": 0
+    },
+    "dependencies": 973,
+    "devDependencies": 0,
+    "optionalDependencies": 124,
+    "totalDependencies": 1097
+  }
+}

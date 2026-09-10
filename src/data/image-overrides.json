@@ -1,0 +1,131 @@
+{
+  "enabled": true,
+  "assets": {
+    "hero": {
+      "file": "hero-jewelry",
+      "width": 1672,
+      "height": 941,
+      "widths": [
+        960,
+        1440,
+        1672
+      ],
+      "alt": ""
+    },
+    "diamond": {
+      "file": "diamond-ring",
+      "width": 1254,
+      "height": 1254,
+      "widths": [
+        480,
+        960,
+        1254
+      ],
+      "alt": "Platinum solitaire ring with a round brilliant diamond on charcoal satin"
+    },
+    "gold": {
+      "file": "gold-jewelry",
+      "width": 1254,
+      "height": 1254,
+      "widths": [
+        480,
+        960,
+        1254
+      ],
+      "alt": "Yellow-gold curb chain and polished bangles on charcoal velvet"
+    },
+    "gemstone": {
+      "file": "gemstone",
+      "width": 1254,
+      "height": 1254,
+      "widths": [
+        480,
+        960,
+        1254
+      ],
+      "alt": "Emerald-cut green gemstone ring in yellow gold with clear side stones"
+    },
+    "watch": {
+      "file": "rolex-daytona",
+      "width": 800,
+      "height": 600,
+      "widths": [
+        480,
+        800
+      ],
+      "alt": "Rolex Cosmograph Daytona with a black dial and two-tone gold and steel bracelet"
+    },
+    "coins": {
+      "src": "/media/de8f2df17e14-5405cbb1d431255a7c5564945310766d1mg-1.webp",
+      "width": 800,
+      "height": 530,
+      "widths": [
+        800
+      ],
+      "alt": "Gold coins"
+    },
+    "necklace": {
+      "file": "necklace",
+      "width": 1254,
+      "height": 1254,
+      "widths": [
+        480,
+        960,
+        1254
+      ],
+      "alt": "Fine gold necklace with a pear-shaped diamond pendant on charcoal velvet"
+    },
+    "estate": {
+      "file": "estate-diamonds",
+      "width": 1536,
+      "height": 1024,
+      "widths": [
+        240,
+        480,
+        960
+      ],
+      "alt": "Ornate antique platinum brooch and bracelet richly set with diamonds"
+    },
+    "goldCollection": {
+      "file": "cuban-scrap-gold",
+      "width": 1536,
+      "height": 1024,
+      "widths": [
+        240,
+        480,
+        960
+      ],
+      "alt": "Heavy Cuban link gold chains, bracelets, bangles, rings, and scrap gold jewelry"
+    }
+  },
+  "pages": [
+    "/",
+    "/sell-your-golds/",
+    "/sell-your-diamonds-in-los-angeles/",
+    "/sell-gemstones-for-cash-in-los-angeles/",
+    "/sell-luxury-watches-in-los-angeles/",
+    "/contact-us/",
+    "/sell-estate-jewelry-los-angeles/"
+  ],
+  "families": {
+    "top-banner": "hero",
+    "img1-2": "diamond",
+    "img9-1": "watch",
+    "gold": "gold",
+    "img7-1": "gemstone",
+    "img6-1": "diamond",
+    "img3-1": "gemstone",
+    "img5-2": "watch",
+    "5405cbb1d431255a7c5564945310766d1mg-1": "gold",
+    "img2-1": "necklace",
+    "The-Best-Countries-for-Offshore-Gold-Storage-for-2020img-1": "gold",
+    "dreamstime_xxl_14021716-scaledimg-2": "gold",
+    "Sell-Gold-in-Maconimg-1": "gold",
+    "PWApr20_diamonds_1200img-1": "diamond",
+    "do-diamonds-hold-value-1": "diamond",
+    "dreamstime_xxl_259719012-scaled-1img-1": "hero",
+    "1b9f0e42605ebefa4dd3d0cddae42c19img-1": "watch",
+    "pexels-photo-37991776": "diamond",
+    "pexels-photo-8844580": "coins"
+  }
+}

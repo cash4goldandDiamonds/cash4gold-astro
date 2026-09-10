@@ -1,0 +1,9 @@
+title = "Cash4Gold source secret scanning"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Verified public image identifier, not an API credential"
+regexTarget = "secret"
+regexes = ['''^antique-diamond-festoon-necklace-v1$''']

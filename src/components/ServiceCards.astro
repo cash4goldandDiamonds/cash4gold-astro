@@ -1,0 +1,10 @@
+---
+import EditorialImage from "./EditorialImage.astro";
+const cards=[
+ {title:'SELL YOUR GOLD',href:'/sell-your-golds/',image:'goldCollection',alt:'Heavy Cuban chains, gold bracelets, rings, and scrap gold jewelry'},
+ {title:'SELL YOUR DIAMONDS',href:'/sell-your-diamonds-in-los-angeles/',image:'diamond',alt:'Platinum solitaire diamond ring'},
+ {title:'SELL YOUR WATCHES',href:'/sell-luxury-watches-in-los-angeles/',image:'watch',alt:'Rolex Cosmograph Daytona with a black dial and gold and steel bracelet'},
+ {title:'SELL LARGE, FINE GEMSTONES',href:'/sell-gemstones-for-cash-in-los-angeles/',image:'gemstone',alt:'Large green gemstone ring with clear side stones'},
+];
+---
+<section class="selling-cards-section" aria-label="What we buy"><div class="selling-cards">{cards.map((c,i)=><a class="selling-card" href={c.href}><div class="selling-card-photo"><EditorialImage name={c.image} alt={c.alt} sizes="(max-width: 1100px) 44vw, 23vw"/></div><div class="selling-card-copy"><small>0{i+1}</small><h3>{c.title}</h3><span>Sell Now <b aria-hidden="true">↗</b></span></div></a>)}</div></section>

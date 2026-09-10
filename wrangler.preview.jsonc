@@ -1,0 +1,10 @@
+{
+  // Prepared only. Do not deploy until private access control is configured.
+  // No production custom domain or route is configured.
+  "name": "cash4gold-private-preview",
+  "compatibility_date": "2026-09-03",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [],
+  "assets": { "directory": "./dist", "not_found_handling": "404-page", "html_handling": "force-trailing-slash" }
+}

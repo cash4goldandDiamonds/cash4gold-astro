@@ -1,0 +1,7 @@
+---
+import registry from '../data/image-overrides.json';
+const {name,alt='',sizes='(max-width: 640px) 90vw, 30vw',class:className}=Astro.props;
+const asset=registry.assets[name as keyof typeof registry.assets];
+const path=(width:number)=>'src' in asset?asset.src:`/media/editorial/${asset.file}-${width}.webp`;
+---
+<img class:list={[className,`image-${name}`]} src={path(asset.widths.at(-1)!)} srcset={asset.widths.map(w=>`${path(w)} ${w}w`).join(', ')} sizes={sizes} width={asset.width} height={asset.height} alt={alt} loading="lazy" decoding="async"/>

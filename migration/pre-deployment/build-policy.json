@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-09-10T19:47:33.637Z",
+  "outputDirectory": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-audit\\dist",
+  "policy": {
+    "environment": "preview",
+    "indexable": false,
+    "perspective": "published"
+  },
+  "redirects": [
+    {
+      "from": "/faq/",
+      "to": "/faqs/",
+      "status": 301
+    },
+    {
+      "from": "/about/",
+      "to": "/about-us-sell-gold-and-diamonds-online/",
+      "status": 301
+    },
+    {
+      "from": "/best-place-to-sell-jewelry-in-los-angeles/",
+      "to": "/best-place-to-sell-jewelry-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/start-selling/",
+      "to": "/start-selling-gold-and-diamonds/",
+      "status": 301
+    },
+    {
+      "from": "/sell-your-diamond/",
+      "to": "/sell-your-diamonds-in-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/10k-gold-price-per-gram-at-a-pawn-shop-everything-you-need-to-know/",
+      "to": "/10k-gold-price-per-gram-pawn-shop/",
+      "status": 301
+    },
+    {
+      "from": "/free-diamond-appraisal-los-angeles/",
+      "to": "/free-diamond-appraisal-same-day-cash/",
+      "status": 301
+    },
+    {
+      "from": "/rolex-day-date-gold-market-2026-for-buyer/",
+      "to": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "status": 301
+    },
+    {
+      "from": "/sell-your-gold/",
+      "to": "/sell-your-golds/",
+      "status": 301
+    },
+    {
+      "from": "/cash-for-gold-sell-your-gold-and-dramonds-usa/",
+      "to": "/sell-gold-and-diamonds-online/",
+      "status": 301
+    },
+    {
+      "from": "/fake-vs-real-rolex-how-to-spot-fake-rolex-in-easy-step/",
+      "to": "/how-to-spot-a-fake-rolex/",
+      "status": 301
+    },
+    {
+      "from": "/author/navid-lalezari/page/1/",
+      "to": "/author/navid-lalezari/",
+      "status": 301
+    },
+    {
+      "from": "/e-commerce-retail/page/1/",
+      "to": "/e-commerce-retail/",
+      "status": 301
+    },
+    {
+      "from": "/cash-for-gold/page/1/",
+      "to": "/cash-for-gold/",
+      "status": 301
+    },
+    {
+      "from": "/uncut-diamond-buyers-los-angeles/",
+      "to": "/large-diamond-buyer-los-angeles/",
+      "status": 301
+    }
+  ],
+  "sitemap": []
+}
