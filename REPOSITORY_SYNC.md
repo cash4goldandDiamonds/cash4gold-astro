@@ -6,7 +6,7 @@ September 10, 2026. Preserve the existing Astro/Sanity rebuild in the private `c
 
 The original home checkout remains at `C:/Users/judit/Documents/Codex/2026-09-09/cash-for-gold/cash4gold-astro`. The latest audit checkout remains at `C:/Users/judit/Documents/Codex/2026-09-09/realtime-voice-chat/cash4gold-audit`.
 
-The synchronized source includes the Astro frontend, reviewed content, current media, Sanity schemas and prepared content, worker source, scripts, tests, lockfile, non-secret configuration examples, migration baselines and project records. Current totals are 198 content pages, 111 articles, 107 guide cards, 15 redirects, and 431 prepared CMS documents. The build generates 214 routes including the 404 page.
+The synchronized source includes the Astro frontend, reviewed content, current media, Sanity schemas and prepared content, worker source, scripts, tests, lockfile, non-secret configuration examples, migration baselines and project records. Current totals are 198 content pages, 111 articles, 107 guide cards, 15 redirects, and 430 prepared CMS documents. The build generates 214 routes including the 404 page.
 
 `reports/LOCAL_ONLY_FILES.json` inventories approximately 405 MB of original artwork, duplicate HTML captures, and historical media excluded from Git. Those files remain locally. The current source, prepared CMS content and built output were used to identify 747 unreferenced historical public-media files; they are preserved locally and excluded from this Git snapshot. Generated output, installed dependencies, caches, archives and local credential files are also ignored.
 
@@ -14,7 +14,7 @@ Normal installation, building and verification use the committed files. Historic
 
 ## Validation and secret review
 
-The original audit checkout passed all 11 local check stages: unit tests, Sanity schema compilation, Astro type checks, build/finalization, built-site validation, CMS projection, editorial checks, substantive-review checks, source/route checks, design/sound checks, and dependency audit at the high severity threshold. A separate copy of the selected Git files is used for installation and package verification. Final results are recorded in `reports/REPOSITORY_SYNC_VALIDATION.json`.
+The reviewed source passed all 12 local check stages: unit tests, strict Sanity schema validation, source-security checks, Astro type checks, build/finalization, built-site validation, CMS projection, editorial checks, substantive-review checks, source/route checks, design/sound checks, and dependency audit at the high severity threshold. The Studio correction increased the suite from 29 to 31 tests. A separate copy of the selected Git files is used for installation and package verification. Final results are recorded in `reports/REPOSITORY_SYNC_VALIDATION.json`.
 
 Secret scanning uses Gitleaks defaults. The only explicit allowance is the public image identifier `antique-diamond-festoon-necklace-v1`, which the generic API-key rule incorrectly identified in image metadata. No rule or file is broadly excluded. Credential examples contain blank secret values; real `.env`, `.dev.vars`, credential stores and private keys are not included.
 
@@ -26,4 +26,4 @@ Account-verification values captured from the old website are retained only in i
 
 The phone number and shop address are public business information, verified against https://cash4goldanddiamond.com/ on September 10, 2026, and remain part of the website. They are not customer submissions or private account credentials.
 
-The GitHub quality workflow has no push trigger or deployment/publishing step. Hosting configurations have no production routes, and the social configuration has no active schedule. Preview builds remain non-indexable. The repository backup is not a production release: connected CMS, genuine inquiry delivery, protected staging, full migration reconciliation, performance/accessibility acceptance and the other blockers in `PRE_DEPLOYMENT_AUDIT.md` remain unfinished.
+The GitHub quality workflow has no push trigger or deployment/publishing step. Hosting configurations have no production routes, and the social configuration has no active schedule. Preview builds remain non-indexable. The repository backup is not a production release: CMS editor/draft-preview acceptance, genuine inquiry delivery, protected staging, full migration reconciliation, performance/accessibility acceptance and the other blockers in `PRE_DEPLOYMENT_AUDIT.md` remain unfinished.

@@ -12,10 +12,10 @@ The latest implementation is in `C:/Users/judit/Documents/Codex/2026-09-09/realt
 
 - 198 content pages, 111 articles, 107 distinct guide-card images, 15 redirects and 214 generated routes including 404.
 - All 111 substantive article reviews recorded, including the two recovered articles; no pending automated review entries.
-- 431 prepared Sanity documents; projection checks cover 111 articles, 222 images and 2,688 anchors. Prepared records do not prove a remote import.
+- 430 prepared Sanity documents; projection checks cover 111 articles, 222 images and 2,688 anchors. The private migration-staging import is now verified. The earlier count of 431 was a documentation error: the committed NDJSON contains 430 records. Two unlinked synthetic unpublished acceptance drafts are separate test data.
 - Astro 7.3.2, Sanity 6.13.0, React 19.2.8 and the existing Cloudflare/worker architecture preserved.
 - Source, scripts, tests, current images, schema/SEO, redirects, configuration examples, migration evidence and GitHub quality workflow retained.
-- Full selected source installation and 12 verification stages passed. All 29 unit tests passed. The fresh optimized build and hosting finalization generated 214 routes.
+- Full selected source installation and 12 verification stages passed. All 31 unit tests passed. The fresh optimized build and hosting finalization generated 214 routes.
 - Secret scans of source, staged changes and generated output found no remaining secrets. Copied account-verification values were removed from tracked metadata; ignored local originals and empty build settings are preserved.
 - No high or critical dependency findings; one moderate finding remains. Eight documented source-text warnings remain for reviewed differences.
 
@@ -23,9 +23,9 @@ Full evidence: [REPOSITORY_SYNC_VALIDATION.json](reports/REPOSITORY_SYNC_VALIDAT
 
 ## Consolidation and staging sequence
 
-GitHub consolidation is in progress in the existing private repository. A remote branch or commit must be verified before claiming the push is complete. After the reviewed source is saved, retrieve that exact GitHub revision into a fresh directory and rerun installation, tests and the full build. Record the final commit and that independent result in the final synchronization/QA report.
+The complete reviewed implementation is preserved in the existing private GitHub repository at commit `fbd7291c5c48c94660cf0349c167e6f847d66199`, on `audit/pre-deployment-2026-09-10`. The original main commit remains on `main` and `safety/before-consolidation-2026-09-10`. GitHub Actions passed a fresh checkout and build; all 994 files downloaded independently from that commit matched their Git blob hashes and passed all 12 local validation stages. Follow-up Studio corrections and current evidence remain on the same audit branch. See [the consolidation record](reports/GITHUB_CONSOLIDATION_2026-09-10.json).
 
-Protected Cloudflare staging is now explicitly authorized. Use the saved GitHub source, authenticated access and noindex protections. Do not attach the live domain. Prior account observations of no Cloudflare project and an empty private Sanity staging dataset require fresh verification; they are dated observations, not assumed current state.
+Protected Cloudflare staging is now explicitly authorized. Use the saved GitHub source, authenticated access and noindex protections. Do not attach the live domain. Zero Trust Free is active. The private Sanity import and a connected preview build are verified; the editor exposed a schema declaration error that is corrected and covered by two regression tests. Cloudflare staging deployment and hosted acceptance remain unfinished. See [current acceptance progress](reports/STAGING_ACCEPTANCE_PROGRESS.md).
 
 ## Remaining acceptance work
 

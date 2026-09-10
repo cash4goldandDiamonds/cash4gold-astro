@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-09-10T23:19:17.466Z",
+  "repository": "cash4goldandDiamonds/cash4gold-astro",
+  "visibility": "private",
+  "baselineCommit": "fbd7291c5c48c94660cf0349c167e6f847d66199",
+  "baselineTree": "241a214ee4ffa8e1033dece093ad47742eb9ded1",
+  "implementationBranch": "audit/pre-deployment-2026-09-10",
+  "remoteSafetyBranch": "safety/before-consolidation-2026-09-10",
+  "unchangedMainCommit": "ed8571bd28de71525eec46b14f56956934e26410",
+  "preservedLocalHistory": {
+    "branch": "archive/local-audit-before-sanitized-sync-2026-09-10",
+    "commit": "2fead36f824817d173cfc02610df4e16151f2687"
+  },
+  "draftPullRequest": "https://github.com/cash4goldandDiamonds/cash4gold-astro/pull/1",
+  "freshGitHubCheckout": {
+    "result": "PASS",
+    "workflowRun": 34538630404,
+    "job": 103075925079,
+    "url": "https://github.com/cash4goldandDiamonds/cash4gold-astro/actions/runs/34538630404",
+    "tests": 29
+  },
+  "independentGitHubArchive": {
+    "files": 994,
+    "blobHashMismatches": 0,
+    "validationStages": 12,
+    "allPassed": true
+  },
+  "studioCorrection": {
+    "tests": 31,
+    "failed": 0,
+    "validationStages": 12,
+    "allPassed": true,
+    "detail": "Remove unsupported fields on Portable Text block schema declarations; preserve migrated values and renderer behavior; validate schema structure as well as compilation."
+  },
+  "preparedCmsDocuments": 430,
+  "countCorrection": {
+    "previouslyReported": 431,
+    "source": "Parsed committed migration/sanity-import.ndjson; 430 records, including one author."
+  },
+  "productionChanges": false,
+  "stagingStatus": "Not deployed; protected hosting setup and hosted QA remain pending."
+}

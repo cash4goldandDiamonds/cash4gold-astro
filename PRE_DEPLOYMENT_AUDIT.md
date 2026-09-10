@@ -1,5 +1,7 @@
 > September 10 consolidation update: use `MIGRATION-STATUS.md` for current counts and validation. Protected website staging is authorized. No automatic launch, production/DNS/nameserver/GoDaddy change or social posting is authorized by that staging request. Earlier account observations below remain dated evidence.
 
+Latest September 10 follow-up: [GitHub preservation and fresh-checkout evidence](reports/GITHUB_CONSOLIDATION_2026-09-10.json) and [current staging/CMS acceptance progress](reports/STAGING_ACCEPTANCE_PROGRESS.md) supersede earlier account-state observations below. Launch still requires separate explicit owner approval.
+
 # Pre-deployment audit
 
 **NOT READY**

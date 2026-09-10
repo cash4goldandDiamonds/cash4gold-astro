@@ -1,5 +1,7 @@
 > September 10 consolidation update: use `MIGRATION-STATUS.md` for current counts and validation. Protected website staging is authorized. No automatic launch, production/DNS/nameserver/GoDaddy change or social posting is authorized by that staging request. Earlier account observations below remain dated evidence.
 
+Latest September 10 follow-up: [GitHub preservation and fresh-checkout evidence](reports/GITHUB_CONSOLIDATION_2026-09-10.json) and [current staging/CMS acceptance progress](reports/STAGING_ACCEPTANCE_PROGRESS.md) supersede earlier account-state observations below. Launch still requires separate explicit owner approval.
+
 # Continue the existing audit — do not restart
 
 **NOT READY.** Read `PRE_DEPLOYMENT_AUDIT.md`, `reports/REQUIREMENTS_MATRIX.md`, the full `CASH4GOLD_MASTER_BUILD_PLAN_v1.md` and prior source register before changing acceptance. Preserve additional owner requirements, including social promotion three times weekly, large unique jewelry images, visible work and the deferred work-PC transfer.

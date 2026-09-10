@@ -171,7 +171,7 @@
   "contentPages": 198,
   "articles": 111,
   "redirects": 15,
-  "preparedCmsDocuments": 431,
+  "preparedCmsDocuments": 430,
   "snapshotInstallation": "pnpm install --frozen-lockfile --ignore-scripts; successful. Native dependencies were subsequently exercised by passing builds and image checks.",
   "gitleaks": {
     "version": "8.30.1",
@@ -212,5 +212,10 @@
     "inspection": "reports/INSPECTION_2026-09-10.md",
     "historicalRecords": "migration/pre-deployment/prior-instructions",
     "launchAuthority": "Separate explicit approval required after protected staging QA; no automatic launch."
+  },
+  "latestFollowUp": "reports/GITHUB_CONSOLIDATION_2026-09-10.json",
+  "preparedCmsCountCorrection": {
+    "previouslyReported": 431,
+    "source": "Parsed committed migration/sanity-import.ndjson; 430 records, including one author."
   }
 }

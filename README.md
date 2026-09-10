@@ -6,7 +6,7 @@ Existing private WordPress-to-Astro/Sanity rebuild for https://cash4goldanddiamo
 
 **NOT READY TO GO LIVE.** The September 10 inspection is the authoritative starting point: [inspection report](reports/INSPECTION_2026-09-10.md). Subsequent verified results are in [migration status](MIGRATION-STATUS.md), [synchronization evidence](reports/REPOSITORY_SYNC_VALIDATION.json), and [the pre-deployment audit](PRE_DEPLOYMENT_AUDIT.md).
 
-The latest audit has 198 content pages, 111 articles, 107 distinct guide-card images, 15 redirects and 431 prepared Sanity documents. The build generates 214 routes, including the 404 page. All 111 article reviews are recorded; the two recovered articles are included. The complete source package passed 29 automated tests and all 12 verification stages, including installation from the lockfile and a fresh optimized Astro build. Connected integrations and hosted acceptance remain separate gates.
+The latest audit has 198 content pages, 111 articles, 107 distinct guide-card images, 15 redirects and 430 prepared Sanity documents. The build generates 214 routes, including the 404 page. All 111 article reviews are recorded; the two recovered articles are included. The complete source package passed 31 automated tests and all 12 verification stages, including installation from the lockfile and a fresh optimized Astro build. Connected integrations and hosted acceptance remain separate gates.
 
 Both local copies remain preserved. The audit checkout is the current implementation; the earlier home checkout and unneeded original media remain local. See [REPOSITORY_SYNC.md](REPOSITORY_SYNC.md) for preservation and excluded-file records.
 
