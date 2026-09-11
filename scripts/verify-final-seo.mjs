@@ -30,11 +30,16 @@ for(const p of pages){
  if(!$('.location-bar').text().includes('310-663-1340'))error('NAP-phone');
  const graph=$('script[type="application/ld+json"]').toArray().flatMap(e=>{try{const d=JSON.parse($(e).text());return d['@graph']||[d];}catch{error('invalid-jsonld');return[];}});
  if(graph.some(n=>['Review','AggregateRating'].includes(n['@type'])||n.aggregateRating||n.review))error('self-serving-review-schema');
+ // BUSINESS_FACTS.md leaves hours unverified; an old schema must not publish them.
+ for(const n of graph.filter(n=>n['@id']===sourceOrigin+'/#organization')){
+  if(n.openingHours||n.openingHoursSpecification||n.priceRange)error('unverified-business-hours-or-price-range');
+  if(n.areaServed?.['@type']!=='City'||n.areaServed?.name!=='Los Angeles')error('business-service-area');
+ }
  for(const n of graph.filter(n=>n['@type']==='FAQPage'))for(const q of n.mainEntity||[]){if(!text.includes(String(q.name).replace(/\s+/g,' ').trim())||!text.includes(String(q.acceptedAnswer?.text||'').replace(/\s+/g,' ').trim()))error('FAQ-schema-not-visible');}
  const images=main.find('img');
  rows.push({path:p.path,indexableInApprovedProduction:indexable,robotsInSource:p.robots,renderedRobots:$('meta[name="robots"]').attr('content'),canonical,title,description,h1:main.find('h1').text(),htmlBytes:Buffer.byteLength(html),htmlGzipBytes:gzipSync(html).length,domElements:$('*').length,images:images.length,missingAlt:images.filter(':not([alt])').length,highPriorityImages:images.filter('[fetchpriority="high"]').length,lazyHighPriorityImages:images.filter('[loading="lazy"][fetchpriority="high"]').length,schemaTypes:graph.map(n=>n['@type']),thirdPartyScripts:$('script[src]').map((i,e)=>$(e).attr('src')).get().filter(src=>/^https?:/.test(src)),forms:main.find('form').length});
 }
-const gold=rows.find(r=>r.path==='/sell-your-golds/');if(!gold.schemaTypes.includes('Service')||!gold.schemaTypes.includes('FAQPage'))errors.push({path:gold.path,type:'missing-gold-schema'});
+for(const servicePath of ['/sell-your-golds/','/sell-your-diamonds-in-los-angeles/','/sell-luxury-watches-in-los-angeles/','/sell-estate-jewelry-los-angeles/']){const row=rows.find(r=>r.path===servicePath);if(!row?.schemaTypes.includes('Service')||!row?.schemaTypes.includes('FAQPage'))errors.push({path:servicePath,type:'missing-primary-service-or-faq-schema'});}
 const sitemap=await fs.readFile(path.join(out,'sitemap.xml'),'utf8'),robots=await fs.readFile(path.join(out,'robots.txt'),'utf8');
 const isProduction=process.env.SITE_ENV==='production';
 if(isProduction){const expected=sitemapEntries(pages,policy).map(e=>e.loc).sort(),xml=load(sitemap,{xmlMode:true}),actual=xml('url > loc').map((i,e)=>xml(e).text()).get().sort();if(JSON.stringify(actual)!==JSON.stringify(expected))errors.push({path:'/sitemap.xml',type:'production-sitemap-urls'});if(!robots.includes('Allow: /')||robots.includes('Disallow: /'))errors.push({path:'/robots.txt',type:'production-crawl-policy'});}
