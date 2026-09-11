@@ -22,7 +22,8 @@ for(const p of pages){
  if($('link[rel="canonical"]').length!==1||$('link[rel="canonical"]').attr('href')!==canonical)error('canonical-mismatch');
  if(process.env.SITE_ENV==='production'&&$('meta[name="robots"]').attr('content')!==pageRobots(p,policy))error('production-robots-mismatch');
  if($('meta[property="og:title"]').attr('content')!==title||$('meta[property="og:description"]').attr('content')!==description)error('stale-open-graph-text');
- if(indexable&&!$('meta[property="og:image"]').attr('content'))error('missing-social-image');
+ if($('meta[property="og:url"]').length!==1||$('meta[property="og:url"]').attr('content')!==canonical)error('open-graph-url-mismatch');
+ if(!$('meta[property="og:image"]').attr('content'))error('missing-social-image');
  if($('img:not([alt])').length)error('missing-alt-attribute');
  if($('script:not([src])').toArray().some(e=>$(e).attr('type')!=='application/ld+json'&&$(e).text().trim()))error('inline-script-blocked-by-host-csp');
  if(!$('.location-bar').text().includes('617 S. Hill Street, Los Angeles, CA 90014'))error('NAP-address');
