@@ -39,10 +39,17 @@ jobs:
       - run: node node_modules/astro/bin/astro.mjs check
       - run: pnpm build
       - run: node scripts/verify-built-site.mjs
+      - run: pnpm verify:accessibility
       - run: pnpm verify:seo
       - run: node scripts/verify-cms-projection.mjs
       - run: node scripts/verify-editorial.mjs
       - run: node scripts/verify-substantive.mjs
       - run: node scripts/verify.mjs
       - run: pnpm audit --audit-level high
+      - name: Validate protected Worker bundle without deployment
+        run: pnpm exec wrangler deploy --config wrangler.preview.jsonc --dry-run --outdir .cache/worker-dry-run --no-autoconfig
+      - name: Compile private staging editor without credentials
+        run: node scripts/build-staging-studio.mjs
+        env:
+          BUILD_STAGING_STUDIO: 'true'
       # No deploy, publish, repository write or secret is used in this workflow.
