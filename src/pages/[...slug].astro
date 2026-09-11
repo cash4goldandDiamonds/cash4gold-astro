@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ServiceCards from '../components/ServiceCards.astro';
 import Gallery from '../components/Gallery.astro';
+import InquiryForm from '../components/InquiryForm.astro';
 import {getPages,getRedirects,type Page} from '../lib/content';
 export async function getStaticPaths(){const pages=await getPages();const redirects=await getRedirects();return [...pages.map(page=>({params:{slug:page.path==='/'?undefined:page.path.replace(/^\/|\/$/g,'')},props:{page}})),...redirects.map(({from,to,status})=>({params:{slug:from.replace(/^\/|\/$/g,'')},props:{target:to,status}}))]}
 const {page,target,status}=Astro.props as {page:Page,target?:string,status?:301|302};
@@ -14,5 +15,6 @@ const alreadyHasH1=/<h1\b/i.test(page.html);
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span>{page.isArticle&&<><a href="/blogs/">Blogs</a><span>/</span></>}<span>{'breadcrumbLabel' in page?String(page.breadcrumbLabel):page.heading}</span></nav>
   {!alreadyHasH1&&<header class="page-title"><h1>{page.heading}</h1>{page.isArticle&&<p class="byline">{page.author}{page.publishedAt&&<> · <time datetime={page.publishedAt}>{new Date(page.publishedAt).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time></>}</p>}</header>}
   <div class:list={['imported-content',{'prose':page.isArticle}]} set:html={page.html}/>
+  {page.path==='/contact-us/'&&<InquiryForm/>}
  </div>}
 </Base>
