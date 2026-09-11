@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import {gzipSync} from 'node:zlib';
 import {load} from 'cheerio';
 import sharp from 'sharp';
+import {inquiryMarkupErrors} from '../src/lib/inquiry-markup.mjs';
 const out=process.env.ASTRO_OUT_DIR||'dist',pages=JSON.parse(await fs.readFile('src/data/pages.json','utf8')),aliases=JSON.parse(await fs.readFile('src/data/redirects.json','utf8'));
 const byPath=new Map(pages.map(p=>[p.path,p])),documents=new Map(),errors=[],rows=[],assets=new Map(),incoming=new Map(pages.map(p=>[p.path,new Set()]));
 for(const p of pages)documents.set(p.path,load(await fs.readFile(path.join(out,p.path,'index.html'),'utf8')));
@@ -16,7 +17,7 @@ for(const p of pages){const $=documents.get(p.path),html=await fs.readFile(path.
  for(const e of $('a[href]')){const href=$(e).attr('href');let u;try{u=new URL(href,'https://cash4goldanddiamond.com'+p.path);}catch{errors.push({page:p.path,type:'malformed-link',href});continue;}if(!['cash4goldanddiamond.com','www.cash4goldanddiamond.com'].includes(u.hostname))continue;const dest=target(u.pathname);if(documents.has(dest)){if(dest!==p.path)incoming.get(dest).add(p.path);if(u.hash){let id;try{id=decodeURIComponent(u.hash.slice(1));}catch{errors.push({page:p.path,type:'invalid-fragment',href});continue;}if(!documents.get(dest)('[id]').toArray().some(e=>e.attribs.id===id))errors.push({page:p.path,type:'missing-fragment',href});}}else if(/\.[a-z0-9]+$/i.test(dest))await asset(dest,p.path);else errors.push({page:p.path,type:'broken-internal-link',href});}
  const pageAssets=new Set();for(const e of $('img[src],script[src],link[rel=stylesheet]')){const src=$(e).attr('src')||$(e).attr('href');await asset(src,p.path);pageAssets.add(src);}for(const e of $('[srcset]'))for(const part of $(e).attr('srcset').split(',')){const src=part.trim().split(/\s+/)[0];await asset(src,p.path);}
  for(const e of $('script[type="application/ld+json"]'))try{JSON.parse($(e).text());}catch{errors.push({page:p.path,type:'invalid-jsonld'});}
- if($('form').length)errors.push({page:p.path,type:'unexpected-live-form'});
+ for(const type of inquiryMarkupErrors($,p.path))errors.push({page:p.path,type});
  rows.push({path:p.path,htmlBytes:Buffer.byteLength(html),htmlGzipBytes:gzipSync(html).length,title:$('title').text(),description:$('meta[name=description]').attr('content'),canonical,robots,singleH1:$('main h1').length===1,headingSkips:headings.flatMap((level,i)=>i&&level>headings[i-1]+1?[{previous:headings[i-1],level}]:[]),images:$('img').length,missingAlt:$('img:not([alt])').length,missingImageDimensions:$('img').toArray().filter(e=>!e.attribs.width||!e.attribs.height).length,scripts:$('script[src]').map((i,e)=>$(e).attr('src')).get(),referencedFallbackAssetBytes:[...pageAssets].reduce((n,u)=>n+(assets.get(u)?.bytes||0),0),note:'Referenced image totals include lazy/offscreen assets, not initial transfer size.'});
 }
 const blogs=documents.get('/blogs/'),cards=blogs('.blog-card').toArray().map(e=>({path:e.attribs.href,src:blogs(e).find('img').attr('src')})),hashes=cards.map(c=>assets.get(c.src)?.sha256);
