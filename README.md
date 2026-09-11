@@ -1,5 +1,7 @@
 # Cash 4 Gold & Diamonds
 
+**Latest audit — September 11, 2026:** The [final SEO/content/conversion/UX audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md) supersedes older page-quality and validation claims below. Gold/home/reviews/contact and supporting copy are updated; all 111 articles have individual recommendations. NO-GO remains: delivery, analytics/consent, hosted CMS, backup/restore, remaining SEO/media acceptance and measured performance are incomplete. No production change is authorized.
+
 Continue the existing private WordPress-to-Astro/Sanity rebuild in https://github.com/cash4goldandDiamonds/cash4gold-astro. The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point; both original local copies and useful GitHub planning/configuration files remain preserved.
 
 ## Current status — September 11, 2026

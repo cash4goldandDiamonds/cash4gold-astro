@@ -11,6 +11,7 @@
     "crawl": "node scripts/crawl.mjs",
     "verify": "node scripts/verify.mjs",
     "verify:design": "node scripts/verify-design.mjs",
+    "verify:seo": "node scripts/verify-final-seo.mjs",
     "verify:editorial": "node scripts/verify-editorial.mjs",
     "verify:schema": "node scripts/check-schema.mjs",
     "export:cms": "node scripts/export-sanity.mjs",

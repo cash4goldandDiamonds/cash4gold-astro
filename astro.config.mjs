@@ -8,6 +8,8 @@ export default defineConfig({
   output:'static',
   ...(process.env.ASTRO_OUT_DIR?{outDir:process.env.ASTRO_OUT_DIR}:{}),
   trailingSlash:'always',
+  // Keep navigation scripts in same-origin files allowed by the hosting CSP.
+  vite:{build:{assetsInlineLimit:0}},
   devToolbar:{enabled:false},
   server:{host:'127.0.0.1',port:4321},
 });
