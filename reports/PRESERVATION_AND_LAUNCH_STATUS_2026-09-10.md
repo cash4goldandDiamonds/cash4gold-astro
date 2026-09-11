@@ -27,7 +27,7 @@ Gitleaks scans found no secrets in the reviewed source, schema change or actual 
 
 Zero Trust Free is active and the limited Wrangler connection was authorized. Wrangler could not upload because its build resolver encounters a Windows parent-directory access restriction. The dashboard folder upload did not load the files; Deploy remained disabled. No staging Worker was deployed through either attempt.
 
-Automatic approval review rejected an account-wide Access setting because it could affect other/current/future Workers; it was not applied. Automatic approval review also blocked opening the GitHub connection screen while its requested access and repository scope were not visible. The pending owner question authorizes only inspection of that permission screen, with access limited to this existing private repository. No broader GitHub grant was made. Specific staging authentication must be verified before its endpoint is enabled.
+The earlier account-wide Access proposal was rejected and remains unapplied. The separate GitHub inspection block was resolved by explicit owner approval. GitHub verification succeeded, and the existing Cloudflare app installation is now saved with only the existing private website repository selected. GitHub verification and the owner-approved restriction to only `cash4goldandDiamonds/cash4gold-astro` are complete. A new confirmation is pending for the prepared `cash4gold-staging-deploy-limited` credential: Workers Scripts Edit, Workers Builds Configuration Edit and Account Settings Read for this Cloudflare account only. No token has been created. Per-Worker All traffic Access for account members is prepared but unsubmitted; no staging URL is enabled. The default broadly scoped build credential has not been created.
 
 ## QA coverage and remaining gates
 
@@ -46,4 +46,8 @@ Automatic approval review rejected an account-wide Access setting because it cou
 
 Detailed connected-account evidence and requirement boundaries are in `STAGING_ACCEPTANCE_2026-09-10.md`. The broader migration requirement matrix remains applicable; partial checks do not promote entire requirements to PASS.
 
-Complete the pending staging permission review and the above gates before considering a launch. **Separate explicit owner approval is required before any production launch. Do not change DNS, domain nameservers, GoDaddy settings or production automatically.**
+Complete the restricted credential confirmation, protected deployment and the above gates before considering a launch. **Separate explicit owner approval is required before any production launch. Do not change DNS, domain nameservers, GoDaddy settings or production automatically.**
+
+## Subsequent editor navigation reconciliation
+
+The bounded navigation follow-up provides separate editor areas and unapproved creation templates. Actual Studio browsing and private-query verification passed, with all 198 content records accessible and all 430 original imported documents unchanged. Strict schema validation and the additional-source Gitleaks scan also passed. This does not complete hosted preview, role enforcement, image upload or owner acceptance. See `reports/STUDIO_NAVIGATION_FOLLOWUP.md`.

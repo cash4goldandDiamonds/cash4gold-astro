@@ -1251,17 +1251,17 @@ Remaining action: Connect scoped Sanity credentials; import private staging; tes
 
 Source: `CASH4GOLD_MASTER_BUILD_PLAN_v1.md:168`
 
-15 compiled schema types, structured article projection, metadata/review/social controls and non-overwriting staging importer are implemented. No actual staging editing/publishing lifecycle completed.
+The private migration, bounded Studio editing/publishing checks and categorized navigation are verified. All 198 page records remain discoverable, all 430 original migrated documents remain unchanged, and creation templates begin unapproved. Full field usability, roles, uploads, hosted preview and owner routine-editing acceptance remain incomplete.
 
-Evidence: studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json
+Evidence: studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json; studio/structure.js; scripts/verify-studio-navigation.mjs; reports/STUDIO_NAVIGATION_FOLLOWUP.md; migration/pre-deployment/studio-navigation.json; migration/pre-deployment/studio-navigation-browser.json; migration/pre-deployment/sanity-after-studio.json
 
-Command/result: check-schema; verify-cms-projection; cms-controls/release-import tests
+Command/result: Strict schema validation: 15 types, zero errors. Actual Studio navigation and private GROQ filters: PASS; 37 pages + 111 articles + 50 archives = 198, no gaps or overlap.
 
-Remaining action: Connect scoped Sanity credentials; import private staging; test roles, edit/preview/publish/unpublish/restore and full global/service fields. Responsible: Navid for facts/account verification; implementation operator for code/integration tests.
+Remaining action: Complete field descriptions/previews/validation acceptance, actual new-template creation, media workflow, roles, hosted preview and owner routine-editing acceptance. Responsible: Navid for facts/account verification; implementation operator for code/integration tests.
 
 | Criterion | Requirement | Status |
 |---|---|---|
-| CMS-05.1 | Organize Studio into understandable sections such as Pages, Services, Articles, Media, Business Information, SEO Issues, Redirects, and Navigation. | BLOCKED |
+| CMS-05.1 | Organize Studio into understandable sections such as Pages, Services, Articles, Media, Business Information, SEO Issues, Redirects, and Navigation. | FIXED AND VERIFIED |
 | CMS-05.2 | Include clear field descriptions, previews, validation, and a way to identify outstanding migration/editorial issues. | BLOCKED |
 | CMS-05.3 | Navid must be able to edit routine site content without coding. | BLOCKED |
 

@@ -2436,34 +2436,34 @@
       "phase": "prelaunch",
       "priority": "P0/P1 release gate",
       "status": "BLOCKED",
-      "implementationAndLimits": "15 compiled schema types, structured article projection, metadata/review/social controls and non-overwriting staging importer are implemented. No actual staging editing/publishing lifecycle completed.",
-      "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json",
-      "commandAndResult": "check-schema; verify-cms-projection; cms-controls/release-import tests",
-      "timestamp": "2026-09-10T20:22:01.102Z",
-      "build": "Base ed8571bd28de71525eec46b14f56956934e26410 plus preserved audit working tree; actual checks dated in logs",
+      "implementationAndLimits": "The private migration, bounded Studio editing/publishing checks and categorized navigation are verified. All 198 page records remain discoverable, all 430 original migrated documents remain unchanged, and creation templates begin unapproved. Full field usability, roles, uploads, hosted preview and owner routine-editing acceptance remain incomplete.",
+      "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json; studio/structure.js; scripts/verify-studio-navigation.mjs; reports/STUDIO_NAVIGATION_FOLLOWUP.md; migration/pre-deployment/studio-navigation.json; migration/pre-deployment/studio-navigation-browser.json; migration/pre-deployment/sanity-after-studio.json",
+      "commandAndResult": "Strict schema validation: 15 types, zero errors. Actual Studio navigation and private GROQ filters: PASS; 37 pages + 111 articles + 50 archives = 198, no gaps or overlap.",
+      "timestamp": "2026-09-11T02:06:45.928Z",
+      "build": "Verified preservation checkpoint 48e64aa97a77590d13171fc415f5b07b07471b43 plus bounded Studio navigation follow-up; dated evidence retained.",
       "responsibleOwner": "Navid for facts/account verification; implementation operator for code/integration tests",
-      "remainingAction": "Connect scoped Sanity credentials; import private staging; test roles, edit/preview/publish/unpublish/restore and full global/service fields.",
+      "remainingAction": "Complete field descriptions/previews/validation acceptance, actual new-template creation, media workflow, roles, hosted preview and owner routine-editing acceptance.",
       "subcriteria": [
         {
           "id": "CMS-05.1",
           "requirement": "Organize Studio into understandable sections such as Pages, Services, Articles, Media, Business Information, SEO Issues, Redirects, and Navigation.",
-          "status": "BLOCKED",
-          "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json",
-          "remainingAction": "Connect scoped Sanity credentials; import private staging; test roles, edit/preview/publish/unpublish/restore and full global/service fields."
+          "status": "FIXED AND VERIFIED",
+          "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json; studio/structure.js; scripts/verify-studio-navigation.mjs; reports/STUDIO_NAVIGATION_FOLLOWUP.md; migration/pre-deployment/studio-navigation.json; migration/pre-deployment/studio-navigation-browser.json; migration/pre-deployment/sanity-after-studio.json",
+          "remainingAction": "Maintain categorized navigation and original bookmark compatibility; full CMS acceptance remains separate."
         },
         {
           "id": "CMS-05.2",
           "requirement": "Include clear field descriptions, previews, validation, and a way to identify outstanding migration/editorial issues.",
           "status": "BLOCKED",
           "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json",
-          "remainingAction": "Connect scoped Sanity credentials; import private staging; test roles, edit/preview/publish/unpublish/restore and full global/service fields."
+          "remainingAction": "Complete field descriptions/previews/validation acceptance, actual new-template creation, media workflow, roles, hosted preview and owner routine-editing acceptance."
         },
         {
           "id": "CMS-05.3",
           "requirement": "Navid must be able to edit routine site content without coding.",
           "status": "BLOCKED",
           "evidence": "studio/schema.js; studio/social-schema.js; src/lib/cms-page.mjs; scripts/import-staging.mjs; migration/pre-deployment/import-plan.json",
-          "remainingAction": "Connect scoped Sanity credentials; import private staging; test roles, edit/preview/publish/unpublish/restore and full global/service fields."
+          "remainingAction": "Complete field descriptions/previews/validation acceptance, actual new-template creation, media workflow, roles, hosted preview and owner routine-editing acceptance."
         }
       ]
     },
