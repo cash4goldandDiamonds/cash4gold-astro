@@ -2,6 +2,7 @@ import QualityInput from './QualityInput.js';
 import {socialSharingSchema,socialAutomationSchema} from './social-schema.js';
 import {validateRedirects} from '../src/lib/editorial-checks.mjs';
 import {isLocalPath} from '../src/lib/redirects.mjs';
+import {validatePageReview} from './review-validation.js';
 const str=(name,title,extra={})=>({name,title,type:'string',...extra});
 const ref=(name,title,to)=>({name,title,type:'reference',to:[{type:to}]});
 const refs=(name,title,to)=>({name,title,type:'array',of:[{type:'reference',to:[{type:to}]}]});
@@ -57,7 +58,7 @@ pageSchema.fields.push(
  {name:'tags',title:'Tags',type:'array',of:[{type:'reference',to:[{type:'category'}]}]},
  {name:'primaryIntent',title:'Primary reader intent',type:'string',group:'discovery',description:'Describe the question or selling task; review existing destinations before creating overlapping content.'}
 );
-pageSchema.validation=Rule=>Rule.custom(document=>document?.reviewState!=='approved'||(document.contentVerified&&document.seoVerified&&document.reviewedBy?._ref&&document.reviewedAt)?true:'Approval requires recorded content and SEO comparison, a named reviewer, and an actual review date.');
+pageSchema.validation=Rule=>Rule.custom(validatePageReview);
 const seoSchema=schemaTypes.find(type=>type.name==='seo');
 seoSchema.fields.find(field=>field.name==='canonical').validation=Rule=>Rule.required().custom(value=>{
  try{const url=new URL(value);return url.origin==='https://cash4goldanddiamond.com'&&!url.search&&!url.hash||'Use the production site origin without query strings or fragments.';}catch{return 'Enter a valid absolute canonical URL.';}
