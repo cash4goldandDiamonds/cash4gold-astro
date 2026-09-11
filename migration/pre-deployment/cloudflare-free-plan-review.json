@@ -1,0 +1,22 @@
+{
+  "accountName": "Cash4goldanddiamond@gmail.com's Account",
+  "accountId": "51297d0a5f91f93ec6100eeabcac7939",
+  "method": "Read-only authenticated Cloudflare dashboard inspection",
+  "workers": {
+    "url": "https://dash.cloudflare.com/51297d0a5f91f93ec6100eeabcac7939/workers/plans",
+    "plan": "Free",
+    "currentPlanControl": "Current plan, disabled, under Free",
+    "priceShown": "$0",
+    "buildsIncluded": "Workers Builds: 3,000 build minutes per month and one concurrent build in the Free column"
+  },
+  "zeroTrust": {
+    "url": "https://dash.cloudflare.com/51297d0a5f91f93ec6100eeabcac7939/one/settings",
+    "plan": "Zero Trust Free",
+    "priceShown": "$0 / month",
+    "seatsShown": "0 of 50 available seats",
+    "teamDomain": "still-term-0739.cloudflareaccess.com"
+  },
+  "changes": false,
+  "paidUpgradeOrAddon": false,
+  "deploymentSubmitted": false
+}
