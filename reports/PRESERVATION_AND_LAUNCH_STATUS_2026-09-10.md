@@ -15,7 +15,7 @@ The September 10 inspection in `reports/INSPECTION_2026-09-10.md` remains the au
 
 ## Validation and security
 
-The implementation passed all 31 automated tests and all 12 local verification stages, including strict schema validation, source-security checks, Astro checking, a fresh optimized build, built-site verification, CMS projection, editorial/substantive checks, route/source checks, design checks and dependency audit. The high/critical dependency threshold passed; one moderate advisory and eight documented source-text warnings remain. A passing test suite is not completion of business integration or launch acceptance.
+The implementation, including the latest Studio publication safeguard, passed all 33 automated tests and all 12 local verification stages, including strict schema validation, source-security checks, Astro checking, a fresh optimized build, built-site verification, CMS projection, editorial/substantive checks, route/source checks, design checks and dependency audit. The high/critical dependency threshold passed; one moderate advisory and eight documented source-text warnings remain. A passing test suite is not completion of business integration or launch acceptance.
 
 GitHub Actions run https://github.com/cash4goldandDiamonds/cash4gold-astro/actions/runs/34542085479 independently performed a fresh checkout/install and passed its complete test/build/check sequence for exact commit `fae585056c7d1494a27a22b0ff114c7cdb09467a`. An earlier independent 994-file GitHub download was verified against Git object hashes and built successfully. The final acceptance-record revision must retain a passing fresh-checkout run.
 
@@ -51,3 +51,8 @@ Complete the restricted credential confirmation, protected deployment and the ab
 ## Subsequent editor navigation reconciliation
 
 The bounded navigation follow-up provides separate editor areas and unapproved creation templates. Actual Studio browsing and private-query verification passed, with all 198 content records accessible and all 430 original imported documents unchanged. Strict schema validation and the additional-source Gitleaks scan also passed. This does not complete hosted preview, role enforcement, image upload or owner acceptance. See `reports/STUDIO_NAVIGATION_FOLLOWUP.md`.
+
+
+## Latest publication safeguard checkpoint — September 10, 2026
+
+The reviewed Studio navigation is preserved on GitHub at `577f11953037dc7f3098cfad4a0f5a090be4c93e`; fresh GitHub checkout/install/build and checks passed (run `34554005853`). The subsequent minimal Studio publication guard blocks unreviewed page publication while allowing autosave. Private-editor evidence and the complete local **33-test / 12-stage** passing validation are recorded in `reports/STUDIO_REVIEW_GUARD_FOLLOWUP.md` and `reports/STUDIO_REVIEW_GUARD_VALIDATION.json`. CMS-07/CMS-08 and the overall launch remain BLOCKED. Protected staging is not deployed; its restricted credential confirmation is pending. No production, DNS or domain changes were made.
