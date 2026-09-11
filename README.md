@@ -1,12 +1,12 @@
 # Cash 4 Gold & Diamonds
 
-**Latest audit — September 11, 2026:** The [final SEO/content/conversion/UX audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md) supersedes older page-quality and validation claims below. Gold/home/reviews/contact and supporting copy are updated; all 111 articles have individual recommendations. NO-GO remains: delivery, analytics/consent, hosted CMS, backup/restore, remaining SEO/media acceptance and measured performance are incomplete. No production change is authorized.
+**Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
 
 Continue the existing private WordPress-to-Astro/Sanity rebuild in https://github.com/cash4goldandDiamonds/cash4gold-astro. The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point; both original local copies and useful GitHub planning/configuration files remain preserved.
 
 ## Current status — September 11, 2026
 
-**NOT READY TO GO LIVE.** Protected GitHub-backed staging now exists at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The current source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated routes. All 33 automated tests and the complete local verification/build passed after the three Rank Math redirect fixes. All 198 content routes rendered behind account-only Cloudflare Access. [Current staging QA and launch blockers](reports/PROTECTED_STAGING_QA_2026-09-11.md) supersede earlier statements below that no staging site exists, that only 15 redirects exist, or that authorization is pending. Earlier commit IDs/counts are historical evidence. The audit branch's final uploaded source requires its own exact-head CI/deployment verification, recorded in the final handoff.
+**NOT READY TO GO LIVE.** Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated website routes. See the latest integration checkpoint above for current implementation and acceptance status. Counts, commit IDs and account observations in the earlier-checkpoint sections below are historical evidence.
 
 Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
 
@@ -23,7 +23,7 @@ Use Node 24.19.0 and pnpm 11.19.0. The project uses Astro 7.3.2 and Sanity 6.13.
 
 ## Open launch gates
 
-Inquiry delivery, appointment confirmation, hosted Sanity draft preview/roles/rebuild/rollback, analytics/consent, full backup/restore, remaining private SEO/media reconciliation, measured performance, comprehensive accessibility/device QA and owner content acceptance remain incomplete. This is **NOT READY TO GO LIVE**.
+Inquiry delivery, hosted Sanity draft preview/rebuild/rollback, analytics receipt/consent, remaining SEO/media reconciliation, measured performance and owner content acceptance remain open. The owner reports the WordPress backup complete; a restore has not been independently exercised. Real appointment confirmation/cancellation tests were declined by the owner. This is **NOT READY TO GO LIVE**.
 
 The Worker-specific Access policy must protect all traffic. Never attach `cash4goldanddiamond.com` or change the live WordPress site without separate explicit launch approval. Deployments disable Worker endpoints by default; re-enable only the staging hostname after verifying the build and Access. Preview-version URLs stay off.
 

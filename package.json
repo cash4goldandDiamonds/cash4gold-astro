@@ -6,11 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build && node scripts/finalize-build.mjs",
+    "build": "astro build && node scripts/finalize-build.mjs && node scripts/build-staging-studio.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "crawl": "node scripts/crawl.mjs",
     "verify": "node scripts/verify.mjs",
     "verify:design": "node scripts/verify-design.mjs",
+    "verify:accessibility": "node scripts/verify-accessibility-structure.mjs",
     "verify:seo": "node scripts/verify-final-seo.mjs",
     "verify:editorial": "node scripts/verify-editorial.mjs",
     "verify:schema": "node scripts/check-schema.mjs",

@@ -1,10 +1,10 @@
 # Migration status
 
-**Latest audit — September 11, 2026:** The [final SEO/content/conversion/UX audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md) supersedes older page-quality and validation claims below. Gold/home/reviews/contact and supporting copy are updated; all 111 articles have individual recommendations. NO-GO remains: delivery, analytics/consent, hosted CMS, backup/restore, remaining SEO/media acceptance and measured performance are incomplete. No production change is authorized.
+**Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
 
 ## Current status — September 11, 2026
 
-**NOT READY TO GO LIVE.** Protected GitHub-backed staging now exists at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The current source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated routes. All 33 automated tests and the complete local verification/build passed after the three Rank Math redirect fixes. All 198 content routes rendered behind account-only Cloudflare Access. [Current staging QA and launch blockers](reports/PROTECTED_STAGING_QA_2026-09-11.md) supersede earlier statements below that no staging site exists, that only 15 redirects exist, or that authorization is pending. Earlier commit IDs/counts are historical evidence. The audit branch's final uploaded source requires its own exact-head CI/deployment verification, recorded in the final handoff.
+**NOT READY TO GO LIVE.** Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated website routes. See the latest integration checkpoint above for current implementation and acceptance status. Counts, commit IDs and account observations in the earlier-checkpoint sections below are historical evidence.
 
 Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
 
