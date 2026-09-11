@@ -1,0 +1,110 @@
+{
+  "root": "Reviewed source validation copy outside Git",
+  "scope": "Complete reviewed source copy using existing locked dependencies; fresh lockfile install separately verified in exact-head GitHub CI",
+  "results": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-11T09:41:59.083Z",
+      "finished": "2026-09-11T09:42:43.922Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-11T09:42:43.924Z",
+      "finished": "2026-09-11T09:42:47.899Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "source-security",
+      "started": "2026-09-11T09:42:47.900Z",
+      "finished": "2026-09-11T09:42:49.619Z",
+      "exitCode": 0,
+      "log": "source-security.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-11T09:42:49.620Z",
+      "finished": "2026-09-11T09:44:06.210Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-11T09:44:06.211Z",
+      "finished": "2026-09-11T09:44:16.624Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "finalize-build",
+      "started": "2026-09-11T09:44:16.625Z",
+      "finished": "2026-09-11T09:44:16.733Z",
+      "exitCode": 0,
+      "log": "finalize-build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-11T09:44:16.734Z",
+      "finished": "2026-09-11T09:44:25.710Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-11T09:44:25.710Z",
+      "finished": "2026-09-11T09:44:27.133Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-11T09:44:27.133Z",
+      "finished": "2026-09-11T09:44:28.330Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-11T09:44:28.331Z",
+      "finished": "2026-09-11T09:44:29.119Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-11T09:44:29.119Z",
+      "finished": "2026-09-11T09:44:31.910Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-11T09:44:31.910Z",
+      "finished": "2026-09-11T09:44:32.495Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-11T09:44:32.496Z",
+      "finished": "2026-09-11T09:44:33.391Z",
+      "exitCode": 0,
+      "log": "dependency-audit.log"
+    }
+  ],
+  "unitTests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "generatedRoutes": 217,
+  "redirects": 18,
+  "contentPages": 198,
+  "articles": 111,
+  "dependencyFindings": {
+    "moderate": 1,
+    "high": 0,
+    "critical": 0
+  }
+}
