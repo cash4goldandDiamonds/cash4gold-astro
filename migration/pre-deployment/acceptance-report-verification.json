@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-10T23:46:14.968Z",
+  "status": "PASS",
+  "scope": "Requirement/report structure, changed helper syntax and exact connected-session credential exclusion from candidate changed/untracked files; not a complete security audit",
+  "requirements": 143,
+  "criteria": 421,
+  "filesScanned": 37,
+  "syntaxChecks": 11,
+  "credentialMatches": 0,
+  "workspaceSessionIgnored": true,
+  "liveGTMAndAdsMatch": true,
+  "githubRun": 34542085479,
+  "githubCommit": "fae585056c7d1494a27a22b0ff114c7cdb09467a",
+  "productionDeployment": false
+}

@@ -27,3 +27,9 @@ Account-verification values captured from the old website are retained only in i
 The phone number and shop address are public business information, verified against https://cash4goldanddiamond.com/ on September 10, 2026, and remain part of the website. They are not customer submissions or private account credentials.
 
 The GitHub quality workflow has no push trigger or deployment/publishing step. Hosting configurations have no production routes, and the social configuration has no active schedule. Preview builds remain non-indexable. The repository backup is not a production release: CMS editor/draft-preview acceptance, genuine inquiry delivery, protected staging, full migration reconciliation, performance/accessibility acceptance and the other blockers in `PRE_DEPLOYMENT_AUDIT.md` remain unfinished.
+
+## Final preservation and acceptance checkpoint
+
+The verified implementation, including the Studio correction, is saved at `fae585056c7d1494a27a22b0ff114c7cdb09467a`; its fresh GitHub Actions checkout passed all configured tests and build checks (run 34542085479). Connected acceptance evidence is now retained in [STAGING_ACCEPTANCE_2026-09-10.md](STAGING_ACCEPTANCE_2026-09-10.md). See [the consolidated launch-status report](reports/PRESERVATION_AND_LAUNCH_STATUS_2026-09-10.md) for full coverage, preservation and remaining gates.
+
+**NOT READY TO GO LIVE. No protected Cloudflare website is deployed and no staging URL is available.** Staging permission review remains pending. The rebuild has no inquiry form or analytics/consent integration; actual booking, hosted draft-preview, accessibility/performance, private SEO/media reconciliation and full-site restore gates remain open. Both original local copies, original remote main and the live WordPress site are preserved. No DNS/nameserver/GoDaddy/production change is authorized without separate explicit launch approval.

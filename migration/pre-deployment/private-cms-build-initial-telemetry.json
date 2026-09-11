@@ -1,0 +1,18 @@
+{
+  "startedAt": "2026-09-10T22:45:38.035Z",
+  "status": "BLOCKED",
+  "mode": "Actual private Sanity-backed Astro build; local output only, not a Cloudflare deployment",
+  "steps": [
+    {
+      "command": "astro build",
+      "exitCode": 1
+    }
+  ],
+  "failure": {
+    "code": "ERR_ASSERTION",
+    "status": null,
+    "assertion": "astro build failed\n\n1 !== 0\n"
+  },
+  "completedAt": "2026-09-10T22:45:47.272Z",
+  "log": ".cache/private-cms-build.log"
+}

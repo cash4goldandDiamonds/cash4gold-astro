@@ -38,3 +38,9 @@ Protected Cloudflare staging is now explicitly authorized. Use the saved GitHub 
 7. Social authorization and real workflow tests remain separate unfinished work; keep schedules paused.
 
 **Stop before DNS, nameserver, GoDaddy or production changes. A separate explicit owner launch approval is required after staging review.**
+
+## Final preservation and acceptance checkpoint
+
+The verified implementation, including the Studio correction, is saved at `fae585056c7d1494a27a22b0ff114c7cdb09467a`; its fresh GitHub Actions checkout passed all configured tests and build checks (run 34542085479). Connected acceptance evidence is now retained in [STAGING_ACCEPTANCE_2026-09-10.md](STAGING_ACCEPTANCE_2026-09-10.md). See [the consolidated launch-status report](reports/PRESERVATION_AND_LAUNCH_STATUS_2026-09-10.md) for full coverage, preservation and remaining gates.
+
+**NOT READY TO GO LIVE. No protected Cloudflare website is deployed and no staging URL is available.** Staging permission review remains pending. The rebuild has no inquiry form or analytics/consent integration; actual booking, hosted draft-preview, accessibility/performance, private SEO/media reconciliation and full-site restore gates remain open. Both original local copies, original remote main and the live WordPress site are preserved. No DNS/nameserver/GoDaddy/production change is authorized without separate explicit launch approval.

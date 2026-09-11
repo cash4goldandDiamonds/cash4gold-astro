@@ -2,20 +2,10 @@
 
 September 10, 2026. **NOT READY TO GO LIVE.**
 
-The complete source is preserved in the existing private GitHub repository. Its fresh GitHub Actions checkout/build and an independent 994-file download/build passed. Both original local copies remain preserved. Main, DNS, nameservers, GoDaddy and the live WordPress site remain unchanged.
+The existing private GitHub repository preserves the verified implementation, the original remote checkpoint and both local copies. Implementation commit `fae585056c7d1494a27a22b0ff114c7cdb09467a` passed a fresh GitHub checkout, 31 tests and its full configured build/check sequence. Complete latest results and next actions are in [PRESERVATION_AND_LAUNCH_STATUS_2026-09-10.md](PRESERVATION_AND_LAUNCH_STATUS_2026-09-10.md) and [the connected acceptance addendum](../STAGING_ACCEPTANCE_2026-09-10.md).
 
-## Verified follow-up
+All 430 imported private CMS documents remain unchanged after actual Studio/API acceptance; two synthetic unpublished drafts are accounted for. A private-CMS local build passes. The rebuilt site still lacks a working inquiry form and tracking/consent integration. Hosted appointment delivery, website draft preview, access control, accessibility/performance, private SEO/media parity and full-site restore remain incomplete.
 
-- All 13 currently published WordPress pages and 111 posts are covered by rebuild routes or redirects. The public media API still reports 223 records but returns 222; this remains unresolved.
-- The committed Sanity import contains 430 records. All 430 were imported into the existing private migration-staging dataset; 431 was stale report text, not a missing import. Two unlinked synthetic unpublished acceptance drafts are separate test data.
-- An actual private-CMS-backed local build passed: 198 page documents, 214 HTML files, 815 output files checked, zero session-token matches, and preview noindex/robots protections. This is separate from hosted deployment.
-- Browser Studio exposed unsupported fields on block schema declarations. The correction removes those declarations while preserving existing migrated block data. Strict schema validation and 31 automated tests pass, along with all 12 validation stages.
-- An isolated historical source-bundle restore of commit 2fead36 was verified byte for byte (983 files). The current GitHub source was independently restored/downloaded and built. These checks do not prove restoration of the WordPress database/uploads or the Sanity dataset.
+**No staging website is deployed; no staging URL is available.** Wrangler fails on a Windows file resolver restriction. The dashboard upload did not load files. The GitHub permission-review question is pending; account-wide Access and unspecified GitHub access grants were not applied. Do not retry rejected broader changes through another tool or account. Complete narrowly scoped staging authorization and protection first.
 
-## Still pending
-
-Cloudflare Zero Trust Free is active. No staging website has been deployed. The local Wrangler file resolver encounters a Windows parent-directory restriction even after read permission was granted. The GitHub connection screen requires authorization review. An account-wide Access proposal was rejected and was not applied; protection must stay limited to staging.
-
-Complete Worker-specific authentication before enabling the preview endpoint, then verify all routes, images, links, redirects, SEO metadata/schema, robots/sitemap, 404 behavior, mobile navigation, accessibility and measured performance over hosted HTTP. Studio browser editing, publishing and unpublishing are now verified, including preservation of imported section anchors and presentation fields. Protected website draft-preview acceptance and documented role checks remain pending. Verify actual inquiry delivery, appointments, analytics/consent, full private WordPress/Rank Math/media reconciliation and relevant backup restoration. No real customer lead should be used as test data.
-
-A separate explicit owner approval is required before launch.
+No production, DNS, nameserver or GoDaddy configuration was changed. Launch requires separate explicit owner approval.

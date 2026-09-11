@@ -1,0 +1,82 @@
+{
+  "startedAt": "2026-09-10T22:43:46.747Z",
+  "projectId": "gisdw6qa",
+  "dataset": "migration-staging",
+  "status": "PASS",
+  "method": "Actual Sanity Actions API using an isolated synthetic FAQ; not an editor-role or Studio usability test",
+  "steps": [
+    {
+      "name": "Private dataset verified",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:47.157Z"
+    },
+    {
+      "name": "Unauthenticated query exposes no documents",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:47.411Z",
+      "returnedDocuments": 0,
+      "reference": "https://www.sanity.io/docs/content-lake/datasets"
+    },
+    {
+      "name": "Existing private documents backed up",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:48.369Z",
+      "documents": 430,
+      "sha256": "d5163ab3c9b68a916468ec706760d0dc954d1b3cccc62598c41aad490764a710"
+    },
+    {
+      "name": "Draft created and isolated from published queries",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:50.526Z",
+      "draftRevision": "M8Itj36lx3XkPh9bsdbIa6"
+    },
+    {
+      "name": "Draft edit persisted",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:51.988Z",
+      "draftRevision": "F1iIsgnEchJOsMj3kjQLjN"
+    },
+    {
+      "name": "Draft published through the Actions API",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:53.434Z",
+      "publishedRevision": "19S5PD7JgZkAgkANN2hBd9"
+    },
+    {
+      "name": "New draft does not replace the published revision",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:55.252Z"
+    },
+    {
+      "name": "Unpublish removed the published document and retained its draft",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:58.392Z",
+      "draftRevision": "M8Itj36lx3XkPh9bsdbKOE"
+    },
+    {
+      "name": "Saved probe content restored into an unpublished draft",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:43:59.781Z",
+      "draftRevision": "F1iIsgnEchJOsMj3kjQNu5"
+    },
+    {
+      "name": "All existing migrated documents unchanged",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:44:00.856Z",
+      "documents": 430,
+      "sha256": "d5163ab3c9b68a916468ec706760d0dc954d1b3cccc62598c41aad490764a710"
+    }
+  ],
+  "productionWrites": 0,
+  "probeId": "acceptance-probe-89ead183-13c3-44cd-85d3-8d70405df56c",
+  "backupDirectory": ".cache\\cms-backups\\lifecycle-1789080226748",
+  "retained": "One clearly labeled, unlinked synthetic draft; no test document remains published",
+  "completedAt": "2026-09-10T22:44:00.856Z",
+  "notProven": [
+    "Studio browser editing and image upload",
+    "Editor/contributor permission boundaries",
+    "Full dataset and asset restoration into another private dataset",
+    "Protected deployed draft preview",
+    "Webhook-triggered build and deployment"
+  ]
+}

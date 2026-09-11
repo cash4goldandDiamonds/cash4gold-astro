@@ -1,0 +1,3462 @@
+{
+  "checkedAt": "2026-09-10T22:34:46.601Z",
+  "sourceProject": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-audit",
+  "scope": "Static built HTML inspection and read-only public live contact-page GETs; does not prove rendered network behavior, form delivery, booking confirmation or consent/debug events",
+  "totals": {
+    "htmlPages": 214,
+    "forms": 0,
+    "pagesWithBookingLinks": 2,
+    "pagesWithPhoneLinks": 199,
+    "pagesWithTrackingScripts": 0,
+    "frames": 0,
+    "consentControls": 0
+  },
+  "built": [
+    {
+      "route": "/10k-diamond-ring-buying-guide/",
+      "htmlSha256": "a4d951366ef380c666ea27006a4b425dcc71ec9779daedc8f02cdf49ae48bab1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/10k-gold-price-per-gram-at-a-pawn-shop-everything-you-need-to-know/",
+      "htmlSha256": "15d32ec14b526ba8622ce9bf6251420ce7da334f7049638ea3f334847d0f429a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/10k-gold-price-per-gram-pawn-shop/",
+      "htmlSha256": "9b16749c7d2d34ac22fd42ebf05366f00659e4b9c54de927985d69ad1047a23b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/14-karat-gold-market-statistics-2026/",
+      "htmlSha256": "2c51e35d431ed73792d4e1ef69b546933e76ed758b3be57665f1f06ee31a323b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/14k-gold-price-per-gram-los-angeles/",
+      "htmlSha256": "3bda6cacc5865d9bcd1a773cbe628427fa517477501c28bccd6c08067b4fd0a7",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/2-carat-diamond-ring-price-complete-buying-guide/",
+      "htmlSha256": "df00eb03a6071770462ec8e56aa81faa053f15b68aac373b41c0ec447d72a17a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "htmlSha256": "a699c62b76f0daadae2092be9bcdd39e1df161baae355b72a66995f822af7e9f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/4-cs-of-diamonds/",
+      "htmlSha256": "aac6d3636a63a0abf905e8bd0aca876ffb55f45f587c09ab70c28b6ceb705f2c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/404.html",
+      "htmlSha256": "a64271c56631a434a49d200f3564142df84e146f6bd086565b4df83764638211",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/about/",
+      "htmlSha256": "080aba80335a0d94883d5267be6e094306e96264965f75d4d9c17d555eb503a3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/about-us-sell-gold-and-diamonds-online/",
+      "htmlSha256": "37fc7b6cf85b952ad88cd7f78385b6762373fc0a387b3cafa5d4027108efc328",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/",
+      "htmlSha256": "c9ba6ff9dbe3cccea71184c4ce780d74562c27d5712e34950b2701d1c1bac58a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/1/",
+      "htmlSha256": "52918b6b6ae148e41d9ca6ae08c17e3dbfef3e0fbfc1413823bb67cb65fa5f83",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/10/",
+      "htmlSha256": "fa2f605faa4604e66e2824990a61bbea5488212618f8d5047ad8785ffa655e41",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/11/",
+      "htmlSha256": "94ef150095e83e5603a9c4f739fb8ed8cbd0606581b66c76569ee1327a05810b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/2/",
+      "htmlSha256": "a684a1e5089949906088898a2b1fe40ea599a9dc2f459a055cc80346933151c2",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/3/",
+      "htmlSha256": "6d89c2ee6975cc8cd5a2f1a7395f3ba2605e951e1634abff9bb43581b22a58cc",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/4/",
+      "htmlSha256": "13065648fbf15eb1a12985d1c7e0cd86c574017ac41d23f5427a6f01acf1cd76",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/5/",
+      "htmlSha256": "1182550b25709c831e07bb8bb50502cf304deab1fd6817241d8ef39d5ec2f73b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/6/",
+      "htmlSha256": "f81ee2b81f6cc92dd5fc2091527d63fc329189900fc9ce5b074c47b7661c0651",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/7/",
+      "htmlSha256": "dd70597fe09211997239756114c99791cb404806fab22fa05e267242da715625",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/8/",
+      "htmlSha256": "b4770bb397dfaeb09cccf2b0e98a366d4b0622ce5a015ab2118189a5242b9e77",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/author/navid-lalezari/page/9/",
+      "htmlSha256": "60a9043c3166448c01f587ffda4112bf282023c0a984db098c30d2452bfedeb5",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-1-carat-diamond-buyers-2026/",
+      "htmlSha256": "32a18c6d3d0489771dd4fed60c7756d3bfa43413c6915be1258fa070f4a63374",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-10k-gold-mens-rings-2026-ranked/",
+      "htmlSha256": "f2d52dc14dceb55521f43b4db5bb8e6ed2ed7f56381d2aa75ae7ef12334da33d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-10k-gold-rings-2026-top-5-ranked/",
+      "htmlSha256": "64449166b471b9fb53c558e32c35a24fbc14abe0c89a3957c8ac4baee2a6495f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-10k-gold-rings-for-women-2026/",
+      "htmlSha256": "977a8c3ab5be91afc6df1f1a9b4efafc26d9c35b7382c18030587c92ad9f1bf3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-10k-white-gold-rings-2026/",
+      "htmlSha256": "597fc3ddb5c551f06eb6aabcae1322e8dd8ab649f8c24b784a9629f2b9de8b94",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-gold-belly-rings-2026/",
+      "htmlSha256": "bf96da16ae9e2310c0b1cbbf6d0d6837a530bcae5feab75ab4e020e7c93cbafd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-gold-chain-2026-top-5-ranked/",
+      "htmlSha256": "5379c84ae69c1ed8a7b4aff5876ada6de341f0529f61a8d41e527dc7ac8bbf7e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-gold-diamond-rings-2026/",
+      "htmlSha256": "6102037c524530c48053485b3623ae398b58063db547ee3eadbbce1eb986b7f3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-gold-rings-2026/",
+      "htmlSha256": "4717d0784617d572d0c81eea9787b89005fe48e543a2fa0b3d092248f95598a6",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "htmlSha256": "5316adb80c9b584791d6be08b63b428a7399ccb12308dbaf9911a98f1d82e06c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-white-gold-diamond-rings-2026/",
+      "htmlSha256": "dfe6590f6a8670709d831fd87abfaaee467afb17732916a4910d24dda0063551",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-white-gold-engagement-rings-2026/",
+      "htmlSha256": "2fb8a5163502c7efd4e7f52090012a41ed179cdfa0557bd702ff974660b5c107",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-white-gold-engagement-rings-2026-2/",
+      "htmlSha256": "4565c0ad571e3ca096b7750fdd94df75ff7a966e5e7f1ab28da1d3715daf1571",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "htmlSha256": "b0aadb4c0e6ebfacee551872934e65f89dc29d2f7f3614f6227383c138e122cd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-yellow-gold-rings-2026/",
+      "htmlSha256": "9ac1da12622cb5fe6182de1014973bdf74cf1703abc530152fd76c994c5bede5",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-14k-yellow-gold-rings-2026-2/",
+      "htmlSha256": "36a67dc570211c10a8fd8b46d59b40e3d1aeb84731c5c8c1fbe55f7688d42928",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-18k-gold-rings-2026-ranked/",
+      "htmlSha256": "799ddcf82d7d92ff1d95105782e36cb07b3a8c2cde92f36ac0cbf2a4571092c3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-18k-gold-rings-2026-ranked-2/",
+      "htmlSha256": "654074b8d4bfdc67521e83ba785fc2af2a42d21955320cf8ddea60f003831413",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-18k-gold-rings-for-women-2026/",
+      "htmlSha256": "7747b3a7cfc25e972533ab4ca0d20fe64be35eab1cbd79b95828631bf9caec4d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "htmlSha256": "485a0bcd3cfeb78afa3783d31604a4281f2cc320246cabb9bc6d76d3f2f8b933",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-24k-gold-chains-2026/",
+      "htmlSha256": "3f1b6bbc7f1a5e2bee43f79a048326a17b4f997e8d974583f4e7e97da9160bdf",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-black-hills-gold-rings-2026/",
+      "htmlSha256": "1f4d3339b31f5e518b792e35db44c81e8d617ae8a222a191f72307151a8e5685",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-black-hills-gold-rings-2026-2/",
+      "htmlSha256": "eebd053b728d838e302ae61cce838f077a9c945bebb46f576123f58144d1e368",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-certified-diamond-appraisers-los-angeles/",
+      "htmlSha256": "63b71ec277e975f05aef03f6686b9dc02e87be365af3490179eceb3d7e8280bb",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-diamond-buyers-los-angeles-2026/",
+      "htmlSha256": "b94d11c77f2bf3a195a63e07db582f1fd8cf6d5b3d5e967c5fdc658e1bd6d104",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-emerald-ring-gold-2026/",
+      "htmlSha256": "72586d45c2f2d534d3dff6d77b3784882b37eaff8bfa6022e7eb79f4833d750d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-estate-jewelry-buyers-los-angeles-2026/",
+      "htmlSha256": "53cac55e09e826862526ed3c997d1a966d25d91e31c9dd473db23b93489b6179",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gemstone-ring-buyers-los-angeles/",
+      "htmlSha256": "63f2ea4455649e43e4e97dbbaa868ad644fb2a4410be5034786590ab477d7775",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-bars-2026-top-dealers-ranked/",
+      "htmlSha256": "fcf3efeecb8416a27d965af6e56baa854ad532bdef967fdc10b6fa50b4105e69",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-bracelet-buyers-los-angeles-2026/",
+      "htmlSha256": "2ce52a0f8444b049b1890bd81ce23dd9ad0febbe154ee86acc4bbd2554edfed7",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-coin-buyers-los-angeles-2026/",
+      "htmlSha256": "4061542eaee4c418b03860c4962bf8b57bce05f5ce79422ec1f5666a3d493a33",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "htmlSha256": "dbd41748c202e87eefe7a18b0c72a2c3b3e68d313a74ab222afaa2e00ac44567",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "htmlSha256": "aeb7138f4bd98d137c8f952a8628fa4f69051cee38a1d8a9bae9fe4c6b076473",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-rolex-buyers-2026/",
+      "htmlSha256": "f0e76ac8b90db30f5a47c75bcb437b0da96401c3e66deebbea5d85e28414df00",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-rolex-watches-2026-ranked/",
+      "htmlSha256": "f62aa9503b1f3987472066b04cf91a5de2517db09bd6deaf7da7fe4065a2add0",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-watches-2026-top-5-ranked/",
+      "htmlSha256": "9c9fe531c9337e6445ef77b498151639d91d799413d47d0b413f7744e9f9b35a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-gold-watches-for-women-2026/",
+      "htmlSha256": "73c45435860f3f9214701a60c99d0ec6c8924355818ff8b483470a56e53ed8d7",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "htmlSha256": "52fa63c75947fa1460cdcd26a56c13822d3f456b60cc758e25b7e01f915c912f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-place-to-sell-jewelry-in-los-angeles/",
+      "htmlSha256": "17ee5ebcca66b6d1817463fa78616585e5680763439bd04f8d3235f1184f7c6c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-place-to-sell-jewelry-los-angeles/",
+      "htmlSha256": "797bca5492d74e09202a2fcaa0ac858e5a53e01912a96d287d891f04e0922d34",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-price-diamonds-la/",
+      "htmlSha256": "0d9507de1a2ff6f42b7b923c3eed236e97425e7d0ef347283b421006859100f9",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-price-for-diamonds-in-la/",
+      "htmlSha256": "dda06c4bbca218889295ae76c21a73ba703bed5dc20e1d9b11904aaf62d76faa",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-promise-rings-gold-2026/",
+      "htmlSha256": "13acd75436da77d363efa0ab52c884c9613c720319701c00dd94f9bfcae628ce",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "htmlSha256": "4077a23fe79929d66832eca529d7e126442662a84a0ed8870a81adaf96fa5acc",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "htmlSha256": "9936ef1ebad2f79d730ad3cd0a1c694f2d960a451626d222d5548eb4982a5a62",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/best-yellow-gold-rings-2026/",
+      "htmlSha256": "ee474a9b39a611bd857ff16fed9797e7511e6d18240c071c25fe97f8fc97ccdb",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/blogs/",
+      "htmlSha256": "80d7b5471fb000592213afdc5bcc73599ab09c831991d6bd4f51dc8db159228d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/cash-for-gold/",
+      "htmlSha256": "f39948ad7ed6bcf2f5a7347339c244cbee944f66cf89f6958a2ea4dcc16630ab",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/cash-for-gold/page/1/",
+      "htmlSha256": "33ee9c21caa97fa66e2ca3ba1f56132f9f55a38d4901e74919aca861299d61aa",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/cash-for-gold/page/2/",
+      "htmlSha256": "e62aaab28925b3f63a6e32d7b49b4381da5004974b6e7fcf707ee0e47221ca61",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/cash-for-gold-sell-your-gold-and-dramonds-usa/",
+      "htmlSha256": "b3954be73610e9c5cd2759c9c2e52d0fe19350bb455be65c63a0db07ac09ba83",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/champagne-diamond-buying-guide-comparison/",
+      "htmlSha256": "694b60c6cf46eee6ff53cc012fd64d6ba81bf908d56a51aacc6d74e3a490baa0",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/contact-us/",
+      "htmlSha256": "7f95aa16286fd34f4483c3dc893ddb733e00f12e3751486d8e05c126bc870abf",
+      "forms": [],
+      "bookingLinks": [
+        "https://calendly.com/calidiamond310/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=eae3bc&text_color=000000&primary_color=000000"
+      ],
+      "phoneLinks": [
+        "tel:3106631340",
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/diamond-carat-weight-guide/",
+      "htmlSha256": "d560e67e5a74d0a378d5a43f4eeb5a8b2f6a741e0101d18b953d7bcf94218ec2",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/diamond-chart-4cs-guide/",
+      "htmlSha256": "35c3e86c5c7356cd689fe4bad6cfd8c6b1e1679610ba02359eab29530e28dba3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/diamond-gem-los-angeles-guide/",
+      "htmlSha256": "4efa5c189e4d4f4c5456bc32b289a5b7f9749b066bd5392f3f7f2a12b9f668c1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/diamond-price-guide-2026/",
+      "htmlSha256": "1be2ef262a74e770d3a8ae1bb19d333e62751b2f0d64f538165c1368e75d3feb",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/diamond-what-it-is-how-to-value-where-to-sell/",
+      "htmlSha256": "4cabb0473b3b032662be22fdd92be14414b2c67c10e39bb11e5a57a10174e258",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/",
+      "htmlSha256": "67eb51565dbb944d456cbb87306530a6f652b84b72c2c258fb33641b870d1e8f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/1/",
+      "htmlSha256": "605020c1bfe9c703e0c164a5e73a157322c4d2f1b08b4f8658f7f52dfcb22735",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/10/",
+      "htmlSha256": "c0e2673b4d99736556fd4146b29f8dd17d92d7b82a9e982c459838f3cec25d39",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/2/",
+      "htmlSha256": "84e6281639828c96539251f3a71f752c4ede18d1c4117b7fbac1b1f470a921ac",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/3/",
+      "htmlSha256": "4c5856b59c8fad53d78715ceede1095749daac0f5527aea71dc6aff84f2f1c45",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/4/",
+      "htmlSha256": "fca2777b665de39348e292dddd919369caea1791b85fc238d11053b8fbd7a5aa",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/5/",
+      "htmlSha256": "7072a5dcaf7821d8269c42bba2b6a8e560b12e24cf1c85ba51ba66bab0ded5c9",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/6/",
+      "htmlSha256": "64817ac753e2e85a63c2962535139c4505c1c21716c34b8310fc51d27da42ee9",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/7/",
+      "htmlSha256": "401fb61c32b9bb69066b39f2991d2549ef0cf0c2f9993fe4a0173b46bb39ecfd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/8/",
+      "htmlSha256": "269e60bacf7a273621e35886d9577b7ca345e953e8e7cff4281ff5e0527162af",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/e-commerce-retail/page/9/",
+      "htmlSha256": "fc3e46dee18841d997eebd092bdff1cf3bc48c84b1d9bb50ed5680ee33068a3a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/fake-vs-real-rolex-how-to-spot-fake-rolex-in-easy-step/",
+      "htmlSha256": "86eb61daccb39dadcb81ad09aa78d93e760f97c61529d148e27d48e6bbadf847",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/faq/",
+      "htmlSha256": "5c33cbaa9a6c312360329161455473af848e50cb1ec62ea98dcf7697a0d2d493",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/faqs/",
+      "htmlSha256": "6074cff2806d0e19574eafb976543801cc0fb6366ca2b53e209806db57bca0bb",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/free-diamond-appraisal-los-angeles/",
+      "htmlSha256": "66d84057c6ac8dd5adcf99eddb8720ee4cfaa4cb3b563ac776ae7c8c933414c4",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/free-diamond-appraisal-same-day-cash/",
+      "htmlSha256": "0644b032460929e344dcafc9435fb7035bc45bf8d9cbe8c068bef39f390ae819",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gia-certified-diamonds-comparison-2026/",
+      "htmlSha256": "c37536eb51555aeb6de7b221473a03fee7c64ad12a9e706a5a4a5c976fe0fc82",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "htmlSha256": "531978a4868dbf4cb0577a16fda46cb8934fd0bfb8890bf14fc4802d6a85c84b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gold-buyer-downtown-los-angeles/",
+      "htmlSha256": "bc0779bd505e3fab55079b059d26e7ca8a2cf9d8cf223809e04452e99ba92a41",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gold-buyer-downtown-los-angeles-2/",
+      "htmlSha256": "bde5731d69c662c27185eee0ffa52d08cdd92f97c99b0c732c528189ad676a99",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gold-coins-buyer-near-me-downtown/",
+      "htmlSha256": "21547143eba51e553ebaa25c1c7f6c92025580131a7b482bfbb756a07784e46e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/gold-valuation-how-gold-is-valued/",
+      "htmlSha256": "339f2b475e39d2f426bcf183583e80e2ab0b7eae98083100de656c787041d12a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-jewelry-buyers-determine-gold-value/",
+      "htmlSha256": "c677234edac4a7202bdea078f1bcab04392fe977470ac12c9a60bed8b77c66a5",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-do-pawn-shops-pay-for-gold/",
+      "htmlSha256": "14547f2e67112a30e4f9a4817fc1d15f4562efc65f50c921590ffada602366e8",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-is-10kt-gold-worth/",
+      "htmlSha256": "7f0333f3f83eae362cf50f2c0746de03fe26846fdd836f9434c4a55d9cd39b18",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "htmlSha256": "b28c70a53edc3ae4ea32ec24c932612c5418869bd3cc07361e292b9cf4210542",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "htmlSha256": "32db099f6655561a20f64a1ab9d0a3381a2defdc012e6b33dd7f815d9ccc3bf1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-should-i-get-for-my-gold-jewelry/",
+      "htmlSha256": "8c22667e41a2c6e04a1c7b7f88bf1e152779b1d7c481c314dcd534b09745c2e1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "htmlSha256": "ac14b72a58cc38b6ce2f5a9a260e235201a3425a6c281aef76b90065b99e58da",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-to-know-if-diamonds-are-worth-selling/",
+      "htmlSha256": "d7cff3e110714d03e35c1bf47efe2e48882be80b99a074380567214ba1b503cc",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "htmlSha256": "5868c79c266c094bcd41064823a212c4dbbee480be4c82a7a9f8ea5ba9d4d56d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-to-spot-a-fake-rolex/",
+      "htmlSha256": "dff79c208502cd0b83f6445714eaf213938a750007d4811acff1936bfe18e055",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/how-to-value-estate-jewelry-pieces/",
+      "htmlSha256": "eb286e2690c97052446209e7352af34d5a9763e7b9901be07c9d249c072c924d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/",
+      "htmlSha256": "197206b44d0f0ad6365a49212c221acf54c259acaa6ece1debfb02afbc029783",
+      "forms": [],
+      "bookingLinks": [
+        "https://calendly.com/calidiamond310/30min"
+      ],
+      "phoneLinks": [
+        "tel:3106631340",
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/jewelry-district-gold-buyer-los-angeles/",
+      "htmlSha256": "1ee78d623a759ff6971f2d709bdc215f1e60066a3cc6476c61990b6a86b64430",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/large-diamond-buyer-los-angeles/",
+      "htmlSha256": "4abea393d152d3338ba1abe48ac997f279b618e134e1ee97615af3c4e7337f15",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/legitimate-gold-buyer-vs-pawn-shop/",
+      "htmlSha256": "241029fb1ca6976f2e34b0f7480d55e0a714cf6e315d6ebe91210c3c302d966a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "htmlSha256": "05c29f3085f27b7816a5e5e64c9e729073137b7b5070d2a50fc6f53452420061",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "htmlSha256": "ea80d782654fc8dcc8ce9a5b8ea1bcc120072354d08e7fae332a05fc30a46938",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/loose-diamonds-appraised-los-angeles/",
+      "htmlSha256": "b7c325ca08da1cfa21f098588c8ef30537eed18c51aa02f508bbb7c33b3dff2d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "htmlSha256": "8bcd72cca23490c596ccc9238291b0c70e29acdaa582791602241c861859f422",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/pawn-shops-pay-for-gold-los-angeles/",
+      "htmlSha256": "539be10490fd06cac4576a1d9515b1b7de18612a00a5eac6f59d17b67f39d2fa",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/platinum-vs-white-gold/",
+      "htmlSha256": "7c5edd7f55b54c075ad1d05e685056b4b3ee1123e584fb4559963988f7716262",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/privacy-policy/",
+      "htmlSha256": "52044da478457bf73dfcb8cf26da96fa4e4b259898a99007fe0a5773ed013df3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "htmlSha256": "82efb9d1fd07dc97c85cededcaa54a391c5b48d93213eabd02cb544a3d71c977",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/reviews/",
+      "htmlSha256": "b9e8ee56b97dc8307b10194f795d2fcdb7b65b464d9a5ee4f5f1995beae01688",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/rolex-buyer-los-angeles-cash/",
+      "htmlSha256": "bc584ba0cd9b68119d6118a446e2a38d80f1503628de73d7401470188752e38b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/rolex-day-date-gold-market-2026-for-buyer/",
+      "htmlSha256": "56c7bdfa736aac591a813d57c700a17804a4582c78c8105dd411151b59d11627",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "htmlSha256": "de2b979c586bdd2368a38f2bf7ea0f0822affda486c2864d6a5d8bf4a1b5d011",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/round-brilliant-diamond-comparison-guide/",
+      "htmlSha256": "0144c512a1f33c082296abefeab6ec293269b9a580432947954cd56eb71965d0",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-cartier-jewelry-los-angeles/",
+      "htmlSha256": "3b5fad684cea7df547f833d5927bd9cf08ef50ca8b8eac84ec840f750143eacc",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-diamond-necklace-for-cash-los-angeles/",
+      "htmlSha256": "fe423ee013bb7cacc18de4ef359db07a8c6730c723ef5b3a77216ba2eac6d37b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-estate-jewelry-los-angeles/",
+      "htmlSha256": "71c4ed11ebf01a44a858a517d40f8b562ca01df5fc58cca0c0e8d04b68ab4768",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-gemstones-for-cash-in-los-angeles/",
+      "htmlSha256": "16cba83a0672cd4a1d3b98322675840bd6f04fc0985938e2e52513bf914d3405",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-gold-and-diamonds-online/",
+      "htmlSha256": "be59b0004daf3834f6a735be3f4d30cb5244d6c0b1c4b85f77c5e2d2b4de3c61",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-gold-coins-best-price-los-angeles/",
+      "htmlSha256": "06f0f443457bbb7cd1f1373adc022176e2b1fa7db25fe4dd9ec713a8e66a1474",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-gold-in-los-angeles/",
+      "htmlSha256": "3c14593fe05f5edff3a6bcec3355aa0e4e1651453ba899b23d4f1990c8049c3c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-gold-jewelry-downtown-los-angeles/",
+      "htmlSha256": "5a2ff140db6ef7d31d4b6457debb9201b5a13e18e04fc445011cfafe16b49e48",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-inherited-jewelry-no-obligation/",
+      "htmlSha256": "ab4e212f00e796df37d59298573751f63b283b2e5c27a2131e544e53764e701e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-luxury-watch-same-day-cash-los-angeles/",
+      "htmlSha256": "3d6b2b3a163d5d02d8b9f22b600579bc429a6f33489d1074740bea86fa4cda5a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-luxury-watches-in-los-angeles/",
+      "htmlSha256": "620fabad4df739ecde8696275bed56bbf98b0bce87ea102d7ff30f2ba64ce53f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340",
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-tiffany-jewelry-los-angeles/",
+      "htmlSha256": "d9afbfdd77634f7e08e17c9e1016573960a4933db12f38c83d4a0bfc840c5e7e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-your-diamond/",
+      "htmlSha256": "485c33bf3a802f501160ac4133ae61c446dcd8bd6ac788a3b601b54cb3eb0a41",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-your-diamonds-in-los-angeles/",
+      "htmlSha256": "9a2ac2a64d20831edc901351293ac06a08e5473f6f69afbef7674d684d373018",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340",
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-your-gold/",
+      "htmlSha256": "74906e4a82e31f7d758f2b02d76de83a0fe33818faf1ba0e9510ecd36a7053aa",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "htmlSha256": "066d233db96b735c5a4a1089f800245ad03ecf746407d8f14d99397da120f8b4",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/sell-your-golds/",
+      "htmlSha256": "edc1f7225abead27da1426470fced1719650ddb6ac5992dbbd872f1378a512fb",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/selling-gold-jewelry-los-angeles/",
+      "htmlSha256": "5ddd13b09af99a8e1a7ca78de606247ca71b0417347aa8b5dae354733345556b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "htmlSha256": "44d81b8e0426773538abf66b31f003ce8061c90dad7f64db56a1a9e9a1b37288",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/start-selling/",
+      "htmlSha256": "86c2361f814cdb9501c8df606923196509554da66e195cd2c5445fdc3ea162cd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/start-selling-gold-and-diamonds/",
+      "htmlSha256": "da63c64f5eb4df91d0945c0cd42eebc204c4e0f9c9ada948735a2740fd5e8c3b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/10k-gold/",
+      "htmlSha256": "099982bcc167d3fba09617130e4de97753d41d3acca4f9fdd3e754d4b866c572",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/14k-gold/",
+      "htmlSha256": "52cae0c3e6448755bf01197b4b2fbbdb1a0f4802fab9f97cead216fa69c02106",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/14k-gold-neckless/",
+      "htmlSha256": "a31597feb44c9f518f9b5e2c0c42f5f920ccf91c9377bc6cb40f7ef59876af2c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/14k-gold-price/",
+      "htmlSha256": "1f498ff7eac3c730b3533270860a7d1965e5e57695b0e704268d687b43b6242e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/14k-gold-price-per-gram/",
+      "htmlSha256": "087a55d43e0d5a75d546889290ec55a1402c7c24ac46296390f3fa3313092ecf",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/14k-gold-value/",
+      "htmlSha256": "b2007688cea9d451aa96701baabd2af2fd88d31a0c2657c91500d3c7f82b70ed",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/2-carat-diamond-price/",
+      "htmlSha256": "c8c43f939acd884b1c1fcae60633eef8a779229dff8366f83bd703e220d77a1a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/2-carat-diamond-ring/",
+      "htmlSha256": "7bab16fb1b68b38114f904af63214125da802689776e028cc874c43ef7c7d84f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/3-5-carat-oval-diamond-ring/",
+      "htmlSha256": "9d50a61589b98d0ab8ffab132335434223e8db158753d266eaf46bcc6e7f732e",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/anniversary-diamond-ring/",
+      "htmlSha256": "44c956be88755be3fc880984d03d86a961875ffa31e27322970de2135304bc3a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/antique-gold/",
+      "htmlSha256": "c489188e067ce8fa482df532108dda022a6f1d1a99ed02c06690d66e6a6a5994",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/best-real-diamond/",
+      "htmlSha256": "2e4eee8d9cfe03a0ef9769e10ad9efe625dc1b12dadcd0b409bd2d89719f7917",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/best-worth-of-your-gold/",
+      "htmlSha256": "e8d1ecf2c6739c2b74b79977f9aa98387bcf06bebba89c9f706e4b2589491f63",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/cash4goldanddiamond/",
+      "htmlSha256": "83f1b7f7da5fa5368ceaaa5e3b2b232599f77513d6916a4ec6a785f4e04c6ad1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/diamond-ring/",
+      "htmlSha256": "e2528eccb4bca04c7dd0ec93544a73c13aea7c8aed63e963978a267a98029474",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/diamond-watches/",
+      "htmlSha256": "f8b167669a950c6550bde5626a2d72f8b77de7f59afd4dd4169fe9f69d47519a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/downtown-los-angeles-gold-buyer/",
+      "htmlSha256": "3f7e18b9ff7ce83bf087b277c006543faae18f95396aa674cf105d12b09995a3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/fake-rolex-vs-real-rolex-spot-fake/",
+      "htmlSha256": "0d9776f85a4fa3a2f598f10ba42cb67d8c83e500f3fd8c426808006d48ada6da",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-buyer-los-angeles/",
+      "htmlSha256": "7fe65b1074cc7ceb86b82820a5b951e3ed8ef244f4bdf035c3e0016128246902",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-buyers-los-angeles/",
+      "htmlSha256": "10a4267cc440bbaa8f20a02913726c0eadc97e16bb0784165446e63dfddc464b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-calculator/",
+      "htmlSha256": "81aa747b466965baf9d48ec83b74cb405896c8700ace8a1c1aa22f00f6639666",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-neckless/",
+      "htmlSha256": "ef290a3d049455b634a45e6e80726669ea3e994a6966506255b3d285f5d83ee6",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-price/",
+      "htmlSha256": "77dae24ef3eb3092feae9ac4a7b5b9206f9d47594d092ba0b0555bc9e011f0ce",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-price-per-gram/",
+      "htmlSha256": "a37ee87459ab4ac054565f23719164fdff8d21fa02c97321e3fb92cb5e9c22a1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-purity/",
+      "htmlSha256": "810d2c854c6a4f084eedcadc6bca97f741ab2276d48427771502ba171467783d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-ring/",
+      "htmlSha256": "706928a29a96c70b61644b3bf176a45648d36cf6e2b7d9c724801d6b98b368c1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-vlue/",
+      "htmlSha256": "ddc0b0164c4010cde43926ee29c188f892ea5afab0a4996af256f7cdc0187b6b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/gold-worth/",
+      "htmlSha256": "a1565c86f741823bfa8d33be7f0771a289b201bbcebf2e77b513da971aecf1c6",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/neckless/",
+      "htmlSha256": "96792db513771e5035afaf3380b90a7512d29b14f90347dc48e153ca191b03f4",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/online-vs-offline-gold-selling/",
+      "htmlSha256": "21bb0cd6a892a98c770b87858dc3120c692726785ce88f6daf19fa195d7c488a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/oval-diamond-ring/",
+      "htmlSha256": "22eaed2b819c58f551b2702f0ad06ed0b4b911f494fcc7755315bb9f566adb78",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/pawn-shop/",
+      "htmlSha256": "32a863a02c0b53e9d74e61aaf36c2edcb8ee7a754bd4d727515c13b24dd159de",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/real-diamond-watches/",
+      "htmlSha256": "61d607b6310dcd823640b174da31f5cefc3d1b12fd7b0bbc8c5852d61306ece1",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/real-diamond-watches-for-men/",
+      "htmlSha256": "e1d8f98029d5e9ba6cf6dd41381fa9074d8277c86d5763dbef0b0886579056dc",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/rolex-watches/",
+      "htmlSha256": "69f2addff0d0bde458b7d4b2ef907177dd8e5206a527b9eda3e39fb69ede6055",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/scrap-gold/",
+      "htmlSha256": "3362d34f3b176c4d07141c93a124a76e4b530cb924410f7dc3c666e429f1dc1a",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/se-your-antique-gold-jewelry/",
+      "htmlSha256": "4e50453d5604bd0075b4dbcb94ab62e19eae5a2d2bc661773e698c03e958ac4d",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-14k-gold/",
+      "htmlSha256": "fce3c3bc691e956751482a81dfa4a0c354c815bdf842f60fe34e71229545b918",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-gold-los-angeles/",
+      "htmlSha256": "d0581aba5ef4f0116bb60e9c4d2a25b9467355b50c0de71ea32e54ee07fe93a2",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-you-gold/",
+      "htmlSha256": "961588ee6ea1e7be45dbccc87f3b63e3be4376713d26b8a015da18011e281a95",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-your-gold-at-pawn-shop/",
+      "htmlSha256": "ecf3792769a8bf3eaf3260711cde73e3c8c7a4cb079dcd354793ca271cc953c8",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-your-gold-offline/",
+      "htmlSha256": "8a399d08023875c216320785d70a39a006620a18e284f438d4722247f33724ed",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-your-gold-online/",
+      "htmlSha256": "7be21c23895fa09e6c987ea1780121766a14386dc0696de4d488c75969f8cd46",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-your-scrap-gold/",
+      "htmlSha256": "f6b34504924804e3b07e3e2586b1f7806ea0ece1c15383ea043af089d30f4be7",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/sell-yout-gold/",
+      "htmlSha256": "e71c1d2054073762ab5f5f15a62e2f3822e8d8a3fba3048fd583844edb5dd8d4",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/selling-gold/",
+      "htmlSha256": "baa28a1ff563e7ac69f2dee64c54a588f0442bdbf14b24c57a2fe608d6b58833",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/selling-gold-online/",
+      "htmlSha256": "f74ea79884dd5522e7bf5e8d07efef1a40eeb352e41033be03bd0ed2688acfbd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/top-7-real-diamond-watches/",
+      "htmlSha256": "d09ce6b1247a4be13b96440534fceaabd350d4c1ae4cf252b93b466b01f25af2",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/watches/",
+      "htmlSha256": "8b771864e119d58ad8254cdbcc88fa9e50e7d68b04d034a7a71bfa1f59acc487",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/tag/wedding-diamond-ring/",
+      "htmlSha256": "1316382d392020f6f9d1038c33e3d88546d44613e7fe88b123af05e9476eae5b",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "htmlSha256": "3a345589a3f7dd91598d52aef52a2215b24e099a8a797796d7f551587dc39baf",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/trusted-jewelry-buyer-los-angeles-reviews/",
+      "htmlSha256": "d4fd01c088a4e68f492409695b88f0d589ba49edee1442e41f18a66c93f9512c",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/uncategorized/",
+      "htmlSha256": "fb1e7110f48ce44fe45d999bb6859f0d7726cdee2a16fb7a76da4eef9aec6886",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/uncut-diamond-buyers-los-angeles/",
+      "htmlSha256": "51b6ff5bcc601c226d0fac7734fc8aba421bc701696468159cbec9de2951e970",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [],
+      "emailLinks": [],
+      "scripts": 0,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "htmlSha256": "23ce7c8424e96f55625dcae0beb5bec38bbd391e20f4083bd15a7882512695cf",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "htmlSha256": "3c1180bd4e95db4d2b8ca1164ad8490c4937f4945a153de533655f477a5543c2",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/where-to-sell-gold-los-angeles/",
+      "htmlSha256": "98ef1a2cbc99fd9a48ed41143890932271a256e06b1919b4d6b26be36e15cb98",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/where-to-sell-rolex-watch-los-angeles/",
+      "htmlSha256": "d54fac7cbf51b326825c93f67d5e71c2a77aa4f6592ad70587c665e4d8d6cb5f",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "htmlSha256": "003565e2aa146a1c4f5d69beccbfa561eacdfdc04b2503cc442ec56983955496",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/white-diamond-guide/",
+      "htmlSha256": "1a153a5071a5558c83997d6c99e46d739143571ad1d5071fcd234e3483399c43",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/white-gold-guide/",
+      "htmlSha256": "cc192c1ab7139c319624fd1158776ae419444c2ef9f60ebf913dcd90e6a42e96",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    },
+    {
+      "route": "/white-gold-vs-yellow-gold/",
+      "htmlSha256": "e4e8a39ef06234da466184a775f2780fade1ffdb073c5366b1102881eb5d17d3",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:3106631340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 1,
+      "trackingScriptMatches": 0,
+      "frameCount": 0,
+      "consentControlCount": 0
+    }
+  ],
+  "live": [
+    {
+      "requestedRoute": "/contact-us/",
+      "status": 200,
+      "finalUrl": "https://cash4goldanddiamond.com/contact-us/",
+      "observedAt": "2026-09-10T22:34:46.482Z",
+      "route": "/contact-us/",
+      "htmlSha256": "33552d18201f68e093244b80f5676e14b98091c84e6589a38b4645915590ad18",
+      "forms": [
+        {
+          "method": "post",
+          "action": "/contact-us/#wpcf7-f7-p28-o1",
+          "fields": [
+            {
+              "name": "text-359",
+              "type": "text"
+            },
+            {
+              "name": "email-303",
+              "type": "email"
+            },
+            {
+              "name": "tel-649",
+              "type": "tel"
+            },
+            {
+              "name": "text-50",
+              "type": "text"
+            },
+            {
+              "name": "textarea-854",
+              "type": "textarea"
+            },
+            {
+              "name": "",
+              "type": "submit"
+            }
+          ]
+        }
+      ],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [
+        "mailto:cash4goldanddiamond@gmail.com"
+      ],
+      "scripts": 54,
+      "trackingScriptMatches": 6,
+      "frameCount": 1,
+      "consentControlCount": 0
+    },
+    {
+      "requestedRoute": "/start-selling-gold-and-diamonds/",
+      "status": 200,
+      "finalUrl": "https://cash4goldanddiamond.com/start-selling-gold-and-diamonds/",
+      "observedAt": "2026-09-10T22:34:46.591Z",
+      "route": "/start-selling-gold-and-diamonds/",
+      "htmlSha256": "f2b684609c83dde232b17b4a965d7caee95231b7642ae25c9f8a8c0047cb93cd",
+      "forms": [],
+      "bookingLinks": [],
+      "phoneLinks": [
+        "tel:+1-310-663-1340"
+      ],
+      "emailLinks": [],
+      "scripts": 53,
+      "trackingScriptMatches": 6,
+      "frameCount": 0,
+      "consentControlCount": 0
+    }
+  ],
+  "deliveryTest": "NOT TESTED: no synthetic submission sent",
+  "bookingConfirmation": "NOT TESTED: no booking or invitation created",
+  "analyticsDebug": "NOT TESTED: no authorized debug property connected"
+}

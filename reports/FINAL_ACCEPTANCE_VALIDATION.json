@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-11T00:06:14.730Z",
+  "automatedTests": 31,
+  "stages": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-11T00:02:38.972Z",
+      "finished": "2026-09-11T00:03:17.796Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-11T00:03:17.799Z",
+      "finished": "2026-09-11T00:03:21.672Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "source-security",
+      "started": "2026-09-11T00:03:21.672Z",
+      "finished": "2026-09-11T00:03:25.191Z",
+      "exitCode": 0,
+      "log": "source-security.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-11T00:03:25.192Z",
+      "finished": "2026-09-11T00:04:06.336Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-11T00:04:06.337Z",
+      "finished": "2026-09-11T00:04:12.658Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-11T00:04:12.658Z",
+      "finished": "2026-09-11T00:04:20.382Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-11T00:04:20.383Z",
+      "finished": "2026-09-11T00:04:21.857Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-11T00:04:21.857Z",
+      "finished": "2026-09-11T00:04:22.973Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-11T00:04:22.974Z",
+      "finished": "2026-09-11T00:04:23.689Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-11T00:04:23.690Z",
+      "finished": "2026-09-11T00:04:26.597Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-11T00:04:26.598Z",
+      "finished": "2026-09-11T00:04:27.379Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-11T00:04:27.380Z",
+      "finished": "2026-09-11T00:04:28.878Z",
+      "exitCode": 0,
+      "log": "dependency-audit.log"
+    }
+  ],
+  "scope": "Final local validation after adding reusable acceptance helpers; preview build. Hosted acceptance remains blocked."
+}

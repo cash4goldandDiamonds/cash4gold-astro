@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-09-10T23:27:35.784Z",
+  "status": "BLOCKED",
+  "scope": "Read-only existing Analytics account and live public HTML comparison; no tags, settings, campaigns, consent preferences or events were changed",
+  "accountAccess": "PASS",
+  "existingWebStreamReceivingTraffic": "PASS: UI reports data collection active in past 48 hours",
+  "uiObservations": {
+    "enhancedMeasurement": true,
+    "emailRedaction": true,
+    "queryParameterKeyRedaction": false,
+    "connectedSiteTags": 0,
+    "overallConsentLabel": "Good / No issues detected",
+    "analyticsStorageSignals": "inactive",
+    "adStorageSignals": "inactive",
+    "adUserDataSignals": "inactive",
+    "adPersonalizationSignals": "inactive"
+  },
+  "limitations": [
+    "The generic Good label is not evidence of active consent signals.",
+    "Existing-property observations do not prove the rebuilt site emits correct events.",
+    "No synthetic lead, booking, key event or page view was injected into this production property."
+  ],
+  "remaining": [
+    "Implement and approve consent behavior and policy wording.",
+    "Configure a separate staging/debug destination and verify accept, reject, revocation and persistence in an actual browser.",
+    "Verify production GA4/GTM/Ads continuity without duplicate tags.",
+    "Verify actual call/directions click meanings, accepted-inquiry events and confirmed-booking events without personal data."
+  ],
+  "liveSource": {
+    "status": 200,
+    "url": "https://cash4goldanddiamond.com/contact-us/",
+    "htmlSha256": "33552d18201f68e093244b80f5676e14b98091c84e6589a38b4645915590ad18",
+    "ga4MatchesAuthenticatedStream": null,
+    "uniqueGA4Ids": 0,
+    "uniqueGTMIds": 1,
+    "uniqueGoogleAdsIds": 1,
+    "warning": "Static source matches do not prove rendered tag firing or absence of dynamic duplicates. No inline GA4 ID means continuity is unverified, not a proven property mismatch; GA4 can be loaded by GTM."
+  }
+}

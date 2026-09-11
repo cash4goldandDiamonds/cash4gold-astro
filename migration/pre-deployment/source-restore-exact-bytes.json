@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-09-10T22:23:25.348Z",
+  "checkedAt": "2026-09-10T22:23:40.873Z",
+  "durationMs": 15522,
+  "status": "PASS",
+  "scope": "Actual isolated Git bundle restoration and byte-for-byte verification of tracked source files only",
+  "revision": "2fead36f824817d173cfc02610df4e16151f2687",
+  "bundlePath": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-audit\\backups\\cash4gold-audit-2fead36.bundle",
+  "bundleBytes": 46630834,
+  "bundleSha256": "00b61f60e25c38cc9c8ecc15f825360b12f9775d2da2465f393f4a6f686d8070",
+  "restoredDirectory": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-source-restore-raw",
+  "restoredFiles": 983,
+  "restoredBytes": 103258038,
+  "gitObjectIntegrity": "PASS",
+  "bundleIntegrity": "PASS",
+  "discrepancies": [],
+  "notProven": [
+    "WordPress database/uploads restore",
+    "Sanity dataset/assets restore",
+    "Live deployment rollback",
+    "Remote disaster recovery",
+    "Dependency installation from backup"
+  ]
+}
