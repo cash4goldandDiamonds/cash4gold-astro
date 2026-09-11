@@ -1,4 +1,5 @@
 import {isLocalPath} from './redirects.mjs';
+import {validatePageReview} from '../../studio/review-validation.js';
 
 export function assertContentEnvironment(env = {}) {
   if (env.SITE_ENV !== 'production') return {isolatedSnapshotAudit: false};
@@ -15,7 +16,7 @@ export function assertCmsPages(docs, requiredPaths, {production = false} = {}) {
     if (!isLocalPath(doc.path) || paths.has(doc.path)) throw new Error('Invalid or duplicate CMS page path: ' + doc.path);
     paths.add(doc.path);
     if (!doc.title?.trim() || !doc.seo?.title?.trim() || !doc.seo?.description?.trim()) throw new Error('Incomplete CMS page metadata: ' + doc.path);
-    if (production && (doc._id?.startsWith('drafts.') || doc.reviewState !== 'approved' || !doc.contentVerified || !doc.seoVerified || !doc.reviewedBy?._ref || !doc.reviewedAt)) throw new Error('Production page lacks recorded content/SEO review approval: ' + doc.path);
+    if (production && (doc._id?.startsWith('drafts.') || validatePageReview(doc) !== true)) throw new Error('Production page lacks valid recorded content/SEO review approval: ' + doc.path);
   }
   const missing = requiredPaths.filter(path => !paths.has(path));
   if (missing.length) throw new Error('Sanity import is incomplete. Missing preserved pages: ' + missing.join(', '));
