@@ -1,0 +1,22 @@
+{
+  "startedAt": "2026-09-11T02:09:46.118Z",
+  "status": "PASS",
+  "method": "Read-only API readback after actual Studio draft edit while Publish is blocked",
+  "projectId": "gisdw6qa",
+  "dataset": "migration-staging",
+  "probeId": "acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c",
+  "remoteWritesByThisScript": 0,
+  "checks": {
+    "draftSaved": true,
+    "unreviewedStateRetained": true,
+    "publishedVersionExists": false,
+    "validationBlocksPublication": true
+  },
+  "notProven": [
+    "Reviewer role authorization or separation of duties",
+    "Server-side API validation (Sanity schema rules run in Studio)",
+    "Approval freshness after later edits",
+    "Hosted pipeline and production publication"
+  ],
+  "completedAt": "2026-09-11T02:09:46.805Z"
+}

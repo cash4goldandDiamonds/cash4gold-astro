@@ -1,0 +1,33 @@
+{
+  "recordedAt": "2026-09-11T02:13:18.373Z",
+  "status": "PASS",
+  "method": "Actual authenticated local Sanity Studio UI; no publish action performed",
+  "origin": "http://localhost:3333",
+  "probeId": "acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c",
+  "observations": [
+    {
+      "stage": "Before code fix",
+      "publishDisabled": false,
+      "reviewState": "draft",
+      "action": "Read controls only; did not click Publish"
+    },
+    {
+      "stage": "After code fix and reload",
+      "publishDisabled": true,
+      "validation": "Complete editorial review before publishing. Draft changes still save automatically."
+    },
+    {
+      "stage": "Draft edit while blocked",
+      "excerpt": "Synthetic unpublished review-gate check. No customer data.",
+      "publishDisabled": true,
+      "apiReadback": "migration/pre-deployment/studio-review-guard.json"
+    }
+  ],
+  "productionWrites": 0,
+  "existingSyntheticDraftEdited": true,
+  "notProven": [
+    "Reviewer role authorization",
+    "API enforcement",
+    "Published output or hosted workflow"
+  ]
+}

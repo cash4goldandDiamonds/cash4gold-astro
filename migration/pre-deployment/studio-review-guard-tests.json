@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-09-11T02:13:18.373Z",
+  "status": "PASS",
+  "commands": [
+    {
+      "command": "node --test tests/studio-schema.test.mjs",
+      "exitCode": 0,
+      "tests": 4,
+      "pass": 4,
+      "fail": 0,
+      "durationMs": 22435.6081
+    },
+    {
+      "command": "node --test tests/*.test.mjs",
+      "exitCode": 0,
+      "tests": 33,
+      "pass": 33,
+      "fail": 0,
+      "durationMs": 4785.2271,
+      "log": ".cache/studio-review-regression-tests.log"
+    }
+  ],
+  "scope": "Local regression and schema tests; provider mocks are not actual delivery evidence."
+}
