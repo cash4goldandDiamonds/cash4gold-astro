@@ -47,6 +47,16 @@ export async function handleStagingStudio(request,env){
  headers.set('Referrer-Policy','no-referrer');
  headers.set('X-Frame-Options','SAMEORIGIN');
  headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');
+ if([204,205,304].includes(response.status)){
+  await response.body?.cancel();
+  headers.delete('Content-Length');
+  headers.delete('Content-Encoding');
+  // A 304 updates the cached representation's headers. Do not replace its
+  // bootstrap-hash Studio CSP with the asset service's generic website CSP.
+  if(response.status===304)headers.delete('Content-Security-Policy');
+  else headers.set('Content-Security-Policy',await stagingStudioCsp());
+  return new Response(null,{status:response.status,headers});
+ }
  if(/text\/html/i.test(headers.get('Content-Type')||'')){
   const html=await response.text();
   headers.set('Content-Security-Policy',await stagingStudioCsp(html));
