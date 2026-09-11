@@ -27,7 +27,7 @@ const bingVerification=import.meta.env.BING_SITE_VERIFICATION?.trim();
  {'cmsRevision' in page&&<meta name="cash4gold:content-revision" content={String(page.cmsRevision)}/>}
  {page.path!=='/404/'&&<link rel="canonical" href={page.canonical||`https://cash4goldanddiamond.com${page.path}`}/>}
  <meta property="og:title" content={og('og:title')||page.title}/><meta property="og:description" content={og('og:description')||page.description}/>
- <meta property="og:type" content={page.isArticle?'article':'website'}/><meta property="og:url" content={page.canonical}/>
+ <meta property="og:type" content={page.isArticle?'article':'website'}/><meta property="og:url" content={page.canonical||`https://cash4goldanddiamond.com${page.path}`}/>
  <meta property="og:image" content={socialImage}/>
  {page.meta?.filter(m=>m.name&&!['og:title','og:description','og:type','og:url','og:image'].includes(m.name)&&/^(og:|twitter:|article:)/.test(m.name)).map(m=>m.name?.startsWith('twitter:')?<meta name={m.name} content={m.content}/>:<meta property={m.name} content={m.content}/>)}
  {googleVerification&&<meta name="google-site-verification" content={googleVerification}/>}
