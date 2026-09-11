@@ -183,6 +183,9 @@ details[open]>summary>.chevron{transform:rotate(225deg);margin-bottom:-2px}
 #source-525431b5 h3{font-size:1.15rem;overflow-wrap:anywhere}
 .social-profiles{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem 1.5rem;padding:1rem 1.25rem 1.5rem;background:var(--ink);color:#f0f1f2}
 .social-profiles a{display:inline-flex;align-items:center;min-height:44px;padding:.5rem;text-underline-offset:.2em}
+.social-profiles a:hover{color:var(--gold)}
+/* Two-tone keyboard focus remains visible on light and dark sections. */
+:focus-visible{outline:2px solid #fff;outline-offset:0;box-shadow:0 0 0 4px #222831!important}
 @media(max-width:640px){.social-profiles{padding-bottom:6rem}}
 @media(max-width:360px){
  #source-525431b5 .elementor-section .elementor-container{grid-template-columns:minmax(0,1fr)}
