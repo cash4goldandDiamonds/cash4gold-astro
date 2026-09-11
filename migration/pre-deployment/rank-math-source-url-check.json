@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-09-11T06:25:18.140Z",
+  "scope": "Read-only HTTP requests to six existing public source URLs. PASS means source retrieval only, not migration approval.",
+  "productionWrites": 0,
+  "rows": [
+    {
+      "path": "/sell-your-gold/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/sell-your-gold/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/sell-your-golds/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/sell-your-golds/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "finalUrl": "https://cash4goldanddiamond.com/sell-your-golds/",
+      "bytes": 163949,
+      "sha256": "fe1f3be470dc3765d0df20d7788ae512726f34b0703ce30c2ece4bf6a74ba25c",
+      "rawSourceFile": "exports/source-followup/2026-09-11T06-25-12.942Z/57ee187bf2c6e5e5.html",
+      "title": "Sell Your Gold Online: 7 Ways to Get Best Cash Price Fast",
+      "description": "Looking to sell your gold online? Discover 7 proven ways to get the best cash price fast. Get top offers for your gold today with trusted buyers!",
+      "canonical": "https://cash4goldanddiamond.com/sell-your-golds/",
+      "localContentPresent": false,
+      "status": "PASS"
+    },
+    {
+      "path": "/sell-your-gemstone/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/sell-your-gemstone/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "finalUrl": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "bytes": 163734,
+      "sha256": "6126dbbb1d373b006f1d6b8cc93ae88869d0026ee75beac64de7f2069542a522",
+      "rawSourceFile": "exports/source-followup/2026-09-11T06-25-12.942Z/d01d60920303dced.html",
+      "title": "7 Ways to Sell Gemstones for Cash in Los Angeles",
+      "description": "Looking to sell gemstones for cash in Los Angeles? Cash 4 Gold and Diamond is the trusted buyer in LA. Get the best offer and cash for your gemstones today!",
+      "canonical": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "localContentPresent": false,
+      "status": "PASS"
+    },
+    {
+      "path": "/sell-your-watches/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/sell-your-watches/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "finalUrl": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+      "bytes": 210922,
+      "sha256": "935b978642ada4a66e12d7ddddd43c332ce2fae6f699049ca6b473bc4b663151",
+      "rawSourceFile": "exports/source-followup/2026-09-11T06-25-12.942Z/9b043a2ea5c9d77d.html",
+      "title": "Luxury Watch Buyer Los Angeles | Sell Rolex & Watches",
+      "description": "Sell Rolex and luxury watches in Los Angeles. Get an in-person evaluation for Rolex, Cartier, AP, Patek Philippe, Omega and more in Downtown LA.",
+      "canonical": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+      "localContentPresent": false,
+      "status": "PASS"
+    },
+    {
+      "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        }
+      ],
+      "status": "BLOCKED",
+      "error": "Redirect limit reached"
+    },
+    {
+      "path": "/best-gold-buyers-los-angeles/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/"
+        },
+        {
+          "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+          "status": 301,
+          "location": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/"
+        }
+      ],
+      "status": "BLOCKED",
+      "error": "Redirect limit reached"
+    },
+    {
+      "path": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "chain": [
+        {
+          "url": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "finalUrl": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "bytes": 169051,
+      "sha256": "d305b4c78fb0ea2af7005129b1941d7f08134ef43e55290e3aa5223b4aea5207",
+      "rawSourceFile": "exports/source-followup/2026-09-11T06-25-12.942Z/0ba37b5f6b11f5de.html",
+      "title": "Loose Diamond Appraisal Downtown Los Angeles Value Guide",
+      "description": "Loose diamond appraisal in Downtown Los Angeles. Learn what affects value, how GIA reports differ, and how to compare real offers.",
+      "canonical": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "localContentPresent": true,
+      "metadataMatches": {
+        "title": false,
+        "description": false,
+        "canonical": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "recommendation": "NOT READY TO GO LIVE"
+}

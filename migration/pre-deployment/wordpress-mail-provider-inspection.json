@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-09-11T09:28:27Z",
+  "status": "PASS",
+  "scope": "Authenticated read-only configuration inspection only; new-site form delivery remains BLOCKED.",
+  "uiPage": "https://cash4goldanddiamond.com/wp-admin/admin.php?page=wp-mail-smtp",
+  "selectedMailer": "mail",
+  "selectedMailerLabel": "Default (none)",
+  "configuredExternalMailerSelected": false,
+  "passwordOrApiKeyValuesRead": false,
+  "liveSettingsSaved": false,
+  "testMessagesSent": 0,
+  "wxrSha256": "21550c5f5c974531effef8e7be440d6c5f740925faf66ec49649c2c802dcfb31",
+  "publishedContactForm7Ids": ["7", "3560"],
+  "exportedFormConfiguration": {
+    "bothHaveFormAndMailConfiguration": true,
+    "bothIncludeApprovedGmailAddressInMailConfiguration": true,
+    "fieldKindsObserved": ["text", "email", "tel", "text", "textarea", "submit"],
+    "fieldRequiredFlagsNotVerifiedByThisAggregate": true
+  },
+  "limits": [
+    "The default WordPress mail setting does not establish an external provider usable from Cloudflare.",
+    "Finding an address in the mail configuration is not delivery evidence.",
+    "No new-site inquiry form, end-to-end receipt, retry or booking reservation was tested by this inspection.",
+    "Synthetic inquiry messages to cash4goldanddiamond@gmail.com are already owner-authorized; do not repeat that permission request."
+  ],
+  "productionWrites": 0,
+  "recommendation": "NOT READY TO GO LIVE"
+}
