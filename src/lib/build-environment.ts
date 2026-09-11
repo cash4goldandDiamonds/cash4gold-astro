@@ -9,4 +9,5 @@ export const buildEnvironment = {
   SANITY_PERSPECTIVE: import.meta.env.SANITY_PERSPECTIVE,
   ISOLATED_PRODUCTION_AUDIT: import.meta.env.ISOLATED_PRODUCTION_AUDIT,
   ASTRO_OUT_DIR: import.meta.env.ASTRO_OUT_DIR,
+  CMS_RELEASE_REVIEW: import.meta.env.CMS_RELEASE_REVIEW,
 };

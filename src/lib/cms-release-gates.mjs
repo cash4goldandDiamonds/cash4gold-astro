@@ -17,6 +17,7 @@ export function assertCmsPages(docs, requiredPaths, {production = false} = {}) {
     paths.add(doc.path);
     if (!doc.title?.trim() || !doc.seo?.title?.trim() || !doc.seo?.description?.trim()) throw new Error('Incomplete CMS page metadata: ' + doc.path);
     if (production && (doc._id?.startsWith('drafts.') || validatePageReview(doc) !== true)) throw new Error('Production page lacks valid recorded content/SEO review approval: ' + doc.path);
+    if (production && (!doc.reviewerDocument?._id || doc.reviewerDocument._id !== doc.reviewedBy._ref || !doc.reviewerDocument.name?.trim())) throw new Error('Production page reviewer must resolve to a named published document: ' + doc.path);
   }
   const missing = requiredPaths.filter(path => !paths.has(path));
   if (missing.length) throw new Error('Sanity import is incomplete. Missing preserved pages: ' + missing.join(', '));
