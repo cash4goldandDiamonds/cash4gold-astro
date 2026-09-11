@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-09-11T11:39:12.995Z",
+  "scope": "Observed local finalized Astro preview in the in-app Chromium browser. Summary transcribed from the 40-result browser check: zero failures. Viewport reset before each setting and actual innerWidth verified. Collapsed-details images excluded from visible-image checks.",
+  "widths": [
+    320,
+    390,
+    430,
+    768,
+    1280
+  ],
+  "paths": [
+    "/",
+    "/sell-your-golds/",
+    "/sell-your-diamonds-in-los-angeles/",
+    "/sell-luxury-watches-in-los-angeles/",
+    "/blogs/",
+    "/14k-gold-price-per-gram-los-angeles/",
+    "/reviews/",
+    "/contact-us/"
+  ],
+  "checks": 40,
+  "failures": [],
+  "checksPerformed": [
+    "Actual width equals requested width",
+    "One main H1",
+    "No horizontal overflow",
+    "No visible unloaded image above fold"
+  ],
+  "interactions": {
+    "mobileServiceMenuNavigation": "PASS",
+    "escapeClosesMenuAndReturnsFocus": "PASS",
+    "goldFaqExpansion": "PASS",
+    "skipLinkFocusMain": "PASS",
+    "reviewCardsVisual390": "PASS",
+    "phoneDirectionsAppointmentVisible": "PASS",
+    "minimumQuickActionHeightPixels": 52
+  },
+  "notTested": [
+    "Physical devices",
+    "Full screen-reader coverage",
+    "Zoom to 200% / 400%",
+    "Measured layout-shift timing",
+    "Booking submission and confirmation"
+  ]
+}

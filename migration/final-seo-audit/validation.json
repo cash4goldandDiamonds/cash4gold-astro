@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-09-11T11:48:10.534Z",
+  "unitTests": 33,
+  "localStages": [
+    {
+      "name": "unit-tests",
+      "exitCode": 0
+    },
+    {
+      "name": "schema",
+      "exitCode": 0
+    },
+    {
+      "name": "source-security",
+      "exitCode": 0
+    },
+    {
+      "name": "typecheck",
+      "exitCode": 0
+    },
+    {
+      "name": "build",
+      "exitCode": 0
+    },
+    {
+      "name": "finalize-build",
+      "exitCode": 0
+    },
+    {
+      "name": "built-site",
+      "exitCode": 0
+    },
+    {
+      "name": "seo",
+      "exitCode": 0
+    },
+    {
+      "name": "cms-projection",
+      "exitCode": 0
+    },
+    {
+      "name": "editorial",
+      "exitCode": 0
+    },
+    {
+      "name": "substantive",
+      "exitCode": 0
+    },
+    {
+      "name": "source-and-routes",
+      "exitCode": 0
+    },
+    {
+      "name": "design",
+      "exitCode": 0
+    },
+    {
+      "name": "dependency-audit",
+      "exitCode": 0
+    }
+  ],
+  "productionStages": [
+    {
+      "name": "production-build",
+      "exitCode": 0
+    },
+    {
+      "name": "production-finalize",
+      "exitCode": 0
+    },
+    {
+      "name": "production-seo",
+      "exitCode": 0
+    }
+  ],
+  "built": {
+    "pages": 198,
+    "errors": [],
+    "orphaned": [],
+    "guideCards": 107,
+    "uniqueCardImages": 107,
+    "localReferencedAssets": 397,
+    "headingSkipPages": 0,
+    "missingAlt": 0,
+    "missingDimensions": 0
+  },
+  "sourceComparison": {
+    "failures": [],
+    "warnings": [
+      {
+        "path": "/",
+        "type": "source-text-review",
+        "blocks": 28,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/sell-luxury-watches-in-los-angeles/",
+        "type": "source-text-review",
+        "blocks": 1,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/start-selling-gold-and-diamonds/",
+        "type": "source-text-review",
+        "blocks": 4,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/reviews/",
+        "type": "source-text-review",
+        "blocks": 2,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/sell-estate-jewelry-los-angeles/",
+        "type": "source-text-review",
+        "blocks": 6,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/faqs/",
+        "type": "source-text-review",
+        "blocks": 1,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/privacy-policy/",
+        "type": "source-text-review",
+        "blocks": 40,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/sell-gemstones-for-cash-in-los-angeles/",
+        "type": "source-text-review",
+        "blocks": 14,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/best-gold-bars-2026-top-dealers-ranked/",
+        "type": "source-text-review",
+        "blocks": 85,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      },
+      {
+        "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+        "type": "source-text-review",
+        "blocks": 115,
+        "disposition": "Original WordPress wording differs from the documented rebuild; retain source evidence and owner acceptance gate."
+      }
+    ],
+    "sourceBlocksChanged": 296
+  },
+  "dependencies": {
+    "info": 0,
+    "low": 0,
+    "moderate": 1,
+    "high": 0,
+    "critical": 0
+  },
+  "freshGitHubCheckout": "Pending final commit CI; local tests do not establish remote checkout."
+}
