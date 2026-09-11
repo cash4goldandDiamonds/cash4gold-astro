@@ -83,3 +83,10 @@ This evidence was reconciled into `audit/pre-deployment-2026-09-10` after verifi
 ## Editor navigation follow-up
 
 The reviewed Studio navigation change preserves the original page pane ID and future-schema discovery. Actual browser and private-query checks pass: 37 pages, 111 articles and 50 archives partition all 198 page records; five services and eight categories remain visible. All 430 original migrated documents are unchanged. The templates begin unapproved; actual creation through each template, media uploads, roles and hosted preview remain unproven. See `reports/STUDIO_NAVIGATION_FOLLOWUP.md` and `migration/pre-deployment/studio-navigation*.json`.
+
+
+## Studio publication safeguard follow-up — September 10, 2026
+
+The accidental-publication bug is fixed and verified in the private Studio: unreviewed page drafts cannot be published through the Studio, while draft autosave remains available. Actual private API readback confirmed the edit, no published counterpart, and unchanged original imported records. The review record requires explicit content/SEO flags, a published-reviewer reference and a valid, non-future date. See `reports/STUDIO_REVIEW_GUARD_FOLLOWUP.md` and its dated evidence.
+
+CMS-07, CMS-08 and overall release acceptance remain BLOCKED. These schema rules do not authorize reviewers, invalidate stale approvals after later edits, or protect direct Content Lake API writes. Hosted preview, media editing and complete release/rollback acceptance remain outstanding. No source content was human-approved or released by this change.
