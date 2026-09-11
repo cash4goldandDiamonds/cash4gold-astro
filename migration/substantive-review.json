@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T18:32:23.716Z",
+  "updatedAt": "2026-09-11T16:09:38.215Z",
   "total": 111,
   "reviewed": 111,
   "scope": "Actual article prose, intent, metadata and adjacent source support; no ranking or plugin score claimed.",
@@ -765,9 +765,9 @@
         "Replace appraisal and payment duration guarantees with an item list, document matching, safe intact presentation and scope questions."
       ],
       "intent": "Prepare loose natural diamonds and matching records for an item-specific Downtown LA evaluation.",
-      "reviewedAt": "2026-09-10T14:10:51.541Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "5c559bd876082003620518ef80744ab515e5c04ddbd35be5fd21a0c18b2998de",
-      "afterHtmlSha256": "5ae64c88d812ad00b953f779d4169b87ceee4c9449bad31b476453c0dd8dffb9",
+      "afterHtmlSha256": "97022ee88097217c406d3071401ef4a638b37d1c04d6c3f450161ea46d39bb96",
       "specHash": "5c29af881b5a2f95db8685e44e2204b37e3d84a95adf54891cef7728a56a06f3",
       "title": "Loose Diamond Evaluation in Downtown LA: What to Prepare",
       "description": "Prepare loose natural diamonds for a Downtown Los Angeles evaluation. Organize stone records, reports and condition notes, then compare an item-specific offer.",
@@ -784,10 +784,24 @@
         {
           "title": "GIA: choosing an appraiser and understanding report purposes",
           "url": "https://4cs.gia.edu/en-us/blog/appraisal-tips/"
+        },
+        {
+          "title": "GIA: fluorescence and diamond appearance",
+          "url": "https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/"
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
-      "sourceArchive": "migration/substantive-review-baseline.json"
+      "sourceArchive": "migration/substantive-review-baseline.json",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-10T14:10:51.541Z",
+          "beforeHtmlSha256": "5ae64c88d812ad00b953f779d4169b87ceee4c9449bad31b476453c0dd8dffb9",
+          "afterHtmlSha256": "97022ee88097217c406d3071401ef4a638b37d1c04d6c3f450161ea46d39bb96",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/best-sapphire-diamond-jewelry-buyers-los-angeles/",
@@ -1028,9 +1042,9 @@
         "Retain the useful inventory process and add explicit unknown fields, component separation and purpose-specific documentation."
       ],
       "intent": "Inventory and document an estate jewelry collection so an evaluator can assess materials, stones, workmanship and supported history.",
-      "reviewedAt": "2026-09-10T13:43:55.944Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "0f37f9bbff4b56495d0b624ff9f2cffc9c17f9546163b6c7d2386a37fc9f93a7",
-      "afterHtmlSha256": "bead8a7b6b843307d409e8032c1a4cdda90d4a92061a1ddcebd373df48c0b9eb",
+      "afterHtmlSha256": "845a3518dd7cb928386303384b1e7ba6ca3be9fd78e40382bd5860651460c4eb",
       "specHash": "a75ccd45dcd2dc57dfed189fc1765e733e808de65d58d07bf2e029c8feeae5b7",
       "title": "How to Value Estate Jewelry: Inventory, Materials & Records",
       "description": "Prepare an estate jewelry inventory with photos, markings, condition and existing reports. Learn how complete-piece evaluation differs from metal-only arithmetic.",
@@ -1050,7 +1064,17 @@
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
-      "sourceArchive": "migration/substantive-review-baseline.json"
+      "sourceArchive": "migration/substantive-review-baseline.json",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-10T13:43:55.944Z",
+          "beforeHtmlSha256": "bead8a7b6b843307d409e8032c1a4cdda90d4a92061a1ddcebd373df48c0b9eb",
+          "afterHtmlSha256": "845a3518dd7cb928386303384b1e7ba6ca3be9fd78e40382bd5860651460c4eb",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/trusted-jewelry-buyer-los-angeles-reviews/",
@@ -2068,9 +2092,9 @@
         "The page explicitly distinguishes illustrative quantities, market references and purchase offers; keep its focused description and links."
       ],
       "intent": "Calculate nominal 14K fine-gold content per gram and compare a jewelry offer using consistent units.",
-      "reviewedAt": "2026-09-09T22:52:15.992Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "446e7d0fa68e682095c42f4b421fd19df69826db7f484ed86074d2e960acd4a8",
-      "afterHtmlSha256": "79c5ee30675102a0b8269f84e970ae5a617520d49e214f8abdeba3951aab21b3",
+      "afterHtmlSha256": "5391decf8dc31dbe7966a5976a9ef9503f1b3bf561ce1aa27bd2eaa0519aa154",
       "specHash": "aba802d13d8f67bf28a3094249a7b807f936ab42486bbb3714ffc7de973dae80",
       "title": "14K Gold Price Per Gram: Estimating Jewelry Value",
       "description": "Estimate 14K gold value per gram using purity, net metal weight, and a dated gold-price reference. Compare jewelry offers in Downtown Los Angeles.",
@@ -2087,6 +2111,10 @@
         {
           "title": "World Gold Council: dated gold-price reference data",
           "url": "https://www.gold.org/goldhub/data/gold-prices"
+        },
+        {
+          "title": "GIA: Methods for Determining the Gold Content of Jewelry Metals (Winter 1992)",
+          "url": "https://www.gia.edu/doc/Methods-for-Determining-Gold-Content-of-Jewelry-Metals.pdf"
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
@@ -2110,7 +2138,17 @@
           "https://www.gold.org/goldhub/data/gold-prices"
         ],
         "evidence": "migration/substantive-editorial-review.json"
-      }
+      },
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-09T22:52:15.992Z",
+          "beforeHtmlSha256": "79c5ee30675102a0b8269f84e970ae5a617520d49e214f8abdeba3951aab21b3",
+          "afterHtmlSha256": "5391decf8dc31dbe7966a5976a9ef9503f1b3bf561ce1aa27bd2eaa0519aa154",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/white-gold-vs-yellow-gold/",
@@ -2152,9 +2190,9 @@
         "Preserve whole-watch evaluation and missing-record eligibility without guaranteeing every damaged watch a purchase."
       ],
       "intent": "Give a usable step-by-step preparation and handover checklist, avoiding repetition of the buyer landing guide.",
-      "reviewedAt": "2026-09-10T13:43:55.944Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "7bae802c93fb42f93f604ae408192956153d5860a9cc3eed923b54af2370eaba",
-      "afterHtmlSha256": "0144e1714553ea387865f11e4cd0d53a1ed774efc024f80e55284e44d87aa29b",
+      "afterHtmlSha256": "1b9ded7bfe3c8aacf0509e3a536ea03e1875f4277814d7b19bfd7f4672365602",
       "specHash": "eebb0cb27dd8e52e036897d4a7759d82b214a09c3140651d2b1df2998302168b",
       "title": "How to Sell a Rolex in Los Angeles: A Preparation Checklist",
       "description": "Prepare your Rolex for sale in Los Angeles: gather records and links, preserve its condition, discuss inspection, and compare a clearly defined offer.",
@@ -2167,10 +2205,24 @@
         {
           "title": "Rolex: the Certified Pre-Owned programme",
           "url": "https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned"
+        },
+        {
+          "title": "Rolex: official watch collections",
+          "url": "https://www.rolex.com/watches"
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
-      "sourceArchive": "migration/substantive-review-baseline.json"
+      "sourceArchive": "migration/substantive-review-baseline.json",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-10T13:43:55.944Z",
+          "beforeHtmlSha256": "0144e1714553ea387865f11e4cd0d53a1ed774efc024f80e55284e44d87aa29b",
+          "afterHtmlSha256": "1b9ded7bfe3c8aacf0509e3a536ea03e1875f4277814d7b19bfd7f4672365602",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/best-inherited-jewelry-valuation-los-angeles-2026/",
@@ -2282,9 +2334,9 @@
         "Retain inventory, family discussion and partial-sale options while making written scope, offer duration and the final decision explicit."
       ],
       "intent": "Prepare for an inherited-jewelry purchase evaluation while making a clear, unpressured decision about which pieces to keep or sell.",
-      "reviewedAt": "2026-09-10T13:43:55.944Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "733eb0846440c1ac6a82b37e41b79889b4e032a3aa163608fea4e3cbbd5d64c2",
-      "afterHtmlSha256": "c400b49bce46515b7290ed1e0f7c7db66247984ec98bf80da396f84c20f31ed7",
+      "afterHtmlSha256": "6a033517aebedca031727957e067201b072ae1f038135e43cebac6649b5b26cf",
       "specHash": "40ec38409aa1d42aa44810efadf4690236ae1d966f5b44592d95f912692e5c20",
       "title": "Selling Inherited Jewelry Without Pressure: A Practical Guide",
       "description": "Explore selling inherited jewelry at your own pace. Choose what to keep, prepare records and understand the offer before committing to a Los Angeles sale.",
@@ -2300,7 +2352,17 @@
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
-      "sourceArchive": "migration/substantive-review-baseline.json"
+      "sourceArchive": "migration/substantive-review-baseline.json",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-10T13:43:55.944Z",
+          "beforeHtmlSha256": "c400b49bce46515b7290ed1e0f7c7db66247984ec98bf80da396f84c20f31ed7",
+          "afterHtmlSha256": "6a033517aebedca031727957e067201b072ae1f038135e43cebac6649b5b26cf",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/diamond-gem-los-angeles-guide/",
@@ -2350,9 +2412,9 @@
         "Clarify Day-Date/President descriptions and evaluate actual configuration rather than assuming universal bezel and bracelet details."
       ],
       "intent": "Assess a specific Day-Date purchase proposal without market forecasts or superficial authentication claims.",
-      "reviewedAt": "2026-09-10T13:43:55.944Z",
+      "reviewedAt": "2026-09-11T16:09:38.215Z",
       "beforeHtmlSha256": "980280e217f547cc19a7d4de1f966b6c7406afa384a9d17057900f7cd5655d32",
-      "afterHtmlSha256": "253495a32c010cf86f7db4b6f8db59617e434ea15e2b461155d84df171a52e46",
+      "afterHtmlSha256": "73f838cb0b149c975fb301b6631db72f05f7ea133671367ed0300e5d56743219",
       "specHash": "e4cb36e68ebf0ca2b057fe48d64a8b2bd93d49e0f5959fd112e0828b4feefa0d",
       "title": "Gold Rolex Day-Date: Reference, Bracelet & Purchase Value",
       "description": "Prepare a gold Rolex Day-Date for evaluation. Review its reference, President bracelet, dial, service records and alterations without relying on price guesses.",
@@ -2372,7 +2434,17 @@
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
-      "sourceArchive": "migration/substantive-review-baseline.json"
+      "sourceArchive": "migration/substantive-review-baseline.json",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-11T16:09:38.215Z",
+          "scope": "Selective recovery of useful owner-source article content and links",
+          "previousReviewedAt": "2026-09-10T13:43:55.944Z",
+          "beforeHtmlSha256": "253495a32c010cf86f7db4b6f8db59617e434ea15e2b461155d84df171a52e46",
+          "afterHtmlSha256": "73f838cb0b149c975fb301b6631db72f05f7ea133671367ed0300e5d56743219",
+          "evidence": "migration/article-reuse-2026-09-11/additions.json"
+        }
+      ]
     },
     {
       "path": "/pawn-shops-pay-for-gold-los-angeles/",
