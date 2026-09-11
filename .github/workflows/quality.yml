@@ -39,6 +39,7 @@ jobs:
       - run: node node_modules/astro/bin/astro.mjs check
       - run: pnpm build
       - run: node scripts/verify-built-site.mjs
+      - run: pnpm verify:seo
       - run: node scripts/verify-cms-projection.mjs
       - run: node scripts/verify-editorial.mjs
       - run: node scripts/verify-substantive.mjs
