@@ -15,7 +15,7 @@ export {safeHtml} from './cms-page.mjs';
 
 export const business=businessProfile;
 export const navigation=[{label:'Home',href:'/'},{label:'About',href:'/about-us-sell-gold-and-diamonds-online/'},{label:'Start Selling',href:'/start-selling-gold-and-diamonds/'},{label:'Blogs',href:'/blogs/'},{label:'Reviews',href:'/reviews/'},{label:'FAQ',href:'/faqs/'},{label:'Contact Us',href:'/contact-us/'}];
-export const services=[{label:'Sell Your Gold',href:'/sell-your-golds/'},{label:'Natural Diamonds',href:'/sell-your-diamonds-in-los-angeles/'},{label:'Large, Fine Gemstones',href:'/sell-gemstones-for-cash-in-los-angeles/'},{label:'Sell Your Watches',href:'/sell-luxury-watches-in-los-angeles/'}];
+export const services=[{label:'Sell Your Gold',href:'/sell-your-golds/'},{label:'Natural Diamonds',href:'/sell-your-diamonds-in-los-angeles/'},{label:'Large, Fine Gemstones',href:'/sell-gemstones-for-cash-in-los-angeles/'},{label:'Sell Your Watches',href:'/sell-luxury-watches-in-los-angeles/'},{label:'Estate & Antique Jewelry',href:'/sell-estate-jewelry-los-angeles/'}];
 export type Page = (typeof snapshot)[number];
 const escape=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 function configuredClient(){const projectId=import.meta.env.SANITY_PROJECT_ID,dataset=import.meta.env.SANITY_DATASET;const policy=releasePolicy(buildEnvironment);if(!projectId&&!dataset)return null;if(!projectId||!dataset)throw new Error('Configure both Sanity project and dataset.');return createClient({projectId,dataset,apiVersion:import.meta.env.SANITY_API_VERSION||'2026-09-09',useCdn:false,token:import.meta.env.SANITY_READ_TOKEN,perspective:policy.perspective});}
