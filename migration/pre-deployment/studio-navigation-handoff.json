@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-09-11T02:03:31.423Z",
+  "status": "PASS",
+  "scope": "Bounded navigation handoff: file integrity, JSON parsing, exact private-session exclusion, and 143-requirement/421-criterion preservation; not a full secret scan or website build",
+  "secretMatches": 0,
+  "matrix": {
+    "requirements": 143,
+    "subcriteria": 421,
+    "CMS05": "BLOCKED",
+    "CMS051": "FIXED AND VERIFIED"
+  },
+  "files": [
+    {
+      "file": "sanity.config.js",
+      "bytes": 680,
+      "sha256": "9dc863cd27c86f1ca34b89d015bda0be9930e5dad80b342e7d437c8a9271e2f6"
+    },
+    {
+      "file": "studio/structure.js",
+      "bytes": 3424,
+      "sha256": "0577a102743ec8bd83f28bb1fce55fc6979d96eae8cf2be6bde4aed2e1c363bc"
+    },
+    {
+      "file": "scripts/verify-studio-navigation.mjs",
+      "bytes": 2691,
+      "sha256": "21c04d0a73b535543348a30379239da76ff8c319324dda7432048bd0da9050f1"
+    },
+    {
+      "file": "reports/STUDIO_NAVIGATION_FOLLOWUP.md",
+      "bytes": 3265,
+      "sha256": "0715a75df14f5c504f2eb070a74918ad54da233fc868a725fb7981ec39938e39"
+    },
+    {
+      "file": "migration/pre-deployment/studio-navigation.json",
+      "bytes": 1155,
+      "sha256": "cb08fa61fd7c876c4abdca9319374322f20922f886047f09c0a4b5cbd81690d8"
+    },
+    {
+      "file": "migration/pre-deployment/studio-navigation-browser.json",
+      "bytes": 1734,
+      "sha256": "fdbe04a146caeba7620fcf450207190ec9fef001de47a449c52ef5e6a6d3b370"
+    },
+    {
+      "file": "migration/pre-deployment/studio-navigation-initial-network-block.json",
+      "bytes": 410,
+      "sha256": "8ea2e8cd9921842851361249cc2b054ae3ebfbfa4327741eb60e043afa85c6fa"
+    },
+    {
+      "file": "migration/pre-deployment/sanity-after-studio.json",
+      "bytes": 995,
+      "sha256": "5e48c5bccf5fa73b50c91bca1e5852619c8b0cc1bc31e3bf7287191683f45a2a"
+    },
+    {
+      "file": "STAGING_ACCEPTANCE_2026-09-10.md",
+      "bytes": 15615,
+      "sha256": "810b40bf8a5da28f535251b5043d2c37030692acbf368249d5310e0d027ec4e4"
+    },
+    {
+      "file": "migration/pre-deployment/owner-acceptance-approvals.json",
+      "bytes": 891,
+      "sha256": "9fb404d03f20867bae6470106f70c14e3738e908ddddc4d6aff9e71eb6136426"
+    },
+    {
+      "file": "migration/pre-deployment/cloudflare-github-permission-inspection.json",
+      "bytes": 833,
+      "sha256": "a843e6561392d6080ef3a96ee1f9274a1fa61f6a06007eab2e5ede06d54edaeb"
+    },
+    {
+      "file": "migration/pre-deployment/consolidated-audit-final-ci.json",
+      "bytes": 990,
+      "sha256": "6cf7bee7cd7b79a6947f6089c9a7ff7dffc6535e60e45ed6f51099121689de59"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-09-11T01:46:40.299Z",
+  "status": "BLOCKED",
+  "scope": "Read-only execution of actual Studio GROQ filters against private published content; no document creation or publishing",
+  "remoteWrites": 0,
+  "failure": {
+    "code": "NAVIGATION_VERIFICATION_FAILED",
+    "type": "TypeError",
+    "causeCode": "EACCES",
+    "httpStatus": null
+  },
+  "completedAt": "2026-09-11T01:46:40.324Z"
+}

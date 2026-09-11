@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-09-11T01:53:11.361Z",
+  "status": "PASS",
+  "method": "Actual authenticated Sanity Studio browser navigation; read-only checks",
+  "origin": "http://localhost:3333",
+  "checks": [
+    {
+      "name": "Root navigation loads",
+      "result": "13 sections including Pages, Articles, Services, Categories, Archives, Questions and answers, SEO and content review, Media, Business information, Navigation and footer, Redirects, Social publishing and All pages and articles."
+    },
+    {
+      "name": "Existing editor link retained",
+      "result": "The original /structure/page;acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c still opened its existing unpublished draft after retaining the original page list ID."
+    },
+    {
+      "name": "Article list",
+      "result": "Existing article titles and original URL paths displayed; Selling guide creation link selects the selling-guide template. No new document created."
+    },
+    {
+      "name": "Service list",
+      "result": "All five existing service records displayed."
+    },
+    {
+      "name": "SEO review menus",
+      "result": "Both review lists appeared; Missing SEO fields loaded the expected empty result rather than an error. No ranking or content approval claim inferred."
+    },
+    {
+      "name": "Media navigation",
+      "result": "Pages with images and Uploaded images links appeared. The built-in uploaded-image list loaded with no records, matching the actual zero uploaded assets."
+    }
+  ],
+  "remoteWrites": 0,
+  "notProven": [
+    "Full media upload/replacement workflow",
+    "Actual new-document creation through each template",
+    "Role enforcement",
+    "Hosted visual preview",
+    "Owner usability acceptance"
+  ]
+}

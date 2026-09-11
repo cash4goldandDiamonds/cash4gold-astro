@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-11T01:38:19.909Z",
+  "status": "PASS",
+  "method": "Read-only authenticated GitHub installed-app settings inspection",
+  "account": "cash4goldandDiamonds",
+  "application": "Cloudflare Workers and Pages",
+  "installationId": "160741674",
+  "readPermissions": [
+    "metadata"
+  ],
+  "readWritePermissions": [
+    "administration",
+    "checks",
+    "code",
+    "deployments",
+    "pull requests"
+  ],
+  "allRepositoriesSelected": false,
+  "selectedRepositories": [
+    "cash4goldandDiamonds/cash4gold-astro"
+  ],
+  "saveDisabled": true,
+  "permissionChangesMade": 0,
+  "verificationPromptPresent": false,
+  "verificationCodeEntered": false,
+  "scope": "Existing installation permissions inspected only; this does not prove staging deployment or its access protection",
+  "productionLaunchApproved": false
+}

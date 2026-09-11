@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-09-11T01:30:58.341Z",
+  "source": "Explicit owner answers in realtime voice transcript",
+  "approvals": [
+    {
+      "action": "Open Cloudflare GitHub connection screen to inspect requested permissions",
+      "ownerAnswer": "Yes, you can",
+      "scope": "Inspection only. Broader repository grants and account-wide Access changes are not included."
+    },
+    {
+      "action": "Send clearly labeled synthetic inquiry test messages to cash4goldanddiamond@gmail.com",
+      "ownerAnswer": "Yes, that's fine. You can do that too",
+      "scope": "No real customer information. Booking reservations and invitations require separate authorization."
+    }
+  ],
+  "productionLaunchApproved": false,
+  "productionDnsNameserversGoDaddyAndWordPressChangesApproved": false,
+  "remainingImmediateOwnerAction": "Sign back into GoDaddy in the existing computer browser tab."
+}
