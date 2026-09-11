@@ -1,0 +1,232 @@
+{
+  "reviewedAt": "2026-09-11T16:09:38.215Z",
+  "baselineRemoteCommit": "b7ca7430953b3b38296ba87fd71926270e9c84da",
+  "scope": "All 111 articles inventoried locally; selective comparison of nine high-value source articles using archived owner source and public retrieval. Recovered link destinations were additionally confirmed in all six changed WordPress articles through current browser DOM. No full fresh origin crawl of all 111 articles is claimed. Fluorescence is a new supported clarification because that wording was not found in the current browser article.",
+  "productionModified": false,
+  "redirectsChanged": false,
+  "indexingChanged": false,
+  "rows": [
+    {
+      "path": "/14k-gold-price-per-gram-los-angeles/",
+      "title": "14K Gold Price Per Gram: Estimating Jewelry Value",
+      "sourceUrl": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "beforeHtmlSha256": "79c5ee30675102a0b8269f84e970ae5a617520d49e214f8abdeba3951aab21b3",
+      "afterHtmlSha256": "5391decf8dc31dbe7966a5976a9ef9503f1b3bf561ce1aa27bd2eaa0519aa154",
+      "publishedAt": "2026-08-28T00:44:14+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Public WordPress article confirmed through browser DOM on September 11, 2026; original source archive corroborates links. GIA official 12-page PDF independently retrieved and explicitly dated Winter 1992.",
+      "reason": "Recover useful stamp/testing context, rose-gold distinction and four focused internal journeys without repeated keyword sentences.",
+      "replacements": [
+        {
+          "oldText": "Use the purity established during the evaluation when comparing a real offer.</p>",
+          "newText": "Use the purity established during the evaluation when comparing a real offer. Our guide to <a href=\"/14-karat-gold-market-statistics-2026/\">14K marks, color and construction</a> explains what these descriptions tell you.</p>\n<p>A marking is a starting clue: stamps can wear, repairs can introduce other metals, and separate components may have different purities. Ask how purity will be checked and whether a proposed test could mark the piece. <a href=\"https://www.gia.edu/doc/Methods-for-Determining-Gold-Content-of-Jewelry-Metals.pdf\">GIA’s 1992 study of gold-testing methods</a> provides historical background on touchstone, electronic and X-ray fluorescence (XRF) testing and their limitations.</p>"
+        },
+        {
+          "oldText": "that could count the same material twice.</p>",
+          "newText": "that could count the same material twice. To distinguish a retail receipt or replacement appraisal from a current offer, read <a href=\"/how-much-should-i-get-for-my-gold-jewelry/\">what to expect for gold jewelry</a>.</p>"
+        },
+        {
+          "oldText": "ask for matching units before comparing rates.</p>",
+          "newText": "ask for matching units before comparing rates. Use the <a href=\"/how-much-is-my-gold-worth-gold-buyers-ranked/\">gold-offer comparison worksheet</a> to record the same details for each buyer.</p>"
+        },
+        {
+          "oldText": "Keep matching pieces and existing reports together. Call ",
+          "newText": "Keep matching pieces and existing reports together. The <a href=\"/sell-gold-jewelry-downtown-los-angeles/\">Downtown LA gold-evaluation checklist</a> covers what to bring. Call "
+        },
+        {
+          "oldText": "Are equal weights of 14K white and yellow gold worth the same?",
+          "newText": "Are equal weights of 14K white, yellow and rose gold worth the same?"
+        }
+      ],
+      "sourcesAdded": [
+        {
+          "title": "GIA: Methods for Determining the Gold Content of Jewelry Metals (Winter 1992)",
+          "url": "https://www.gia.edu/doc/Methods-for-Determining-Gold-Content-of-Jewelry-Metals.pdf"
+        }
+      ]
+    },
+    {
+      "path": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "title": "How to Sell a Rolex in Los Angeles: A Preparation Checklist",
+      "sourceUrl": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "beforeHtmlSha256": "0144e1714553ea387865f11e4cd0d53a1ed774efc024f80e55284e44d87aa29b",
+      "afterHtmlSha256": "1b9ded7bfe3c8aacf0509e3a536ea03e1875f4277814d7b19bfd7f4672365602",
+      "publishedAt": "2026-08-21T13:28:53+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Recovered contextual links independently confirmed in the current public WordPress article through browser DOM on September 11, 2026; archive also corroborates them.",
+      "reason": "Recover the official model-family reference and the useful Day-Date connection already present in the owner article, while preserving the more careful current preparation guidance.",
+      "replacements": [
+        {
+          "oldText": "<p>Write down the model or reference shown in your records, the accessories you have and any known damage or alterations. If you do not know the reference or production date, say so. A remembered purchase year should not become an unsupported manufacturing date.</p>",
+          "newText": "<p>Write down the model or reference shown in your records, the accessories you have and any known damage or alterations. If you do not know the reference or production date, say so. A remembered purchase year should not become an unsupported manufacturing date.</p><p>The <a href=\"https://www.rolex.com/watches\">official Rolex collections</a> can help you recognize model-family names. Current catalogue images cannot establish an older watch's exact reference, originality, authenticity or purchase value.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-link",
+            "archive": "migration/editorial-baseline.json",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+            "originalHref": "https://www.rolex.com/watches?utm_source=chatgpt.com",
+            "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+            "explanation": "Remove the old tracking parameter and explain the limit of comparing an older watch with the current collection.",
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        },
+        {
+          "oldText": "<p>For a gold Rolex, request consideration as a complete watch before a metal-only calculation. The <a href=\"/best-gold-rolex-buyers-2026/\">gold Rolex guide</a> explains why case and bracelet materials do not replace reference-level evaluation.</p>",
+          "newText": "<p>For a gold Rolex, request consideration as a complete watch before a metal-only calculation. The <a href=\"/best-gold-rolex-buyers-2026/\">gold Rolex guide</a> explains why case and bracelet materials do not replace reference-level evaluation.</p><p>For a Day-Date, the <a href=\"/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/\">reference and bracelet evaluation guide</a> explains which details and records to bring.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-link",
+            "archive": "migration/editorial-baseline.json",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+            "originalHref": "/rolex-day-date-gold-market-2026-for-buyer/",
+            "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+            "explanation": "Link directly to the existing canonical destination instead of the old alias; no redirect changes proposed.",
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        }
+      ],
+      "sourcesAdded": [
+        {
+          "title": "Rolex: official watch collections",
+          "url": "https://www.rolex.com/watches"
+        }
+      ]
+    },
+    {
+      "path": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "title": "Gold Rolex Day-Date: Reference, Bracelet & Purchase Value",
+      "sourceUrl": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "beforeHtmlSha256": "253495a32c010cf86f7db4b6f8db59617e434ea15e2b461155d84df171a52e46",
+      "afterHtmlSha256": "73f838cb0b149c975fb301b6631db72f05f7ea133671367ed0300e5d56743219",
+      "publishedAt": "2026-08-10T20:12:11+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Recovered contextual links independently confirmed in the current public WordPress article through browser DOM on September 11, 2026; archive also corroborates them.",
+      "reason": "Recover the owner article's practical link from Day-Date evaluation to the full local Rolex selling process.",
+      "replacements": [
+        {
+          "oldText": "<p>Review the <a href=\"/best-gold-rolex-watches-2026-ranked/\">gold Rolex comparison checklist</a>, then bring the actual watch and available records.</p>",
+          "newText": "<p>Review the <a href=\"/best-gold-rolex-watches-2026-ranked/\">gold Rolex comparison checklist</a>, then bring the actual watch and available records.</p><p>Our <a href=\"/how-to-sell-a-rolex-watch-in-los-angeles/\">step-by-step Rolex selling guide</a> also covers agreeing on the examination, documenting the offer and confirming payment before handover.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-link",
+            "archive": "migration/editorial-baseline.json",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+            "originalHref": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+            "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+            "explanation": "The original owner article links readers to its Rolex selling guide; the rebuilt destination retains the practical process.",
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        }
+      ],
+      "sourcesAdded": []
+    },
+    {
+      "path": "/how-to-value-estate-jewelry-pieces/",
+      "title": "How to Value Estate Jewelry: Inventory, Materials & Records",
+      "sourceUrl": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "beforeHtmlSha256": "bead8a7b6b843307d409e8032c1a4cdda90d4a92061a1ddcebd373df48c0b9eb",
+      "afterHtmlSha256": "845a3518dd7cb928386303384b1e7ba6ca3be9fd78e40382bd5860651460c4eb",
+      "publishedAt": "2026-08-29T13:18:36+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Recovered contextual links independently confirmed in the current public WordPress article through browser DOM on September 11, 2026; archive also corroborates them.",
+      "reason": "Reconnect estate inventory and stone identification with the corrected existing diamond grading guide.",
+      "replacements": [
+        {
+          "oldText": "<p>Bring existing laboratory reports and ask which stones they describe. Natural origin and treatment status are separate details; an identification should not assume that every natural gemstone is untreated. Record what the examiner established and any limits on the assessment.</p>",
+          "newText": "<p>Bring existing laboratory reports and ask which stones they describe. Natural origin and treatment status are separate details; an identification should not assume that every natural gemstone is untreated. Record what the examiner established and any limits on the assessment.</p><p>If a report describes a diamond, our <a href=\"/diamond-chart-4cs-guide/\">diamond grading chart guide</a> explains its color, clarity and cut terminology so you can prepare more specific evaluation questions.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-link",
+            "archive": "migration/editorial-baseline.json",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+            "originalHref": "/diamond-chart-4cs-guide/",
+            "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+            "explanation": "Restores a relevant original internal link alongside report identification, without reinstating unsupported original price examples.",
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        }
+      ],
+      "sourcesAdded": []
+    },
+    {
+      "path": "/sell-inherited-jewelry-no-obligation/",
+      "title": "Selling Inherited Jewelry Without Pressure: A Practical Guide",
+      "sourceUrl": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "beforeHtmlSha256": "c400b49bce46515b7290ed1e0f7c7db66247984ec98bf80da396f84c20f31ed7",
+      "afterHtmlSha256": "6a033517aebedca031727957e067201b072ae1f038135e43cebac6649b5b26cf",
+      "publishedAt": "2026-08-10T19:44:29+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Recovered contextual links independently confirmed in the current public WordPress article through browser DOM on September 11, 2026; archive also corroborates them.",
+      "reason": "Recover two useful routes for mixed inherited collections without restoring the original repetitive Related blocks or promotional pressure.",
+      "replacements": [
+        {
+          "oldText": "<p>Keep matching jewelry and any detached components together. Bring existing receipts, reports and repair history, and tell the evaluator which items you are considering for sale. Label information you do not know as unknown.</p>",
+          "newText": "<p>Keep matching jewelry and any detached components together. Bring existing receipts, reports and repair history, and tell the evaluator which items you are considering for sale. Label information you do not know as unknown.</p><p>If your collection includes a Rolex, the <a href=\"/where-to-sell-rolex-watch-los-angeles/\">local watch-buyer guide</a> helps you compare evaluation arrangements. For diamond pieces, the <a href=\"/diamond-what-it-is-how-to-value-where-to-sell/\">diamond identification and selling guide</a> explains what to establish before discussing value.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-links",
+            "links": [
+              {
+                "type": "recovered-owner-source-link",
+                "archive": "migration/editorial-baseline.json",
+                "ownerArticleUrl": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+                "originalHref": "/where-to-sell-rolex-watch-los-angeles/",
+                "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+                "explanation": "Inherited Rolex navigation."
+              },
+              {
+                "type": "recovered-owner-source-link",
+                "archive": "migration/editorial-baseline.json",
+                "ownerArticleUrl": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+                "originalHref": "/diamond-what-it-is-how-to-value-where-to-sell/",
+                "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+                "explanation": "Inherited diamond navigation."
+              }
+            ],
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        }
+      ],
+      "sourcesAdded": []
+    },
+    {
+      "path": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "title": "Loose Diamond Evaluation in Downtown LA: What to Prepare",
+      "sourceUrl": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "beforeHtmlSha256": "5ae64c88d812ad00b953f779d4169b87ceee4c9449bad31b476453c0dd8dffb9",
+      "afterHtmlSha256": "97022ee88097217c406d3071401ef4a638b37d1c04d6c3f450161ea46d39bb96",
+      "publishedAt": "2026-08-24T13:49:24+00:00",
+      "modifiedAt": "2026-09-11T16:09:38.215Z",
+      "provenance": "Recovered contextual links independently confirmed in the current public WordPress article through browser DOM on September 11, 2026; archive also corroborates them.",
+      "reason": "Restore the existing diamond-chart link; add newly supported GIA fluorescence education. Current live fluorescence wording was not found.",
+      "replacements": [
+        {
+          "oldText": "<p><a href=\"https://www.gia.edu/diamond-quality-factor\">GIA's quality factors</a> provide a useful vocabulary for carat, color, clarity and cut. Shape and millimeter measurements add further detail to the description.</p>",
+          "newText": "<p><a href=\"https://www.gia.edu/diamond-quality-factor\">GIA's quality factors</a> provide a useful vocabulary for carat, color, clarity and cut. Shape and millimeter measurements add further detail to the description.</p><p>The <a href=\"/diamond-chart-4cs-guide/\">diamond grading chart guide</a> explains the abbreviations and scales you may encounter on a report.</p>",
+          "provenance": {
+            "type": "recovered-owner-source-link",
+            "archive": "migration/editorial-baseline.json",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+            "originalHref": "/diamond-chart-4cs-guide/",
+            "evidence": "Exact archived href; cached WordPress retrieval corroborates the link where available. Not a fresh origin verification.",
+            "explanation": "Original owner archive contains this link; place it next to existing quality vocabulary.",
+            "currentBrowserVerification": "Root confirmed these public article link destinations in the current browser on September 11, 2026."
+          }
+        },
+        {
+          "oldText": "<p>Ask which characteristics are confirmed by existing records and which need examination. Share known chips, abrasions or treatments. A diamond's weight alone does not establish its identity, quality or an offer.</p>",
+          "newText": "<p>Ask which characteristics are confirmed by existing records and which need examination. Share known chips, abrasions or treatments. A diamond's weight alone does not establish its identity, quality or an offer.</p><p>If the report records fluorescence, ask how it affects this particular stone's appearance and offer. <a href=\"https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/\">GIA explains that fluorescence can affect appearance or have no visible effect</a>; its presence alone does not establish a fixed discount.</p>",
+          "provenance": {
+            "type": "new-primary-source-supported-clarification",
+            "ownerArticleUrl": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+            "ownerEvidence": "A cached comparator suggested this topic, but the root current-browser article review did not find the wording. The addition is new educational clarification supported by GIA, not recovered current WordPress text.",
+            "primarySourceUrl": "https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/",
+            "explanation": "Concise context-sensitive explanation; the GIA citation is newly added corroboration, not claimed as an original owner outbound link.",
+            "currentBrowserVerification": "Fluorescence wording was not found in the current browser article. Treat this explanation and GIA citation as a new supported clarification, not recovered current WordPress prose."
+          }
+        }
+      ],
+      "sourcesAdded": [
+        {
+          "title": "GIA: fluorescence and diamond appearance",
+          "url": "https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/"
+        }
+      ]
+    }
+  ]
+}

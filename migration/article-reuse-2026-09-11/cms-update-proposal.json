@@ -1,0 +1,4129 @@
+{
+  "generatedAt": "2026-09-11T16:10:18.477Z",
+  "applied": false,
+  "pages": 6,
+  "instructions": "Additive proposal for these six article documents and their existing FAQ documents only. Reconcile hosted editor revisions before applying. Preserve other hosted documents and the separate prior ten-page service/home proposal. No dataset import, content approval or SEO approval has been performed. The repository historical seed has only these same article/FAQ records refreshed.",
+  "documents": [
+    {
+      "_id": "page-0ba37b5f6b11f5de2c204414",
+      "_type": "page",
+      "title": "Loose Diamond Evaluation in Downtown LA: What to Prepare",
+      "path": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "1571",
+          "localPath": "/media/owner-curated/three-oval-diamonds-tray-1200.webp",
+          "alt": "Three large oval polished diamonds arranged in a green jewelry tray",
+          "caption": "Three large oval polished diamonds arranged in a green jewelry tray. Illustrative jewelry image; not actual inventory or a representation of verified origin, purity or grading.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/owner-curated/three-oval-diamonds-tray-480.webp 480w, /media/owner-curated/three-oval-diamonds-tray-800.webp 800w, /media/owner-curated/three-oval-diamonds-tray-1200.webp 1200w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "1572",
+          "style": "h2",
+          "sourceId": "organize-stones-one-at-a-time",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1573",
+              "text": "Organize stones one at a time",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1574",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1575",
+              "text": "For several loose diamonds, make an item list and keep each stone in a separate suitable gem container. Match its paperwork to the list. This helps avoid confusing similar-looking stones or repeating a report's information for the wrong diamond.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1576",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1577",
+              "text": "Write down the known shape and report number. Distinguish a documented carat weight from an estimate. If you also have a ring or pendant you might sell, keep it intact instead of removing its stone to create another loose diamond.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1578",
+          "style": "h2",
+          "sourceId": "bring-the-records-you-already-have",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1579",
+              "text": "Bring the records you already have",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1580",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1582",
+              "href": "https://www.gia.edu/report-check-landing"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1581",
+              "text": "Useful records can include a grading report, receipt, prior appraisal and information about damage or recutting. For GIA paperwork, use ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1583",
+              "text": "Report Check",
+              "marks": [
+                "1582"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1584",
+              "text": " to consult the available record.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1585",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1586",
+              "text": "Ask how the report is matched to the actual stone. If the report is missing or you are uncertain about a number, explain the gap. Do not pay for new documentation solely because you assume every buyer requires it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1587",
+          "style": "h2",
+          "sourceId": "prepare-quality-questions-without-assigning-grades",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1588",
+              "text": "Prepare quality questions without assigning grades",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1589",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1590",
+              "href": "https://www.gia.edu/diamond-quality-factor"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1591",
+              "text": "GIA's quality factors",
+              "marks": [
+                "1590"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1592",
+              "text": " provide a useful vocabulary for carat, color, clarity and cut. Shape and millimeter measurements add further detail to the description.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1593",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1595",
+              "href": "/diamond-chart-4cs-guide/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1594",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1596",
+              "text": "diamond grading chart guide",
+              "marks": [
+                "1595"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1597",
+              "text": " explains the abbreviations and scales you may encounter on a report.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "1598",
+          "localPath": "/media/articles/diamondloupe-940.webp",
+          "alt": "Close view of a stone being inspected through a loupe",
+          "caption": "Close view of a stone being inspected through a loupe.",
+          "width": 940,
+          "height": 627,
+          "srcset": "/media/articles/diamondloupe-400.webp 400w, /media/articles/diamondloupe-800.webp 800w, /media/articles/diamondloupe-940.webp 940w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "1599",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1600",
+              "text": "Ask which characteristics are confirmed by existing records and which need examination. Share known chips, abrasions or treatments. A diamond's weight alone does not establish its identity, quality or an offer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1601",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1603",
+              "href": "https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1602",
+              "text": "If the report records fluorescence, ask how it affects this particular stone's appearance and offer. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1604",
+              "text": "GIA explains that fluorescence can affect appearance or have no visible effect",
+              "marks": [
+                "1603"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1605",
+              "text": "; its presence alone does not establish a fixed discount.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1606",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1608",
+              "href": "/large-diamond-buyer-los-angeles/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1607",
+              "text": "Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1609",
+              "text": "large natural diamond guide",
+              "marks": [
+                "1608"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1610",
+              "text": " covers substantial stones as well as smaller diamonds of any shape. Keep a single stone's weight separate from totals for a collection.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1611",
+          "style": "h2",
+          "sourceId": "say-what-you-need-from-the-evaluation",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1612",
+              "text": "Say what you need from the evaluation",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1613",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1615",
+              "href": "https://4cs.gia.edu/en-us/blog/appraisal-tips/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1614",
+              "text": "A purchase proposal and a formal valuation report are different services. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1616",
+              "text": "GIA explains why a grading report does not assign monetary value",
+              "marks": [
+                "1615"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1617",
+              "text": ". An insurance or other formal appraisal also needs a stated purpose and scope.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1618",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1620",
+              "href": "/free-diamond-appraisal-same-day-cash/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1619",
+              "text": "If a third party needs a document, ask about its requirements first. Tell the provider what report is expected rather than assuming that a buyer's offer will meet that need. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1621",
+              "text": "evaluation-versus-appraisal guide",
+              "marks": [
+                "1620"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1622",
+              "text": " explains the distinction.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1623",
+          "style": "h2",
+          "sourceId": "compare-the-offer-against-your-item-list",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1624",
+              "text": "Compare the offer against your item list",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1625",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1626",
+              "text": "Check which stones are included and whether the amount is final or subject to additional work. For several items, ask for enough detail to understand the proposal before deciding to sell part or all of the collection.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1627",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1628",
+              "text": "Confirm any outstanding costs, the duration of the offer and payment arrangements. If you remove an item from the sale, request a revised amount. A quote for a different origin, grade or set of items cannot settle the comparison.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1629",
+          "style": "h2",
+          "sourceId": "contact-the-downtown-los-angeles-location",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1630",
+              "text": "Contact the Downtown Los Angeles location",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1631",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1632",
+              "text": "Cash 4 Gold & Diamonds buys natural polished diamonds of any size and shape. We do not buy laboratory-grown diamonds or rough and uncut material. Tell us what the documentation says if origin is uncertain.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "1633",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "1635",
+              "href": "tel:3106631340"
+            },
+            {
+              "_type": "link",
+              "_key": "1638",
+              "href": "/contact-us/"
+            },
+            {
+              "_type": "link",
+              "_key": "1641",
+              "href": "/sell-your-diamonds-in-los-angeles/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "1634",
+              "text": "Call ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1636",
+              "text": "310-663-1340",
+              "marks": [
+                "1635"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1637",
+              "text": " or ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1639",
+              "text": "contact us",
+              "marks": [
+                "1638"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1640",
+              "text": " to arrange a visit to 617 S. Hill Street, Los Angeles, CA 90014. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1642",
+              "text": "diamond-buying service",
+              "marks": [
+                "1641"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "1643",
+              "text": " offers cash, bank wire or business-check payment for agreed purchases.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "why-getting-a-professional-loose-diamond-appraisal-matters",
+        "the-top-6-loose-diamond-appraisers-in-downtown-los-angeles",
+        "how-to-prepare-for-a-loose-diamond-appraisal",
+        "why-location-matters-the-downtown-la-jewelry-district",
+        "certification-and-credentials-to-look-for",
+        "the-cost-of-loose-diamond-appraisals-in-la",
+        "what-happens-after-your-appraisal",
+        "final-verdict-where-to-get-your-loose-diamond-appraised",
+        "can-i-get-a-loose-diamond-appraisal-without-selling",
+        "how-long-does-a-loose-diamond-appraisal-take",
+        "what-if-i-have-a-gia-certificate-for-my-diamond",
+        "should-i-sell-my-loose-diamond-or-get-it-set-in-jewelry",
+        "further-reading-from-industry-sources",
+        "organize-stones-one-at-a-time",
+        "bring-the-records-you-already-have",
+        "prepare-quality-questions-without-assigning-grades",
+        "say-what-you-need-from-the-evaluation",
+        "compare-the-offer-against-your-item-list",
+        "contact-the-downtown-los-angeles-location",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "Loose Diamond Evaluation in Downtown LA: What to Prepare",
+        "description": "Prepare loose natural diamonds for a Downtown Los Angeles evaluation. Organize stone records, reports and condition notes, then compare an item-specific offer.",
+        "canonical": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "loose diamond evaluation Downtown Los Angeles",
+        "secondaryKeywords": [
+          "prepare loose natural diamond for sale",
+          "loose diamond report checklist",
+          "large loose diamond buyer Downtown LA"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/owner-curated/three-oval-diamonds-tray-1200.webp"
+      },
+      "publishedAt": "2026-08-24T13:49:24+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-1d8666bfa78812192c6ff90c"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-2be8fa80dff4b8a4"
+        },
+        {
+          "_key": "diamond",
+          "_type": "reference",
+          "_ref": "category-diamond"
+        }
+      ],
+      "answer": "Bring each loose natural diamond with its matching report and any known condition history. Keep stones and documents organized individually, explain uncertainties and state whether you need a purchase offer or a separate valuation report.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "GIA: Report Check",
+          "url": "https://www.gia.edu/report-check-landing"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "GIA: diamond quality factors",
+          "url": "https://www.gia.edu/diamond-quality-factor"
+        },
+        {
+          "_key": "source-2",
+          "_type": "citation",
+          "title": "GIA: choosing an appraiser and understanding report purposes",
+          "url": "https://4cs.gia.edu/en-us/blog/appraisal-tips/"
+        },
+        {
+          "_key": "source-3",
+          "_type": "citation",
+          "title": "GIA: fluorescence and diamond appearance",
+          "url": "https://4cs.gia.edu/en-us/blog/diamond-fluorescence-good-bad/"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-2709f2855a84245a36712c4f"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-0a3decf91eabd739f6ca8f72"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-63217aa397c9121c13b84aed"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "sourceSha256": "5740b09d9c84f56222b5c50bf9211af5d4eb63fff225283e7e938bc6c2c42491",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "Loose Diamond Evaluation in Downtown LA: What to Prepare\n\nBring each loose natural diamond with its matching report and any known condition history. Keep stones and documents organized individually, explain uncertainties and state whether you need a purchase offer or a separate valuation report.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: Loose Diamond Evaluation in Downtown LA: What to Prepare\n\nBring each loose natural diamond with its matching report and any known condition history. Keep stones and documents organized individually, explain uncertainties and state whether you need a purchase offer or a separate valuation report.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/loose-diamond-appraisal-downtown-los-angeles.jpg",
+        "imageAlt": "Three large oval polished diamonds arranged in a green jewelry tray",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-3716ee16e91bbfc223315c38",
+      "_type": "page",
+      "title": "How to Value Estate Jewelry: Inventory, Materials & Records",
+      "path": "/how-to-value-estate-jewelry-pieces/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "2033",
+          "localPath": "/media/owner-curated/estate-old-cut-diamond-ring-evaluation-1200.webp",
+          "alt": "A substantial three-stone diamond ring beside a closed jeweler's loupe on a warm gray evaluation pad",
+          "caption": "A substantial three-stone diamond ring beside a closed jeweler's loupe on a warm gray evaluation pad. Illustrative estate-style jewelry; not authenticated age, actual inventory or grading evidence.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/owner-curated/estate-old-cut-diamond-ring-evaluation-480.webp 480w, /media/owner-curated/estate-old-cut-diamond-ring-evaluation-800.webp 800w, /media/owner-curated/estate-old-cut-diamond-ring-evaluation-1200.webp 1200w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "2034",
+          "style": "h2",
+          "sourceId": "create-a-simple-inventory-before-assigning-values",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2035",
+              "text": "Create a simple inventory before assigning values",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2036",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2037",
+              "text": "Give each piece a short identifier and photograph it from several angles. Keep matching earrings, chains and pendants associated with one another, and note any detached parts. Separate observations from assumptions: “blue stone” is more useful than an unsupported claim that it is sapphire.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "sourceTable",
+          "_key": "2038",
+          "rows": [
+            {
+              "_type": "tableRow",
+              "_key": "2039",
+              "isHeader": true,
+              "cells": [
+                "Inventory field",
+                "What to record"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "2040",
+              "isHeader": false,
+              "cells": [
+                "Item and identifier",
+                "Ring A, necklace B or another clear label"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "2041",
+              "isHeader": false,
+              "cells": [
+                "Visible marks",
+                "Letters, numbers and symbols exactly as seen"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "2042",
+              "isHeader": false,
+              "cells": [
+                "Condition",
+                "Missing pieces, damage and known repairs"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "2043",
+              "isHeader": false,
+              "cells": [
+                "Associated records",
+                "Receipts, reports, appraisals and maker information"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "2044",
+              "isHeader": false,
+              "cells": [
+                "Known history",
+                "Documented facts, with family recollections labeled separately"
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2045",
+          "style": "h2",
+          "sourceId": "keep-materials-and-complete-piece-features-separate",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2046",
+              "text": "Keep materials and complete-piece features separate",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2047",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2048",
+              "text": "A collection may contain precious metals, plated items, costume jewelry and pieces whose materials are unknown. Do not assume that everything is gold because it came from the same jewelry box. Let examination establish which materials are present.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "2049",
+          "localPath": "/media/articles/gemstonerings-940.webp",
+          "alt": "Assorted colored gemstone rings in a display tray",
+          "caption": "Assorted colored gemstone rings in a display tray.",
+          "width": 940,
+          "height": 627,
+          "srcset": "/media/articles/gemstonerings-400.webp 400w, /media/articles/gemstonerings-800.webp 800w, /media/articles/gemstonerings-940.webp 940w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "2050",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2052",
+              "href": "https://4cs.gia.edu/en-us/blog/tips-for-purchasing-estate-jewelry/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2051",
+              "text": "For gold jewelry, the relevant metal weight and purity must be distinguished from stones and other components. A complete piece also warrants consideration of its design and condition. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2053",
+              "text": "GIA’s estate jewelry guide",
+              "marks": [
+                "2052"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2054",
+              "text": " highlights examination for damage, missing stones and evidence of repairs.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2055",
+          "style": "h2",
+          "sourceId": "ask-what-supports-stone-and-maker-identification",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2056",
+              "text": "Ask what supports stone and maker identification",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2057",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2058",
+              "text": "Bring existing laboratory reports and ask which stones they describe. Natural origin and treatment status are separate details; an identification should not assume that every natural gemstone is untreated. Record what the examiner established and any limits on the assessment.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2059",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2061",
+              "href": "/diamond-chart-4cs-guide/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2060",
+              "text": "If a report describes a diamond, our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2062",
+              "text": "diamond grading chart guide",
+              "marks": [
+                "2061"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2063",
+              "text": " explains its color, clarity and cut terminology so you can prepare more specific evaluation questions.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2064",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2066",
+              "href": "/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2065",
+              "text": "A maker’s mark or period-style design can guide research, but it is not a substitute for authentication. Ask what supports the attribution and date. Avoid dismantling a possible antique or signed piece before its complete design has been considered; see the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2067",
+              "text": "antique gold evaluation guide",
+              "marks": [
+                "2066"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2068",
+              "text": ".",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2069",
+          "style": "h2",
+          "sourceId": "define-the-purpose-of-a-requested-value",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2070",
+              "text": "Define the purpose of a requested value",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2071",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2073",
+              "href": "https://www.appraisers.org/docs/default-source/16---member-resources/taf_gem-jewelry-appraisal.pdf?sfvrsn=19825949_3"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2072",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2074",
+              "text": "Appraisal Foundation’s jewelry guide",
+              "marks": [
+                "2073"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2075",
+              "text": " explains that a credible appraisal identifies the items, intended use, value definition and relevant date. Establish those requirements before commissioning a report.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2076",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2078",
+              "href": "/best-inherited-jewelry-valuation-los-angeles-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2077",
+              "text": "A buyer’s current purchase amount answers a different practical question: what is offered for the stated items under the stated terms? Do not convert an old appraisal into that amount using a fixed percentage. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2079",
+              "text": "inherited jewelry documentation guide",
+              "marks": [
+                "2078"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2080",
+              "text": " helps you choose the right next step.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2081",
+          "style": "h2",
+          "sourceId": "preserve-the-collection-for-evaluation",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2082",
+              "text": "Preserve the collection for evaluation",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2083",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2085",
+              "href": "https://www.gia.edu/gia-news-research-tips-caring-jewelry"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2084",
+              "text": "Store pieces separately and avoid experimenting with cleaning on unfamiliar materials. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2086",
+              "text": "GIA’s care guidance",
+              "marks": [
+                "2085"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2087",
+              "text": " notes that gemstones and treatments can require different handling. Ask before paying for restoration intended only to improve a sale price.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2088",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2090",
+              "href": "/contact-us/"
+            },
+            {
+              "_type": "link",
+              "_key": "2093",
+              "href": "/sell-estate-jewelry-los-angeles/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2089",
+              "text": "For a purchase evaluation, ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2091",
+              "text": "contact Cash 4 Gold & Diamonds",
+              "marks": [
+                "2090"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2092",
+              "text": " at 310-663-1340 or visit 617 S. Hill Street, Los Angeles, CA 90014. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "2094",
+              "text": "estate jewelry service",
+              "marks": [
+                "2093"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "2095",
+              "text": " can discuss the collection you have and the information needed for an offer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2096",
+          "style": "h3",
+          "sourceId": "can-i-value-an-entire-jewelry-box-by-its-total-weight",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2097",
+              "text": "Can I value an entire jewelry box by its total weight?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2098",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2099",
+              "text": "No. Different materials and individual pieces need identification. A combined scale weight does not establish the relevant precious-metal content or complete-piece value.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2100",
+          "style": "h3",
+          "sourceId": "should-i-discard-items-that-look-like-costume-jewelry",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2101",
+              "text": "Should I discard items that look like costume jewelry?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "2102",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2103",
+              "text": "Keep uncertain items identifiable until you know what they are. Appearance alone is not a reliable way to sort a collection by material or potential significance.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "the-four-core-factors-in-estate-jewelry-valuation",
+        "metal-purity-and-weight",
+        "gemstone-quality-and-authentication",
+        "craftsmanship-and-design-quality",
+        "age-provenance-and-historical-significance",
+        "how-to-prepare-your-estate-jewelry-for-valuation",
+        "document-what-you-have",
+        "get-a-professional-appraisal",
+        "separate-high-value-from-costume-pieces",
+        "dating-and-authentication-why-it-matters",
+        "working-with-a-trusted-buyer",
+        "common-valuation-mistakes-to-avoid",
+        "final-steps-before-selling",
+        "what-if-i-have-gemstones-but-no-certificates",
+        "how-much-does-a-professional-appraisal-cost",
+        "should-i-clean-my-estate-jewelry-before-selling",
+        "can-i-sell-estate-jewelry-online-or-should-i-use-a-local-buyer",
+        "further-reading-from-industry-sources",
+        "create-a-simple-inventory-before-assigning-values",
+        "keep-materials-and-complete-piece-features-separate",
+        "ask-what-supports-stone-and-maker-identification",
+        "define-the-purpose-of-a-requested-value",
+        "preserve-the-collection-for-evaluation",
+        "can-i-value-an-entire-jewelry-box-by-its-total-weight",
+        "should-i-discard-items-that-look-like-costume-jewelry",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "How to Value Estate Jewelry: Inventory, Materials & Records",
+        "description": "Prepare an estate jewelry inventory with photos, markings, condition and existing reports. Learn how complete-piece evaluation differs from metal-only arithmetic.",
+        "canonical": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "how to value estate jewelry",
+        "secondaryKeywords": [
+          "estate jewelry inventory",
+          "estate jewelry materials and condition",
+          "estate jewelry evaluation records"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/owner-curated/estate-old-cut-diamond-ring-evaluation-1200.webp"
+      },
+      "publishedAt": "2026-08-29T13:18:36+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-3b7e92ec3efb4aeab26fe0a0"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-2be8fa80dff4b8a4"
+        },
+        {
+          "_key": "estate",
+          "_type": "reference",
+          "_ref": "category-estate"
+        }
+      ],
+      "answer": "Start with an item-by-item inventory, preserve existing records and label unknown details honestly. An evaluator can then consider materials, stones, condition, workmanship and supported history before stating a value or purchase offer for a defined purpose.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "GIA: estate jewelry examination",
+          "url": "https://4cs.gia.edu/en-us/blog/tips-for-purchasing-estate-jewelry/"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "The Appraisal Foundation: gem and jewelry appraisal guide",
+          "url": "https://www.appraisers.org/docs/default-source/16---member-resources/taf_gem-jewelry-appraisal.pdf?sfvrsn=19825949_3"
+        },
+        {
+          "_key": "source-2",
+          "_type": "citation",
+          "title": "GIA: caring for jewelry",
+          "url": "https://www.gia.edu/gia-news-research-tips-caring-jewelry"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-7d134876204dafad9fae2eb3"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-20d6de47fc036bcf09a69289"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-6e97f2f6c977418fc201b47b"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "sourceSha256": "381b305e7a0f104b50e820758768705420671b535ccf0add244dd90faefbf498",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [
+        {
+          "_key": "faq-0",
+          "_type": "reference",
+          "_ref": "page-09945f0571ff3f153e950e2d"
+        },
+        {
+          "_key": "faq-1",
+          "_type": "reference",
+          "_ref": "page-a909c241f95b48c41a7aed91"
+        }
+      ],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "How to Value Estate Jewelry: Inventory, Materials & Records\n\nStart with an item-by-item inventory, preserve existing records and label unknown details honestly. An evaluator can then consider materials, stones, condition, workmanship and supported history before stating a value or purchase offer for a defined purpose.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: How to Value Estate Jewelry: Inventory, Materials & Records\n\nStart with an item-by-item inventory, preserve existing records and label unknown details honestly. An evaluator can then consider materials, stones, condition, workmanship and supported history before stating a value or purchase offer for a defined purpose.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/how-to-value-estate-jewelry-pieces.jpg",
+        "imageAlt": "A substantial three-stone diamond ring beside a closed jeweler's loupe on a warm gray evaluation pad",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-69d48eca1cd1fdf27f7d08c1",
+      "_type": "page",
+      "title": "14K Gold Price Per Gram: Estimating Jewelry Value",
+      "path": "/14k-gold-price-per-gram-los-angeles/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "3913",
+          "localPath": "/media/selected-source/source-photo-18-800.webp",
+          "alt": "Gold bars displayed with United States banknotes",
+          "caption": "Gold bars displayed with United States banknotes. Representative editorial image; not a record of this business’s inventory, staff, prices or verified material grades.",
+          "width": 800,
+          "height": 533,
+          "srcset": "/media/selected-source/source-photo-18-480.webp 480w, /media/selected-source/source-photo-18-800.webp 800w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "3914",
+          "style": "h2",
+          "sourceId": "calculate-the-gold-content-before-comparing-prices",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3915",
+              "text": "Calculate the gold content before comparing prices",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3916",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3917",
+              "text": "To estimate the metal value of 14K gold, multiply the pure-gold price per gram by 14 ÷ 24, or approximately 0.5833. Then multiply by the net weight of the 14K alloy. This estimates contained gold value; a purchase offer also depends on the actual item and the buyer's terms.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3918",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3920",
+              "href": "https://www.gold.org/about-gold/about-gold-jewellery"
+            },
+            {
+              "_type": "link",
+              "_key": "3923",
+              "href": "/14-karat-gold-market-statistics-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3919",
+              "text": "14K means 14 parts gold in a 24-part alloy. A 585 fineness mark indicates 58.5% gold and is commonly associated with 14K jewelry. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3921",
+              "text": "World Gold Council's explanation of karat and fineness",
+              "marks": [
+                "3920"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3922",
+              "text": " describes the small distinction between nominal 14K and 585. Use the purity established during the evaluation when comparing a real offer. Our guide to ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3924",
+              "text": "14K marks, color and construction",
+              "marks": [
+                "3923"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3925",
+              "text": " explains what these descriptions tell you.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3926",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3928",
+              "href": "https://www.gia.edu/doc/Methods-for-Determining-Gold-Content-of-Jewelry-Metals.pdf"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3927",
+              "text": "A marking is a starting clue: stamps can wear, repairs can introduce other metals, and separate components may have different purities. Ask how purity will be checked and whether a proposed test could mark the piece. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3929",
+              "text": "GIA’s 1992 study of gold-testing methods",
+              "marks": [
+                "3928"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3930",
+              "text": " provides historical background on touchstone, electronic and X-ray fluorescence (XRF) testing and their limitations.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3931",
+          "style": "h2",
+          "sourceId": "convert-a-troy-ounce-reference-into-grams",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3932",
+              "text": "Convert a troy-ounce reference into grams",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3933",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3935",
+              "href": "https://www.nist.gov/pml/owm/si-units-mass"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3934",
+              "text": "If a gold-price reference is quoted in dollars per troy ounce, first divide it by 31.1034768 to obtain dollars per gram of pure gold. A troy ounce is different from an ordinary household ounce. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3936",
+              "text": "NIST mass reference",
+              "marks": [
+                "3935"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3937",
+              "text": " provides the conversion.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3938",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3939",
+              "text": "Estimated contained gold value = net alloy weight in grams × tested gold fraction × pure-gold price per gram.",
+              "marks": [
+                "strong"
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3940",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3942",
+              "href": "https://www.gold.org/goldhub/data/gold-prices"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3941",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3943",
+              "text": "World Gold Council's gold-price data",
+              "marks": [
+                "3942"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3944",
+              "text": " offers market references. Check the currency, unit, date, and whether a displayed value is an average or benchmark. It is not a binding offer for your jewelry, and this article does not display a live buying rate.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3945",
+          "style": "h2",
+          "sourceId": "worked-example-a-25-gram-14k-bracelet",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3946",
+              "text": "Worked example: a 25-gram 14K bracelet",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3947",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3948",
+              "text": "Assume a plain bracelet contains 25 grams of 14K alloy after accounting for any non-gold components. Its estimated pure-gold content is 25 × 14 ÷ 24 = approximately 14.58 grams. Multiply that amount by the current reference price per gram of pure gold to obtain a metal-content estimate.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "3949",
+          "localPath": "/media/articles/goldweighing-1200.webp",
+          "alt": "Gold jewelry arranged beside a digital scale and testing tools",
+          "caption": "Gold jewelry arranged beside a digital scale and testing tools.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/articles/goldweighing-400.webp 400w, /media/articles/goldweighing-800.webp 800w, /media/articles/goldweighing-1200.webp 1200w",
+          "sizes": "(max-width: 900px) 92vw, 850px"
+        },
+        {
+          "_type": "sourceTable",
+          "_key": "3950",
+          "rows": [
+            {
+              "_type": "tableRow",
+              "_key": "3951",
+              "isHeader": true,
+              "cells": [
+                "Net 14K alloy weight",
+                "Approximate pure gold"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "3952",
+              "isHeader": false,
+              "cells": [
+                "10 grams",
+                "5.83 grams"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "3953",
+              "isHeader": false,
+              "cells": [
+                "25 grams",
+                "14.58 grams"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "3954",
+              "isHeader": false,
+              "cells": [
+                "100 grams",
+                "58.33 grams"
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3955",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3956",
+              "text": "These are calculated metal quantities, not promised payouts. A bracelet's total weight may also include diamonds, non-gold springs, or other materials. A household scale and a visible stamp can help you prepare questions, but they do not establish a tested net gold weight.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3957",
+          "style": "h2",
+          "sourceId": "understand-the-difference-between-a-reference-and-an-offer",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3958",
+              "text": "Understand the difference between a reference and an offer",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3959",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3961",
+              "href": "/how-much-should-i-get-for-my-gold-jewelry/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3960",
+              "text": "A metal-only purchase offer can reflect testing, processing, refining, resale costs, and the buyer's margin. Jewelry with a desirable maker, significant stones, or collectible features may instead deserve evaluation as a complete piece. Do not add an intact jewelry resale estimate to its full metal value; that could count the same material twice. To distinguish a retail receipt or replacement appraisal from a current offer, read ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3962",
+              "text": "what to expect for gold jewelry",
+              "marks": [
+                "3961"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3963",
+              "text": ".",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3964",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3966",
+              "href": "/best-14k-gold-chain-2026-top-5-ranked/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3965",
+              "text": "For heavy Cuban chains and bracelets, ask about construction as well as weight. Hollow links and solid links can look similar while containing different amounts of metal. If diamonds are present, ask how the stones affect both the weight calculation and the offer. See our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3967",
+              "text": "14K chain guide",
+              "marks": [
+                "3966"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3968",
+              "text": " for these item-specific checks.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3969",
+          "style": "h2",
+          "sourceId": "compare-14k-gold-offers-on-the-same-basis",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3970",
+              "text": "Compare 14K gold offers on the same basis",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3971",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3973",
+              "href": "/how-much-is-my-gold-worth-gold-buyers-ranked/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3972",
+              "text": "Keep the same pieces together when requesting comparisons. Ask each buyer to state the tested purity, weight unit, weight used, whether stones are included, any charges, and the final payment. If one quote uses grams and another uses pennyweights, ask for matching units before comparing rates. Use the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3974",
+              "text": "gold-offer comparison worksheet",
+              "marks": [
+                "3973"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3975",
+              "text": " to record the same details for each buyer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3976",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3978",
+              "href": "/gold-valuation-how-gold-is-valued/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3977",
+              "text": "An estimate given before examination may change if the item differs from the description. Compare final amounts for the actual jewelry, not only an advertised per-gram figure. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3979",
+              "text": "gold-valuation guide",
+              "marks": [
+                "3978"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3980",
+              "text": " covers the broader factors behind an offer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3981",
+          "style": "h2",
+          "sourceId": "arrange-a-14k-gold-evaluation-in-downtown-los-angeles",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3982",
+              "text": "Arrange a 14K gold evaluation in Downtown Los Angeles",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3983",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3984",
+              "text": "Cash 4 Gold & Diamonds buys 14K jewelry, scrap gold, Cuban chains and bracelets with or without diamonds, gold coins, and silver coins at 617 S. Hill Street, Los Angeles, CA 90014. Single pieces, large quantities, and high-value transactions are welcome.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3985",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3987",
+              "href": "/sell-gold-jewelry-downtown-los-angeles/"
+            },
+            {
+              "_type": "link",
+              "_key": "3990",
+              "href": "tel:3106631340"
+            },
+            {
+              "_type": "link",
+              "_key": "3993",
+              "href": "/sell-your-golds/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3986",
+              "text": "Keep matching pieces and existing reports together. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3988",
+              "text": "Downtown LA gold-evaluation checklist",
+              "marks": [
+                "3987"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3989",
+              "text": " covers what to bring. Call ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3991",
+              "text": "310-663-1340",
+              "marks": [
+                "3990"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3992",
+              "text": " to discuss a substantial lot and your preferred payment method. Payment is available by cash, bank wire, or business check. Visit our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "3994",
+              "text": "gold-buying page",
+              "marks": [
+                "3993"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3995",
+              "text": " for the full buying scope.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3996",
+          "style": "h3",
+          "sourceId": "are-equal-weights-of-14k-white-and-yellow-gold-worth-the-same",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3997",
+              "text": "Are equal weights of 14K white, yellow and rose gold worth the same?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "3998",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4000",
+              "href": "/white-gold-guide/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3999",
+              "text": "At the same tested gold fraction, they contain the same amount of gold. A complete piece's offer may still differ because of its stones, maker, condition, or resale demand. Read more about ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4001",
+              "text": "white gold's alloy and finish",
+              "marks": [
+                "4000"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4002",
+              "text": ".",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4003",
+          "style": "h3",
+          "sourceId": "should-i-remove-stones-before-weighing-my-jewelry",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4004",
+              "text": "Should I remove stones before weighing my jewelry?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4005",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4006",
+              "text": "No. Have the intact jewelry evaluated first and ask how non-gold weight is accounted for. Removing stones can damage the setting and make an evaluation of the complete piece more difficult.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4007",
+          "style": "h3",
+          "sourceId": "can-this-formula-tell-me-the-best-day-to-sell",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4008",
+              "text": "Can this formula tell me the best day to sell?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4009",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4010",
+              "text": "No. It explains metal content using a stated price reference; it does not predict markets. Decide using an actual offer, the items you own, and your circumstances.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "further-reading-from-industry-sources",
+        "calculate-the-gold-content-before-comparing-prices",
+        "convert-a-troy-ounce-reference-into-grams",
+        "worked-example-a-25-gram-14k-bracelet",
+        "understand-the-difference-between-a-reference-and-an-offer",
+        "compare-14k-gold-offers-on-the-same-basis",
+        "arrange-a-14k-gold-evaluation-in-downtown-los-angeles",
+        "are-equal-weights-of-14k-white-and-yellow-gold-worth-the-same",
+        "should-i-remove-stones-before-weighing-my-jewelry",
+        "can-this-formula-tell-me-the-best-day-to-sell",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "14K Gold Price Per Gram: Estimating Jewelry Value",
+        "description": "Estimate 14K gold value per gram using purity, net metal weight, and a dated gold-price reference. Compare jewelry offers in Downtown Los Angeles.",
+        "canonical": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "14K gold price per gram",
+        "secondaryKeywords": [
+          "14K gold melt value",
+          "585 gold purity",
+          "14K gold weight calculation",
+          "sell 14K gold Los Angeles"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/selected-source/source-photo-18-800.webp"
+      },
+      "publishedAt": "2026-08-28T00:44:14+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-df211a65c2698d1f24656fdf"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-8d40d123b2e1e296"
+        },
+        {
+          "_key": "gold",
+          "_type": "reference",
+          "_ref": "category-gold"
+        }
+      ],
+      "answer": "Estimate 14K gold content using net alloy weight × 14/24, then multiply by the pure-gold price per gram. The result is a metal-content estimate, not a purchase offer.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "World Gold Council: gold purity, karat and fineness",
+          "url": "https://www.gold.org/about-gold/about-gold-jewellery"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "NIST: mass units and troy-ounce conversion",
+          "url": "https://www.nist.gov/pml/owm/si-units-mass"
+        },
+        {
+          "_key": "source-2",
+          "_type": "citation",
+          "title": "World Gold Council: dated gold-price reference data",
+          "url": "https://www.gold.org/goldhub/data/gold-prices"
+        },
+        {
+          "_key": "source-3",
+          "_type": "citation",
+          "title": "GIA: Methods for Determining the Gold Content of Jewelry Metals (Winter 1992)",
+          "url": "https://www.gia.edu/doc/Methods-for-Determining-Gold-Content-of-Jewelry-Metals.pdf"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-3e1a8136c02a761ea0fdbde9"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-674f75f17ed4a2c51d4806b0"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-37c6d63b54a9bf9a9aa58aa7"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "sourceSha256": "3b1defa3f78bdaae445c7c98685d077b0ca006c11daae4b54871c73a34199a21",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [
+        {
+          "_key": "faq-0",
+          "_type": "reference",
+          "_ref": "page-f913460a74b89261ea4d5867"
+        },
+        {
+          "_key": "faq-1",
+          "_type": "reference",
+          "_ref": "page-6b112003704e5e9b435f450e"
+        },
+        {
+          "_key": "faq-2",
+          "_type": "reference",
+          "_ref": "page-7ff6f679ec42408a5228e218"
+        }
+      ],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "14K Gold Price Per Gram: Estimating Jewelry Value\n\nEstimate 14K gold content using net alloy weight × 14/24, then multiply by the pure-gold price per gram. The result is a metal-content estimate, not a purchase offer.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: 14K Gold Price Per Gram: Estimating Jewelry Value\n\nEstimate 14K gold content using net alloy weight × 14/24, then multiply by the pure-gold price per gram. The result is a metal-content estimate, not a purchase offer.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/14k-gold-price-per-gram-los-angeles.jpg",
+        "imageAlt": "Gold bars displayed with United States banknotes",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-acbca84e99020a120b566333",
+      "_type": "page",
+      "title": "How to Sell a Rolex in Los Angeles: A Preparation Checklist",
+      "path": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "4065",
+          "localPath": "/media/owner-curated/rolex-president-rose-gold-olive-dial-1200.webp",
+          "alt": "Rose-gold Rolex Day-Date-style watch with an olive dial and President bracelet on pale suede",
+          "caption": "Rose-gold Rolex Day-Date-style watch with an olive dial and President bracelet on pale suede. Illustrative watch concept; not actual inventory, an exact model reference or authentication evidence.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/owner-curated/rolex-president-rose-gold-olive-dial-480.webp 480w, /media/owner-curated/rolex-president-rose-gold-olive-dial-800.webp 800w, /media/owner-curated/rolex-president-rose-gold-olive-dial-1200.webp 1200w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4066",
+          "style": "h2",
+          "sourceId": "1-make-a-simple-item-record",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4067",
+              "text": "1. Make a simple item record",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4068",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4069",
+              "text": "Write down the model or reference shown in your records, the accessories you have and any known damage or alterations. If you do not know the reference or production date, say so. A remembered purchase year should not become an unsupported manufacturing date.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4070",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4072",
+              "href": "https://www.rolex.com/watches"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4071",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4073",
+              "text": "official Rolex collections",
+              "marks": [
+                "4072"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4074",
+              "text": " can help you recognize model-family names. Current catalogue images cannot establish an older watch's exact reference, originality, authenticity or purchase value.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4075",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4076",
+              "text": "Record the watch's present condition for your own records. Avoid publicly sharing full identifying numbers or personal details from warranty documents when seeking an initial conversation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4077",
+          "style": "h2",
+          "sourceId": "2-gather-the-complete-package",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4078",
+              "text": "2. Gather the complete package",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4079",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4080",
+              "text": "Include spare bracelet links, the box, warranty papers, receipts and service invoices if available. Keep unrelated accessories separate. Missing papers do not prevent you from asking for a purchase evaluation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4081",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4083",
+              "href": "/best-vintage-rolex-buyer-downtown-los-angeles-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4082",
+              "text": "For an inherited watch, keep family information distinct from documented history and confirm your authority to decide about a sale. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4084",
+              "text": "vintage Rolex guide",
+              "marks": [
+                "4083"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4085",
+              "text": " covers uncertain history and component originality.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4086",
+          "style": "h2",
+          "sourceId": "3-preserve-its-current-condition",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4087",
+              "text": "3. Preserve its current condition",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4088",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4089",
+              "text": "Do not open the case, force the crown or arrange cosmetic restoration just to prepare for an offer. If the watch is damaged or has stopped, describe that before visiting. Ask whether an as-is evaluation is appropriate before spending money on repairs.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "4090",
+          "localPath": "/media/articles/rolexdaytona-800.webp",
+          "alt": "Two-tone Rolex Daytona with black dial",
+          "caption": "Two-tone Rolex Daytona with black dial.",
+          "width": 800,
+          "height": 600,
+          "srcset": "/media/articles/rolexdaytona-400.webp 400w, /media/articles/rolexdaytona-800.webp 800w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4091",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4092",
+              "href": "https://www.rolex.com/watch-care-and-service"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4093",
+              "text": "Rolex's manufacturer guidance",
+              "marks": [
+                "4092"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4094",
+              "text": " provides care and servicing information. The condition of an individual older watch still matters; a general cleaning instruction should not be treated as proof it is currently water-resistant.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4095",
+          "style": "h2",
+          "sourceId": "4-agree-on-the-examination",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4096",
+              "text": "4. Agree on the examination",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4097",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4098",
+              "text": "Ask who will handle the watch, whether opening or additional testing is proposed, and how any time away from you will be documented. Get an itemized receipt if the watch must be left for further work.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4099",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4101",
+              "href": "https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4100",
+              "text": "A purchase proposal is not automatically a formal authentication report. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4102",
+              "text": "Rolex Certified Pre-Owned",
+              "marks": [
+                "4101"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4103",
+              "text": " is a separate manufacturer programme, not a generic label for every used Rolex evaluation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4104",
+          "style": "h2",
+          "sourceId": "5-compare-the-amount-and-its-conditions",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4105",
+              "text": "5. Compare the amount and its conditions",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4106",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4107",
+              "text": "Ask for the offered amount and the precise items included. Note any unresolved inspection condition, charge or expiration of the proposal. Compare another offer on the same basis if you want a second opinion.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4108",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4110",
+              "href": "/best-gold-rolex-buyers-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4109",
+              "text": "For a gold Rolex, request consideration as a complete watch before a metal-only calculation. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4111",
+              "text": "gold Rolex guide",
+              "marks": [
+                "4110"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4112",
+              "text": " explains why case and bracelet materials do not replace reference-level evaluation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4113",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4115",
+              "href": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4114",
+              "text": "For a Day-Date, the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4116",
+              "text": "reference and bracelet evaluation guide",
+              "marks": [
+                "4115"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4117",
+              "text": " explains which details and records to bring.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4118",
+          "style": "h2",
+          "sourceId": "6-confirm-payment-before-the-handover",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4119",
+              "text": "6. Confirm payment before the handover",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4120",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4122",
+              "href": "/rolex-buyer-los-angeles-cash/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4121",
+              "text": "Choose a payment method, confirm the timing and keep the purchase record. Do not assume a preliminary estimate has become an accepted transaction. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4123",
+              "text": "Los Angeles Rolex buyer page",
+              "marks": [
+                "4122"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4124",
+              "text": " explains how to start the local evaluation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4125",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4127",
+              "href": "/contact-us/"
+            },
+            {
+              "_type": "link",
+              "_key": "4130",
+              "href": "tel:3106631340"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4126",
+              "text": "For an in-person purchase evaluation, ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4128",
+              "text": "contact Cash 4 Gold & Diamonds",
+              "marks": [
+                "4127"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4129",
+              "text": " at 617 S. Hill Street, Los Angeles, CA 90014, or call ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4131",
+              "text": "310-663-1340",
+              "marks": [
+                "4130"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4132",
+              "text": ". Payment for agreed purchases is available by cash, bank wire or business check; confirm the arrangements before accepting.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "where-can-i-sell-my-rolex-in-los-angeles",
+        "what-determines-how-much-your-rolex-is-worth",
+        "rolex-model-and-reference-number",
+        "stainless-steel-gold-or-platinum",
+        "condition-of-the-watch",
+        "original-box-and-papers",
+        "original-vs-aftermarket-parts",
+        "current-rolex-market-demand",
+        "how-to-sell-a-rolex-watch-in-los-angeles",
+        "step-1-identify-what-you-have",
+        "step-2-gather-everything-that-came-with-the-rolex",
+        "step-3-don-t-automatically-repair-or-polish-the-watch",
+        "step-4-get-an-in-person-rolex-evaluation",
+        "step-5-review-the-offer",
+        "can-i-sell-a-rolex-without-box-and-papers",
+        "can-i-sell-an-inherited-rolex",
+        "can-i-sell-a-broken-or-non-working-rolex",
+        "should-i-sell-a-gold-rolex-for-scrap-gold",
+        "is-it-better-to-sell-a-rolex-to-a-pawn-shop-or-rolex-buyer",
+        "should-i-sell-my-rolex-online-or-locally",
+        "selling-a-rolex-online",
+        "selling-a-rolex-locally",
+        "where-can-i-sell-a-rolex-in-downtown-los-angeles",
+        "why-sell-your-rolex-to-cash-4-gold-diamonds",
+        "questions-to-ask-a-rolex-buyer-before-selling",
+        "what-rolex-model-and-reference-do-i-own",
+        "how-does-the-condition-affect-the-value",
+        "do-my-box-and-papers-add-value",
+        "are-all-the-components-original",
+        "how-was-my-offer-determined",
+        "am-i-obligated-to-sell-after-the-evaluation",
+        "frequently-asked-questions-about-selling-a-rolex-in-los-angeles",
+        "how-much-is-my-rolex-worth",
+        "where-is-the-best-place-to-sell-a-rolex-in-los-angeles",
+        "can-i-sell-my-rolex-without-papers",
+        "can-i-sell-a-rolex-without-the-original-box",
+        "does-an-old-rolex-still-have-value",
+        "should-i-clean-or-polish-my-rolex-before-selling",
+        "can-i-sell-a-rolex-that-doesn-t-work",
+        "can-i-sell-an-inherited-rolex-2",
+        "can-i-sell-a-gold-rolex-for-its-gold-value",
+        "get-an-in-person-rolex-evaluation-in-los-angeles",
+        "further-reading-from-industry-sources",
+        "1-make-a-simple-item-record",
+        "2-gather-the-complete-package",
+        "3-preserve-its-current-condition",
+        "4-agree-on-the-examination",
+        "5-compare-the-amount-and-its-conditions",
+        "6-confirm-payment-before-the-handover",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "How to Sell a Rolex in Los Angeles: A Preparation Checklist",
+        "description": "Prepare your Rolex for sale in Los Angeles: gather records and links, preserve its condition, discuss inspection, and compare a clearly defined offer.",
+        "canonical": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "how to sell a Rolex Los Angeles",
+        "secondaryKeywords": [
+          "prepare Rolex for sale",
+          "sell Rolex without box and papers",
+          "Rolex selling checklist"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/owner-curated/rolex-president-rose-gold-olive-dial-1200.webp"
+      },
+      "publishedAt": "2026-08-21T13:28:53+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-bb33a16165f745622f7eef5f"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-2be8fa80dff4b8a4"
+        },
+        {
+          "_key": "watch",
+          "_type": "reference",
+          "_ref": "category-watch"
+        }
+      ],
+      "answer": "Prepare the complete Rolex, gather records and spare links, and leave repairs or polishing until after an initial discussion. At the evaluation, confirm what is being examined, what the offer includes and how an agreed sale will be completed.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "Rolex: watch care and servicing",
+          "url": "https://www.rolex.com/watch-care-and-service"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "Rolex: the Certified Pre-Owned programme",
+          "url": "https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned"
+        },
+        {
+          "_key": "source-2",
+          "_type": "citation",
+          "title": "Rolex: official watch collections",
+          "url": "https://www.rolex.com/watches"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-7d10e56b58c0bd4c104ef245"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-e90383efa8aae35f23d5e0b7"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-83ad60e6f25c2427331cf767"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "sourceSha256": "d5f34983c4670b07a9b6390a1de655f8d867632731c4b1f6741e03e2d3d139e5",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "How to Sell a Rolex in Los Angeles: A Preparation Checklist\n\nPrepare the complete Rolex, gather records and spare links, and leave repairs or polishing until after an initial discussion. At the evaluation, confirm what is being examined, what the offer includes and how an agreed sale will be completed.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: How to Sell a Rolex in Los Angeles: A Preparation Checklist\n\nPrepare the complete Rolex, gather records and spare links, and leave repairs or polishing until after an initial discussion. At the evaluation, confirm what is being examined, what the offer includes and how an agreed sale will be completed.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/how-to-sell-a-rolex-watch-in-los-angeles.jpg",
+        "imageAlt": "Rose-gold Rolex Day-Date-style watch with an olive dial and President bracelet on pale suede",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-39d93f20c6f8cfdda99431a5",
+      "_type": "page",
+      "title": "Selling Inherited Jewelry Without Pressure: A Practical Guide",
+      "path": "/sell-inherited-jewelry-no-obligation/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "4548",
+          "localPath": "/media/owner-curated/estate-large-diamond-riviere-necklace-1200.webp",
+          "alt": "Substantial platinum rivière necklace of large graduated cushion-cut diamonds on slate velvet",
+          "caption": "Substantial platinum rivière necklace of large graduated cushion-cut diamonds on slate velvet. Illustrative estate-style jewelry; not authenticated age, actual inventory or grading evidence.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/owner-curated/estate-large-diamond-riviere-necklace-480.webp 480w, /media/owner-curated/estate-large-diamond-riviere-necklace-800.webp 800w, /media/owner-curated/estate-large-diamond-riviere-necklace-1200.webp 1200w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4549",
+          "style": "h2",
+          "sourceId": "decide-what-you-are-comfortable-considering",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4550",
+              "text": "Decide what you are comfortable considering",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4551",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4552",
+              "text": "You do not need to make one decision about an entire inheritance. Set aside pieces you want to keep, identify those you are comfortable discussing and leave uncertain items in a separate group. A photograph or written family history may also be worth preserving independently of a sale.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4553",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4554",
+              "text": "People attach different meanings to inherited jewelry. Keeping a piece, selling it or waiting can each be a reasonable personal choice. If other people share ownership or decision-making responsibility, resolve that before committing items to a transaction.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4555",
+          "style": "h2",
+          "sourceId": "clarify-the-appointment-and-service-terms",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4556",
+              "text": "Clarify the appointment and service terms",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4557",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4558",
+              "text": "Describe the collection when contacting a buyer. Ask what to bring, how the appointment works and whether any proposed service has a charge. A no-obligation purchase discussion should leave the sale decision with you, but it should not be confused with an agreement for separate paid work.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "4559",
+          "localPath": "/media/articles/gemstonerings-940.webp",
+          "alt": "Assorted colored gemstone rings in a display tray",
+          "caption": "Assorted colored gemstone rings in a display tray.",
+          "width": 940,
+          "height": 627,
+          "srcset": "/media/articles/gemstonerings-400.webp 400w, /media/articles/gemstonerings-800.webp 800w, /media/articles/gemstonerings-940.webp 940w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4560",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4562",
+              "href": "https://www.appraisers.org/docs/default-source/16---member-resources/taf_gem-jewelry-appraisal.pdf?sfvrsn=19825949_3"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4561",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4563",
+              "text": "Appraisal Foundation’s guide",
+              "marks": [
+                "4562"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4564",
+              "text": " distinguishes the scope and intended use of a formal appraisal. If your purpose is insurance or estate documentation, establish that requirement rather than assuming a buyer’s offer supplies the document you need.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4565",
+          "style": "h2",
+          "sourceId": "bring-an-organized-collection",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4566",
+              "text": "Bring an organized collection",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4567",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4568",
+              "text": "Keep matching jewelry and any detached components together. Bring existing receipts, reports and repair history, and tell the evaluator which items you are considering for sale. Label information you do not know as unknown.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4569",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4571",
+              "href": "/where-to-sell-rolex-watch-los-angeles/"
+            },
+            {
+              "_type": "link",
+              "_key": "4574",
+              "href": "/diamond-what-it-is-how-to-value-where-to-sell/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4570",
+              "text": "If your collection includes a Rolex, the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4572",
+              "text": "local watch-buyer guide",
+              "marks": [
+                "4571"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4573",
+              "text": " helps you compare evaluation arrangements. For diamond pieces, the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4575",
+              "text": "diamond identification and selling guide",
+              "marks": [
+                "4574"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4576",
+              "text": " explains what to establish before discussing value.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4577",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4578",
+              "href": "https://4cs.gia.edu/en-us/blog/tips-for-purchasing-estate-jewelry/"
+            },
+            {
+              "_type": "link",
+              "_key": "4581",
+              "href": "/how-to-value-estate-jewelry-pieces/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4579",
+              "text": "GIA’s estate jewelry guidance",
+              "marks": [
+                "4578"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4580",
+              "text": " highlights condition and repairs as useful details to examine. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4582",
+              "text": "inventory guide",
+              "marks": [
+                "4581"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4583",
+              "text": " provides a simple way to record those observations without trying to price every piece yourself.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4584",
+          "style": "h2",
+          "sourceId": "ask-for-an-offer-you-can-understand",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4585",
+              "text": "Ask for an offer you can understand",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "sourceTable",
+          "_key": "4586",
+          "rows": [
+            {
+              "_type": "tableRow",
+              "_key": "4587",
+              "isHeader": true,
+              "cells": [
+                "Before deciding",
+                "Clarify"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "4588",
+              "isHeader": false,
+              "cells": [
+                "Included jewelry",
+                "The exact pieces covered by the amount"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "4589",
+              "isHeader": false,
+              "cells": [
+                "Partial sale",
+                "Whether keeping selected items changes the remaining offer"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "4590",
+              "isHeader": false,
+              "cells": [
+                "Further examination",
+                "Any conditions that could change the number"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "4591",
+              "isHeader": false,
+              "cells": [
+                "Time to consider",
+                "How long the offer remains available"
+              ]
+            },
+            {
+              "_type": "tableRow",
+              "_key": "4592",
+              "isHeader": false,
+              "cells": [
+                "Payment",
+                "The final amount, method and expected availability"
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4593",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4594",
+              "text": "If something is unclear, ask for an explanation before accepting. Keep a written summary when comparing offers. A decision to wait does not require a buyer to keep a price available indefinitely, so record the offer’s actual terms.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4595",
+          "style": "h2",
+          "sourceId": "take-the-next-step-that-fits-your-purpose",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4596",
+              "text": "Take the next step that fits your purpose",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4597",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4599",
+              "href": "/best-inherited-jewelry-valuation-los-angeles-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4598",
+              "text": "You may request a purchase evaluation now, seek required appraisal documentation or wait while you discuss the collection with family. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4600",
+              "text": "inherited jewelry valuation guide",
+              "marks": [
+                "4599"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4601",
+              "text": " explains how those purposes differ.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4602",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4604",
+              "href": "/sell-estate-jewelry-los-angeles/"
+            },
+            {
+              "_type": "link",
+              "_key": "4607",
+              "href": "/contact-us/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4603",
+              "text": "Cash 4 Gold & Diamonds offers an ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4605",
+              "text": "estate jewelry buying service",
+              "marks": [
+                "4604"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4606",
+              "text": " at 617 S. Hill Street, Los Angeles, CA 90014. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4608",
+              "text": "Contact us",
+              "marks": [
+                "4607"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4609",
+              "text": " at 310-663-1340 to describe your collection. Our diamond buying is for natural cut and polished diamonds in any size or shape; we do not buy laboratory-grown, uncut or rough diamonds.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4610",
+          "style": "h3",
+          "sourceId": "can-i-decide-to-keep-a-piece-after-hearing-an-offer",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4611",
+              "text": "Can I decide to keep a piece after hearing an offer?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4612",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4613",
+              "text": "Make your decision before accepting the transaction. If you remove an item from a proposed collection sale, ask for the revised scope and amount.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4614",
+          "style": "h3",
+          "sourceId": "does-no-obligation-to-sell-mean-every-appraisal-service-is-free",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4615",
+              "text": "Does no obligation to sell mean every appraisal service is free?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4616",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4617",
+              "text": "No. A purchase discussion and a separately commissioned appraisal are different services. Confirm any proposed charges and deliverables before authorizing work.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "what-does-no-obligation-really-mean-when-selling-inherited-jewelry",
+        "why-inherited-jewelry-is-different-from-other-valuables-you-own",
+        "the-step-by-step-process-for-selling-inherited-jewelry-with-no-pressure",
+        "understanding-your-options-when-selling-inherited-jewelry",
+        "what-types-of-inherited-jewelry-are-most-valuable",
+        "red-flags-avoid-pressure-and-dishonest-buyers",
+        "making-the-emotional-decision-to-let-go",
+        "how-to-get-started-next-steps",
+        "frequently-asked-questions-about-selling-inherited-jewelry",
+        "can-i-get-a-free-appraisal-for-inherited-jewelry-without-selling",
+        "how-long-does-it-take-to-sell-inherited-jewelry",
+        "what-documents-do-i-need-to-sell-inherited-jewelry",
+        "is-it-better-to-sell-all-my-inherited-jewelry-at-once-or-piece-by-piece",
+        "further-reading-from-industry-sources",
+        "decide-what-you-are-comfortable-considering",
+        "clarify-the-appointment-and-service-terms",
+        "bring-an-organized-collection",
+        "ask-for-an-offer-you-can-understand",
+        "take-the-next-step-that-fits-your-purpose",
+        "can-i-decide-to-keep-a-piece-after-hearing-an-offer",
+        "does-no-obligation-to-sell-mean-every-appraisal-service-is-free",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "Selling Inherited Jewelry Without Pressure: A Practical Guide",
+        "description": "Explore selling inherited jewelry at your own pace. Choose what to keep, prepare records and understand the offer before committing to a Los Angeles sale.",
+        "canonical": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "sell inherited jewelry without pressure",
+        "secondaryKeywords": [
+          "inherited jewelry no obligation",
+          "keep or sell inherited jewelry",
+          "partial estate jewelry sale"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/owner-curated/estate-large-diamond-riviere-necklace-1200.webp"
+      },
+      "publishedAt": "2026-08-10T19:44:29+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-3b7e92ec3efb4aeab26fe0a0"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-2be8fa80dff4b8a4"
+        },
+        {
+          "_key": "estate",
+          "_type": "reference",
+          "_ref": "category-estate"
+        }
+      ],
+      "answer": "Separate learning about your jewelry from agreeing to sell it. Decide which pieces you are willing to consider, ask about any service terms in advance, and confirm the exact items and amount before accepting a purchase offer.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "GIA: estate jewelry and condition",
+          "url": "https://4cs.gia.edu/en-us/blog/tips-for-purchasing-estate-jewelry/"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "The Appraisal Foundation: scope and purpose of a jewelry appraisal",
+          "url": "https://www.appraisers.org/docs/default-source/16---member-resources/taf_gem-jewelry-appraisal.pdf?sfvrsn=19825949_3"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-20d6de47fc036bcf09a69289"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-3716ee16e91bbfc223315c38"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-7d134876204dafad9fae2eb3"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "sourceSha256": "faba5eee871e84f89f15440533cba5001195ba7061362f6d328f7f11fe68e560",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [
+        {
+          "_key": "faq-0",
+          "_type": "reference",
+          "_ref": "page-390b316c9b1b0222217714c7"
+        },
+        {
+          "_key": "faq-1",
+          "_type": "reference",
+          "_ref": "page-c90e2687716f61b5ef5d910a"
+        }
+      ],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "Selling Inherited Jewelry Without Pressure: A Practical Guide\n\nSeparate learning about your jewelry from agreeing to sell it. Decide which pieces you are willing to consider, ask about any service terms in advance, and confirm the exact items and amount before accepting a purchase offer.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: Selling Inherited Jewelry Without Pressure: A Practical Guide\n\nSeparate learning about your jewelry from agreeing to sell it. Decide which pieces you are willing to consider, ask about any service terms in advance, and confirm the exact items and amount before accepting a purchase offer.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/sell-inherited-jewelry-no-obligation.jpg",
+        "imageAlt": "Substantial platinum rivière necklace of large graduated cushion-cut diamonds on slate velvet",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-8b544d4aa5abcc6df16766ed",
+      "_type": "page",
+      "title": "Gold Rolex Day-Date: Reference, Bracelet & Purchase Value",
+      "path": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "kind": "article",
+      "contentMode": "imported",
+      "body": [
+        {
+          "_type": "migratedImage",
+          "_key": "4700",
+          "localPath": "/media/owner-curated/rolex-president-gold-champagne-1200.webp",
+          "alt": "Yellow-gold Rolex Day-Date-style watch with a champagne dial and diamond bezel",
+          "caption": "Yellow-gold Rolex Day-Date-style watch with a champagne dial and diamond bezel. Illustrative watch concept; not actual inventory, an exact model reference or authentication evidence.",
+          "width": 1536,
+          "height": 1024,
+          "srcset": "/media/owner-curated/rolex-president-gold-champagne-480.webp 480w, /media/owner-curated/rolex-president-gold-champagne-800.webp 800w, /media/owner-curated/rolex-president-gold-champagne-1200.webp 1200w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4701",
+          "style": "h2",
+          "sourceId": "identify-the-day-date-you-actually-have",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4702",
+              "text": "Identify the Day-Date you actually have",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4703",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4704",
+              "text": "Record the reference from available documents and describe the dial, bezel, case and bracelet. Avoid choosing a reference solely because a current online image looks similar. Earlier examples and later modifications may need additional research.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4705",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4707",
+              "href": "https://www.rolex.com/watches/day-date"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4706",
+              "text": "The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4708",
+              "text": "official Rolex Day-Date collection",
+              "marks": [
+                "4707"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4709",
+              "text": " describes the model family and its precious-metal configurations. The President bracelet is closely associated with this collection, but a nickname is not a complete description of an individual watch.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4710",
+          "style": "h2",
+          "sourceId": "include-the-bracelet-in-the-evaluation",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4711",
+              "text": "Include the bracelet in the evaluation",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4712",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4713",
+              "text": "Bring detached links and note any replacement clasp or bracelet work you know about. Ask how length, wear, repairs and the relationship of the bracelet to the case are being considered.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4714",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4716",
+              "href": "/best-gold-rolex-buyers-2026/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4715",
+              "text": "A full-watch weight includes non-gold components. Do not multiply that weight by a pure-gold price or assume every fitted component matches the case material. The ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4717",
+              "text": "gold Rolex selling guide",
+              "marks": [
+                "4716"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4718",
+              "text": " discusses complete-watch assessment.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4719",
+          "style": "h2",
+          "sourceId": "separate-configuration-from-later-changes",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4720",
+              "text": "Separate configuration from later changes",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4721",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4722",
+              "text": "Disclose dial, bezel or diamond-setting changes if known. Ask the evaluator to distinguish original components, manufacturer service replacements and aftermarket alterations. The presence of gemstones does not by itself establish factory setting or their natural origin.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "migratedImage",
+          "_key": "4723",
+          "localPath": "/media/articles/rolexgreendaytona-940.webp",
+          "alt": "Gold Rolex Daytona with green dial",
+          "caption": "Gold Rolex Daytona with green dial.",
+          "width": 940,
+          "height": 627,
+          "srcset": "/media/articles/rolexgreendaytona-400.webp 400w, /media/articles/rolexgreendaytona-800.webp 800w, /media/articles/rolexgreendaytona-940.webp 940w",
+          "sizes": "(max-width: 800px) 90vw, 800px"
+        },
+        {
+          "_type": "block",
+          "_key": "4724",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4726",
+              "href": "/how-to-spot-a-fake-rolex/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4725",
+              "text": "Do not open the case yourself to check a movement. A familiar logo, serial number or substantial feel cannot authenticate the complete watch. Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4727",
+              "text": "Rolex authentication guide",
+              "marks": [
+                "4726"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4728",
+              "text": " explains the limits of visual shortcuts.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4729",
+          "style": "h2",
+          "sourceId": "use-service-history-and-condition-together",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4730",
+              "text": "Use service history and condition together",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4731",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4732",
+              "text": "Bring service invoices, including any description of parts replaced. A prior service date does not guarantee present operation or water resistance. Describe current problems honestly.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4733",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4735",
+              "href": "https://www.rolex.com/watch-care-and-service"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4734",
+              "text": "Before arranging polishing or repair solely for a sale, discuss an evaluation in the watch's present condition. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4736",
+              "text": "Rolex's care and service information",
+              "marks": [
+                "4735"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4737",
+              "text": " is the primary source for manufacturer support.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4738",
+          "style": "h2",
+          "sourceId": "compare-an-offer-without-assuming-an-investment-return",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4739",
+              "text": "Compare an offer without assuming an investment return",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4740",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4741",
+              "text": "A luxury watch can rise or fall in resale value. Neither its precious-metal content nor brand name creates a guaranteed resale floor for the amount you paid. Gold price changes also do not translate into a fixed percentage change in a complete Day-Date offer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4742",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4744",
+              "href": "https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4743",
+              "text": "Compare the same reference, condition, accessories and sale terms. An advertised watch with a warranty or ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4745",
+              "text": "Rolex Certified Pre-Owned programme",
+              "marks": [
+                "4744"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4746",
+              "text": " coverage is not equivalent to every privately presented example.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4747",
+          "style": "h2",
+          "sourceId": "arrange-an-individual-day-date-evaluation",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4748",
+              "text": "Arrange an individual Day-Date evaluation",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4749",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4751",
+              "href": "/best-gold-rolex-watches-2026-ranked/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4750",
+              "text": "Review the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4752",
+              "text": "gold Rolex comparison checklist",
+              "marks": [
+                "4751"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4753",
+              "text": ", then bring the actual watch and available records.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4754",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4756",
+              "href": "/how-to-sell-a-rolex-watch-in-los-angeles/"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4755",
+              "text": "Our ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4757",
+              "text": "step-by-step Rolex selling guide",
+              "marks": [
+                "4756"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4758",
+              "text": " also covers agreeing on the examination, documenting the offer and confirming payment before handover.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "4759",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "4761",
+              "href": "/contact-us/"
+            },
+            {
+              "_type": "link",
+              "_key": "4764",
+              "href": "tel:3106631340"
+            }
+          ],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "4760",
+              "text": "For an in-person purchase evaluation, ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4762",
+              "text": "contact Cash 4 Gold & Diamonds",
+              "marks": [
+                "4761"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4763",
+              "text": " at 617 S. Hill Street, Los Angeles, CA 90014, or call ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "4765",
+              "text": "310-663-1340",
+              "marks": [
+                "4764"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "4766",
+              "text": ". Payment for agreed purchases is available by cash, bank wire or business check; confirm the arrangements before accepting.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "legacyAnchors": [
+        "what-is-a-rolex-day-date-gold",
+        "how-much-does-a-rolex-day-date-gold-actually-cost",
+        "why-do-people-want-rolex-day-date-gold-watches",
+        "how-to-tell-if-your-day-date-gold-is-real",
+        "should-you-sell-your-rolex-day-date-gold",
+        "where-to-sell-your-rolex-day-date-gold",
+        "what-affects-the-value-of-your-day-date-gold",
+        "gold-prices-and-your-watch-value",
+        "what-to-expect-when-you-sell",
+        "how-much-is-my-rolex-day-date-gold-worth-right-now",
+        "are-rolex-day-date-gold-watches-a-good-investment",
+        "can-i-sell-a-rolex-day-date-gold-without-papers-or-original-box",
+        "how-do-i-know-if-my-day-date-gold-is-worth-selling-now-or-waiting",
+        "further-reading-from-industry-sources",
+        "identify-the-day-date-you-actually-have",
+        "include-the-bracelet-in-the-evaluation",
+        "separate-configuration-from-later-changes",
+        "use-service-history-and-condition-together",
+        "compare-an-offer-without-assuming-an-investment-return",
+        "arrange-an-individual-day-date-evaluation",
+        "plan-your-evaluation-in-downtown-los-angeles",
+        "sources-and-further-reading",
+        "related-guides"
+      ],
+      "seo": {
+        "_type": "seo",
+        "title": "Gold Rolex Day-Date: Reference, Bracelet & Purchase Value",
+        "description": "Prepare a gold Rolex Day-Date for evaluation. Review its reference, President bracelet, dial, service records and alterations without relying on price guesses.",
+        "canonical": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+        "noindex": false,
+        "nofollow": false,
+        "focusKeyword": "gold Rolex Day-Date value",
+        "secondaryKeywords": [
+          "sell Rolex Day-Date Los Angeles",
+          "Rolex President bracelet condition",
+          "Day-Date reference evaluation"
+        ],
+        "sourceSocialImage": "https://cash4goldanddiamond.com/media/owner-curated/rolex-president-gold-champagne-1200.webp"
+      },
+      "publishedAt": "2026-08-10T20:12:11+00:00",
+      "author": {
+        "_type": "reference",
+        "_ref": "author-593991d6aba33c88"
+      },
+      "location": {
+        "_type": "reference",
+        "_ref": "location-downtown"
+      },
+      "service": {
+        "_type": "reference",
+        "_ref": "service-bb33a16165f745622f7eef5f"
+      },
+      "categories": [
+        {
+          "_key": "source-0",
+          "_type": "reference",
+          "_ref": "source-category-2be8fa80dff4b8a4"
+        },
+        {
+          "_key": "watch",
+          "_type": "reference",
+          "_ref": "category-watch"
+        }
+      ],
+      "answer": "A gold Rolex Day-Date purchase offer depends on the exact reference, configuration, condition and included components. Bring the watch, bracelet links and existing records; a gold-price chart or generic online range cannot price the complete timepiece.",
+      "sources": [
+        {
+          "_key": "source-0",
+          "_type": "citation",
+          "title": "Rolex: Day-Date collection",
+          "url": "https://www.rolex.com/watches/day-date"
+        },
+        {
+          "_key": "source-1",
+          "_type": "citation",
+          "title": "Rolex: watch care and servicing",
+          "url": "https://www.rolex.com/watch-care-and-service"
+        },
+        {
+          "_key": "source-2",
+          "_type": "citation",
+          "title": "Rolex: the Certified Pre-Owned programme",
+          "url": "https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned"
+        }
+      ],
+      "related": [
+        {
+          "_key": "related-0",
+          "_type": "reference",
+          "_ref": "page-ee8a3eeef2e6fb07981f7919"
+        },
+        {
+          "_key": "related-1",
+          "_type": "reference",
+          "_ref": "page-83ad60e6f25c2427331cf767"
+        },
+        {
+          "_key": "related-2",
+          "_type": "reference",
+          "_ref": "page-de0d7daab01290d59ace0073"
+        }
+      ],
+      "sourceUrl": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "sourceSha256": "598eefd81b75f050dfbe92a4f6fab333a269992c2202df5bde3bdc90c4b7a2aa",
+      "contentVerified": false,
+      "seoVerified": false,
+      "faqs": [],
+      "socialSharing": {
+        "_type": "socialSharing",
+        "enabled": false,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "facebookCaption": "Gold Rolex Day-Date: Reference, Bracelet & Purchase Value\n\nA gold Rolex Day-Date purchase offer depends on the exact reference, configuration, condition and included components. Bring the watch, bracelet links and existing records; a gold-price chart or generic online range cannot price the complete timepiece.\n\nOur guide explains what to check before discussing an offer.",
+        "instagramCaption": "Before you sell: Gold Rolex Day-Date: Reference, Bracelet & Purchase Value\n\nA gold Rolex Day-Date purchase offer depends on the exact reference, configuration, condition and included components. Bring the watch, bracelet links and existing records; a gold-price chart or generic online range cannot price the complete timepiece.\n\nSave the guide for your visit to the Los Angeles Jewelry District.",
+        "localImage": "/media/social/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends.jpg",
+        "imageAlt": "Yellow-gold Rolex Day-Date-style watch with a champagne dial and diamond bezel",
+        "approved": false,
+        "mediaRightsConfirmed": false
+      },
+      "modifiedAt": "2026-09-11T16:09:38.215Z"
+    },
+    {
+      "_id": "page-09945f0571ff3f153e950e2d",
+      "_type": "faq",
+      "question": "Can I value an entire jewelry box by its total weight?",
+      "answer": "No. Different materials and individual pieces need identification. A combined scale weight does not establish the relevant precious-metal content or complete-piece value.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-3716ee16e91bbfc223315c38"
+      }
+    },
+    {
+      "_id": "page-a909c241f95b48c41a7aed91",
+      "_type": "faq",
+      "question": "Should I discard items that look like costume jewelry?",
+      "answer": "Keep uncertain items identifiable until you know what they are. Appearance alone is not a reliable way to sort a collection by material or potential significance.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-3716ee16e91bbfc223315c38"
+      }
+    },
+    {
+      "_id": "page-f913460a74b89261ea4d5867",
+      "_type": "faq",
+      "question": "Are equal weights of 14K white, yellow and rose gold worth the same?",
+      "answer": "At the same tested gold fraction, they contain the same amount of gold. A complete piece's offer may still differ because of its stones, maker, condition, or resale demand. Read more about white gold's alloy and finish.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-69d48eca1cd1fdf27f7d08c1"
+      }
+    },
+    {
+      "_id": "page-6b112003704e5e9b435f450e",
+      "_type": "faq",
+      "question": "Should I remove stones before weighing my jewelry?",
+      "answer": "No. Have the intact jewelry evaluated first and ask how non-gold weight is accounted for. Removing stones can damage the setting and make an evaluation of the complete piece more difficult.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-69d48eca1cd1fdf27f7d08c1"
+      }
+    },
+    {
+      "_id": "page-7ff6f679ec42408a5228e218",
+      "_type": "faq",
+      "question": "Can this formula tell me the best day to sell?",
+      "answer": "No. It explains metal content using a stated price reference; it does not predict markets. Decide using an actual offer, the items you own, and your circumstances.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-69d48eca1cd1fdf27f7d08c1"
+      }
+    },
+    {
+      "_id": "page-390b316c9b1b0222217714c7",
+      "_type": "faq",
+      "question": "Can I decide to keep a piece after hearing an offer?",
+      "answer": "Make your decision before accepting the transaction. If you remove an item from a proposed collection sale, ask for the revised scope and amount.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-39d93f20c6f8cfdda99431a5"
+      }
+    },
+    {
+      "_id": "page-c90e2687716f61b5ef5d910a",
+      "_type": "faq",
+      "question": "Does no obligation to sell mean every appraisal service is free?",
+      "answer": "No. A purchase discussion and a separately commissioned appraisal are different services. Confirm any proposed charges and deliverables before authorizing work.",
+      "page": {
+        "_type": "reference",
+        "_ref": "page-39d93f20c6f8cfdda99431a5"
+      }
+    }
+  ]
+}
