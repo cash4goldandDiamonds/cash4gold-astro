@@ -1,0 +1,24 @@
+---
+import {analyticsSettings} from '../lib/privacy-consent.mjs';
+interface Props {environment:'preview'|'production';pagePath:string;}
+const {environment,pagePath}=Astro.props;
+const settings=analyticsSettings({enabled:import.meta.env.PUBLIC_ANALYTICS_ENABLED,id:import.meta.env.PUBLIC_GA4_MEASUREMENT_ID,environment:import.meta.env.PUBLIC_ANALYTICS_ENV,siteEnvironment:environment});
+---
+<div class="privacy-controls" data-privacy-controls data-analytics-enabled={String(settings.enabled)} data-analytics-id={settings.enabled?settings.id:''} data-analytics-environment={environment} data-analytics-path={pagePath}>
+ <button type="button" data-open-privacy>Privacy preferences</button>
+ <dialog aria-labelledby="privacy-heading" aria-describedby="privacy-description" data-privacy-dialog>
+  <h2 id="privacy-heading">Your privacy preferences</h2>
+  <p id="privacy-description">Choose whether to allow optional website analytics. Calling, emailing, booking and sending an inquiry do not require analytics consent.</p>
+  <p>Essential settings remember your preferences. Advertising storage and personalized advertising are disabled in this version.</p>
+  {!settings.enabled&&<p>Optional analytics is currently disabled on this site.</p>}
+  <label><input type="checkbox" data-analytics-choice disabled={!settings.enabled}/> Allow optional analytics</label>
+  <p>Analytics helps us understand page visits and contact actions. We do not include inquiry details in these events. You can change or withdraw your choice here.</p>
+  <div class="privacy-actions"><button type="button" data-reject-analytics>Reject optional analytics</button><button type="button" data-save-privacy>Save my choice</button><button type="button" data-close-privacy>Close</button></div>
+  <p><a href="/privacy-policy/">Read the privacy information</a></p>
+ </dialog>
+ <p role="status" data-privacy-status></p>
+</div>
+<script>import {initializePrivacyControls} from '../scripts/privacy-controls.mjs'; initializePrivacyControls();</script>
+<style>
+ .privacy-controls{padding:1rem;text-align:center}.privacy-controls button{padding:.7rem 1rem;min-height:48px;border:1px solid #6b7378;background:#fff;color:#162027;border-radius:5px;font:inherit;cursor:pointer}.privacy-controls button:focus-visible,.privacy-controls input:focus-visible{outline:2px solid #fff!important;outline-offset:0!important;box-shadow:0 0 0 4px #17232c!important}.privacy-controls dialog{box-sizing:border-box;width:min(94vw,620px);max-height:85dvh;overflow:auto;border:1px solid #6b7378;border-radius:12px;padding:clamp(1rem,4vw,2rem);color:#162027;background:#fff;text-align:left}.privacy-controls dialog::backdrop{background:rgba(0,0,0,.55)}.privacy-controls h2{font-size:1.5rem;line-height:1.25}.privacy-controls label{display:flex;gap:.7rem;align-items:center;min-height:48px}.privacy-controls input{width:24px;height:24px}.privacy-actions{display:flex;gap:.6rem;flex-wrap:wrap}.privacy-actions button{flex:1 1 150px}.privacy-controls [data-privacy-status]:empty{display:none}
+</style>
