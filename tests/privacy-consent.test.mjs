@@ -10,6 +10,11 @@ test('analytics needs an explicit matching environment and valid public measurem
  const settings={enabled:'true',id:'G-TESTONLY',environment:'preview',siteEnvironment:'preview'};assert.equal(analyticsSettings(settings).enabled,true);
  for(const change of [{enabled:'false'},{environment:'production'},{id:'<script>'},{siteEnvironment:'other'}])assert.equal(analyticsSettings({...settings,...change}).enabled,false);
 });
+test('the existing live WordPress destination is never enabled by a preview environment label',()=>{
+ const settings={enabled:'true',id:'G-149Y3HZKHT',environment:'preview',siteEnvironment:'preview'};
+ assert.equal(analyticsSettings(settings).enabled,false);
+ assert.equal(analyticsSettings({...settings,environment:'production',siteEnvironment:'production'}).enabled,true);
+});
 test('conversion events have fixed meanings and cannot contain query parameters or customer fields',()=>{
  assert.deepEqual(safeConversion('inquiry_accepted','/contact-us/'),{name:'inquiry_accepted',parameters:{page_path:'/contact-us/'}});
  for(const name of ['booking_confirmed','form_delivered','purchase','unknown'])assert.equal(safeConversion(name,'/contact-us/'),null);
