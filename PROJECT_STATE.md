@@ -1,3 +1,5 @@
+> Current status, September 14, 2026: the owner-authorized static rebuild is LIVE. The initial release passed 111 tests, fresh GitHub/Cloudflare builds and all 122 public sitemap URL checks. See the [verified live release and stabilization record](reports/LIVE_RELEASE_2026-09-14.md) for source identity, active routing, rollback and remaining integrations. The notes below are preserved historical evidence; their prelaunch status and route-only rollback wording are superseded.
+
 **Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
 
 # Project state

@@ -1,4 +1,4 @@
-// Initial deployment has no public routes; attach the reviewed zone routes only at cutover.
+// Active production routes; version uploads require deliberate promotion.
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "cash4gold-production",
@@ -6,7 +6,16 @@
   "compatibility_date": "2026-09-03",
   "workers_dev": false,
   "preview_urls": false,
-  "routes": [],
+  "routes": [
+    {
+      "pattern": "cash4goldanddiamond.com/*",
+      "zone_name": "cash4goldanddiamond.com"
+    },
+    {
+      "pattern": "www.cash4goldanddiamond.com/*",
+      "zone_name": "cash4goldanddiamond.com"
+    }
+  ],
   "vars": {
     "SITE_ENV": "production",
     "STAGING_STUDIO_ENABLED": "false",
