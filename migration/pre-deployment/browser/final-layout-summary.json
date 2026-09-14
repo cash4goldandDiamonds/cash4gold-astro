@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-09-10T19:33:06.565Z",
+  "scope": "Actual final local browser DOM inspection, six verified CSS viewport widths. Not physical devices, all lazy-image loads, full accessibility or speed.",
+  "checks": 54,
+  "paths": ["/", "/sell-your-golds/", "/sell-your-diamonds-in-los-angeles/", "/sell-luxury-watches-in-los-angeles/", "/contact-us/", "/diamond-chart-4cs-guide/", "/best-gold-bars-2026-top-dealers-ranked/", "/blogs/", "/best-gold-jewelry-buyers-los-angeles-2026/"],
+  "groups": [
+    {"width":320,"checks":9,"observedScrollWidth":305},
+    {"width":375,"checks":9,"observedScrollWidth":360},
+    {"width":390,"checks":9,"observedScrollWidth":375},
+    {"width":768,"checks":9,"observedScrollWidth":753},
+    {"width":1024,"checks":9,"observedScrollWidth":1009},
+    {"width":1440,"checks":9,"observedScrollWidth":1425}
+  ],
+  "allRows": {"mainH1":1,"mainPresent":true,"missingAlt":0,"alreadyLoadedBrokenImages":[]},
+  "issues": [],
+  "earlierAttempt": "A separate 54-navigation attempt did not apply requested sizes because another tab was selected; all rows actually remained 320px. It was not counted as multi-width evidence. The successful run above explicitly asserted actual innerWidth against each requested width."
+}

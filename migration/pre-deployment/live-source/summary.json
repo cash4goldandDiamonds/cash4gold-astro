@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-09-10T16:29:19.524Z",
+  "requests": 216,
+  "successfulHtml": 211,
+  "sitemapUrls": 123,
+  "remainingQueue": 0,
+  "failures": [
+    {
+      "url": "https://cash4goldanddiamond.com/3727/",
+      "status": 404
+    },
+    {
+      "url": "https://cash4goldanddiamond.com/author/",
+      "status": 404
+    },
+    {
+      "url": "https://cash4goldanddiamond.com/best-gold-buyers-los-angeles/",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+      "error": "fetch failed"
+    }
+  ],
+  "scope": "Public HTML, sitemap and linked-page discovery. Not reconciled against an authenticated WordPress export."
+}

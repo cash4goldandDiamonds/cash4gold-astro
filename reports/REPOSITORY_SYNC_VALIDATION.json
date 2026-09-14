@@ -1,0 +1,221 @@
+{
+  "verifiedAt": "2026-09-10T21:36:35.807Z",
+  "scope": "Existing audit source and a separately installed copy of the exact Git-selected files. No deployment or connected-CMS claim.",
+  "sourceChecks": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-10T19:45:21.608Z",
+      "finished": "2026-09-10T19:45:24.859Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-10T19:45:24.861Z",
+      "finished": "2026-09-10T19:46:19.507Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-10T19:46:19.508Z",
+      "finished": "2026-09-10T19:47:19.964Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-10T19:47:19.965Z",
+      "finished": "2026-09-10T19:47:33.688Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-10T19:47:33.689Z",
+      "finished": "2026-09-10T19:47:41.627Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-10T19:47:41.628Z",
+      "finished": "2026-09-10T19:47:43.656Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-10T19:47:43.657Z",
+      "finished": "2026-09-10T19:47:46.558Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-10T19:47:46.560Z",
+      "finished": "2026-09-10T19:47:48.445Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-10T19:47:48.451Z",
+      "finished": "2026-09-10T19:47:52.004Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-10T19:47:52.004Z",
+      "finished": "2026-09-10T19:47:52.553Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-10T19:47:52.553Z",
+      "finished": "2026-09-10T19:47:53.561Z",
+      "exitCode": 0,
+      "log": "dependency-audit.log"
+    }
+  ],
+  "snapshotChecks": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-10T21:23:40.512Z",
+      "finished": "2026-09-10T21:23:47.281Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-10T21:23:47.283Z",
+      "finished": "2026-09-10T21:24:32.518Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "source-security",
+      "started": "2026-09-10T21:24:32.518Z",
+      "finished": "2026-09-10T21:24:34.162Z",
+      "exitCode": 0,
+      "log": "source-security.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-10T21:24:34.162Z",
+      "finished": "2026-09-10T21:25:44.648Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-10T21:25:44.648Z",
+      "finished": "2026-09-10T21:25:56.538Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-10T21:25:56.539Z",
+      "finished": "2026-09-10T21:26:03.520Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-10T21:26:03.521Z",
+      "finished": "2026-09-10T21:26:04.853Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-10T21:26:04.854Z",
+      "finished": "2026-09-10T21:26:05.778Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-10T21:26:05.778Z",
+      "finished": "2026-09-10T21:26:06.858Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-10T21:26:06.858Z",
+      "finished": "2026-09-10T21:26:12.164Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-10T21:26:12.164Z",
+      "finished": "2026-09-10T21:26:12.699Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-10T21:26:12.700Z",
+      "finished": "2026-09-10T21:26:13.539Z",
+      "exitCode": 0,
+      "log": "dependency-audit.log"
+    }
+  ],
+  "unitTests": 29,
+  "generatedRoutes": 214,
+  "contentPages": 198,
+  "articles": 111,
+  "redirects": 15,
+  "preparedCmsDocuments": 430,
+  "snapshotInstallation": "pnpm install --frozen-lockfile --ignore-scripts; successful. Native dependencies were subsequently exercised by passing builds and image checks.",
+  "gitleaks": {
+    "version": "8.30.1",
+    "sourceFindings": 0,
+    "allowance": "Exact public image identifier antique-diamond-festoon-necklace-v1 only.",
+    "stagedFindings": 0,
+    "builtSiteFindings": 0,
+    "sanitizedSourceFindings": 0
+  },
+  "dependencyVulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 1,
+    "high": 0,
+    "critical": 0
+  },
+  "knownLimits": [
+    "Eight documented source-text review warnings remain.",
+    "One moderate dependency finding remains; no high/critical findings.",
+    "Production release-readiness and connected integrations are separate unresolved work."
+  ],
+  "additionalChanges": "Included later audit safeguards, all 29 tests, source-metadata sanitization and reconciled inspection/checkpoint documentation. The report-generator authorization wording was syntax-checked after updating the dated instruction text.",
+  "sourceMetadataSanitization": {
+    "recordsRemoved": 2070,
+    "files": 11,
+    "originalsRetained": "Ignored local backups/source-metadata",
+    "defaultPreviewVerificationTags": 0,
+    "configurationCheck": {
+      "checkedAt": "2026-09-10T20:37:39.695Z",
+      "passed": true,
+      "googleTagCount": 1,
+      "bingTagCount": 1,
+      "values": "Synthetic test markers only; no real account tokens used.",
+      "previewNoindex": true
+    }
+  },
+  "documentationReconciliation": {
+    "inspection": "reports/INSPECTION_2026-09-10.md",
+    "historicalRecords": "migration/pre-deployment/prior-instructions",
+    "launchAuthority": "Separate explicit approval required after protected staging QA; no automatic launch."
+  },
+  "latestFollowUp": "reports/GITHUB_CONSOLIDATION_2026-09-10.json",
+  "preparedCmsCountCorrection": {
+    "previouslyReported": 431,
+    "source": "Parsed committed migration/sanity-import.ndjson; 430 records, including one author."
+  }
+}

@@ -1,0 +1,15 @@
+export default [
+{path:'/14k-gold-price-per-gram-los-angeles/',baselineFile:'migration/reconciled-home-gold-pages.json',beforeHtmlSha256:'446e7d0fa68e682095c42f4b421fd19df69826db7f484ed86074d2e960acd4a8',decision:'retain',intent:'Calculate nominal 14K fine-gold content per gram and compare a jewelry offer using consistent units.',priorReview:'migration/substantive-editorial-review.json',findings:['Independently read the final body from the other existing home task; retain its 25-gram bracelet example and complete table.','The nominal 14/24 versus 585 distinction, net-alloy-weight condition and troy-ounce conversion are clear and appropriately sourced.','The page explicitly distinguishes illustrative quantities, market references and purchase offers; keep its focused description and links.']},
+{path:'/gold-valuation-how-gold-is-valued/',baselineFile:'migration/reconciled-home-gold-pages.json',beforeHtmlSha256:'6ff43788286f78cdf9decb756d3e181c5f4d67a1a6596aa99a61477e97020449',decision:'improve',intent:'Maintain the comprehensive gold valuation reference covering purity, weight, testing, jewelry condition and offer interpretation.',priorReview:'migration/substantive-editorial-review.json',findings:['Independently read the complete final body and retain the other task’s net-alloy-weight and double-counting corrections.','The prose names FTC, NIST and World Gold Council but several factual passages lack adjacent working source links.','Add primary citations beside purity, measurement, price and test-method explanations; preserve the detailed educational body rather than replacing it with a short duplicate.'],sources:[
+{title:'FTC: gold-jewelry quality marks',url:'https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry'},
+{title:'World Gold Council: gold purity, karat and fineness',url:'https://www.gold.org/about-gold/about-gold-jewellery'},
+{title:'World Gold Council: gold-price data',url:'https://www.gold.org/goldhub/data/gold-prices'},
+{title:'NIST: mass units',url:'https://www.nist.gov/pml/owm/si-units-mass'},
+{title:'GIA: methods for determining gold content',url:'https://www.gia.edu/gems-gemology/winter-1992-gold-content-mercer'}],replacements:[
+{from:'The FTC explains that an 18K item',to:'The <a href="https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry">FTC explains</a> that an 18K item'},
+{from:'The FTC provides consumer guidance',to:'The <a href="https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry">FTC provides consumer guidance</a>'},
+{from:'according to NIST.',to:'according to <a href="https://www.nist.gov/pml/owm/si-units-mass">NIST</a>.'},
+{from:'The World Gold Council provides gold spot price information',to:'The <a href="https://www.gold.org/goldhub/data/gold-prices">World Gold Council provides gold spot price information</a>'},
+{from:'Different testing methods have different applications and limitations,',to:'<a href="https://www.gia.edu/gems-gemology/winter-1992-gold-content-mercer">GIA research compares gold-testing methods and their limitations</a>. Different methods have different applications and limitations,'}
+]}
+];

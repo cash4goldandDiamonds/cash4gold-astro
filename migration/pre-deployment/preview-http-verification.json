@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-09-10T19:37:35.000Z",
+  "scope": "Actual loopback Astro preview GET/HEAD only. Does not test Cloudflare _headers/_redirects, browser caches, public Access, forms, messages or live leads.",
+  "rows": [
+    {
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": true
+    },
+    {
+      "path": "/",
+      "method": "HEAD",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": null
+    },
+    {
+      "path": "/blogs/",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": true
+    },
+    {
+      "path": "/blogs/",
+      "method": "HEAD",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": null
+    },
+    {
+      "path": "/contact-us/",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": true
+    },
+    {
+      "path": "/contact-us/",
+      "method": "HEAD",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": null
+    },
+    {
+      "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": true
+    },
+    {
+      "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "method": "HEAD",
+      "status": 200,
+      "expected": 200,
+      "html": "text/html",
+      "previewNoindex": null
+    },
+    {
+      "path": "/audit-deliberately-missing-20260910/",
+      "method": "GET",
+      "status": 404,
+      "expected": 404,
+      "html": "text/html",
+      "previewNoindex": true
+    },
+    {
+      "path": "/audit-deliberately-missing-20260910/",
+      "method": "HEAD",
+      "status": 404,
+      "expected": 404,
+      "html": "text/html",
+      "previewNoindex": null
+    }
+  ],
+  "errors": []
+}

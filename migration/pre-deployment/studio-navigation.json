@@ -1,0 +1,48 @@
+{
+  "startedAt": "2026-09-11T01:52:07.024Z",
+  "status": "PASS",
+  "scope": "Read-only execution of actual Studio GROQ filters against private published content; no document creation or publishing",
+  "remoteWrites": 0,
+  "counts": {
+    "all": 198,
+    "archives": 50,
+    "articles": 111,
+    "categories": 8,
+    "images": 180,
+    "pages": 37,
+    "review": 198,
+    "seo": 0,
+    "services": 5,
+    "uploadedImages": 0
+  },
+  "newContentDefaults": [
+    {
+      "id": "website-page",
+      "kind": "page",
+      "reviewState": "draft",
+      "contentVerified": false,
+      "seoVerified": false
+    },
+    {
+      "id": "selling-guide",
+      "kind": "article",
+      "reviewState": "draft",
+      "contentVerified": false,
+      "seoVerified": false
+    },
+    {
+      "id": "content-archive",
+      "kind": "archive",
+      "reviewState": "draft",
+      "contentVerified": false,
+      "seoVerified": false
+    }
+  ],
+  "notProven": [
+    "Role enforcement",
+    "Hosted draft preview",
+    "Actual creation using each new-document template",
+    "Complete media replacement and library workflow"
+  ],
+  "completedAt": "2026-09-11T01:52:08.052Z"
+}

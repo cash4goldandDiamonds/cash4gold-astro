@@ -1,0 +1,32 @@
+? Verifying lockfile against supply-chain policies (1217 entries)...
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available! 11.19.0 → 12.3.4.   │
+   │   Changelog: https://pnpm.io/v/12.3.4   │
+   │    To update, run: pnpm add -g pnpm     │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+✓ Lockfile passes supply-chain policies (1217 entries in 8.5s)
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 13, reused 13, downloaded 0, added 0
+Progress: resolved 14, reused 13, downloaded 0, added 0
+Progress: resolved 160, reused 78, downloaded 0, added 0
+Progress: resolved 226, reused 115, downloaded 0, added 0
+Progress: resolved 232, reused 160, downloaded 0, added 0
+Progress: resolved 260, reused 212, downloaded 0, added 0
+Progress: resolved 355, reused 263, downloaded 0, added 0
+Progress: resolved 471, reused 306, downloaded 0, added 0
+Progress: resolved 539, reused 427, downloaded 0, added 0
+Progress: resolved 704, reused 532, downloaded 0, added 0
+Progress: resolved 860, reused 696, downloaded 0, added 0
+Progress: resolved 1034, reused 783, downloaded 0, added 0
+Progress: resolved 1133, reused 1014, downloaded 0, added 0
+Progress: resolved 1190, reused 1071, downloaded 0, added 0
+[WARN] 1 deprecated subdependencies found: whatwg-encoding@3.1.1
+Packages: -2
+--
+Progress: resolved 1190, reused 1071, downloaded 0, added 0, done
+
+Done in 29.8s using pnpm v11.19.0

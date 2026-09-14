@@ -1,69 +1,71 @@
 # Migration status
 
-Updated: 2026-09-09
+**Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
 
-## Verified
+## Current status — September 14, 2026
 
-- Repository: cash4goldandDiamonds/cash4gold-astro, private.
-- GitHub ChatGPT Codex Connector installed with access to this repository only.
-- Source website: https://cash4goldanddiamond.com/
-- Homepage was readable in the browser during initial discovery.
-- Source homepage title: Los Angeles Gold & Diamond Sales for Top Dollar.
-- Source H1: Gold Buyer Los Angeles | Cash 4 Gold & Diamonds.
-- Displayed phone: 310-663-1340.
-- Displayed address: 617 S. Hill Street, Los Angeles, CA 90014.
-- Requirements recovered from Platform recommendation research.
-- Owner requires review and explicit approval before launch.
+Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last deployed source is `cd6d3f8`. The uploaded `e1f0d69` baseline passed exact-head GitHub quality checks on September 14, including the native Worker and Studio builds. Its separate performance run found a missing favicon, now restored in the source. The final combined candidate requires a new exact-head production build. Earlier test totals and account observations below are dated evidence.
 
-## Initial URL seeds — not a complete inventory
+Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
 
-The following links were visible on the homepage. Their status, redirects, content and metadata have NOT yet been audited.
+## Earlier checkpoints and supporting evidence
 
-| Source path | Target path | Status |
-| --- | --- | --- |
-| / | / | Homepage observed; not migrated |
-| /about-us-sell-gold-and-diamonds-online/ | Preserve pending crawl | Not migrated |
-| /start-selling-gold-and-diamonds/ | Preserve pending crawl | Not migrated |
-| /reviews/ | Preserve pending crawl | Not migrated |
-| /faqs/ | Preserve pending crawl | Not migrated |
-| /contact-us/ | Preserve pending crawl | Not migrated |
-| /sell-your-diamond/ | Preserve pending crawl | Not migrated |
-| /sell-luxury-watches-in-los-angeles/ | Preserve pending crawl | Not migrated |
-| /sell-your-golds/ | Preserve pending crawl | Not migrated |
-| /sell-gemstones-for-cash-in-los-angeles/ | Preserve pending crawl | Not migrated |
-| /about/ | Verify existing redirect behavior | Not audited |
-| /faq/ | Verify existing redirect behavior | Not audited |
-| /start-selling/ | Verify existing redirect behavior | Not audited |
-| /privacy-policy/ | Preserve pending crawl | Not migrated |
+Updated September 10, 2026. **NOT READY TO GO LIVE.**
 
-Navigation and footer use different About, FAQ, and Start Selling URLs. Record actual HTTP redirect chains before deciding which URLs to retain or redirect. Do not assume these are broken.
+## Starting point and preserved work
 
-## Required access and inputs
+The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point. It found five planning/configuration files on private GitHub main at `ed8571bd28de71525eec46b14f56956934e26410`, plus two local implementations. The original files and requirements remain preserved; older status documents are archived in `migration/pre-deployment/prior-instructions/`.
 
-1. WordPress read/export access or a complete export including pages, posts, media, Rank Math metadata, redirects and relevant configuration. Do not export customer form submissions into this repository.
-2. Sanity owner account/project and staging dataset. Not yet connected.
-3. Cloudflare owner account and staging deployment access. Not yet connected.
-4. Existing form and appointment provider configuration.
-5. GA4/GTM, conversion events, Search Console verification and relevant advertising configuration.
-6. A full private backup and restoration method before any production change.
+The latest implementation is in `C:/Users/judit/Documents/Codex/2026-09-09/realtime-voice-chat/cash4gold-audit`, local branch `checkpoint/final-source-2026-09-10` at `9e613f4a51c9b5da7e2bcbc042dc3d2609fe6d52`, with the same complete source tree as GitHub audit commit `c4ea1238669f1385e80deb998ae5a09455191dcb`. A separate local documentation checkpoint preserves subsequent inspection records. The earlier copy at `C:/Users/judit/Documents/Codex/2026-09-09/cash-for-gold/cash4gold-astro` remains intact. Earlier 196-page/109-article and work-PC transfer counts are historical.
 
-## Environment limitations observed
+## Verified implementation
 
-- Bundled Git failed to clone because its HTTPS helper is missing.
-- Command-based source retrieval failed; network escalation was rejected by the session approval policy.
-- GitHub connector installation is verified, but this task does not currently expose callable GitHub repository tools.
-- No dependency install, Astro build, content import, preview deployment or full crawl has succeeded.
+- 198 content pages, 111 articles, 107 distinct guide-card images, 15 redirects and 214 generated routes including 404.
+- All 111 substantive article reviews recorded, including the two recovered articles; no pending automated review entries.
+- 430 prepared Sanity documents; projection checks cover 111 articles, 222 images and 2,688 anchors. The private migration-staging import is now verified. The earlier count of 431 was a documentation error: the committed NDJSON contains 430 records. Two unlinked synthetic unpublished acceptance drafts are separate test data.
+- Astro 7.3.2, Sanity 6.13.0, React 19.2.8 and the existing Cloudflare/worker architecture preserved.
+- Source, scripts, tests, current images, schema/SEO, redirects, configuration examples, migration evidence and GitHub quality workflow retained.
+- Full selected source installation and 12 verification stages passed. All 33 unit tests passed. The fresh optimized build and hosting finalization generated 214 routes.
+- Secret scans of source, staged changes and generated output found no remaining secrets. Copied account-verification values were removed from tracked metadata; ignored local originals and empty build settings are preserved.
+- No high or critical dependency findings; one moderate finding remains. Eight documented source-text warnings remain for reviewed differences.
 
-## Next sequence
+Full evidence: [REPOSITORY_SYNC_VALIDATION.json](reports/REPOSITORY_SYNC_VALIDATION.json). About 405 MB of unneeded raw originals, duplicate captures and historical media are excluded from Git and retained locally. Required current media stays in the implementation. See [LOCAL_ONLY_FILES.json](reports/LOCAL_ONLY_FILES.json).
 
-1. Obtain a complete source inventory and preserve originals.
-2. Record per-URL metadata, text, schema, links, image references and redirect chains.
-3. Confirm source totals against WordPress exports and sitemaps.
-4. Scaffold and test Astro/Sanity in a build-capable environment.
-5. Import content into private staging, tracking every source item.
-6. Implement SEO, redirects, schema, forms, appointments and tracking.
-7. Run the acceptance checklist and provide evidence to the owner.
-8. Request explicit production launch approval only after staging is complete.
+## Consolidation and staging sequence
 
-No claim of migration completeness or production readiness has been made.
+The complete reviewed implementation is preserved in the existing private GitHub repository at commit `fbd7291c5c48c94660cf0349c167e6f847d66199`, on `audit/pre-deployment-2026-09-10`. The original main commit remains on `main` and `safety/before-consolidation-2026-09-10`. GitHub Actions passed a fresh checkout and build; all 994 files downloaded independently from that commit matched their Git blob hashes and passed all 12 local validation stages. Follow-up Studio corrections and current evidence remain on the same audit branch. See [the consolidation record](reports/GITHUB_CONSOLIDATION_2026-09-10.json).
 
+Protected Cloudflare staging is now explicitly authorized. Use the saved GitHub source, authenticated access and noindex protections. Do not attach the live domain. Zero Trust Free is active. The private Sanity import and a connected preview build are verified; the editor exposed a schema declaration error that is corrected and covered by two regression tests. Cloudflare staging deployment and hosted acceptance remain unfinished. See [current acceptance progress](reports/STAGING_ACCEPTANCE_PROGRESS.md).
+
+## Remaining acceptance work
+
+1. Protected hosted staging and real HTTP behavior: all content/article routes, redirects, canonicals, robots, sitemap policy, schema, assets, internal links, 404s, mobile navigation and headers.
+2. Genuine inquiry delivery and appointment journeys using approved test data and recipients; no customer leads as tests.
+3. Existing Sanity project `gisdw6qa`, private `migration-staging`: scoped access, import, assets, roles, editing, publishing and protected draft preview. Do not replace or expose the production dataset.
+4. Analytics/consent, correct properties and conversion IDs, review integrations and privacy disclosures matching the enabled services.
+5. Measured mobile/desktop performance, accessibility and interaction checks. Local static checks do not establish field Core Web Vitals.
+6. Complete WordPress/Rank Math/media/redirect export reconciliation, binary preservation and rights for the newly identified attachment 3103, three differing explicit SEO overrides and plugin global defaults, private backup and isolated restoration evidence, and owner content/business/media approval.
+7. Social authorization and real workflow tests remain separate unfinished work; keep schedules paused.
+
+**Stop before DNS, nameserver, GoDaddy or production changes. A separate explicit owner launch approval is required after staging review.**
+
+## Final preservation and acceptance checkpoint
+
+The verified implementation, including the Studio correction, is saved at `fae585056c7d1494a27a22b0ff114c7cdb09467a`; its fresh GitHub Actions checkout passed all configured tests and build checks (run 34542085479). Connected acceptance evidence is now retained in [STAGING_ACCEPTANCE_2026-09-10.md](STAGING_ACCEPTANCE_2026-09-10.md). See [the consolidated launch-status report](reports/PRESERVATION_AND_LAUNCH_STATUS_2026-09-10.md) for full coverage, preservation and remaining gates.
+
+**NOT READY TO GO LIVE. No protected Cloudflare website is deployed and no staging URL is available.** The existing GitHub integration is restricted to `cash4goldandDiamonds/cash4gold-astro`. The owner-approved `cash4gold-staging-deploy-limited` credential is registered securely in Cloudflare Builds, with no raw token file saved locally. Its three account permissions are Workers Scripts Edit, Workers Builds Configuration Edit and Account Settings Read. Worker editing technically covers the selected account; the approved operational scope is only `cash4gold-private-preview`. The owner also approved that staging scope after this boundary was explained. Workers, Builds and Zero Trust Free plans are verified. Complete this documentation follow-up and its fresh GitHub CI before deployment; keep endpoints disabled until the exact audit branch and Worker-specific All traffic Access are verified. No staging URL is enabled. The rebuild has no inquiry form or analytics/consent integration; actual booking, hosted draft-preview, accessibility/performance, private SEO/media reconciliation and full-site restore gates remain open. Both original local copies, original remote main and the live WordPress site are preserved. No DNS/nameserver/GoDaddy/production change is authorized without separate explicit launch approval.
+
+## Studio navigation follow-up
+
+The categorized editor navigation and draft-only creation templates are reconciled into this branch. Actual browser navigation and private CMS queries pass; all 198 page records remain discoverable and all 430 original migrated documents remain unchanged. See [the bounded acceptance evidence](reports/STUDIO_NAVIGATION_FOLLOWUP.md). Full hosted CMS acceptance remains incomplete.
+
+
+## Latest publication safeguard checkpoint — September 10, 2026
+
+The reviewed Studio navigation is preserved on GitHub at `577f11953037dc7f3098cfad4a0f5a090be4c93e`; fresh GitHub checkout/install/build and checks passed (run `34554005853`). The subsequent minimal Studio publication guard blocks unreviewed page publication while allowing autosave. Private-editor evidence and the complete local **33-test / 12-stage** passing validation are recorded in `reports/STUDIO_REVIEW_GUARD_FOLLOWUP.md` and `reports/STUDIO_REVIEW_GUARD_VALIDATION.json`. CMS-07/CMS-08 and the overall launch remain BLOCKED. Protected staging is not deployed; its credential and staging scope are approved, subject to the documented source, free-plan and protection checks. No production, DNS or domain changes were made.
+
+## Authenticated inspection and staging authorization follow-up
+
+The final implementation before this documentation follow-up is `c4ea1238669f1385e80deb998ae5a09455191dcb`, tree `89bd404ad96b7b1cd181a17e2afc2b3e856ab4b7` (1,046 files). Fresh GitHub Actions run [34557899635](https://github.com/cash4goldandDiamonds/cash4gold-astro/actions/runs/34557899635) verified that exact source, passed all 33 tests and completed the configured production build/checks. Earlier commit/count evidence above is historical. The documentation revision must receive its own exact-head CI verification.
+
+See [authenticated WordPress/GoDaddy findings](reports/WORDPRESS_AUTHENTICATED_INSPECTION_2026-09-10.md) and [approved staging scope](reports/PROTECTED_STAGING_AUTHORIZATION_2026-09-10.md). The content export has no missing numeric public IDs or modified timestamps, but identifies attachment 3103 and three explicit SEO override differences requiring review. Raw exports and private backup data remain outside Git and static output. Full backup/restore and hosted acceptance remain BLOCKED; production launch is not authorized.

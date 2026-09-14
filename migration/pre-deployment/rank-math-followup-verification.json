@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-11T08:14:38.452Z",
+  "status": "PASS",
+  "scope": "Local preview build and generated redirect destinations only; deployed HTTP behavior NOT TESTED",
+  "commands": [
+    {
+      "command": "node scripts/generate-routing.mjs",
+      "exitCode": 0,
+      "log": ".cache\\rank-math-verification-logs\\command-0.log"
+    },
+    {
+      "command": "node --test tests/release-policy.test.mjs",
+      "exitCode": 0,
+      "log": ".cache\\rank-math-verification-logs\\command-1.log"
+    },
+    {
+      "command": "node node_modules/astro/bin/astro.mjs build",
+      "exitCode": 0,
+      "log": ".cache\\rank-math-verification-logs\\command-2.log"
+    },
+    {
+      "command": "node scripts/finalize-build.mjs",
+      "exitCode": 0,
+      "log": ".cache\\rank-math-verification-logs\\command-3.log"
+    }
+  ],
+  "totalValidatedRedirects": 18,
+  "addedRules": [
+    {
+      "from": "/sell-your-gemstone/",
+      "to": "/sell-gemstones-for-cash-in-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/sell-your-watches/",
+      "to": "/sell-luxury-watches-in-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/best-gold-buyers-los-angeles/",
+      "to": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "status": 301
+    }
+  ],
+  "contentFileUnchanged": true,
+  "contentSha256": "5fa589c6929792955c69eb38137a748939b02985857b0d61537dc67f1245f2b3",
+  "stagingNoindexRetained": true,
+  "liveWordPressWrites": 0,
+  "remaining": [
+    "Owner review of canonical/content policy for the existing live redirect cycle",
+    "Deployed 301/404/query-string behavior",
+    "CMS editing of newly added redirect records"
+  ],
+  "recommendation": "NOT READY TO GO LIVE"
+}

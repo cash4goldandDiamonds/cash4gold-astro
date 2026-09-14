@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-09-11T06:23:29.103717+00:00",
+  "status": "PASS",
+  "scope": "Authenticated read-only settings export and offline structural/redirect comparison. Full SEO migration remains BLOCKED.",
+  "sourceFile": "exports/rank-math/2026-09-11T06-23-29.103717+00-00/rank-math-settings-2026-09-11T06-06-32-134Z.json",
+  "bytes": 19564,
+  "sha256": "c48496d0b274bb8805f1a4517ead0838be1b0d8c89f53c1e777dab2afd62e30f",
+  "rawExportExcludedFromGit": true,
+  "sectionNames": [
+    "general",
+    "titles",
+    "sitemap",
+    "role-manager",
+    "redirections",
+    "modules"
+  ],
+  "publicTemplateDefaults": {
+    "pt_post_title": "%title% %sep% %sitename%",
+    "pt_post_description": "%excerpt%",
+    "pt_page_title": "%title% %page% %sep% %sitename%",
+    "pt_page_description": "%excerpt%",
+    "tax_category_title": "%term% %page% %sep% %sitename%",
+    "tax_category_description": "%term_description%",
+    "tax_post_tag_title": "%term% %page% %sep% %sitename%",
+    "tax_post_tag_description": "%term_description%",
+    "robots_global": [
+      "index"
+    ],
+    "author_robots": [
+      "noindex"
+    ],
+    "noindex_empty_taxonomies": "on",
+    "noindex_paginated_pages": "off"
+  },
+  "publicSitemapSettings": {
+    "pt_post_sitemap": "on",
+    "pt_page_sitemap": "on",
+    "pt_attachment_sitemap": "off",
+    "tax_category_sitemap": "on",
+    "tax_post_tag_sitemap": "off",
+    "exclude_posts": ""
+  },
+  "redirects": [
+    {
+      "id": "4",
+      "source": "/sell-your-gold/",
+      "destination": "/sell-your-golds/",
+      "httpStatus": 301,
+      "active": true,
+      "configured": true,
+      "destinationContentPresent": true,
+      "sourceConflictsWithContent": false,
+      "status": "PASS"
+    },
+    {
+      "id": "3",
+      "source": "/sell-your-gemstone/",
+      "destination": "/sell-gemstones-for-cash-in-los-angeles/",
+      "httpStatus": 301,
+      "active": true,
+      "configured": false,
+      "destinationContentPresent": true,
+      "sourceConflictsWithContent": false,
+      "status": "BLOCKED"
+    },
+    {
+      "id": "2",
+      "source": "/sell-your-watches/",
+      "destination": "/sell-luxury-watches-in-los-angeles/",
+      "httpStatus": 301,
+      "active": true,
+      "configured": false,
+      "destinationContentPresent": true,
+      "sourceConflictsWithContent": false,
+      "status": "BLOCKED"
+    },
+    {
+      "id": "1",
+      "source": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "destination": "/best-gold-buyers-los-angeles/",
+      "httpStatus": 301,
+      "active": true,
+      "configured": false,
+      "destinationContentPresent": false,
+      "sourceConflictsWithContent": true,
+      "status": "BLOCKED"
+    }
+  ],
+  "unresolved": [
+    "Resolve uncovered redirects without losing existing page content",
+    "Compare resolved global templates and explicit overrides to rendered source",
+    "Review current taxonomy indexing intent and approved production behavior",
+    "Full backup and isolated restore"
+  ],
+  "productionWrites": 0,
+  "recommendation": "NOT READY TO GO LIVE"
+}

@@ -1,0 +1,46 @@
+✔ three weekly Los Angeles slots retain local hour across daylight saving (29.7804ms)
+✔ only reviewed, opted-in canonical public articles become jobs; tracked links stay on the site (1.5556ms)
+✔ queue claim is atomic per network/day; revisions and restarts never repost a published item (32.7515ms)
+✔ removing opt-in cancels queued items, and explicit reapproval only restores unsent cancelled items (2.0339ms)
+✔ draft/noindex/stale/redirected site responses cannot trigger a promotion (27.2209ms)
+✔ Facebook uses a single publish request and never automatically retries an ambiguous timeout (1.987ms)
+✔ Instagram stores its container before publishing and retains success when permalink lookup fails (3.1311ms)
+✔ scheduler paused means no network or database access; status endpoint requires its own secret (6.8954ms)
+✔ full mocked scheduler publishes once per channel slot and reports real stored states on retry (5.0702ms)
+✖ an unavailable first batch rotates without consuming a slot or rewriting unchanged jobs (6.4661ms)
+✔ missing or expired token metadata blocks requests; renewal warnings contain no token values (1.7834ms)
+✔ an article network failure does not prevent another article from publishing (3.1461ms)
+✔ expired credentials leave article and daily slot available after reconnection (3.0857ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 260.237
+
+✖ failing tests:
+
+test at tests\social-publishing.test.mjs:83:1
+✖ an unavailable first batch rotates without consuming a slot or rewriting unchanged jobs (6.4661ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'article-00:facebook',
+  +   'article-01:facebook'
+  -   'article-08:facebook',
+  -   'article-09:facebook'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/Users/judit/Documents/Codex/2026-09-09/realtime-voice-chat/cash4gold-audit/tests/social-publishing.test.mjs:89:61)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'article-00:facebook', 'article-01:facebook' ],
+    expected: [ 'article-08:facebook', 'article-09:facebook' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

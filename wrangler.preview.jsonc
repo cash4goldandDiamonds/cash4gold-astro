@@ -1,0 +1,22 @@
+{
+  // Prepared only. Do not deploy until private access control is configured.
+  // No production custom domain or route is configured.
+  "name": "cash4gold-private-preview",
+  "main": "workers/inquiry/index.mjs",
+  "compatibility_date": "2026-09-03",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [],
+  "vars": {
+    "SITE_ENV": "preview",
+    "STAGING_STUDIO_ENABLED": "true",
+    "INQUIRY_ENABLED": "true",
+    "INQUIRY_PROVIDER": "resend",
+    "INQUIRY_ALLOWED_ORIGINS": "https://cash4gold-private-preview.cash4goldanddiamond.workers.dev",
+    "INQUIRY_FROM": "inquiries@notify.cash4goldanddiamond.com",
+    "INQUIRY_TO": "cash4goldanddiamond@gmail.com",
+    "INQUIRY_TURNSTILE_SITE_KEY": "0x4AAAAAAEwdb5Av8PaY6cRA"
+  },
+  "ratelimits": [{ "name": "INQUIRY_RATE_LIMITER", "namespace_id": "2026091101", "simple": { "limit": 5, "period": 60 } }],
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": ["/api/inquiry/*", "/studio", "/studio/*"], "not_found_handling": "404-page", "html_handling": "force-trailing-slash" }
+}

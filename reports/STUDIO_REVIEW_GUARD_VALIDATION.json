@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-09-11T03:10:01.472Z",
+  "navigationRemoteCommit": "577f11953037dc7f3098cfad4a0f5a090be4c93e",
+  "scope": "Complete local validation after Studio publication guard. Preview build; hosted release remains blocked.",
+  "tests": 33,
+  "failures": 0,
+  "stages": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-11T02:36:25.848Z",
+      "finished": "2026-09-11T02:36:47.283Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-11T02:36:47.285Z",
+      "finished": "2026-09-11T02:36:51.635Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "source-security",
+      "started": "2026-09-11T02:36:51.636Z",
+      "finished": "2026-09-11T02:36:53.598Z",
+      "exitCode": 0,
+      "log": "source-security.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-11T02:36:53.598Z",
+      "finished": "2026-09-11T02:37:59.087Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-11T02:37:59.088Z",
+      "finished": "2026-09-11T02:38:09.616Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-11T02:38:09.616Z",
+      "finished": "2026-09-11T02:38:15.307Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-11T02:38:15.307Z",
+      "finished": "2026-09-11T02:38:16.608Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-11T02:38:16.609Z",
+      "finished": "2026-09-11T02:38:17.509Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-11T02:38:17.510Z",
+      "finished": "2026-09-11T02:38:18.533Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-11T02:38:18.534Z",
+      "finished": "2026-09-11T02:38:23.090Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-11T02:38:23.091Z",
+      "finished": "2026-09-11T02:38:23.612Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-11T02:38:23.613Z",
+      "finished": "2026-09-11T02:38:24.418Z",
+      "exitCode": 0,
+      "log": "dependency-audit.log"
+    }
+  ]
+}

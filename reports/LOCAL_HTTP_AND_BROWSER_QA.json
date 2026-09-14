@@ -1,0 +1,1297 @@
+{
+  "checkedAt": "2026-09-11T00:00:16.379Z",
+  "commit": "fae585056c7d1494a27a22b0ff114c7cdb09467a",
+  "scope": "Isolated local browser QA of private-CMS build; local HTTP emulates supplied headers/redirects. Not Cloudflare or field Core Web Vitals.",
+  "routes": [
+    {
+      "route": "/10k-diamond-ring-buying-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/10k-gold-price-per-gram-at-a-pawn-shop-everything-you-need-to-know/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/10k-gold-price-per-gram-pawn-shop/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/14-karat-gold-market-statistics-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/14k-gold-price-per-gram-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/2-carat-diamond-ring-price-complete-buying-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/4-cs-of-diamonds/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/404.html",
+      "status": 404,
+      "expected": 404,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/about-us-sell-gold-and-diamonds-online/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/1/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/10/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/11/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/3/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/4/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/5/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/6/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/7/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/8/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/author/navid-lalezari/page/9/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-1-carat-diamond-buyers-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-10k-gold-mens-rings-2026-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-10k-gold-rings-2026-top-5-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-10k-gold-rings-for-women-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-10k-white-gold-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-gold-belly-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-gold-chain-2026-top-5-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-gold-diamond-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-gold-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-white-gold-diamond-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-white-gold-engagement-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-white-gold-engagement-rings-2026-2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-yellow-gold-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-14k-yellow-gold-rings-2026-2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-18k-gold-rings-2026-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-18k-gold-rings-2026-ranked-2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-18k-gold-rings-for-women-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-24k-gold-chains-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-black-hills-gold-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-black-hills-gold-rings-2026-2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-certified-diamond-appraisers-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-diamond-buyers-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-emerald-ring-gold-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-estate-jewelry-buyers-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gemstone-ring-buyers-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-bars-2026-top-dealers-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-bracelet-buyers-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-coin-buyers-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-rolex-buyers-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-rolex-watches-2026-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-watches-2026-top-5-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-gold-watches-for-women-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-place-to-sell-jewelry-in-los-angeles/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/best-place-to-sell-jewelry-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-price-diamonds-la/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-price-for-diamonds-in-la/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-promise-rings-gold-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/best-yellow-gold-rings-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/blogs/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/cash-for-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/cash-for-gold/page/1/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/cash-for-gold/page/2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/cash-for-gold-sell-your-gold-and-dramonds-usa/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/champagne-diamond-buying-guide-comparison/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/contact-us/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/diamond-carat-weight-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/diamond-chart-4cs-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/diamond-gem-los-angeles-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/diamond-price-guide-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/diamond-what-it-is-how-to-value-where-to-sell/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/1/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/10/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/3/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/4/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/5/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/6/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/7/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/8/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/e-commerce-retail/page/9/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/fake-vs-real-rolex-how-to-spot-fake-rolex-in-easy-step/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/faq/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/faqs/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/free-diamond-appraisal-los-angeles/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/free-diamond-appraisal-same-day-cash/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gia-certified-diamonds-comparison-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gold-buyer-downtown-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gold-buyer-downtown-los-angeles-2/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gold-coins-buyer-near-me-downtown/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/gold-valuation-how-gold-is-valued/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-jewelry-buyers-determine-gold-value/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-do-pawn-shops-pay-for-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-is-10kt-gold-worth/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-should-i-get-for-my-gold-jewelry/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-to-know-if-diamonds-are-worth-selling/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-to-spot-a-fake-rolex/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/how-to-value-estate-jewelry-pieces/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/jewelry-district-gold-buyer-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/large-diamond-buyer-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/legitimate-gold-buyer-vs-pawn-shop/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/loose-diamonds-appraised-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/pawn-shops-pay-for-gold-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/platinum-vs-white-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/reviews/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/rolex-buyer-los-angeles-cash/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/rolex-day-date-gold-market-2026-for-buyer/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/round-brilliant-diamond-comparison-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-cartier-jewelry-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-diamond-necklace-for-cash-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-estate-jewelry-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-gemstones-for-cash-in-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-gold-and-diamonds-online/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-gold-coins-best-price-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-gold-in-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-gold-jewelry-downtown-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-inherited-jewelry-no-obligation/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-luxury-watch-same-day-cash-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-luxury-watches-in-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-tiffany-jewelry-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-your-diamond/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/sell-your-diamonds-in-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-your-gold/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/sell-your-golds/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/selling-gold-jewelry-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/start-selling/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/start-selling-gold-and-diamonds/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/10k-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/14k-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/14k-gold-neckless/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/14k-gold-price/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/14k-gold-price-per-gram/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/14k-gold-value/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/2-carat-diamond-price/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/2-carat-diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/3-5-carat-oval-diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/anniversary-diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/antique-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/best-real-diamond/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/best-worth-of-your-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/cash4goldanddiamond/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/diamond-watches/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/downtown-los-angeles-gold-buyer/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/fake-rolex-vs-real-rolex-spot-fake/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-buyer-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-buyers-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-calculator/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-neckless/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-price/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-price-per-gram/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-purity/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-vlue/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/gold-worth/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/neckless/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/online-vs-offline-gold-selling/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/oval-diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/pawn-shop/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/real-diamond-watches/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/real-diamond-watches-for-men/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/rolex-watches/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/scrap-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/se-your-antique-gold-jewelry/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-14k-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-gold-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-you-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-your-gold-at-pawn-shop/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-your-gold-offline/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-your-gold-online/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-your-scrap-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/sell-yout-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/selling-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/selling-gold-online/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/top-7-real-diamond-watches/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/watches/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/tag/wedding-diamond-ring/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/trusted-jewelry-buyer-los-angeles-reviews/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/uncategorized/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/uncut-diamond-buyers-los-angeles/",
+      "status": 301,
+      "expected": 301,
+      "pass": true
+    },
+    {
+      "route": "/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/where-to-sell-gold-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/where-to-sell-rolex-watch-los-angeles/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/white-diamond-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/white-gold-guide/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "route": "/white-gold-vs-yellow-gold/",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    }
+  ],
+  "accessibility": [],
+  "lighthouse": [],
+  "mobileNavigation": null,
+  "failure": {
+    "message": "browserType.connectOverCDP: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - <ws preparing> retrieving websocket url from http://127.0.0.1:54475\u001b[22m\n\u001b[2m  - <ws connecting> ws://127.0.0.1:54475/devtools/browser/737a28c2-e5ef-4d89-83fa-2bda4b449458\u001b[22m\n\u001b[2m  - <ws connected> ws://127.0.0.1:54475/devtools/browser/737a28c2-e5ef-4d89-83fa-2bda4b449458\u001b[22m\n\u001b[2m  - <ws disconnected> ws://127.0.0.1:54475/devtools/browser/737a28c2-e5ef-4d89-83fa-2bda4b449458 code=1006 reason=\u001b[22m\n"
+  }
+}

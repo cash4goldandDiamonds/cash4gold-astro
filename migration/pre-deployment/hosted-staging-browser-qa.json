@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-09-11T09:51:05.980530+00:00",
+  "scope": "Actual signed-in browser DOM audit of initial GitHub staging build; bounded mobile interaction checks. Final redirect deployment is verified separately.",
+  "sourceCommit": "cf451a603c53aa07588459a8e4719f8bc8aadd25",
+  "stagingUrl": "https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/",
+  "cloudflareBuildId": "5d2c4786-971e-4547-8fe6-a32fc093d0fc",
+  "cloudflareVersionId": "b8d19939-cf26-41f9-a7f0-7c199db44816",
+  "anonymousRequests": 814,
+  "anonymousProtected": 814,
+  "anonymousProtectionFailures": 0,
+  "authenticatedNavigationRequests": 206,
+  "uniqueContentPathsRendered": 198,
+  "articlesIncluded": 111,
+  "oneH1AndMainOnEveryContentPage": true,
+  "noindexOnEveryContentPage": true,
+  "missingImageAltAttributes": 0,
+  "malformedJsonLdBlocks": 0,
+  "brokenEagerImagesObserved": 0,
+  "canonicalPolicy": "Production origin retained; four duplicate -2 articles intentionally canonicalize to their preserved primary article.",
+  "mobileViewportActuallyObserved": {
+    "width": 390,
+    "height": 844
+  },
+  "mobileVerified": [
+    "Main menu opens",
+    "Service submenu opens",
+    "Gold service link navigates",
+    "Menu closed on destination page",
+    "Homepage/contact/gold/article layouts visually inspected",
+    "Skip link receives keyboard focus and Enter focuses main"
+  ],
+  "layoutLimit": "Early DOM reads produced transient overflow flags; settled inspected mobile pages had no horizontal overflow. Requested desktop override did not change the observed 390px viewport, so desktop/responsive breadth is not certified.",
+  "imagesLimit": "Hero and service images visibly load. Lazy assets were not individually certified after full scrolling; static build checks validate local references. Decorative empty alt is intentional; legacy generic/typo ALT wording still needs editorial review.",
+  "contact": {
+    "formsRendered": 0,
+    "delivery": "BLOCKED: contact form disconnected; phone/email alternatives present"
+  },
+  "appointment": {
+    "externalCalendarLoads": true,
+    "availableDatesVisible": true,
+    "bookingConfirmationAndDelivery": "NOT TESTED"
+  },
+  "missingPage": {
+    "renderedCustom404": true,
+    "noindex": true,
+    "exactAuthenticatedHttpStatus": "NOT CAPTURED"
+  },
+  "robotsSitemap": {
+    "generatedRobots": "Disallow /",
+    "generatedSitemapUrls": 0,
+    "anonymousAccessProtected": true,
+    "authenticatedRawResponse": "NOT VERIFIED: browser navigation to robots.txt returned ERR_BLOCKED_BY_CLIENT"
+  },
+  "analyticsConsent": "BLOCKED: no analytics or consent integration in rebuild",
+  "cms": "Private import/local connected build and bounded Studio navigation/autosave/publish guard previously passed. This first hosted build uses preserved local snapshot; hosted CMS draft preview/roles/rebuild/rollback remain BLOCKED.",
+  "performanceAccessibility": "Core Web Vitals/Lighthouse and full accessibility audit NOT VERIFIED: required browser profiling tools unavailable. DOM/keyboard checks are limited evidence, not a conformance score.",
+  "productionChanges": 0,
+  "recommendation": "NOT READY TO GO LIVE"
+}

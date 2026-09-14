@@ -1,0 +1,16 @@
+{
+ "capturedAt":"2026-09-10T18:48:33.793Z",
+ "environment":"Codex in-app browser, emulated CSS viewports, local Astro preview",
+ "checks":410,
+ "originalRoutes":197,
+ "routeManifest":"All src/data/pages.json paths except /best-gold-jewelry-buyers-los-angeles-2026/, which was recovered after this run",
+ "scope":"Document horizontal overflow, main landmark, main H1, missing ALT and already-loaded broken images. Does not prove every lazy image loaded, full accessibility, visual approval, or speed.",
+ "groups":[
+  {"width":390,"checks":197,"uniqueRoutes":197,"allOriginalRoutesChecked":true,"issues":[]},
+  {"width":1440,"checks":197,"uniqueRoutes":197,"allOriginalRoutesChecked":true,"issues":[]},
+  {"width":320,"checks":8,"uniqueRoutes":8,"allOriginalRoutesChecked":false,"issues":[{"path":"/","width":320,"scrollWidth":342,"h1":1,"main":true,"missingAlt":0,"brokenLoadedImages":[]}]},
+  {"width":375,"checks":8,"uniqueRoutes":8,"allOriginalRoutesChecked":false,"issues":[]}
+ ],
+ "representatives":["/","/sell-your-golds/","/sell-your-diamonds-in-los-angeles/","/sell-luxury-watches-in-los-angeles/","/contact-us/","/diamond-chart-4cs-guide/","/best-gold-bars-2026-top-dealers-ranked/","/blogs/"],
+ "homeRetest":{"width":320,"scrollWidth":305,"h1":1,"missingAlt":0,"reason":"Feature card heading sizes corrected and smallest-width columns stacked","status":"FIXED AND VERIFIED before social-footer additions; final layout retest is separate"}
+}

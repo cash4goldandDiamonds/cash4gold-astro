@@ -1,0 +1,32 @@
+[
+  {
+    "file": "public/media/editorial/estate-diamonds-240.webp",
+    "width": 240,
+    "bytes": 13876
+  },
+  {
+    "file": "public/media/editorial/estate-diamonds-480.webp",
+    "width": 480,
+    "bytes": 48888
+  },
+  {
+    "file": "public/media/editorial/estate-diamonds-960.webp",
+    "width": 960,
+    "bytes": 164678
+  },
+  {
+    "file": "public/media/editorial/cuban-scrap-gold-240.webp",
+    "width": 240,
+    "bytes": 18096
+  },
+  {
+    "file": "public/media/editorial/cuban-scrap-gold-480.webp",
+    "width": 480,
+    "bytes": 63820
+  },
+  {
+    "file": "public/media/editorial/cuban-scrap-gold-960.webp",
+    "width": 960,
+    "bytes": 204894
+  }
+]

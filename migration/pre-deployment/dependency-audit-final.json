@@ -1,0 +1,42 @@
+{
+  "advisories": {
+    "1193734": {
+      "findings": [
+        {
+          "version": "0.6.0",
+          "paths": [
+            ".>sanity>@sanity/cli>@sanity/cli-build>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/runtime-cli>@sanity/cli-build>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/runtime-cli>adm-zip",
+            ".>sanity>@sanity/cli>@sanity/workbench-cli>@module-federation/vite>@module-federation/dts-plugin>adm-zip"
+          ],
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1193734,
+      "title": "adm-zip extraction follows destination symlinks, allowing arbitrary file overwrite",
+      "module_name": "adm-zip",
+      "vulnerable_versions": ">=0.5.9 <=0.6.0",
+      "patched_versions": ">=0.6.1",
+      "severity": "moderate",
+      "cwe": "CWE-59",
+      "github_advisory_id": "GHSA-vwc7-r8mq-g2x9",
+      "url": "https://github.com/advisories/GHSA-vwc7-r8mq-g2x9"
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 1,
+      "high": 0,
+      "critical": 0
+    },
+    "dependencies": 971,
+    "devDependencies": 115,
+    "optionalDependencies": 135,
+    "totalDependencies": 1190
+  }
+}

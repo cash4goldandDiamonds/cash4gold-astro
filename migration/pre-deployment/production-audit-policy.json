@@ -1,0 +1,550 @@
+{
+  "checkedAt": "2026-09-10T19:15:06.660Z",
+  "outputDirectory": "C:\\Users\\judit\\Documents\\Codex\\2026-09-09\\realtime-voice-chat\\cash4gold-audit\\.cache\\production-audit",
+  "policy": {
+    "environment": "production",
+    "indexable": true,
+    "perspective": "published"
+  },
+  "redirects": [
+    {
+      "from": "/faq/",
+      "to": "/faqs/",
+      "status": 301
+    },
+    {
+      "from": "/about/",
+      "to": "/about-us-sell-gold-and-diamonds-online/",
+      "status": 301
+    },
+    {
+      "from": "/best-place-to-sell-jewelry-in-los-angeles/",
+      "to": "/best-place-to-sell-jewelry-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/start-selling/",
+      "to": "/start-selling-gold-and-diamonds/",
+      "status": 301
+    },
+    {
+      "from": "/sell-your-diamond/",
+      "to": "/sell-your-diamonds-in-los-angeles/",
+      "status": 301
+    },
+    {
+      "from": "/10k-gold-price-per-gram-at-a-pawn-shop-everything-you-need-to-know/",
+      "to": "/10k-gold-price-per-gram-pawn-shop/",
+      "status": 301
+    },
+    {
+      "from": "/free-diamond-appraisal-los-angeles/",
+      "to": "/free-diamond-appraisal-same-day-cash/",
+      "status": 301
+    },
+    {
+      "from": "/rolex-day-date-gold-market-2026-for-buyer/",
+      "to": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "status": 301
+    },
+    {
+      "from": "/sell-your-gold/",
+      "to": "/sell-your-golds/",
+      "status": 301
+    },
+    {
+      "from": "/cash-for-gold-sell-your-gold-and-dramonds-usa/",
+      "to": "/sell-gold-and-diamonds-online/",
+      "status": 301
+    },
+    {
+      "from": "/fake-vs-real-rolex-how-to-spot-fake-rolex-in-easy-step/",
+      "to": "/how-to-spot-a-fake-rolex/",
+      "status": 301
+    },
+    {
+      "from": "/author/navid-lalezari/page/1/",
+      "to": "/author/navid-lalezari/",
+      "status": 301
+    },
+    {
+      "from": "/e-commerce-retail/page/1/",
+      "to": "/e-commerce-retail/",
+      "status": 301
+    },
+    {
+      "from": "/cash-for-gold/page/1/",
+      "to": "/cash-for-gold/",
+      "status": 301
+    },
+    {
+      "from": "/uncut-diamond-buyers-los-angeles/",
+      "to": "/large-diamond-buyer-los-angeles/",
+      "status": 301
+    }
+  ],
+  "sitemap": [
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gemstone-ring-buyers-los-angeles/",
+      "lastmod": "2026-09-10T13:50:17.808Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-luxury-watch-same-day-cash-los-angeles/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gold-coins-buyer-near-me-downtown/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/large-diamond-buyer-los-angeles/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles/",
+      "lastmod": "2026-09-09T22:23:58.447Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-gold-coins-best-price-los-angeles/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "lastmod": "2026-09-10T03:40:35.476Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-price-for-diamonds-in-la/",
+      "lastmod": "2026-09-10T03:51:40.058Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-certified-diamond-appraisers-los-angeles/",
+      "lastmod": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-bracelet-buyers-los-angeles-2026/",
+      "lastmod": "2026-09-09T22:23:58.447Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-diamond-buyers-los-angeles-2026/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-estate-jewelry-buyers-los-angeles-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-coin-buyers-los-angeles-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gia-certified-diamonds-comparison-2026/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-gold-jewelry-downtown-los-angeles/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/jewelry-district-gold-buyer-los-angeles/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-diamond-necklace-for-cash-los-angeles/",
+      "lastmod": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/free-diamond-appraisal-same-day-cash/",
+      "lastmod": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/diamond-price-guide-2026/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-rolex-buyers-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-gold-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/diamond-chart-4cs-guide/",
+      "lastmod": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/trusted-jewelry-buyer-los-angeles-reviews/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-24k-gold-chains-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-emerald-ring-gold-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-gold-chain-2026-top-5-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-watches-2026-top-5-ranked/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-10k-gold-mens-rings-2026-ranked/",
+      "lastmod": "2026-09-10T14:05:09.481Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-gold-belly-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-18k-gold-rings-for-women-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-rolex-watches-2026-ranked/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-yellow-gold-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-10k-gold-rings-for-women-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-gold-diamond-rings-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-promise-rings-gold-2026/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-10k-gold-rings-2026-top-5-ranked/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-gold-in-los-angeles/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-place-to-sell-jewelry-los-angeles/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-to-know-if-diamonds-are-worth-selling/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/white-diamond-guide/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles-2/",
+      "lastmod": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/white-gold-guide/",
+      "lastmod": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "lastmod": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "lastmod": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-jewelry-buyers-determine-gold-value/",
+      "lastmod": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/legitimate-gold-buyer-vs-pawn-shop/",
+      "lastmod": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-price-diamonds-la/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/selling-gold-jewelry-los-angeles/",
+      "lastmod": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/10k-gold-price-per-gram-pawn-shop/",
+      "lastmod": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/rolex-buyer-los-angeles-cash/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "lastmod": "2026-09-09T22:28:02.729Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/white-gold-vs-yellow-gold/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-should-i-get-for-my-gold-jewelry/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/where-to-sell-gold-los-angeles/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/diamond-gem-los-angeles-guide/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/pawn-shops-pay-for-gold-los-angeles/",
+      "lastmod": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-tiffany-jewelry-los-angeles/",
+      "lastmod": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/14-karat-gold-market-statistics-2026/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-cartier-jewelry-los-angeles/",
+      "lastmod": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/platinum-vs-white-gold/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/diamond-what-it-is-how-to-value-where-to-sell/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/where-to-sell-rolex-watch-los-angeles/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-white-gold-diamond-rings-2026/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026/",
+      "lastmod": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-10k-white-gold-rings-2026/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/10k-diamond-ring-buying-guide/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/diamond-carat-weight-guide/",
+      "lastmod": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/champagne-diamond-buying-guide-comparison/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-watches-for-women-2026/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/loose-diamonds-appraised-los-angeles/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/4-cs-of-diamonds/",
+      "lastmod": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "lastmod": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-1-carat-diamond-buyers-2026/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/gold-valuation-how-gold-is-valued/",
+      "lastmod": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-do-pawn-shops-pay-for-gold/",
+      "lastmod": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/round-brilliant-diamond-comparison-guide/",
+      "lastmod": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "lastmod": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "lastmod": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "lastmod": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/2-carat-diamond-ring-price-complete-buying-guide/",
+      "lastmod": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "lastmod": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-your-diamonds-in-los-angeles/",
+      "lastmod": "2026-09-10T03:54:07.107Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/how-much-is-10kt-gold-worth/",
+      "lastmod": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/start-selling-gold-and-diamonds/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/reviews/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/about-us-sell-gold-and-diamonds-online/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/contact-us/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-estate-jewelry-los-angeles/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/faqs/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/blogs/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-your-golds/"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/privacy-policy/",
+      "lastmod": "2026-09-10T14:05:09.010Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "lastmod": "2026-09-10T14:10:53.071Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-bars-2026-top-dealers-ranked/",
+      "lastmod": "2026-09-10T16:50:39.311Z"
+    },
+    {
+      "loc": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+      "lastmod": "2026-09-10T18:32:23.716Z"
+    }
+  ]
+}

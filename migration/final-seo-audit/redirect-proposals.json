@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-09-11T11:39:12.992Z",
+  "applied": false,
+  "requirements": "Owner decision after Search Console landing-page traffic, backlink review and preservation of useful unique content. Existing 18 redirects remain unchanged.",
+  "rows": [
+    {
+      "from": "/best-gold-coin-buyers-los-angeles-2026/",
+      "to": "/gold-coins-buyer-near-me-downtown/",
+      "decision": "MERGE",
+      "statusProposed": 301,
+      "recommendation": "Coin-buyer selection repeats the collection-preparation guide. Consolidate useful evaluator/collectible questions after reviewing Search Console queries and backlinks."
+    },
+    {
+      "from": "/jewelry-district-gold-buyer-los-angeles/",
+      "to": "/sell-gold-jewelry-downtown-los-angeles/",
+      "decision": "MERGE",
+      "statusProposed": 301,
+      "recommendation": "Jewelry District visit preparation substantially overlaps the existing collection-packing guide; preserve unique location/access questions in that destination."
+    },
+    {
+      "from": "/sell-gold-in-los-angeles/",
+      "to": "/where-to-sell-gold-los-angeles/",
+      "decision": "MERGE",
+      "statusProposed": 301,
+      "recommendation": "Two broad Los Angeles gold-selling options guides compete for the same task. Use the more comprehensive seller checklist as a provisional destination; move distinct payment/collection details first."
+    },
+    {
+      "from": "/best-price-diamonds-la/",
+      "to": "/best-price-for-diamonds-in-la/",
+      "decision": "MERGE",
+      "statusProposed": 301,
+      "recommendation": "Two diamond-offer comparison guides cover essentially the same task. Merge the comparison worksheet and conditional-offer questions; choose the final destination using query/backlink evidence."
+    },
+    {
+      "from": "/best-14k-yellow-gold-rings-2026-2/",
+      "to": "/best-14k-yellow-gold-rings-2026/",
+      "decision": "REDIRECT",
+      "statusProposed": 301,
+      "recommendation": "Current content duplicates its existing canonical target; retain route until owner approves permanent consolidation after traffic review."
+    },
+    {
+      "from": "/best-14k-white-gold-engagement-rings-2026-2/",
+      "to": "/best-14k-white-gold-engagement-rings-2026/",
+      "decision": "REDIRECT",
+      "statusProposed": 301,
+      "recommendation": "Duplicate content already canonicals to the primary page. Improve that primary seller intent before approved consolidation."
+    },
+    {
+      "from": "/best-18k-gold-rings-2026-ranked-2/",
+      "to": "/best-18k-gold-rings-2026-ranked/",
+      "decision": "REDIRECT",
+      "statusProposed": 301,
+      "recommendation": "Duplicate content already canonicals to the primary 18K ring guide. Proposed permanent consolidation only."
+    },
+    {
+      "from": "/best-black-hills-gold-rings-2026-2/",
+      "to": "/best-black-hills-gold-rings-2026/",
+      "decision": "REDIRECT",
+      "statusProposed": 301,
+      "recommendation": "Duplicate content already canonicals to the primary mixed-karat ring guide. Proposed permanent consolidation only."
+    }
+  ]
+}

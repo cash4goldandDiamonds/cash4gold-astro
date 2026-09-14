@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-11T00:12:34.650Z",
+  "status": "PASS",
+  "source": "GitHub connector fetch_commit_workflow_runs for the exact consolidated commit",
+  "repository": "cash4goldandDiamonds/cash4gold-astro",
+  "commit": "48e64aa97a77590d13171fc415f5b07b07471b43",
+  "runs": [
+    {
+      "id": 34545249187,
+      "name": "Private preview quality checks",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 3,
+      "jobs_url": "https://api.github.com/repos/cash4goldandDiamonds/cash4gold-astro/actions/runs/34545249187/jobs",
+      "logs_url": "https://api.github.com/repos/cash4goldandDiamonds/cash4gold-astro/actions/runs/34545249187/logs",
+      "workflow_id": 355324944
+    }
+  ],
+  "scope": "Configured GitHub CI only; does not prove deployed runtime, performance, accessibility, forms, booking or consent",
+  "recommendation": "NOT READY TO GO LIVE",
+  "protectedCloudflareDeployment": "BLOCKED: no site deployed",
+  "productionDeployment": false
+}

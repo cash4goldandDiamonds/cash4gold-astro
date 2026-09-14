@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-09-11T02:07:52.622Z",
+  "base": "48e64aa97a77590d13171fc415f5b07b07471b43",
+  "scope": "Full local validation after bounded Studio navigation integration; preview build. No hosted staging acceptance implied.",
+  "tests": 31,
+  "failures": 0,
+  "stages": [
+    {
+      "name": "unit-tests",
+      "started": "2026-09-11T02:00:44.327Z",
+      "finished": "2026-09-11T02:00:51.453Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "name": "schema",
+      "started": "2026-09-11T02:00:51.456Z",
+      "finished": "2026-09-11T02:00:57.362Z",
+      "exitCode": 0,
+      "log": "schema.log"
+    },
+    {
+      "name": "source-security",
+      "started": "2026-09-11T02:00:57.363Z",
+      "finished": "2026-09-11T02:01:00.048Z",
+      "exitCode": 0,
+      "log": "source-security.log"
+    },
+    {
+      "name": "typecheck",
+      "started": "2026-09-11T02:01:00.048Z",
+      "finished": "2026-09-11T02:02:08.822Z",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "started": "2026-09-11T02:02:08.822Z",
+      "finished": "2026-09-11T02:02:19.804Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "name": "built-site",
+      "started": "2026-09-11T02:02:19.805Z",
+      "finished": "2026-09-11T02:02:26.524Z",
+      "exitCode": 0,
+      "log": "built-site.log"
+    },
+    {
+      "name": "cms-projection",
+      "started": "2026-09-11T02:02:26.524Z",
+      "finished": "2026-09-11T02:02:28.151Z",
+      "exitCode": 0,
+      "log": "cms-projection.log"
+    },
+    {
+      "name": "editorial",
+      "started": "2026-09-11T02:02:28.151Z",
+      "finished": "2026-09-11T02:02:29.584Z",
+      "exitCode": 0,
+      "log": "editorial.log"
+    },
+    {
+      "name": "substantive",
+      "started": "2026-09-11T02:02:29.585Z",
+      "finished": "2026-09-11T02:02:31.089Z",
+      "exitCode": 0,
+      "log": "substantive.log"
+    },
+    {
+      "name": "source-and-routes",
+      "started": "2026-09-11T02:02:31.090Z",
+      "finished": "2026-09-11T02:02:35.720Z",
+      "exitCode": 0,
+      "log": "source-and-routes.log"
+    },
+    {
+      "name": "design",
+      "started": "2026-09-11T02:02:35.720Z",
+      "finished": "2026-09-11T02:02:36.263Z",
+      "exitCode": 0,
+      "log": "design.log"
+    },
+    {
+      "name": "dependency-audit",
+      "started": "2026-09-11T02:07:16.459Z",
+      "finished": "2026-09-11T02:07:17.566Z",
+      "exitCode": 0,
+      "log": "dependency-audit-authorized-retry.log",
+      "priorAttempt": {
+        "name": "dependency-audit",
+        "started": "2026-09-11T02:02:36.264Z",
+        "finished": "2026-09-11T02:03:46.954Z",
+        "exitCode": 1,
+        "log": "dependency-audit.log",
+        "reason": "Package registry fetch failed before network permission; explicit turn-scoped network grant now received."
+      }
+    }
+  ]
+}

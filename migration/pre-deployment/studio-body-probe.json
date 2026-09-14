@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-09-10T23:05:38.216Z",
+  "id": "acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c",
+  "draftId": "drafts.acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c",
+  "method": "Synthetic private draft for browser rich-text preservation test",
+  "published": false,
+  "initialBody": [
+    {
+      "_type": "block",
+      "_key": "preserved-block",
+      "style": "normal",
+      "sourceId": "preserved-section-anchor",
+      "className": "preserved-paragraph",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "text",
+          "text": "Synthetic rich-text editing check.",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

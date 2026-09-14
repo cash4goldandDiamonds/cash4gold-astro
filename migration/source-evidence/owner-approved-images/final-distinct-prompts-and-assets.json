@@ -1,0 +1,956 @@
+{
+  "mode": "built-in image_gen",
+  "review": "All 38 visually inspected before integration; captions describe visible subject without authentication claims.",
+  "assets": [
+    {
+      "name": "gold-and-silver-coin-stacks",
+      "path": "/sell-gold-coins-best-price-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: Several substantial stacks of gold-colored and silver-colored coins on dark charcoal felt; low three-quarter angle emphasizing crisp reeded edges, a few overlapping coins lying face down, faces out of focus and mostly concealed. Distinct gold and silver tones, realistic metal patina. No readable coin design or denomination. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Stacks of gold-colored and silver-colored coins on dark felt",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-and-silver-coin-stacks.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-and-silver-coin-stacks-480.webp",
+          "width": 480,
+          "bytes": 28294
+        },
+        {
+          "src": "/media/owner-final/gold-and-silver-coin-stacks-800.webp",
+          "width": 800,
+          "bytes": 67718
+        },
+        {
+          "src": "/media/owner-final/gold-and-silver-coin-stacks-1200.webp",
+          "width": 1200,
+          "bytes": 130600
+        }
+      ],
+      "sourceSha256": "f22ac01e090b2c65f08c872bec3c56cd391aa215095ca30d7c6968a495384ce8"
+    },
+    {
+      "name": "heavy-octagonal-gold-signet",
+      "path": "/best-10k-gold-mens-rings-2026-ranked/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A heavy thick yellow-gold men's signet ring with an unengraved octagonal face and broad stepped shoulders, displayed at a three-quarter angle on black leather. Clearly substantial metal, fine realistic wear marks, no symbols. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy yellow-gold signet ring with a broad unengraved octagonal face",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-octagonal-gold-signet.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-octagonal-gold-signet-480.webp",
+          "width": 480,
+          "bytes": 22152
+        },
+        {
+          "src": "/media/owner-final/heavy-octagonal-gold-signet-800.webp",
+          "width": 800,
+          "bytes": 57600
+        },
+        {
+          "src": "/media/owner-final/heavy-octagonal-gold-signet-1200.webp",
+          "width": 1200,
+          "bytes": 115920
+        }
+      ],
+      "sourceSha256": "cb37ddaaeaacc2164e47a1d7e00cc432e65d422db402614de90fdbe7b429f3d8"
+    },
+    {
+      "name": "collector-coin-tray",
+      "path": "/best-gold-coin-buyers-los-angeles-2026/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A black compartmented collector tray filled with orderly gold-colored and silver-colored coins, some in clear round capsules; overhead angled editorial view, rich gold highlights with neutral silver, larger collection rather than just two coins. Oblique reflections and overlapping arrangement conceal any face inscriptions, no readable denominations or labels. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Gold-colored and silver-colored coins arranged in a black collector tray",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/collector-coin-tray.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/collector-coin-tray-480.webp",
+          "width": 480,
+          "bytes": 37202
+        },
+        {
+          "src": "/media/owner-final/collector-coin-tray-800.webp",
+          "width": 800,
+          "bytes": 90154
+        },
+        {
+          "src": "/media/owner-final/collector-coin-tray-1200.webp",
+          "width": 1200,
+          "bytes": 179538
+        }
+      ],
+      "sourceSha256": "5298bb49997dd4ac63a34a5e1fdd4a321bb9b38adbf1f304b8652902720c53f3"
+    },
+    {
+      "name": "heavy-gold-curb-necklace-bangles",
+      "path": "/sell-gold-in-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A broad flat polished yellow-gold curb necklace arranged in an oval with three heavy smooth bangles and a substantial gold bracelet, on smoky blue silk. Balanced large collection, elegant directional studio light. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Substantial gold curb necklace with heavy bangles and a bracelet",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-gold-curb-necklace-bangles.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-gold-curb-necklace-bangles-480.webp",
+          "width": 480,
+          "bytes": 32872
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-curb-necklace-bangles-800.webp",
+          "width": 800,
+          "bytes": 85268
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-curb-necklace-bangles-1200.webp",
+          "width": 1200,
+          "bytes": 188658
+        }
+      ],
+      "sourceSha256": "0216eb0e88f5d16431d2391e333ed283920c333dfb0a89f9d645b1fa3bdcfa4a"
+    },
+    {
+      "name": "gold-evaluation-tray",
+      "path": "/gold-buyer-downtown-los-angeles-2/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A black velvet jeweler's tray holding a very heavy yellow-gold Cuban bracelet with sturdy box clasp, a wide hinged bangle and three weighty gold rings, centered diagonal composition. A closed loupe sits outside the tray, no scale, price or paperwork. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy gold Cuban bracelet, hinged bangle and rings in a velvet tray",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-evaluation-tray.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-evaluation-tray-480.webp",
+          "width": 480,
+          "bytes": 25844
+        },
+        {
+          "src": "/media/owner-final/gold-evaluation-tray-800.webp",
+          "width": 800,
+          "bytes": 56150
+        },
+        {
+          "src": "/media/owner-final/gold-evaluation-tray-1200.webp",
+          "width": 1200,
+          "bytes": 105296
+        }
+      ],
+      "sourceSha256": "8bcd8b088fad57158969650a844fa0d2667d63926718065386e22d657383c3ce"
+    },
+    {
+      "name": "heavy-gold-jewelry-collection",
+      "path": "/sell-gold-jewelry-downtown-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: An impressive organized collection of heavy yellow-gold jewelry: broad Cuban chain, chunky link bracelet, thick plain bangles and solid signet rings on deep forest-green suede. Top-down slightly diagonal view, pieces separated enough to see forms. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy gold chains, bracelets, bangles and rings on green suede",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-gold-jewelry-collection.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-gold-jewelry-collection-480.webp",
+          "width": 480,
+          "bytes": 29458
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-jewelry-collection-800.webp",
+          "width": 800,
+          "bytes": 77046
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-jewelry-collection-1200.webp",
+          "width": 1200,
+          "bytes": 159250
+        }
+      ],
+      "sourceSha256": "d757c417b7fc0483b5e5b04b54df5116090bfcc7f1e65ca43bd509a5074e1bca"
+    },
+    {
+      "name": "heavy-figaro-bracelet-and-cuff",
+      "path": "/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A heavy yellow-gold Figaro bracelet with alternating long and short links beside a wide textured gold cuff and a smooth heavy band, laid on pale gray stone. Strong side light defining mass, distinctive clear full pieces. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy gold Figaro bracelet beside a broad textured cuff and band",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-figaro-bracelet-and-cuff.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-figaro-bracelet-and-cuff-480.webp",
+          "width": 480,
+          "bytes": 38048
+        },
+        {
+          "src": "/media/owner-final/heavy-figaro-bracelet-and-cuff-800.webp",
+          "width": 800,
+          "bytes": 84484
+        },
+        {
+          "src": "/media/owner-final/heavy-figaro-bracelet-and-cuff-1200.webp",
+          "width": 1200,
+          "bytes": 153330
+        }
+      ],
+      "sourceSha256": "b137a722308e535bf0bd9904a46810e29790524f3cb675cc209367504923eaf5"
+    },
+    {
+      "name": "large-radiant-diamond-folded-paper",
+      "path": "/diamond-price-guide-2026/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A single very large colorless radiant-cut faceted diamond resting on folded white jeweler's diamond paper, black velvet behind it, macro photograph with geometrically coherent cut corners and bright natural-looking facets. A closed jeweler's loupe lies well behind, softly blurred. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Large radiant-cut polished diamond on folded white jeweler paper",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-radiant-diamond-folded-paper.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-radiant-diamond-folded-paper-480.webp",
+          "width": 480,
+          "bytes": 14596
+        },
+        {
+          "src": "/media/owner-final/large-radiant-diamond-folded-paper-800.webp",
+          "width": 800,
+          "bytes": 30630
+        },
+        {
+          "src": "/media/owner-final/large-radiant-diamond-folded-paper-1200.webp",
+          "width": 1200,
+          "bytes": 53556
+        }
+      ],
+      "sourceSha256": "cab0e4b8ec909212f75226aa7772ba33e739f58b06e1467f2a89bd3b2a13691a"
+    },
+    {
+      "name": "worn-gold-bangle-and-ring-scrap",
+      "path": "/10k-gold-price-per-gram-pawn-shop/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A heavy worn yellow-gold bangle with an opened joint, two thick plain rings and broken curb bracelet links arranged carefully on gray jeweler's work felt. Realistic small scratches and substantial volume, attractive documentary jewelry photograph. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Worn gold bangle, thick rings and broken bracelet links",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/worn-gold-bangle-and-ring-scrap.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/worn-gold-bangle-and-ring-scrap-480.webp",
+          "width": 480,
+          "bytes": 40314
+        },
+        {
+          "src": "/media/owner-final/worn-gold-bangle-and-ring-scrap-800.webp",
+          "width": 800,
+          "bytes": 95978
+        },
+        {
+          "src": "/media/owner-final/worn-gold-bangle-and-ring-scrap-1200.webp",
+          "width": 1200,
+          "bytes": 182348
+        }
+      ],
+      "sourceSha256": "b5c62d9ea5ba8ace37d7cffeb25f29a7929d999f0b95b213b4ba9a3e74ed71e7"
+    },
+    {
+      "name": "gold-jewelry-presentation-box",
+      "path": "/selling-gold-jewelry-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: An open dark navy presentation box containing a substantial yellow-gold Byzantine chain and a wide polished gold bangle. Rich detailed interwoven gold links, realistic hinges and clasp, tasteful soft light, no packaging branding. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Substantial gold necklace and wide bangle in a navy jewelry box",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-jewelry-presentation-box.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-jewelry-presentation-box-480.webp",
+          "width": 480,
+          "bytes": 23940
+        },
+        {
+          "src": "/media/owner-final/gold-jewelry-presentation-box-800.webp",
+          "width": 800,
+          "bytes": 61870
+        },
+        {
+          "src": "/media/owner-final/gold-jewelry-presentation-box-1200.webp",
+          "width": 1200,
+          "bytes": 126012
+        }
+      ],
+      "sourceSha256": "7f2ffb97e3041531f681dba771ed6326076961717986c9361e8c4a8b195891a0"
+    },
+    {
+      "name": "large-emerald-yellow-gold-ring",
+      "path": "/best-emerald-ring-gold-2026/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: An impressive very large rich green rectangular emerald-cut gemstone in a substantial yellow-gold ring, flanked by two large tapered step-cut colorless stones, resting upright on warm charcoal slate. Exceptional high-jewelry elegance, realistic subtle emerald inclusions, balanced secure prongs and coherent metal structure. No claim of origin or natural identification shown. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Large green step-cut gemstone in a heavy yellow-gold ring with clear side stones",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-emerald-yellow-gold-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-emerald-yellow-gold-ring-480.webp",
+          "width": 480,
+          "bytes": 30750
+        },
+        {
+          "src": "/media/owner-final/large-emerald-yellow-gold-ring-800.webp",
+          "width": 800,
+          "bytes": 70416
+        },
+        {
+          "src": "/media/owner-final/large-emerald-yellow-gold-ring-1200.webp",
+          "width": 1200,
+          "bytes": 130068
+        }
+      ],
+      "sourceSha256": "df83d75403261dcf25ff60fa7db7950078432572f922c356794239fab24c3bcb"
+    },
+    {
+      "name": "gold-assortment-green-stone",
+      "path": "/how-much-should-i-get-for-my-gold-jewelry/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A dense luxurious assortment of substantial yellow-gold jewelry on dark green stone: a wide basket-weave bracelet, heavy rope bracelet, rounded chunky ring and thick hoop earrings. Clearly separate physical objects with realistic consistent chain geometry. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy gold bracelets, chunky ring and hoop earrings on green stone",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-assortment-green-stone.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-assortment-green-stone-480.webp",
+          "width": 480,
+          "bytes": 47580
+        },
+        {
+          "src": "/media/owner-final/gold-assortment-green-stone-800.webp",
+          "width": 800,
+          "bytes": 107144
+        },
+        {
+          "src": "/media/owner-final/gold-assortment-green-stone-1200.webp",
+          "width": 1200,
+          "bytes": 195602
+        }
+      ],
+      "sourceSha256": "871a6dbf3581011e630e3fd4aada560c06707c586cd23260467a6a6ad5c50b7a"
+    },
+    {
+      "name": "sorted-gold-jewelry-pieces",
+      "path": "/gold-valuation-how-gold-is-valued/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: Three shallow black sorting dishes on a gray jeweler's desktop: one contains chunky yellow-gold rings, one holds heavy broken bracelet links, the third a coiled thick gold chain. No labels or instruments. Clean angled overhead composition showing separation for evaluation. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Gold rings, broken bracelet links and chain separated in sorting dishes",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/sorted-gold-jewelry-pieces.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/sorted-gold-jewelry-pieces-480.webp",
+          "width": 480,
+          "bytes": 36944
+        },
+        {
+          "src": "/media/owner-final/sorted-gold-jewelry-pieces-800.webp",
+          "width": 800,
+          "bytes": 85948
+        },
+        {
+          "src": "/media/owner-final/sorted-gold-jewelry-pieces-1200.webp",
+          "width": 1200,
+          "bytes": 158756
+        }
+      ],
+      "sourceSha256": "db420cae76dd7bb601a876ef05b273af8ff9106ae27bd4d63087ed6a5935824b"
+    },
+    {
+      "name": "heavy-foxtail-gold-chain",
+      "path": "/where-to-sell-gold-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A bold thick yellow-gold foxtail chain necklace coiled naturally next to a matching substantial link bracelet on charcoal suede. Detailed braided-link texture, intact usable clasp, powerful close editorial product view. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Thick braided gold chain with a substantial matching bracelet",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-foxtail-gold-chain.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-foxtail-gold-chain-480.webp",
+          "width": 480,
+          "bytes": 40834
+        },
+        {
+          "src": "/media/owner-final/heavy-foxtail-gold-chain-800.webp",
+          "width": 800,
+          "bytes": 108922
+        },
+        {
+          "src": "/media/owner-final/heavy-foxtail-gold-chain-1200.webp",
+          "width": 1200,
+          "bytes": 214786
+        }
+      ],
+      "sourceSha256": "bf46a3236bbd5d68736cd9feaa62da7420c0796f6a0aea70d8f4c37b5ebe2bc2"
+    },
+    {
+      "name": "scrap-gold-curb-chain-cuff",
+      "path": "/how-much-do-pawn-shops-pay-for-gold/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: An opened wide yellow-gold cuff, a heavy broken Cuban chain and several substantial gold clasp pieces in a single large shallow charcoal tray, jewelry salvage still beautiful with natural scratches. Low raking warm light, distinct tactile geometry. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Opened gold cuff, broken Cuban chain and clasp pieces in a dark tray",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/scrap-gold-curb-chain-cuff.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/scrap-gold-curb-chain-cuff-480.webp",
+          "width": 480,
+          "bytes": 35740
+        },
+        {
+          "src": "/media/owner-final/scrap-gold-curb-chain-cuff-800.webp",
+          "width": 800,
+          "bytes": 83318
+        },
+        {
+          "src": "/media/owner-final/scrap-gold-curb-chain-cuff-1200.webp",
+          "width": 1200,
+          "bytes": 157654
+        }
+      ],
+      "sourceSha256": "499e2cd83fd6e529d3c1412831e592c8651298db7e7494024993a889b6549dbe"
+    },
+    {
+      "name": "worn-gold-link-bracelets",
+      "path": "/pawn-shops-pay-for-gold-los-angeles/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: Two substantial older yellow-gold link bracelets, one broad curb design and one brick-link design, with a worn smooth gold wedding band, arranged on warm brown jeweler's leather. Gentle honest surface wear, impressive weight and quality, no price references. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Two substantial worn gold link bracelets and a plain gold band",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/worn-gold-link-bracelets.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/worn-gold-link-bracelets-480.webp",
+          "width": 480,
+          "bytes": 34332
+        },
+        {
+          "src": "/media/owner-final/worn-gold-link-bracelets-800.webp",
+          "width": 800,
+          "bytes": 83738
+        },
+        {
+          "src": "/media/owner-final/worn-gold-link-bracelets-1200.webp",
+          "width": 1200,
+          "bytes": 167924
+        }
+      ],
+      "sourceSha256": "81d35578d4a0386a363341b63abdf836626d26172c18be9aec00c9e0844c01b0"
+    },
+    {
+      "name": "bold-byzantine-gold-necklace",
+      "path": "/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: One very substantial yellow-gold Byzantine necklace in a graceful closed oval on midnight-blue velvet, with ornate but mechanically coherent woven links and an unbranded secure clasp, close three-quarter studio photograph, whole necklace visible. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Substantial woven gold necklace on midnight-blue velvet",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/bold-byzantine-gold-necklace.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/bold-byzantine-gold-necklace-480.webp",
+          "width": 480,
+          "bytes": 22724
+        },
+        {
+          "src": "/media/owner-final/bold-byzantine-gold-necklace-800.webp",
+          "width": 800,
+          "bytes": 56128
+        },
+        {
+          "src": "/media/owner-final/bold-byzantine-gold-necklace-1200.webp",
+          "width": 1200,
+          "bytes": 108876
+        }
+      ],
+      "sourceSha256": "c77f5cd66d2402ada0378112aa5e5f1cb613c4f50e0ab2ff3891804c8cdcdc76"
+    },
+    {
+      "name": "gold-jewelry-secure-jewel-case",
+      "path": "/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A compact open unbranded black hard jewelry case containing a heavy yellow-gold chain and thick bracelet carefully separated in gray padded compartments. Editorial preparation photograph, no postal carton, shipping label, document, address or company service implication. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Heavy gold chain and bracelet in a padded black jewelry case",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-jewelry-secure-jewel-case.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-jewelry-secure-jewel-case-480.webp",
+          "width": 480,
+          "bytes": 26220
+        },
+        {
+          "src": "/media/owner-final/gold-jewelry-secure-jewel-case-800.webp",
+          "width": 800,
+          "bytes": 66308
+        },
+        {
+          "src": "/media/owner-final/gold-jewelry-secure-jewel-case-1200.webp",
+          "width": 1200,
+          "bytes": 131004
+        }
+      ],
+      "sourceSha256": "1fed306beab8906c88d3ac0204d07b2874502eee91828d5b8bfc14e087db66b8"
+    },
+    {
+      "name": "heavy-mariner-gold-bracelet-chain",
+      "path": "/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: A heavy yellow-gold mariner-link bracelet next to a substantial matching anchor-link chain on warm travertine, sweeping parallel arrangement, no other objects. Crisp realistic links with center bars and practical lobster clasps. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Substantial gold mariner-link bracelet and chain on pale stone",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-mariner-gold-bracelet-chain.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-mariner-gold-bracelet-chain-480.webp",
+          "width": 480,
+          "bytes": 37972
+        },
+        {
+          "src": "/media/owner-final/heavy-mariner-gold-bracelet-chain-800.webp",
+          "width": 800,
+          "bytes": 95908
+        },
+        {
+          "src": "/media/owner-final/heavy-mariner-gold-bracelet-chain-1200.webp",
+          "width": 1200,
+          "bytes": 187242
+        }
+      ],
+      "sourceSha256": "4b912b11d52e41c753999a231cb0ac3905499f311a212c3e117905202b475b5a"
+    },
+    {
+      "name": "worn-thick-gold-rings-and-links",
+      "path": "/how-much-is-10kt-gold-worth/",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium jewelry buying website article photograph. Subject: Three thick worn yellow-gold rings including a plain cigar band, a broad signet with blank face and a rounded band, beside several heavy detached bracelet links on matte dark slate. Close inspection photograph, modest scratches, polished gold highlights, substantial dimensions. Style: exceptionally high quality realistic professional jewelry photography, accurate material texture and physically coherent construction, balanced exposure and controlled reflections. Composition: landscape 3:2, 1536 by 1024 pixels, subject centered with generous crop-safe margins for website cards, entire key jewelry pieces visible. No people, hands, text, logos, watermarks, hallmarks, purity numbers, appraisal amounts, certificates, invented brand or price claims. This is an illustrative editorial image, not a depiction of authenticated business inventory.",
+      "alt": "Three thick worn gold rings beside heavy detached bracelet links",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/worn-thick-gold-rings-and-links.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/worn-thick-gold-rings-and-links-480.webp",
+          "width": 480,
+          "bytes": 35066
+        },
+        {
+          "src": "/media/owner-final/worn-thick-gold-rings-and-links-800.webp",
+          "width": 800,
+          "bytes": 83710
+        },
+        {
+          "src": "/media/owner-final/worn-thick-gold-rings-and-links-1200.webp",
+          "width": 1200,
+          "bytes": 161126
+        }
+      ],
+      "sourceSha256": "2d0fd0a97a8d997407432d3fefb2bfe88f60c1be1df5c107a5958f1b6c1a66a5"
+    },
+    {
+      "name": "heavy-gold-radiant-bezel-ring",
+      "path": "/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One heavy yellow-gold ring with a very large rectangular radiant-cut white diamond in a smooth full bezel, broad softly domed solid shank. Front three-quarter view on dark brown suede, stone faces camera, metal thickness clearly visible.",
+      "alt": "Heavy yellow-gold ring with a large radiant-cut diamond in a broad bezel",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-gold-radiant-bezel-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-gold-radiant-bezel-ring-480.webp",
+          "width": 480,
+          "bytes": 24144
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-radiant-bezel-ring-800.webp",
+          "width": 800,
+          "bytes": 56814
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-radiant-bezel-ring-1200.webp",
+          "width": 1200,
+          "bytes": 103858
+        }
+      ],
+      "sourceSha256": "e182abf84ff14114952e67fe2bf6a3479130689ecb8aec48060445deeb99565a"
+    },
+    {
+      "name": "architectural-gold-asscher-diamond-ring",
+      "path": "/best-14k-gold-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One sculptural yellow-gold ring with a large square Asscher-cut white diamond above a bold geometric open-gallery gold setting, wide flat band. Standing on pale cool-gray stone, diagonal side angle reveals a believable substantial gallery under the sharp step-cut stone.",
+      "alt": "Architectural yellow-gold ring with a large square step-cut diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/architectural-gold-asscher-diamond-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/architectural-gold-asscher-diamond-ring-480.webp",
+          "width": 480,
+          "bytes": 19650
+        },
+        {
+          "src": "/media/owner-final/architectural-gold-asscher-diamond-ring-800.webp",
+          "width": 800,
+          "bytes": 43428
+        },
+        {
+          "src": "/media/owner-final/architectural-gold-asscher-diamond-ring-1200.webp",
+          "width": 1200,
+          "bytes": 79398
+        }
+      ],
+      "sourceSha256": "adb61ec9007378fb1b27d1be35e203c6312be21126647c005f06a2219107cdbe"
+    },
+    {
+      "name": "large-diamond-gold-curved-barbell",
+      "path": "/best-14k-gold-belly-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One substantial curved barbell navel-jewelry piece, not a finger ring: a short smoothly curved polished yellow-gold bar connects one large round white diamond in a gold bezel at the top and one larger pear-shaped white diamond in a simple gold prong mount at the bottom. Both mounts are securely connected with credible wearable proportions. It rests diagonally on warm ivory suede, macro view, exactly two diamonds, no loose parts.",
+      "alt": "Yellow-gold curved barbell jewelry with two large diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-diamond-gold-curved-barbell.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-diamond-gold-curved-barbell-480.webp",
+          "width": 480,
+          "bytes": 27242
+        },
+        {
+          "src": "/media/owner-final/large-diamond-gold-curved-barbell-800.webp",
+          "width": 800,
+          "bytes": 60502
+        },
+        {
+          "src": "/media/owner-final/large-diamond-gold-curved-barbell-1200.webp",
+          "width": 1200,
+          "bytes": 106030
+        }
+      ],
+      "sourceSha256": "6582bcb55f6eafd9dc42f934d7ca1656e4ca1c9049e48d7e58ae7dffc0a2d2b4"
+    },
+    {
+      "name": "large-cushion-and-pear-diamond-gold-ring",
+      "path": "/best-18k-gold-rings-for-women-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One opulent yellow-gold three-stone ring with a very large cushion-cut white diamond and two substantial pear-cut side diamonds pointing outward, thick rounded polished band, clean separated claw prongs. Near-front view tilted slightly on deep muted emerald velvet.",
+      "alt": "Heavy yellow-gold three-stone ring with a large cushion diamond and pear-shaped side diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-cushion-and-pear-diamond-gold-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-cushion-and-pear-diamond-gold-ring-480.webp",
+          "width": 480,
+          "bytes": 25526
+        },
+        {
+          "src": "/media/owner-final/large-cushion-and-pear-diamond-gold-ring-800.webp",
+          "width": 800,
+          "bytes": 57262
+        },
+        {
+          "src": "/media/owner-final/large-cushion-and-pear-diamond-gold-ring-1200.webp",
+          "width": 1200,
+          "bytes": 105662
+        }
+      ],
+      "sourceSha256": "fdedad0f7e81135023a8dcae8c1704b1eddc2311ea3dfabf0b1eb6d206bdcc32"
+    },
+    {
+      "name": "heavy-gold-oval-diamond-signet",
+      "path": "/best-14k-yellow-gold-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. A single very heavy yellow-gold cushion-shaped signet ring with a large oval white diamond flush-bezel-set into the broad top face. Massive tapered shoulders with subtle brushed texture, highly polished edges. Resting upright on charcoal slate, three-quarter front angle shows the ring's width and full circular opening.",
+      "alt": "Heavy yellow-gold signet ring with a large oval diamond in its broad face",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/heavy-gold-oval-diamond-signet.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/heavy-gold-oval-diamond-signet-480.webp",
+          "width": 480,
+          "bytes": 30086
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-oval-diamond-signet-800.webp",
+          "width": 800,
+          "bytes": 70046
+        },
+        {
+          "src": "/media/owner-final/heavy-gold-oval-diamond-signet-1200.webp",
+          "width": 1200,
+          "bytes": 129314
+        }
+      ],
+      "sourceSha256": "c6b8334d40f7b451a2f0d03abc530c84dbe4d5086c7682694a66737a4874d5e4"
+    },
+    {
+      "name": "worn-gold-emerald-cut-diamond-ring",
+      "path": "/best-yellow-gold-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One thick yellow-gold ring with a very large elongated emerald-cut white diamond in four clean heavy corner prongs, elegant open basket. Gold has subtle fine honest surface scratches, never damaged or dirty. Laid at an angle on pale taupe leather, broad side and entire stone visible, quiet natural light.",
+      "alt": "Substantial yellow-gold ring with a large emerald-cut diamond and light signs of wear",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/worn-gold-emerald-cut-diamond-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/worn-gold-emerald-cut-diamond-ring-480.webp",
+          "width": 480,
+          "bytes": 21334
+        },
+        {
+          "src": "/media/owner-final/worn-gold-emerald-cut-diamond-ring-800.webp",
+          "width": 800,
+          "bytes": 46864
+        },
+        {
+          "src": "/media/owner-final/worn-gold-emerald-cut-diamond-ring-1200.webp",
+          "width": 1200,
+          "bytes": 86954
+        }
+      ],
+      "sourceSha256": "811adf57e8d17266ec0e2b95fdaf06d99a1d9ec3aa234562dcce44e21d04aba5"
+    },
+    {
+      "name": "gold-bypass-two-pear-diamond-ring",
+      "path": "/best-10k-gold-rings-for-women-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One bold sculptural yellow-gold bypass ring whose two substantial rounded arms each hold a LARGE pear-cut white diamond, the two pears face opposite directions in a balanced toi-et-moi composition. No other stones. Upright three-quarter view on soft dusty-blue velvet, complete broad gold band visible.",
+      "alt": "Sculptural yellow-gold bypass ring with two large opposing pear-shaped diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/gold-bypass-two-pear-diamond-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/gold-bypass-two-pear-diamond-ring-480.webp",
+          "width": 480,
+          "bytes": 26070
+        },
+        {
+          "src": "/media/owner-final/gold-bypass-two-pear-diamond-ring-800.webp",
+          "width": 800,
+          "bytes": 60174
+        },
+        {
+          "src": "/media/owner-final/gold-bypass-two-pear-diamond-ring-1200.webp",
+          "width": 1200,
+          "bytes": 108456
+        }
+      ],
+      "sourceSha256": "70c76b26a6880558f8a14b978156a19f3038407dcdb5ae235ee079b6056219b0"
+    },
+    {
+      "name": "leaf-pattern-gold-large-diamond-ring",
+      "path": "/best-black-hills-gold-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One substantial ornate gold ring with a VERY LARGE round brilliant white diamond in a simple yellow-gold claw setting. Broad shoulders have carefully modeled grape leaves in rose-gold and pale green-gold tones on a yellow-gold band, softly engraved vine details, no other gemstones. A regionally unbranded decorative leaf-pattern jewelry illustration, not a certified-origin product. Full ring on warm cream limestone, three-quarter angle.",
+      "alt": "Leaf-pattern yellow, rose and green-gold-tone ring with a large round center diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/leaf-pattern-gold-large-diamond-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/leaf-pattern-gold-large-diamond-ring-480.webp",
+          "width": 480,
+          "bytes": 31194
+        },
+        {
+          "src": "/media/owner-final/leaf-pattern-gold-large-diamond-ring-800.webp",
+          "width": 800,
+          "bytes": 70234
+        },
+        {
+          "src": "/media/owner-final/leaf-pattern-gold-large-diamond-ring-1200.webp",
+          "width": 1200,
+          "bytes": 129312
+        }
+      ],
+      "sourceSha256": "9a52351b95e3250d2ded602a366f5ca00172bad3d78f5adb95fc012b8d001c3f"
+    },
+    {
+      "name": "large-heart-diamond-gold-solitaire",
+      "path": "/best-promise-rings-gold-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One substantial yellow-gold solitaire ring with a very large precisely faceted HEART-SHAPED white diamond, clear symmetrical lobes, secure V-prong at its point and discreet upper prongs. Thick clean rounded gold band with no other stones. Set at a natural angle on dark plum velvet, complete heart shape clearly faces camera.",
+      "alt": "Heavy yellow-gold ring with a large heart-shaped diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-heart-diamond-gold-solitaire.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-heart-diamond-gold-solitaire-480.webp",
+          "width": 480,
+          "bytes": 20594
+        },
+        {
+          "src": "/media/owner-final/large-heart-diamond-gold-solitaire-800.webp",
+          "width": 800,
+          "bytes": 46152
+        },
+        {
+          "src": "/media/owner-final/large-heart-diamond-gold-solitaire-1200.webp",
+          "width": 1200,
+          "bytes": 84652
+        }
+      ],
+      "sourceSha256": "6135f6c825f5c0682dfd964b2e67edc0cda61f46bbcdf161fca02f712b5989ce"
+    },
+    {
+      "name": "three-princess-diamond-yellow-gold-ring",
+      "path": "/best-10k-gold-rings-2026-top-5-ranked/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One weighty yellow-gold three-stone ring, three large square princess-cut white diamonds with the center slightly larger, all three sharp square outlines and credible protected corners. Thick flat polished shank. Placed on a light warm-gray stone pedestal with generous margins, elevated front three-quarter view.",
+      "alt": "Substantial yellow-gold ring with three large square princess-cut diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/three-princess-diamond-yellow-gold-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/three-princess-diamond-yellow-gold-ring-480.webp",
+          "width": 480,
+          "bytes": 22570
+        },
+        {
+          "src": "/media/owner-final/three-princess-diamond-yellow-gold-ring-800.webp",
+          "width": 800,
+          "bytes": 52612
+        },
+        {
+          "src": "/media/owner-final/three-princess-diamond-yellow-gold-ring-1200.webp",
+          "width": 1200,
+          "bytes": 99866
+        }
+      ],
+      "sourceSha256": "8f4cc3d7fe9c76ca348f32887f27a03e5b9346dec75cf3619f155abba0ea9fb9"
+    },
+    {
+      "name": "elongated-radiant-diamond-gold-ring",
+      "path": "/10k-diamond-ring-buying-guide/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One heavy yellow-gold solitaire ring with an exceptionally large elongated radiant-cut white diamond in four clean corner prongs and a tall but believable open gallery. Thick polished knife-edge band. Resting diagonally across deep navy suede with full circular ring shape visible, side light shows the stone's depth and crisp facets.",
+      "alt": "Large elongated radiant-cut diamond in a thick yellow-gold four-prong ring",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/elongated-radiant-diamond-gold-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/elongated-radiant-diamond-gold-ring-480.webp",
+          "width": 480,
+          "bytes": 25358
+        },
+        {
+          "src": "/media/owner-final/elongated-radiant-diamond-gold-ring-800.webp",
+          "width": 800,
+          "bytes": 61846
+        },
+        {
+          "src": "/media/owner-final/elongated-radiant-diamond-gold-ring-1200.webp",
+          "width": 1200,
+          "bytes": 114636
+        }
+      ],
+      "sourceSha256": "0c41ba8c91ec30c3ef4f8a4bdcc2ce44d69db2d18ae37bae86b0b3d4b8925a89"
+    },
+    {
+      "name": "white-metal-wide-step-cut-ring",
+      "path": "/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One substantial bright white-gold-style ring with a large Asscher-cut white diamond in a broad square bezel, thick satin-brushed band and polished beveled edges. Upright on warm chestnut suede with neutral light, full ring visible, step-cut facets sharply resolved.",
+      "alt": "Wide white-metal ring with a large rectangular step-cut diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/white-metal-wide-step-cut-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/white-metal-wide-step-cut-ring-480.webp",
+          "width": 480,
+          "bytes": 23512
+        },
+        {
+          "src": "/media/owner-final/white-metal-wide-step-cut-ring-800.webp",
+          "width": 800,
+          "bytes": 55690
+        },
+        {
+          "src": "/media/owner-final/white-metal-wide-step-cut-ring-1200.webp",
+          "width": 1200,
+          "bytes": 106974
+        }
+      ],
+      "sourceSha256": "ce7bddd7b2ffdfc4433138572d6d35f14b4c7f70ae7fda1c04239429270f1cba"
+    },
+    {
+      "name": "white-gold-large-round-bezel-ring",
+      "path": "/best-14k-white-gold-diamond-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One bold sculptural white-gold-style ring holding a very large round brilliant white diamond in a smooth circular bezel above a thick split-shoulder band; shoulder branches are solid polished metal, not diamond-set. Complete ring on muted teal stone with side-front viewpoint and crisp broad major facets.",
+      "alt": "Substantial white-metal bezel ring with a large round diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/white-gold-large-round-bezel-ring.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/white-gold-large-round-bezel-ring-480.webp",
+          "width": 480,
+          "bytes": 31688
+        },
+        {
+          "src": "/media/owner-final/white-gold-large-round-bezel-ring-800.webp",
+          "width": 800,
+          "bytes": 68908
+        },
+        {
+          "src": "/media/owner-final/white-gold-large-round-bezel-ring-1200.webp",
+          "width": 1200,
+          "bytes": 123404
+        }
+      ],
+      "sourceSha256": "a043415d5164b30ee1a5e88b6d412757cfcdf34570f7279530af639f3d03da25"
+    },
+    {
+      "name": "white-gold-large-pear-solitaire",
+      "path": "/best-14k-white-gold-engagement-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One heavy white-gold-style engagement solitaire with a very large elegant pear-cut white diamond, secure V-prong at the point and four discreet rounded prongs around lower sides, thick rounded shank, no accent stones. Standing at a natural angle on pale ivory folded silk; full pear silhouette and circular band visible, gentle neutral highlights.",
+      "alt": "Heavy white-metal engagement ring with a large pear-shaped diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/white-gold-large-pear-solitaire.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/white-gold-large-pear-solitaire-480.webp",
+          "width": 480,
+          "bytes": 17288
+        },
+        {
+          "src": "/media/owner-final/white-gold-large-pear-solitaire-800.webp",
+          "width": 800,
+          "bytes": 43450
+        },
+        {
+          "src": "/media/owner-final/white-gold-large-pear-solitaire-1200.webp",
+          "width": 1200,
+          "bytes": 82448
+        }
+      ],
+      "sourceSha256": "08f84f81dde9b80f6b0fee2b918b1101b718ad2e1c34244cdd68665941acda3b"
+    },
+    {
+      "name": "large-oval-white-metal-eternity-band",
+      "path": "/best-10k-white-gold-rings-2026/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One luxurious HEAVY full eternity ring in white-gold-style metal, a continuous row of individually LARGE OVAL white diamonds set east-west around the entire band with realistic shared prongs and open galleries. Wide substantial band, no tiny stones. Three-quarter angle on dark burgundy suede shows the front stones and inner circular opening clearly.",
+      "alt": "Substantial white-metal eternity band set with large oval diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/large-oval-white-metal-eternity-band.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/large-oval-white-metal-eternity-band-480.webp",
+          "width": 480,
+          "bytes": 29778
+        },
+        {
+          "src": "/media/owner-final/large-oval-white-metal-eternity-band-800.webp",
+          "width": 800,
+          "bytes": 70824
+        },
+        {
+          "src": "/media/owner-final/large-oval-white-metal-eternity-band-1200.webp",
+          "width": 1200,
+          "bytes": 130602
+        }
+      ],
+      "sourceSha256": "72e2be5cfc0120bd3316462bd19ec92b6bfa7ee6669329a24241986c3fe6a4de"
+    },
+    {
+      "name": "white-gold-wide-emerald-diamond-band",
+      "path": "/white-gold-guide/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. One weighty extra-wide white-gold-style ring with one large emerald-cut white diamond set east-west into a broad smoothly polished band. Clean modern structural bezel, no other stones, thick metal visible. Full ring at a low three-quarter angle on warm golden-brown leather, elegant neutral light, no engraved labels.",
+      "alt": "Wide polished white-metal band with one large east-west emerald-cut diamond",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/white-gold-wide-emerald-diamond-band.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/white-gold-wide-emerald-diamond-band-480.webp",
+          "width": 480,
+          "bytes": 27668
+        },
+        {
+          "src": "/media/owner-final/white-gold-wide-emerald-diamond-band-800.webp",
+          "width": 800,
+          "bytes": 65740
+        },
+        {
+          "src": "/media/owner-final/white-gold-wide-emerald-diamond-band-1200.webp",
+          "width": 1200,
+          "bytes": 120738
+        }
+      ],
+      "sourceSha256": "b3ef2a98079288301bd710a86a179f1e9ef12f916816fedf7de4fe356d345174"
+    },
+    {
+      "name": "yellow-and-white-gold-large-diamond-bands",
+      "path": "/white-gold-vs-yellow-gold/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. Two different substantial rings arranged side by side with clear separation on pale charcoal velvet: one rich yellow-gold-tone band and one bright white-gold-tone band, each wide and individually set with three LARGE round brilliant white diamonds across the front. Both complete rings visible, no overlap, elevated front view emphasizes metal colors. Illustration of colors and styles, not a purity comparison test.",
+      "alt": "Yellow- and white-metal rings, each set with three large diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/yellow-and-white-gold-large-diamond-bands.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/yellow-and-white-gold-large-diamond-bands-480.webp",
+          "width": 480,
+          "bytes": 28260
+        },
+        {
+          "src": "/media/owner-final/yellow-and-white-gold-large-diamond-bands-800.webp",
+          "width": 800,
+          "bytes": 65130
+        },
+        {
+          "src": "/media/owner-final/yellow-and-white-gold-large-diamond-bands-1200.webp",
+          "width": 1200,
+          "bytes": 120560
+        }
+      ],
+      "sourceSha256": "1e27b54e5ee7fed5099956ed21270773115a9f6f2736146fce2fc68a80d1da68"
+    },
+    {
+      "name": "platinum-white-gold-substantial-diamond-rings",
+      "path": "/platinum-vs-white-gold/",
+      "prompt": "Create one photorealistic luxury jewelry editorial photograph, landscape 1536 by 1024. Exceptional macro product photography, true-to-life facets and material texture, physically credible settings and metalwork, refined soft studio light, no exaggerated rainbow starbursts. Jewelry is substantial and weighty with LARGE major diamonds, never tiny-stone pave or halos. Entire focal piece visible with comfortable margins. No text, logos, hallmark or karat numerals, watermark, people, hands, collage, price labels or certificates. This is an illustrative jewelry image, not proof of metal purity, gemstone identity, regional origin or inventory. Two substantial white-metal diamond rings arranged separately on soft ivory stone: one broad ring with a single large square emerald-step-cut diamond in a clean bezel, and one heavy full-eternity band of large broad rectangular step-cut diamonds. Quiet top-front three-quarter composition with full objects visible and accurate settings. Both metals are visually white; do not use color to pretend to prove platinum versus gold, no identifying marks or labels. These are illustrative styles for a metal-comparison article.",
+      "alt": "Two substantial white-metal rings with large step-cut diamonds",
+      "savedOriginal": "migration/source-evidence/owner-approved-images/platinum-white-gold-substantial-diamond-rings.png",
+      "variants": [
+        {
+          "src": "/media/owner-final/platinum-white-gold-substantial-diamond-rings-480.webp",
+          "width": 480,
+          "bytes": 20612
+        },
+        {
+          "src": "/media/owner-final/platinum-white-gold-substantial-diamond-rings-800.webp",
+          "width": 800,
+          "bytes": 43784
+        },
+        {
+          "src": "/media/owner-final/platinum-white-gold-substantial-diamond-rings-1200.webp",
+          "width": 1200,
+          "bytes": 78688
+        }
+      ],
+      "sourceSha256": "6c60cf8caa1fd18b905a53ea6a6cb74de866b04daac8ef642aad7031a4777ba8"
+    }
+  ]
+}

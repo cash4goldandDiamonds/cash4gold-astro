@@ -1,0 +1,33 @@
+{
+  "startedAt": "2026-09-11T02:10:44.625Z",
+  "status": "PASS",
+  "method": "Read-only authenticated reconciliation against the saved pre-lifecycle server documents",
+  "projectId": "gisdw6qa",
+  "dataset": "migration-staging",
+  "productionWrites": 0,
+  "originalDocuments": 430,
+  "beforeSha256": "d5163ab3c9b68a916468ec706760d0dc954d1b3cccc62598c41aad490764a710",
+  "afterSha256": "d5163ab3c9b68a916468ec706760d0dc954d1b3cccc62598c41aad490764a710",
+  "repeatImportDryRun": {
+    "create": 0,
+    "unchanged": 430,
+    "conflicts": 0,
+    "safeToExecute": true,
+    "remoteWrites": 0
+  },
+  "rawDocuments": 432,
+  "additionalDocuments": [
+    {
+      "_id": "drafts.acceptance-editor-fc335c97-bb33-44f0-b870-f29deff54c4c",
+      "_type": "page",
+      "published": false
+    },
+    {
+      "_id": "drafts.acceptance-probe-89ead183-13c3-44cd-85d3-8d70405df56c",
+      "_type": "faq",
+      "published": false
+    }
+  ],
+  "anonymousDocuments": 0,
+  "completedAt": "2026-09-11T02:10:46.409Z"
+}

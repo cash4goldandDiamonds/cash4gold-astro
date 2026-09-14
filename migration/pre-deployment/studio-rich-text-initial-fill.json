@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-10T23:08:30.867Z",
+  "method": "Actual Studio rich-text fill followed by API readback",
+  "text": "Synthetic rich-text editing check.",
+  "sourceId": "preserved-section-anchor",
+  "className": "preserved-paragraph",
+  "blockKey": "preserved-block",
+  "legacyAnchors": [
+    "preserved-section-anchor"
+  ],
+  "published": false,
+  "status": "BLOCKED"
+}

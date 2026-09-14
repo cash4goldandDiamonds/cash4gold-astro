@@ -1,0 +1,2331 @@
+{
+  "checkedAt": "2026-09-11T05:39:31.669692+00:00",
+  "status": "PASS",
+  "scope": "Authenticated all-content WXR downloaded through WordPress UI; offline XML structure, file hash, inventory and explicit SEO-override comparison. This is not a full database/files backup, media binary archive or restore.",
+  "sourceFile": "exports/wordpress/2026-09-11T05-39-31.669692+00-00/cash4goldanddiamond.WordPress.2026-09-11.xml",
+  "bytes": 5701906,
+  "sha256": "21550c5f5c974531effef8e7be440d6c5f740925faf66ec49649c2c802dcfb31",
+  "xmlParsed": true,
+  "rawExportExcludedFromGit": true,
+  "items": 419,
+  "typeStatusCounts": {
+    "attachment:inherit": 223,
+    "elementor_library:publish": 13,
+    "nav_menu_item:publish": 43,
+    "custom_css:publish": 2,
+    "page:publish": 13,
+    "oceanwp_library:publish": 2,
+    "post:draft": 3,
+    "page:trash": 1,
+    "post:publish": 111,
+    "wp_navigation:publish": 1,
+    "wpcf7_contact_form:publish": 2,
+    "pt_view:publish": 2,
+    "rm_content_editor:draft": 1,
+    "rank_math_schema:publish": 1,
+    "wp_global_styles:publish": 1
+  },
+  "publishedPosts": 111,
+  "publishedPages": 13,
+  "newPublishedSourceIds": [],
+  "previousPublishedIdsAbsentFromExport": [
+    "unavailable"
+  ],
+  "publishedModifiedSincePriorCapture": [],
+  "seoOverrideComparisonCounts": {
+    "Matches preserved metadata": 182,
+    "Uses plugin default or absent override; global settings still required": 187,
+    "Override differs; review required": 3
+  },
+  "seoOverrideComparisons": [
+    {
+      "sourceId": "15",
+      "url": "https://cash4goldanddiamond.com/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "15",
+      "url": "https://cash4goldanddiamond.com/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "15",
+      "url": "https://cash4goldanddiamond.com/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "19",
+      "url": "https://cash4goldanddiamond.com/about-us-sell-gold-and-diamonds-online/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "19",
+      "url": "https://cash4goldanddiamond.com/about-us-sell-gold-and-diamonds-online/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "19",
+      "url": "https://cash4goldanddiamond.com/about-us-sell-gold-and-diamonds-online/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "21",
+      "url": "https://cash4goldanddiamond.com/start-selling-gold-and-diamonds/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "21",
+      "url": "https://cash4goldanddiamond.com/start-selling-gold-and-diamonds/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "21",
+      "url": "https://cash4goldanddiamond.com/start-selling-gold-and-diamonds/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "28",
+      "url": "https://cash4goldanddiamond.com/contact-us/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "28",
+      "url": "https://cash4goldanddiamond.com/contact-us/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "28",
+      "url": "https://cash4goldanddiamond.com/contact-us/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "720",
+      "url": "https://cash4goldanddiamond.com/faqs/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "720",
+      "url": "https://cash4goldanddiamond.com/faqs/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "720",
+      "url": "https://cash4goldanddiamond.com/faqs/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "735",
+      "url": "https://cash4goldanddiamond.com/sell-your-golds/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "735",
+      "url": "https://cash4goldanddiamond.com/sell-your-golds/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "735",
+      "url": "https://cash4goldanddiamond.com/sell-your-golds/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "740",
+      "url": "https://cash4goldanddiamond.com/sell-your-diamonds-in-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "740",
+      "url": "https://cash4goldanddiamond.com/sell-your-diamonds-in-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "740",
+      "url": "https://cash4goldanddiamond.com/sell-your-diamonds-in-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "745",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "745",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "745",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watches-in-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "930",
+      "url": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "930",
+      "url": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "930",
+      "url": "https://cash4goldanddiamond.com/sell-gemstones-for-cash-in-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "1454",
+      "url": "https://cash4goldanddiamond.com/privacy-policy/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "1454",
+      "url": "https://cash4goldanddiamond.com/privacy-policy/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "1454",
+      "url": "https://cash4goldanddiamond.com/privacy-policy/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2542",
+      "url": "https://cash4goldanddiamond.com/reviews/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2542",
+      "url": "https://cash4goldanddiamond.com/reviews/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2542",
+      "url": "https://cash4goldanddiamond.com/reviews/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3097",
+      "url": "https://cash4goldanddiamond.com/blogs/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3097",
+      "url": "https://cash4goldanddiamond.com/blogs/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3097",
+      "url": "https://cash4goldanddiamond.com/blogs/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3511",
+      "url": "https://cash4goldanddiamond.com/sell-estate-jewelry-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3511",
+      "url": "https://cash4goldanddiamond.com/sell-estate-jewelry-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3511",
+      "url": "https://cash4goldanddiamond.com/sell-estate-jewelry-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2898",
+      "url": "https://cash4goldanddiamond.com/sell-gold-and-diamonds-online/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2898",
+      "url": "https://cash4goldanddiamond.com/sell-gold-and-diamonds-online/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2898",
+      "url": "https://cash4goldanddiamond.com/sell-gold-and-diamonds-online/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2930",
+      "url": "https://cash4goldanddiamond.com/how-to-spot-a-fake-rolex/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2930",
+      "url": "https://cash4goldanddiamond.com/how-to-spot-a-fake-rolex/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2930",
+      "url": "https://cash4goldanddiamond.com/how-to-spot-a-fake-rolex/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2952",
+      "url": "https://cash4goldanddiamond.com/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2952",
+      "url": "https://cash4goldanddiamond.com/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2952",
+      "url": "https://cash4goldanddiamond.com/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2975",
+      "url": "https://cash4goldanddiamond.com/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2975",
+      "url": "https://cash4goldanddiamond.com/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2975",
+      "url": "https://cash4goldanddiamond.com/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "2992",
+      "url": "https://cash4goldanddiamond.com/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2992",
+      "url": "https://cash4goldanddiamond.com/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "2992",
+      "url": "https://cash4goldanddiamond.com/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3007",
+      "url": "https://cash4goldanddiamond.com/2-carat-diamond-ring-price-complete-buying-guide/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3007",
+      "url": "https://cash4goldanddiamond.com/2-carat-diamond-ring-price-complete-buying-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3007",
+      "url": "https://cash4goldanddiamond.com/2-carat-diamond-ring-price-complete-buying-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3080",
+      "url": "https://cash4goldanddiamond.com/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3080",
+      "url": "https://cash4goldanddiamond.com/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3080",
+      "url": "https://cash4goldanddiamond.com/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3109",
+      "url": "https://cash4goldanddiamond.com/10k-gold-price-per-gram-pawn-shop/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3109",
+      "url": "https://cash4goldanddiamond.com/10k-gold-price-per-gram-pawn-shop/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3109",
+      "url": "https://cash4goldanddiamond.com/10k-gold-price-per-gram-pawn-shop/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3126",
+      "url": "https://cash4goldanddiamond.com/how-much-is-10kt-gold-worth/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3126",
+      "url": "https://cash4goldanddiamond.com/how-much-is-10kt-gold-worth/",
+      "field": "rank_math_description",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3126",
+      "url": "https://cash4goldanddiamond.com/how-much-is-10kt-gold-worth/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3140",
+      "url": "https://cash4goldanddiamond.com/how-much-do-pawn-shops-pay-for-gold/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3140",
+      "url": "https://cash4goldanddiamond.com/how-much-do-pawn-shops-pay-for-gold/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3140",
+      "url": "https://cash4goldanddiamond.com/how-much-do-pawn-shops-pay-for-gold/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3151",
+      "url": "https://cash4goldanddiamond.com/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3151",
+      "url": "https://cash4goldanddiamond.com/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3151",
+      "url": "https://cash4goldanddiamond.com/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3161",
+      "url": "https://cash4goldanddiamond.com/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3161",
+      "url": "https://cash4goldanddiamond.com/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3161",
+      "url": "https://cash4goldanddiamond.com/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3172",
+      "url": "https://cash4goldanddiamond.com/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3172",
+      "url": "https://cash4goldanddiamond.com/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3172",
+      "url": "https://cash4goldanddiamond.com/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3177",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3177",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3177",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3717",
+      "url": "https://cash4goldanddiamond.com/sell-gold-jewelry-downtown-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3717",
+      "url": "https://cash4goldanddiamond.com/sell-gold-jewelry-downtown-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3717",
+      "url": "https://cash4goldanddiamond.com/sell-gold-jewelry-downtown-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3727",
+      "url": "https://cash4goldanddiamond.com/gold-coins-buyer-near-me-downtown/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3727",
+      "url": "https://cash4goldanddiamond.com/gold-coins-buyer-near-me-downtown/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3727",
+      "url": "https://cash4goldanddiamond.com/gold-coins-buyer-near-me-downtown/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3734",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-diamond-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3734",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-diamond-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3734",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-diamond-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3736",
+      "url": "https://cash4goldanddiamond.com/gia-certified-diamonds-comparison-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3736",
+      "url": "https://cash4goldanddiamond.com/gia-certified-diamonds-comparison-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3736",
+      "url": "https://cash4goldanddiamond.com/gia-certified-diamonds-comparison-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3909",
+      "url": "https://cash4goldanddiamond.com/uncut-diamond-buyers-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3909",
+      "url": "https://cash4goldanddiamond.com/uncut-diamond-buyers-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3909",
+      "url": "https://cash4goldanddiamond.com/uncut-diamond-buyers-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4229",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4229",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4229",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3718",
+      "url": "https://cash4goldanddiamond.com/best-price-for-diamonds-in-la/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3718",
+      "url": "https://cash4goldanddiamond.com/best-price-for-diamonds-in-la/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3718",
+      "url": "https://cash4goldanddiamond.com/best-price-for-diamonds-in-la/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3719",
+      "url": "https://cash4goldanddiamond.com/rolex-buyer-los-angeles-cash/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3719",
+      "url": "https://cash4goldanddiamond.com/rolex-buyer-los-angeles-cash/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3719",
+      "url": "https://cash4goldanddiamond.com/rolex-buyer-los-angeles-cash/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3720",
+      "url": "https://cash4goldanddiamond.com/trusted-jewelry-buyer-los-angeles-reviews/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3720",
+      "url": "https://cash4goldanddiamond.com/trusted-jewelry-buyer-los-angeles-reviews/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3720",
+      "url": "https://cash4goldanddiamond.com/trusted-jewelry-buyer-los-angeles-reviews/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3721",
+      "url": "https://cash4goldanddiamond.com/best-price-diamonds-la/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3721",
+      "url": "https://cash4goldanddiamond.com/best-price-diamonds-la/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3721",
+      "url": "https://cash4goldanddiamond.com/best-price-diamonds-la/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3722",
+      "url": "https://cash4goldanddiamond.com/free-diamond-appraisal-same-day-cash/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3722",
+      "url": "https://cash4goldanddiamond.com/free-diamond-appraisal-same-day-cash/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3722",
+      "url": "https://cash4goldanddiamond.com/free-diamond-appraisal-same-day-cash/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3723",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3723",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3723",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3724",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3724",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3724",
+      "url": "https://cash4goldanddiamond.com/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3725",
+      "url": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3725",
+      "url": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3725",
+      "url": "https://cash4goldanddiamond.com/sell-inherited-jewelry-no-obligation/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3726",
+      "url": "https://cash4goldanddiamond.com/loose-diamonds-appraised-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3726",
+      "url": "https://cash4goldanddiamond.com/loose-diamonds-appraised-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3726",
+      "url": "https://cash4goldanddiamond.com/loose-diamonds-appraised-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3728",
+      "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Override differs; review required"
+    },
+    {
+      "sourceId": "3728",
+      "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Override differs; review required"
+    },
+    {
+      "sourceId": "3728",
+      "url": "https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3729",
+      "url": "https://cash4goldanddiamond.com/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3729",
+      "url": "https://cash4goldanddiamond.com/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3729",
+      "url": "https://cash4goldanddiamond.com/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3730",
+      "url": "https://cash4goldanddiamond.com/diamond-price-guide-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3730",
+      "url": "https://cash4goldanddiamond.com/diamond-price-guide-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3730",
+      "url": "https://cash4goldanddiamond.com/diamond-price-guide-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3732",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-diamond-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3732",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-diamond-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3732",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-diamond-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3738",
+      "url": "https://cash4goldanddiamond.com/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3738",
+      "url": "https://cash4goldanddiamond.com/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3738",
+      "url": "https://cash4goldanddiamond.com/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3742",
+      "url": "https://cash4goldanddiamond.com/best-diamond-buyers-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3742",
+      "url": "https://cash4goldanddiamond.com/best-diamond-buyers-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3742",
+      "url": "https://cash4goldanddiamond.com/best-diamond-buyers-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3744",
+      "url": "https://cash4goldanddiamond.com/jewelry-district-gold-buyer-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3744",
+      "url": "https://cash4goldanddiamond.com/jewelry-district-gold-buyer-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3744",
+      "url": "https://cash4goldanddiamond.com/jewelry-district-gold-buyer-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3746",
+      "url": "https://cash4goldanddiamond.com/best-gold-coin-buyers-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3746",
+      "url": "https://cash4goldanddiamond.com/best-gold-coin-buyers-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3746",
+      "url": "https://cash4goldanddiamond.com/best-gold-coin-buyers-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3748",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-rolex-watch-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3748",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-rolex-watch-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3748",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-rolex-watch-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3750",
+      "url": "https://cash4goldanddiamond.com/diamond-what-it-is-how-to-value-where-to-sell/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3750",
+      "url": "https://cash4goldanddiamond.com/diamond-what-it-is-how-to-value-where-to-sell/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3750",
+      "url": "https://cash4goldanddiamond.com/diamond-what-it-is-how-to-value-where-to-sell/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3752",
+      "url": "https://cash4goldanddiamond.com/best-promise-rings-gold-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3752",
+      "url": "https://cash4goldanddiamond.com/best-promise-rings-gold-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3752",
+      "url": "https://cash4goldanddiamond.com/best-promise-rings-gold-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3754",
+      "url": "https://cash4goldanddiamond.com/sell-cartier-jewelry-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3754",
+      "url": "https://cash4goldanddiamond.com/sell-cartier-jewelry-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3754",
+      "url": "https://cash4goldanddiamond.com/sell-cartier-jewelry-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3756",
+      "url": "https://cash4goldanddiamond.com/best-estate-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3756",
+      "url": "https://cash4goldanddiamond.com/best-estate-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3756",
+      "url": "https://cash4goldanddiamond.com/best-estate-jewelry-buyers-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3758",
+      "url": "https://cash4goldanddiamond.com/sell-gold-in-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3758",
+      "url": "https://cash4goldanddiamond.com/sell-gold-in-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3758",
+      "url": "https://cash4goldanddiamond.com/sell-gold-in-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3760",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3760",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3760",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3762",
+      "url": "https://cash4goldanddiamond.com/best-1-carat-diamond-buyers-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3762",
+      "url": "https://cash4goldanddiamond.com/best-1-carat-diamond-buyers-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3762",
+      "url": "https://cash4goldanddiamond.com/best-1-carat-diamond-buyers-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3764",
+      "url": "https://cash4goldanddiamond.com/platinum-vs-white-gold/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3764",
+      "url": "https://cash4goldanddiamond.com/platinum-vs-white-gold/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3764",
+      "url": "https://cash4goldanddiamond.com/platinum-vs-white-gold/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3766",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-for-women-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3766",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-for-women-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3766",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-rings-for-women-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3768",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-buyers-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3768",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-buyers-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3768",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-buyers-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3770",
+      "url": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3770",
+      "url": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3770",
+      "url": "https://cash4goldanddiamond.com/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3772",
+      "url": "https://cash4goldanddiamond.com/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3772",
+      "url": "https://cash4goldanddiamond.com/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3772",
+      "url": "https://cash4goldanddiamond.com/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3775",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3775",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3775",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3776",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026-2/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3776",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026-2/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3776",
+      "url": "https://cash4goldanddiamond.com/best-black-hills-gold-rings-2026-2/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3779",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3779",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3779",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3780",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles-2/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3780",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles-2/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3780",
+      "url": "https://cash4goldanddiamond.com/gold-buyer-downtown-los-angeles-2/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3783",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3783",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3783",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3784",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026-2/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3784",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026-2/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3784",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-engagement-rings-2026-2/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3786",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3786",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3786",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3788",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked-2/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3788",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked-2/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3788",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-2026-ranked-2/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3790",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3790",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3790",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3792",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026-2/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3792",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026-2/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3792",
+      "url": "https://cash4goldanddiamond.com/best-14k-yellow-gold-rings-2026-2/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3795",
+      "url": "https://cash4goldanddiamond.com/best-place-to-sell-jewelry-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3795",
+      "url": "https://cash4goldanddiamond.com/best-place-to-sell-jewelry-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3795",
+      "url": "https://cash4goldanddiamond.com/best-place-to-sell-jewelry-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3797",
+      "url": "https://cash4goldanddiamond.com/round-brilliant-diamond-comparison-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3797",
+      "url": "https://cash4goldanddiamond.com/round-brilliant-diamond-comparison-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3797",
+      "url": "https://cash4goldanddiamond.com/round-brilliant-diamond-comparison-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3799",
+      "url": "https://cash4goldanddiamond.com/best-10k-white-gold-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3799",
+      "url": "https://cash4goldanddiamond.com/best-10k-white-gold-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3799",
+      "url": "https://cash4goldanddiamond.com/best-10k-white-gold-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3801",
+      "url": "https://cash4goldanddiamond.com/best-yellow-gold-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3801",
+      "url": "https://cash4goldanddiamond.com/best-yellow-gold-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3801",
+      "url": "https://cash4goldanddiamond.com/best-yellow-gold-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3803",
+      "url": "https://cash4goldanddiamond.com/10k-diamond-ring-buying-guide/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3803",
+      "url": "https://cash4goldanddiamond.com/10k-diamond-ring-buying-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3803",
+      "url": "https://cash4goldanddiamond.com/10k-diamond-ring-buying-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3806",
+      "url": "https://cash4goldanddiamond.com/selling-gold-jewelry-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3806",
+      "url": "https://cash4goldanddiamond.com/selling-gold-jewelry-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3806",
+      "url": "https://cash4goldanddiamond.com/selling-gold-jewelry-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3808",
+      "url": "https://cash4goldanddiamond.com/white-gold-vs-yellow-gold/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3808",
+      "url": "https://cash4goldanddiamond.com/white-gold-vs-yellow-gold/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3808",
+      "url": "https://cash4goldanddiamond.com/white-gold-vs-yellow-gold/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3810",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-watches-2026-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3810",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-watches-2026-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3810",
+      "url": "https://cash4goldanddiamond.com/best-gold-rolex-watches-2026-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3812",
+      "url": "https://cash4goldanddiamond.com/champagne-diamond-buying-guide-comparison/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3812",
+      "url": "https://cash4goldanddiamond.com/champagne-diamond-buying-guide-comparison/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3812",
+      "url": "https://cash4goldanddiamond.com/champagne-diamond-buying-guide-comparison/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3814",
+      "url": "https://cash4goldanddiamond.com/white-diamond-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3814",
+      "url": "https://cash4goldanddiamond.com/white-diamond-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3814",
+      "url": "https://cash4goldanddiamond.com/white-diamond-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3817",
+      "url": "https://cash4goldanddiamond.com/diamond-carat-weight-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3817",
+      "url": "https://cash4goldanddiamond.com/diamond-carat-weight-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3817",
+      "url": "https://cash4goldanddiamond.com/diamond-carat-weight-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3819",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-belly-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3819",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-belly-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3819",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-belly-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3821",
+      "url": "https://cash4goldanddiamond.com/4-cs-of-diamonds/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3821",
+      "url": "https://cash4goldanddiamond.com/4-cs-of-diamonds/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3821",
+      "url": "https://cash4goldanddiamond.com/4-cs-of-diamonds/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3823",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-for-women-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3823",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-for-women-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3823",
+      "url": "https://cash4goldanddiamond.com/best-18k-gold-rings-for-women-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3825",
+      "url": "https://cash4goldanddiamond.com/sell-tiffany-jewelry-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3825",
+      "url": "https://cash4goldanddiamond.com/sell-tiffany-jewelry-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3825",
+      "url": "https://cash4goldanddiamond.com/sell-tiffany-jewelry-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3827",
+      "url": "https://cash4goldanddiamond.com/diamond-chart-4cs-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3827",
+      "url": "https://cash4goldanddiamond.com/diamond-chart-4cs-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3827",
+      "url": "https://cash4goldanddiamond.com/diamond-chart-4cs-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3829",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-mens-rings-2026-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3829",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-mens-rings-2026-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3829",
+      "url": "https://cash4goldanddiamond.com/best-10k-gold-mens-rings-2026-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3841",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-for-women-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3841",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-for-women-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3841",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-for-women-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3855",
+      "url": "https://cash4goldanddiamond.com/best-emerald-ring-gold-2026/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3855",
+      "url": "https://cash4goldanddiamond.com/best-emerald-ring-gold-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3855",
+      "url": "https://cash4goldanddiamond.com/best-emerald-ring-gold-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3868",
+      "url": "https://cash4goldanddiamond.com/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3868",
+      "url": "https://cash4goldanddiamond.com/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3868",
+      "url": "https://cash4goldanddiamond.com/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3885",
+      "url": "https://cash4goldanddiamond.com/pawn-shops-pay-for-gold-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3885",
+      "url": "https://cash4goldanddiamond.com/pawn-shops-pay-for-gold-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3885",
+      "url": "https://cash4goldanddiamond.com/pawn-shops-pay-for-gold-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3893",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-gold-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3893",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-gold-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3893",
+      "url": "https://cash4goldanddiamond.com/where-to-sell-gold-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3899",
+      "url": "https://cash4goldanddiamond.com/gold-valuation-how-gold-is-valued/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3899",
+      "url": "https://cash4goldanddiamond.com/gold-valuation-how-gold-is-valued/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3899",
+      "url": "https://cash4goldanddiamond.com/gold-valuation-how-gold-is-valued/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3902",
+      "url": "https://cash4goldanddiamond.com/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3902",
+      "url": "https://cash4goldanddiamond.com/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3902",
+      "url": "https://cash4goldanddiamond.com/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3920",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-chain-2026-top-5-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3920",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-chain-2026-top-5-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3920",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-chain-2026-top-5-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3926",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-2026-top-5-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3926",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-2026-top-5-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3926",
+      "url": "https://cash4goldanddiamond.com/best-gold-watches-2026-top-5-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3945",
+      "url": "https://cash4goldanddiamond.com/diamond-gem-los-angeles-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3945",
+      "url": "https://cash4goldanddiamond.com/diamond-gem-los-angeles-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3945",
+      "url": "https://cash4goldanddiamond.com/diamond-gem-los-angeles-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3954",
+      "url": "https://cash4goldanddiamond.com/14-karat-gold-market-statistics-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3954",
+      "url": "https://cash4goldanddiamond.com/14-karat-gold-market-statistics-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3954",
+      "url": "https://cash4goldanddiamond.com/14-karat-gold-market-statistics-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3959",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3959",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3959",
+      "url": "https://cash4goldanddiamond.com/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3976",
+      "url": "https://cash4goldanddiamond.com/white-gold-guide/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3976",
+      "url": "https://cash4goldanddiamond.com/white-gold-guide/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3976",
+      "url": "https://cash4goldanddiamond.com/white-gold-guide/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3982",
+      "url": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3982",
+      "url": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3982",
+      "url": "https://cash4goldanddiamond.com/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3991",
+      "url": "https://cash4goldanddiamond.com/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "3991",
+      "url": "https://cash4goldanddiamond.com/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "3991",
+      "url": "https://cash4goldanddiamond.com/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4000",
+      "url": "https://cash4goldanddiamond.com/sell-diamond-necklace-for-cash-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4000",
+      "url": "https://cash4goldanddiamond.com/sell-diamond-necklace-for-cash-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4000",
+      "url": "https://cash4goldanddiamond.com/sell-diamond-necklace-for-cash-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4012",
+      "url": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Override differs; review required"
+    },
+    {
+      "sourceId": "4012",
+      "url": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4012",
+      "url": "https://cash4goldanddiamond.com/loose-diamond-appraisal-downtown-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4038",
+      "url": "https://cash4goldanddiamond.com/how-much-should-i-get-for-my-gold-jewelry/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4038",
+      "url": "https://cash4goldanddiamond.com/how-much-should-i-get-for-my-gold-jewelry/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4038",
+      "url": "https://cash4goldanddiamond.com/how-much-should-i-get-for-my-gold-jewelry/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4052",
+      "url": "https://cash4goldanddiamond.com/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4052",
+      "url": "https://cash4goldanddiamond.com/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4052",
+      "url": "https://cash4goldanddiamond.com/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4072",
+      "url": "https://cash4goldanddiamond.com/legitimate-gold-buyer-vs-pawn-shop/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4072",
+      "url": "https://cash4goldanddiamond.com/legitimate-gold-buyer-vs-pawn-shop/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4072",
+      "url": "https://cash4goldanddiamond.com/legitimate-gold-buyer-vs-pawn-shop/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4091",
+      "url": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4091",
+      "url": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4091",
+      "url": "https://cash4goldanddiamond.com/14k-gold-price-per-gram-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4096",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watch-same-day-cash-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4096",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watch-same-day-cash-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4096",
+      "url": "https://cash4goldanddiamond.com/sell-luxury-watch-same-day-cash-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4106",
+      "url": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4106",
+      "url": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4106",
+      "url": "https://cash4goldanddiamond.com/how-to-value-estate-jewelry-pieces/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4111",
+      "url": "https://cash4goldanddiamond.com/how-jewelry-buyers-determine-gold-value/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4111",
+      "url": "https://cash4goldanddiamond.com/how-jewelry-buyers-determine-gold-value/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4111",
+      "url": "https://cash4goldanddiamond.com/how-jewelry-buyers-determine-gold-value/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4116",
+      "url": "https://cash4goldanddiamond.com/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4116",
+      "url": "https://cash4goldanddiamond.com/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4116",
+      "url": "https://cash4goldanddiamond.com/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4145",
+      "url": "https://cash4goldanddiamond.com/how-to-know-if-diamonds-are-worth-selling/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4145",
+      "url": "https://cash4goldanddiamond.com/how-to-know-if-diamonds-are-worth-selling/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4145",
+      "url": "https://cash4goldanddiamond.com/how-to-know-if-diamonds-are-worth-selling/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4167",
+      "url": "https://cash4goldanddiamond.com/best-24k-gold-chains-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4167",
+      "url": "https://cash4goldanddiamond.com/best-24k-gold-chains-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4167",
+      "url": "https://cash4goldanddiamond.com/best-24k-gold-chains-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4175",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-rings-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4175",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-rings-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4175",
+      "url": "https://cash4goldanddiamond.com/best-14k-gold-rings-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4195",
+      "url": "https://cash4goldanddiamond.com/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4195",
+      "url": "https://cash4goldanddiamond.com/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4195",
+      "url": "https://cash4goldanddiamond.com/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4204",
+      "url": "https://cash4goldanddiamond.com/best-gold-bracelet-buyers-los-angeles-2026/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4204",
+      "url": "https://cash4goldanddiamond.com/best-gold-bracelet-buyers-los-angeles-2026/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4204",
+      "url": "https://cash4goldanddiamond.com/best-gold-bracelet-buyers-los-angeles-2026/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4219",
+      "url": "https://cash4goldanddiamond.com/best-certified-diamond-appraisers-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4219",
+      "url": "https://cash4goldanddiamond.com/best-certified-diamond-appraisers-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4219",
+      "url": "https://cash4goldanddiamond.com/best-certified-diamond-appraisers-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4236",
+      "url": "https://cash4goldanddiamond.com/best-gemstone-ring-buyers-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4236",
+      "url": "https://cash4goldanddiamond.com/best-gemstone-ring-buyers-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4236",
+      "url": "https://cash4goldanddiamond.com/best-gemstone-ring-buyers-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4288",
+      "url": "https://cash4goldanddiamond.com/sell-gold-coins-best-price-los-angeles/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4288",
+      "url": "https://cash4goldanddiamond.com/sell-gold-coins-best-price-los-angeles/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4288",
+      "url": "https://cash4goldanddiamond.com/sell-gold-coins-best-price-los-angeles/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4296",
+      "url": "https://cash4goldanddiamond.com/best-gold-bars-2026-top-dealers-ranked/",
+      "field": "rank_math_title",
+      "state": "Uses plugin default or absent override; global settings still required"
+    },
+    {
+      "sourceId": "4296",
+      "url": "https://cash4goldanddiamond.com/best-gold-bars-2026-top-dealers-ranked/",
+      "field": "rank_math_description",
+      "state": "Matches preserved metadata"
+    },
+    {
+      "sourceId": "4296",
+      "url": "https://cash4goldanddiamond.com/best-gold-bars-2026-top-dealers-ranked/",
+      "field": "rank_math_canonical_url",
+      "state": "Uses plugin default or absent override; global settings still required"
+    }
+  ],
+  "rankMathMetaKeyCounts": {
+    "rank_math_news_sitemap_robots": 13,
+    "rank_math_robots": 12,
+    "rank_math_analytic_object_id": 76,
+    "rank_math_seo_score": 53,
+    "rank_math_title": 61,
+    "rank_math_focus_keyword": 51,
+    "rank_math_internal_links_processed": 124,
+    "rank_math_description": 122,
+    "rank_math_schema_VideoObject": 1,
+    "rank_math_og_content_image": 25,
+    "rank_math_canonical_url": 2,
+    "rank_math_schema_Service": 2,
+    "rank_math_shortcode_schema_s-6aa0491bbce38": 1,
+    "rank_math_shortcode_schema_s-6aa05e47afe82": 1,
+    "rank_math_contentai_score": 5,
+    "rank_math_facebook_enable_image_overlay": 2,
+    "rank_math_related_posts": 11,
+    "rank_math_schema_BlogPosting": 9,
+    "rank_math_shortcode_schema_s-6a90bfb4bf0cf": 1,
+    "rank_math_ca_keyword": 5,
+    "rank_math_shortcode_schema_s-6a8f67bd0f084": 1,
+    "rank_math_ai_link_suggestions": 7,
+    "rank_math_shortcode_schema_s-6a8f79fdd907a": 1,
+    "rank_math_shortcode_schema_s-6a90cd97bc432": 1,
+    "rank_math_shortcode_schema_s-6a8cd0f519263": 1,
+    "rank_math_schema_FAQPage": 1,
+    "rank_math_shortcode_schema_s-629745d6-6759-4e15-90aa-6d83541b3665": 1,
+    "rank_math_facebook_image": 3,
+    "rank_math_facebook_image_id": 3,
+    "rank_math_facebook_title": 1,
+    "rank_math_shortcode_schema_s-6a90c5bcbaa11": 1,
+    "rank_math_shortcode_schema_s-6a8f54a4b6628": 1,
+    "rank_math_shortcode_schema_s-6a95e7bf9588a": 1,
+    "rank_math_shortcode_schema_s-6a90d51d08a93": 1
+  },
+  "attachments": {
+    "exported": 223,
+    "previousPublicApi": 222,
+    "presentOnlyInAuthenticatedExport": [
+      {
+        "sourceId": "3103",
+        "status": "inherit",
+        "sourceUrl": "https://cash4goldanddiamond.com/wp-content/uploads/2024/12/IMG-20241218-WA0008.webp"
+      }
+    ],
+    "previousApiIdsAbsent": []
+  },
+  "unresolved": [
+    "Plugin/global Rank Math settings and redirect export",
+    "All custom content and private draft dispositions",
+    "Media binaries and rights reconciliation",
+    "Complete database/files backup and isolated restore",
+    "Final source delta and owner content approval"
+  ],
+  "productionWrites": 0,
+  "recommendation": "NOT READY TO GO LIVE"
+}

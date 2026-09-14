@@ -1,0 +1,22 @@
+{
+  "startedAt": "2026-09-10T22:47:47.934Z",
+  "status": "PASS",
+  "mode": "Actual private Sanity-backed Astro build; local output only, not a Cloudflare deployment",
+  "steps": [
+    {
+      "command": "astro build",
+      "exitCode": 0
+    },
+    {
+      "command": "finalize-build",
+      "exitCode": 0
+    }
+  ],
+  "pageDocuments": 198,
+  "pageRevisionsSha256": "5bc63f13794f4a21c4ba90568e0d195d99ca82459c88feae4435786b05175af4",
+  "htmlFiles": 214,
+  "outputFilesScanned": 815,
+  "credentialMatches": 0,
+  "completedAt": "2026-09-10T22:48:31.322Z",
+  "log": ".cache/private-cms-build.log"
+}

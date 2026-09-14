@@ -1,0 +1,72 @@
+{
+  "status": "BLOCKED",
+  "method": "Read-only authenticated Google Tag Manager account, workspace, tags table and existing Element Visibility trigger inspection",
+  "workspaceChangesObserved": 0,
+  "tagsObserved": 8,
+  "existingGTMGoogleTagMatchesAuthenticatedGA4Stream": true,
+  "ga4DebugView": {
+    "debugDevices": 0,
+    "eventsLast30Minutes": 0,
+    "status": "NOT TESTED: no test events sent"
+  },
+  "tagInventory": [
+    {
+      "name": "Book appointment - calendly_booking - Google Ads Conversion Tracking",
+      "type": "Google Ads Conversion Tracking",
+      "trigger": "Calendly Booking Trigger"
+    },
+    {
+      "name": "Book appointment for gmap",
+      "type": "Google Ads Conversion Tracking",
+      "trigger": "Element Visibility"
+    },
+    {
+      "name": "Calendly Listener",
+      "type": "Custom HTML",
+      "trigger": "All Pages"
+    },
+    {
+      "name": "click to call Google ads Tag",
+      "type": "Google Ads Conversion Tracking",
+      "trigger": "click to call Trigger"
+    },
+    {
+      "name": "Conversion Linker",
+      "type": "Conversion Linker",
+      "trigger": "All Pages"
+    },
+    {
+      "name": "Google Ads Calls from Website Conversion",
+      "type": "Google Ads Calls from Website Conversion",
+      "trigger": "All Pages"
+    },
+    {
+      "name": "Google Tag (measurement identifier stored privately)",
+      "type": "Google Tag",
+      "trigger": "Initialization - All Pages"
+    },
+    {
+      "name": "website visit for gmap",
+      "type": "Google Ads Conversion Tracking",
+      "trigger": "All Pages"
+    }
+  ],
+  "legacyAppointmentTrigger": {
+    "selector": "#wpcf7-f7-p28-o1 > form > div.wpcf7-response-output",
+    "selectionMethod": "CSS Selector",
+    "frequency": "Once per page",
+    "condition": "All Visibility Events",
+    "risk": "Visibility of a contact-form response box does not prove accepted inquiry delivery or a confirmed booking. Actual erroneous firing was not simulated on production."
+  },
+  "remoteWrites": 0,
+  "remaining": [
+    "Preserve property and Ads continuity while replacing legacy form-specific selectors with truthful backend-confirmed events.",
+    "Review existing Calendly listener and prove a genuine confirmed-booking event using an approved safe test destination.",
+    "Implement and verify consent and test isolation before enabling replacement tracking.",
+    "Prove no duplicate tags/events or personal data in actual browser requests."
+  ],
+  "recordedAt": "2026-09-10T23:41:24.412Z",
+  "observedOn": "2026-09-10",
+  "liveGTMContainerMatchesAccount": true,
+  "liveAdsIdentifierMatchesAccount": true
+}

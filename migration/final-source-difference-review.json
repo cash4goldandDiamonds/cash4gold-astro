@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-10T14:28:28.739Z",
+  "verificationTimestamp": "2026-09-10T14:26:16.529Z",
+  "scope": "Intentional differences from preserved imported text. These remain visible as warnings in the original preservation report.",
+  "rows": [
+    {
+      "path": "/",
+      "removedSourceBlocks": 6,
+      "reason": "Updated buying scope, removed unsupported business-history claims and corrected labels."
+    },
+    {
+      "path": "/sell-luxury-watches-in-los-angeles/",
+      "removedSourceBlocks": 1,
+      "reason": "Removed an unsupported business-history claim."
+    },
+    {
+      "path": "/start-selling-gold-and-diamonds/",
+      "removedSourceBlocks": 2,
+      "reason": "Updated buying scope and removed an unsupported business-history claim."
+    },
+    {
+      "path": "/sell-estate-jewelry-los-angeles/",
+      "removedSourceBlocks": 1,
+      "reason": "Placed the new antique diamond necklace illustration and changed the adjacent retail-inventory invitation to estate-jewelry buying and evaluation copy."
+    },
+    {
+      "path": "/privacy-policy/",
+      "removedSourceBlocks": 40,
+      "reason": "Removed the unrelated business name and unsupported feature statements; preserved the original and added a factual private-preview notice."
+    },
+    {
+      "path": "/sell-gemstones-for-cash-in-los-angeles/",
+      "removedSourceBlocks": 14,
+      "reason": "Replaced imported competitor/comparison copy with the owner-confirmed gemstone policy."
+    }
+  ]
+}

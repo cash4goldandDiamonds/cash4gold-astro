@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-11T02:13:27.738Z",
+  "status": "PASS",
+  "scope": "Minimal file patches compared with current shared audit checkout; no shared source modified; exact private-session token exclusion and JSON parse checks",
+  "patch": ".cache/studio-review-guard.patch",
+  "patchedFiles": [
+    {
+      "file": "studio/schema.js",
+      "baseSha256": "5da6841621cf31a1e1f7a6e12498bd764b23a6c6544b0b2a3d847c04b5052da8",
+      "resultSha256": "3771df6c397d702932eeaf703460098b4acf0d0c74111cc0c28028ff3ae53ca3"
+    },
+    {
+      "file": "tests/studio-schema.test.mjs",
+      "baseSha256": "1fbdcc9ddd7ebb4644bea143fc645ab19fe89fb2264ab6cd3830d56eb15c1eb7",
+      "resultSha256": "fdf7c6e525fc5d4c5635a94c862056cd747b5a9238241d95128962983afaa123"
+    },
+    {
+      "file": "CMS_EDITOR_GUIDE.md",
+      "baseSha256": "34cec74f014323fda17e05c7fd27476a188e783aebb45b1e73db14e03b8d44ea",
+      "resultSha256": "d9a9d7cb3a20c1cce40afed48acdef6adabda2dc2ca4f22c2186848ffb6aaebd"
+    }
+  ],
+  "copiedFiles": [
+    {
+      "file": "studio/review-validation.js",
+      "bytes": 912,
+      "sha256": "8e07f68645ae0b1a620b1110cb1d1fb83dc919b0e7f450ba76b51129a03cca61"
+    },
+    {
+      "file": "scripts/verify-studio-review-guard.mjs",
+      "bytes": 2293,
+      "sha256": "854a878e54805611890ad826746d24ed0b9835c7fef8e6f3a895216e1dd2e484"
+    },
+    {
+      "file": "reports/STUDIO_REVIEW_GUARD_FOLLOWUP.md",
+      "bytes": 3344,
+      "sha256": "eb667ce08a605bebd5eeb14c7a71055bbb924412444c7c99436a848b4632437d"
+    },
+    {
+      "file": "migration/pre-deployment/studio-review-guard.json",
+      "bytes": 771,
+      "sha256": "13082421cf9dcd82fed6c1b6207b5104a695e31c150f87311316be8bea2fbf94"
+    },
+    {
+      "file": "migration/pre-deployment/studio-review-guard-browser.json",
+      "bytes": 1077,
+      "sha256": "fb4dc2fa7e26d4610423a7a3e53f0a63cf541228a5e8ffec138de1de8208ff5c"
+    },
+    {
+      "file": "migration/pre-deployment/studio-review-guard-tests.json",
+      "bytes": 588,
+      "sha256": "11ddd808236be4ba582c21d6140e07eee2b4c450f7572be96523b04e618bf7d7"
+    },
+    {
+      "file": "migration/pre-deployment/sanity-after-studio.json",
+      "bytes": 995,
+      "sha256": "040838df9b422eaa884acf0ebd495cdb598caf67a107c1f4410e0c505f67f6c5"
+    },
+    {
+      "file": "STAGING_ACCEPTANCE_2026-09-10.md",
+      "bytes": 16221,
+      "sha256": "892eee4454f25f848882b455e0727bf17164432279fd60b4eefddd10d5f8732b"
+    }
+  ],
+  "secretMatches": 0
+}

@@ -1,0 +1,70 @@
+name: Private preview quality checks
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      SITE_ENV: preview
+      ENABLE_PRODUCTION_INDEXING: 'false'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - name: Report reviewed source identity
+        run: |
+          git rev-parse HEAD
+          git rev-parse 'HEAD^{tree}'
+          git ls-files | wc -l
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.19.0'
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          version: '11.19.0'
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/check-schema.mjs
+      - run: pnpm verify:source-security
+      - run: node node_modules/astro/bin/astro.mjs check
+      - run: pnpm build
+      - run: node scripts/verify-built-site.mjs
+      - run: pnpm verify:accessibility
+      - run: pnpm verify:seo
+      - run: node scripts/verify-cms-projection.mjs
+      - run: node scripts/verify-editorial.mjs
+      - run: node scripts/verify-substantive.mjs
+      - run: node scripts/verify.mjs
+      - run: pnpm audit --audit-level high
+      - name: Validate protected Worker bundle without deployment
+        run: pnpm exec wrangler deploy --config wrangler.preview.jsonc --dry-run --outdir .cache/worker-dry-run --no-autoconfig
+      - name: Compile private staging editor without credentials
+        run: node scripts/build-staging-studio.mjs
+        env:
+          BUILD_STAGING_STUDIO: 'true'
+      - name: Build and verify the exact reviewed static production release
+        run: |
+          pnpm build
+          node scripts/verify-static-release.mjs
+          node scripts/verify-built-site.mjs
+          node scripts/verify-final-seo.mjs
+        env:
+          CONTENT_SOURCE: reviewed-static
+          STATIC_RELEASE_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+          SITE_ENV: production
+          ENABLE_PRODUCTION_INDEXING: 'true'
+          BUILD_STAGING_STUDIO: 'false'
+          PUBLIC_ANALYTICS_ENABLED: 'false'
+      - name: Validate the route-free production Worker without deployment
+        run: pnpm exec wrangler deploy --config wrangler.production.jsonc --dry-run --outdir .cache/production-worker-dry-run --no-autoconfig
+      # No deploy, publish, repository write or secret is used in this workflow.

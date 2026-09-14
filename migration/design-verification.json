@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "galleryCategories": 5,
+  "uniqueGalleryImages": 5,
+  "watch": "Actual source-site Rolex Daytona photograph",
+  "navigationAndSoundBytes": 2208,
+  "imageAssetsVerified": 8,
+  "soundChecks": [
+    "No audio until enabled",
+    "Toggle feedback",
+    "Hover sound",
+    "Rapid hover limit",
+    "No touch hover",
+    "Keyboard focus sound",
+    "Hidden-page silence",
+    "Mute and saved preference"
+  ],
+  "browserTestingPerformed": false
+}

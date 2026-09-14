@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-10T18:23:38.616Z",
+  "approval": "Private proposed corrections; final human editorial approval remains pending",
+  "changes": [
+    {
+      "path": "/",
+      "section": "1e744420",
+      "reason": "Render the already logged, corrected homepage content instead of a stale duplicate section cache",
+      "beforeSha256": "1e0d26d6ad89cf883fedea1ef55e9a7ceb706360741e9e3424e2a95df6507ae6",
+      "afterSha256": "25a8cb54fd4024e76cfe32039be63bdd4b72b51aed737208f2c65844e3374a8d"
+    },
+    {
+      "path": "/",
+      "section": "76334454",
+      "reason": "Render the already logged, corrected homepage content instead of a stale duplicate section cache",
+      "beforeSha256": "f2fa163b5f5fc00db30dafe5d71a4a12304b986c1eaf9c5f538e66e94aca4448",
+      "afterSha256": "cd15f032ef764b940ba130260912efde5f5ccdbaff18a3df062cba332a5f39af"
+    },
+    {
+      "path": "/e-commerce-retail/page/10/",
+      "target": "/gold-buyer-downtown-los-angeles/",
+      "reason": "Align stale archive excerpt with the corrected destination; remove unsupported experience and payment claim",
+      "before": "\n\t\t\tRanking the top 6 gold, diamond, and jewelry buyers in Los Angeles. Cash 4 Gold & Diamonds leads with 19 years of expertise, same-day cash, and transparent pricing. Compare pros, cons, and find the best place to sell your jewelry.\t\t",
+      "after": "Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins."
+    },
+    {
+      "path": "/author/navid-lalezari/page/10/",
+      "target": "/gold-buyer-downtown-los-angeles/",
+      "reason": "Align stale archive excerpt with the corrected destination; remove unsupported experience and payment claim",
+      "before": "\n\t\t\tRanking the top 6 gold, diamond, and jewelry buyers in Los Angeles. Cash 4 Gold & Diamonds leads with 19 years of expertise, same-day cash, and transparent pricing. Compare pros, cons, and find the best place to sell your jewelry.\t\t",
+      "after": "Compare gold buyers in Downtown Los Angeles by tested purity, net weight, itemized offers, and payment terms. Prepare scrap, Cuban chains, jewelry, and coins."
+    },
+    {
+      "path": "/",
+      "section": "6606ca89",
+      "reason": "Render the already logged, corrected homepage content instead of a stale duplicate section cache",
+      "beforeSha256": "3e15998f256208e9cf795efffd189fe68d3b236ae02b976309f2adf8ae39d20e",
+      "afterSha256": "b6c213eb4088c7ad1cb2317194a087a91bbab019ac1a90d22f4757b3c793b98d"
+    },
+    {
+      "path": "/",
+      "section": "525431b5",
+      "reason": "Render the already logged, corrected homepage content instead of a stale duplicate section cache",
+      "beforeSha256": "84e7872d697c7ac547f95873fd84905926a81ddfa887982da8219284c2866343",
+      "afterSha256": "a6eff9d0cf82a6340ed671953c71bc51d9872fba73f672852e64cd65a4eb7937"
+    },
+    {
+      "path": "/",
+      "section": "6606ca89",
+      "reason": "Render the already logged, corrected homepage content instead of a stale duplicate section cache",
+      "beforeSha256": "b6c213eb4088c7ad1cb2317194a087a91bbab019ac1a90d22f4757b3c793b98d",
+      "afterSha256": "34444027fbd3658f626423bebead4af9cf04e90ac68e142da3d99e28800e5837"
+    }
+  ]
+}

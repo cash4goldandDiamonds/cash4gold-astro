@@ -1,0 +1,50 @@
+{
+  "recordedAt": "2026-09-10T20:14:41.356Z",
+  "tests": [
+    {
+      "command": "node --test tests/social-publishing.test.mjs",
+      "passed": 13,
+      "failed": 0,
+      "log": "migration/pre-deployment/social-queue-tests.log"
+    },
+    {
+      "command": "node --test tests/*.test.mjs",
+      "passed": 29,
+      "failed": 0,
+      "log": "migration/pre-deployment/unit-tests.log"
+    }
+  ],
+  "initialFailure": {
+    "log": "migration/pre-deployment/social-queue-tests-initial.log",
+    "cause": "Timestamp precision caused lexical queue ordering to retain the first batch.",
+    "fix": "Normalize synchronized timestamps to ISO milliseconds and preserve the deferral order when payloads do not change."
+  },
+  "verifiedLocally": [
+    "Unavailable articles rotate behind unchecked jobs",
+    "Individual article timeouts do not stop other candidates",
+    "Missing/expired token metadata prevents requests and preserves daily slots",
+    "Seven-day renewal warning contains no tokens",
+    "Authenticated status errors are sanitized and no-store"
+  ],
+  "notTested": [
+    "Cloudflare D1 runtime",
+    "Meta issued tokens and granted scopes",
+    "Real publishing",
+    "Token refresh and delivered operator alerts"
+  ],
+  "references": [
+    {
+      "url": "https://developers.cloudflare.com/d1/worker-api/prepared-statements/",
+      "purpose": "D1 prepared statement interface"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/best-practices/workers-best-practices/",
+      "purpose": "Secret handling, request boundaries and scheduled handler"
+    },
+    {
+      "file": ".cache/workers-types-latest/package/index.d.ts",
+      "version": "5.20260910.1",
+      "purpose": "Current official D1 and scheduled-handler signatures retrieved for review"
+    }
+  ]
+}

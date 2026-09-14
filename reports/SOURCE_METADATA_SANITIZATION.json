@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-14T15:12:41.284Z",
+  "scope": "Removed account-verification records from repository captures. Original data remains in ignored local backups. Public business contact details and substantive page content are retained.",
+  "changes": [
+    {
+      "file": "src/data/pages.json",
+      "removedVerificationRecords": 8,
+      "originalSha256": "a2415647419b8eb1354a2308610ad4f937290a060541e82ade9e7841c572f0a9",
+      "localBackup": "backups/source-metadata/2026-09-14T15-12-40-181Z/src/data/pages.json"
+    },
+    {
+      "file": "migration/pre-deployment/additions.json",
+      "removedVerificationRecords": 8,
+      "originalSha256": "1e920d5ecfb5753d9327385a06e77467575dd0892a6b95ba0664be44393e536c",
+      "localBackup": "backups/source-metadata/2026-09-14T15-12-40-181Z/migration/pre-deployment/additions.json"
+    }
+  ]
+}

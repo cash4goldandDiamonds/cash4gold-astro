@@ -1,0 +1,897 @@
+{
+  "checkedAt": "2026-09-10T19:47:48.354Z",
+  "reviewed": 111,
+  "pending": 0,
+  "scope": "Current source content, per-article review hashes, date and route preservation, prose citations and image placements. Separate from browser or ranking measurements.",
+  "errors": [],
+  "rows": [
+    {
+      "path": "/best-gemstone-ring-buyers-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-09-08T13:46:43+00:00",
+      "modifiedDate": "2026-09-10T13:50:17.808Z"
+    },
+    {
+      "path": "/sell-luxury-watch-same-day-cash-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-28T13:15:43+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/gold-coins-buyer-near-me-downtown/",
+      "status": "reviewed",
+      "decision": "retain",
+      "proseSourceLinks": 1,
+      "publicationDate": "2026-06-25T13:00:46+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/large-diamond-buyer-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-14T13:55:21+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/gold-buyer-downtown-los-angeles/",
+      "status": "reviewed",
+      "decision": "retain",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-21T13:22:13+00:00",
+      "modifiedDate": "2026-09-09T22:23:58.447Z"
+    },
+    {
+      "path": "/sell-gold-coins-best-price-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-09-09T13:07:09+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/where-to-sell-fine-jewelry-downtown-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-09-07T13:24:12+00:00",
+      "modifiedDate": "2026-09-10T03:40:35.476Z"
+    },
+    {
+      "path": "/best-price-for-diamonds-in-la/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:33:43+00:00",
+      "modifiedDate": "2026-09-10T03:51:40.058Z"
+    },
+    {
+      "path": "/best-certified-diamond-appraisers-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-09-06T13:02:57+00:00",
+      "modifiedDate": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "path": "/best-gold-bracelet-buyers-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "retain",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-09-05T13:17:18+00:00",
+      "modifiedDate": "2026-09-09T22:23:58.447Z"
+    },
+    {
+      "path": "/best-vintage-rolex-buyer-downtown-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-22T13:13:45+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-diamond-buyers-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:56:36+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/best-estate-jewelry-buyers-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-11T13:07:28+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-gold-coin-buyers-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-06T13:18:48+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/gia-certified-lab-grown-diamonds-buyers-ranked-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-08-10T19:55:49+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/what-makes-a-jewelry-buyer-trustworthy-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-31T13:24:12+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/gia-certified-diamonds-comparison-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-08-10T19:55:22+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/sell-gold-jewelry-downtown-los-angeles/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 1,
+      "publicationDate": "2026-08-10T19:33:14+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/jewelry-district-gold-buyer-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-05T13:04:33+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/sell-diamond-necklace-for-cash-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-23T13:27:47+00:00",
+      "modifiedDate": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "path": "/free-diamond-appraisal-same-day-cash/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:43:23+00:00",
+      "modifiedDate": "2026-09-10T04:38:10.373Z"
+    },
+    {
+      "path": "/diamond-price-guide-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-06-28T13:14:13+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/loose-diamond-appraisal-downtown-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-24T13:49:24+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/best-sapphire-diamond-jewelry-buyers-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-09-04T13:01:57+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-14k-solid-gold-rings-2026-top-buyers-sellers-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T20:12:35+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-22k-gold-jewelry-2026-top-5-buyers-sellers-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-13T13:41:31+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/how-much-is-my-gold-worth-valuation-guide-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T19:44:07+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-gold-rolex-buyers-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T20:11:48+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-14k-gold-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-09-03T13:43:56+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/diamond-chart-4cs-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 5,
+      "publicationDate": "2026-08-09T13:24:30+00:00",
+      "modifiedDate": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "path": "/how-to-value-estate-jewelry-pieces/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-29T13:18:36+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/trusted-jewelry-buyer-los-angeles-reviews/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 1,
+      "publicationDate": "2026-08-10T19:34:27+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-24k-gold-chains-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-09-02T13:21:08+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-14k-white-gold-rings-2026-top-5-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-19T13:32:03+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-emerald-ring-gold-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-12T06:19:57+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-14k-gold-chain-2026-top-5-ranked/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-15T13:29:32+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-gold-watches-2026-top-5-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-16T13:13:51+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-10k-gold-mens-rings-2026-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T13:19:45+00:00",
+      "modifiedDate": "2026-09-10T14:05:09.481Z"
+    },
+    {
+      "path": "/best-14k-gold-belly-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-05T13:26:56+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-18k-gold-rings-for-women-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-07T13:30:01+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-14k-yellow-gold-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-24T13:19:22+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-gold-rolex-watches-2026-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-01T13:10:33+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-yellow-gold-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-28T13:08:17+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-10k-gold-rings-for-women-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T20:11:23+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-black-hills-gold-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-20T13:23:40+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-18k-gold-rings-2026-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-23T13:17:51+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-14k-gold-diamond-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-06-29T13:00:55+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-promise-rings-gold-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-09T13:20:50+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-10k-gold-rings-2026-top-5-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-13T13:08:41+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/sell-gold-in-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-12T13:04:02+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-place-to-sell-jewelry-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-25T13:01:40+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/how-to-know-if-diamonds-are-worth-selling/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-09-01T13:38:46+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/white-diamond-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-03T13:03:06+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/gold-buyer-downtown-los-angeles-2/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-21T13:22:13+00:00",
+      "modifiedDate": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "path": "/white-gold-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-20T13:38:12+00:00",
+      "modifiedDate": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "path": "/los-angeles-gold-jewelry-sales-market-data-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-06-27T13:18:17+00:00",
+      "modifiedDate": "2026-09-09T23:03:42.120Z"
+    },
+    {
+      "path": "/how-much-is-my-gold-worth-gold-buyers-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T19:43:45+00:00",
+      "modifiedDate": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "path": "/how-jewelry-buyers-determine-gold-value/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-30T13:38:38+00:00",
+      "modifiedDate": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "path": "/legitimate-gold-buyer-vs-pawn-shop/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-27T13:21:50+00:00",
+      "modifiedDate": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "path": "/best-price-diamonds-la/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:34:49+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/selling-gold-jewelry-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-30T13:13:50+00:00",
+      "modifiedDate": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "path": "/10k-gold-price-per-gram-pawn-shop/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2024-12-27T18:32:00+00:00",
+      "modifiedDate": "2026-09-09T23:07:37.864Z"
+    },
+    {
+      "path": "/rolex-buyer-los-angeles-cash/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T19:34:05+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/14k-gold-price-per-gram-los-angeles/",
+      "status": "reviewed",
+      "decision": "retain",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-28T00:44:14+00:00",
+      "modifiedDate": "2026-09-09T22:28:02.729Z"
+    },
+    {
+      "path": "/white-gold-vs-yellow-gold/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-31T13:21:27+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/how-to-sell-a-rolex-watch-in-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-21T13:28:53+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-inherited-jewelry-valuation-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-26T13:35:40+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/how-much-should-i-get-for-my-gold-jewelry/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-25T13:29:47+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/where-to-sell-gold-los-angeles/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-13T19:17:24+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/sell-inherited-jewelry-no-obligation/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-10T19:44:29+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/diamond-gem-los-angeles-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-08-17T13:18:32+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/rolex-day-date-gold-market-analysis-2026-pricing-demand-trends/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T20:12:11+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/pawn-shops-pay-for-gold-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-13T18:04:50+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/sell-tiffany-jewelry-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-08T13:30:41+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/14-karat-gold-market-statistics-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-18T13:40:37+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/sell-cartier-jewelry-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-10T13:02:57+00:00",
+      "modifiedDate": "2026-09-10T14:10:51.541Z"
+    },
+    {
+      "path": "/platinum-vs-white-gold/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-08-10T20:11:00+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/diamond-what-it-is-how-to-value-where-to-sell/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-08T13:25:19+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/where-to-sell-rolex-watch-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-07T13:07:15+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/best-14k-white-gold-diamond-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:54:58+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/best-14k-white-gold-engagement-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-22T13:01:05+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/best-10k-white-gold-rings-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-27T13:24:24+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/10k-diamond-ring-buying-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-29T13:02:28+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/diamond-carat-weight-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-04T13:28:45+00:00",
+      "modifiedDate": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "path": "/champagne-diamond-buying-guide-comparison/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-02T13:17:36+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/best-gold-watches-for-women-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-11T13:43:27+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/loose-diamonds-appraised-los-angeles/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-08-10T19:44:51+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/4-cs-of-diamonds/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-08-06T13:14:33+00:00",
+      "modifiedDate": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "path": "/best-gold-diamond-buyers-2026-top-5-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-08-14T13:39:42+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/best-1-carat-diamond-buyers-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-14T13:19:13+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/gold-valuation-how-gold-is-valued/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 5,
+      "publicationDate": "2026-08-13T21:40:12+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-14k-yellow-gold-rings-2026-2/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-24T13:19:22+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/how-much-do-pawn-shops-pay-for-gold/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2025-01-01T18:49:05+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/round-brilliant-diamond-comparison-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-07-26T13:30:22+00:00",
+      "modifiedDate": "2026-09-10T04:28:22.168Z"
+    },
+    {
+      "path": "/best-14k-white-gold-engagement-rings-2026-2/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-07-22T13:01:05+00:00",
+      "modifiedDate": "2026-09-10T13:56:42.540Z"
+    },
+    {
+      "path": "/best-18k-gold-rings-2026-ranked-2/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-23T13:17:51+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/best-black-hills-gold-rings-2026-2/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2026-07-20T13:23:40+00:00",
+      "modifiedDate": "2026-09-09T22:52:15.992Z"
+    },
+    {
+      "path": "/selling-scrap-gold-your-ultimate-guide-to-maximizing-value/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 1,
+      "publicationDate": "2025-01-09T03:42:32+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/how-much-will-a-14k-gold-necklace-worth-pay-me/",
+      "status": "reviewed",
+      "decision": "improve",
+      "proseSourceLinks": 1,
+      "publicationDate": "2025-01-06T03:03:10+00:00",
+      "modifiedDate": "2026-09-09T23:38:32.511Z"
+    },
+    {
+      "path": "/where-to-sell-your-antique-gold-jewelry-for-the-best-price-expert-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2025-01-17T05:56:11+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/real-diamond-watches-for-men-the-ultimate-buying-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-11-17T20:35:44+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/sell-your-gold-for-cash-a-step-by-step-guide-to-selling-gold-online/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-12-04T18:17:06+00:00",
+      "modifiedDate": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "path": "/local-gold-buyers-vs-online-gold-buyers-which-one-is-best/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2025-01-14T17:57:54+00:00",
+      "modifiedDate": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "path": "/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-11-26T15:24:53+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/2-carat-diamond-ring-price-complete-buying-guide/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-11-30T06:34:32+00:00",
+      "modifiedDate": "2026-09-10T13:14:23.748Z"
+    },
+    {
+      "path": "/top-7-real-diamond-watches-for-men-how-to-choose-the-best-diamond-watches-for-men-in-2024/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-11-24T09:48:46+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/how-much-is-10kt-gold-worth/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-12-30T04:19:15+00:00",
+      "modifiedDate": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "path": "/how-to-spot-a-fake-rolex/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 2,
+      "publicationDate": "2024-11-16T17:32:50+00:00",
+      "modifiedDate": "2026-09-10T13:43:55.944Z"
+    },
+    {
+      "path": "/sell-gold-and-diamonds-online/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2024-06-23T05:26:37+00:00",
+      "modifiedDate": "2026-09-10T03:30:50.702Z"
+    },
+    {
+      "path": "/best-gold-bars-2026-top-dealers-ranked/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 4,
+      "publicationDate": "2026-09-10T13:00:18+00:00",
+      "modifiedDate": "2026-09-10T16:50:39.311Z"
+    },
+    {
+      "path": "/best-gold-jewelry-buyers-los-angeles-2026/",
+      "status": "reviewed",
+      "decision": "rewrite",
+      "proseSourceLinks": 3,
+      "publicationDate": "2026-06-26T13:04:58Z",
+      "modifiedDate": "2026-09-10T18:32:23.716Z"
+    }
+  ]
+}

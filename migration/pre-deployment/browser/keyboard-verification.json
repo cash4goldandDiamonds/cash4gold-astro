@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-10T19:37:59.519Z",
+  "scope": "Local browser interactions at desktop and 390px; not a screen-reader/contrast/full WCAG audit",
+  "initialRun": "2026-09-10T19:34:26.495Z",
+  "results": [
+    {
+      "check": "Desktop menu opens with Enter",
+      "status": "PASS"
+    },
+    {
+      "check": "Desktop Escape closes and returns focus",
+      "status": "PASS"
+    },
+    {
+      "check": "Mobile menu opens with Enter",
+      "status": "PASS"
+    },
+    {
+      "check": "Nested Escape closes category and preserves outer menu",
+      "status": "PASS"
+    },
+    {
+      "check": "Outer Escape closes menu and returns focus",
+      "status": "PASS"
+    },
+    {
+      "check": "FAQ opens using Enter",
+      "status": "PASS"
+    },
+    {
+      "check": "Skip link reaches main",
+      "status": "FIXED AND VERIFIED",
+      "before": "Hash changed but focus returned to BODY",
+      "fix": "src/layouts/Base.astro: main tabindex=-1",
+      "retest": {
+        "hash": "#main",
+        "focusedTag": "MAIN",
+        "focusedId": "main",
+        "tabindex": "-1"
+      }
+    }
+  ]
+}

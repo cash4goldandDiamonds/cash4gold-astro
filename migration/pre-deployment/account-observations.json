@@ -1,0 +1,135 @@
+{
+  "observedOn": "2026-09-10",
+  "method": "Authenticated browser observations and owner-authorized Meta/Instagram setup; GitHub connected repository read. Production website/DNS/data unchanged. This timestamp records observations, not a repeat account inspection.",
+  "cloudflare": {
+    "accountId": "51297d0a5f91f93ec6100eeabcac7939",
+    "accountLabel": "Cash4goldanddiamond@gmail.com's Account",
+    "domain": "cash4goldanddiamond.com",
+    "domainPlan": "Free",
+    "dnsSetup": "Full",
+    "workersAndPagesProjects": 0,
+    "workerRoutes": 0,
+    "workersSubdomain": "cash4goldanddiamond.workers.dev",
+    "access": "Dashboard says Zero Trust must be set up before requiring Access sign-in",
+    "tlsMode": "Full",
+    "tlsModeAutomatic": true,
+    "dnsRecordsObserved": 12,
+    "hostingHookStatus": "No Cloudflare Workers/Pages project exists to hold a Git build or CMS deployment hook",
+    "credentialsExported": false
+  },
+  "godaddy": {
+    "siteId": "e55303bd-08dc-4f7f-821c-a4bd7f5acf77",
+    "domain": "cash4goldanddiamond.com",
+    "hosting": "Managed WordPress Basic",
+    "status": "Active: No issues detected",
+    "storageAllowance": "10 GB NVMe",
+    "backupsAdvertised": "Backup UI inspected: scheduled recovery point September 9, 2026, 4:12 p.m.; 918 MB (820 MB files + 97.6 MB database)",
+    "staging": "Overview lists staging as a Deluxe feature; Basic entitlement not proven",
+    "otherHostedSitesInspected": false,
+    "productionMutations": 0,
+    "download": "Backup prepared and Download clicked. No complete archive found in checked Downloads paths; integrity/restoration NOT VERIFIED.",
+    "restoreTest": "NOT TESTED; no production restore performed"
+  },
+  "sanity": {
+    "projectId": "gisdw6qa",
+    "projectName": "Cash4goldanddiamonds",
+    "organizationId": "obltsujau",
+    "plan": "Growth Trial; dashboard showed 30 days remaining",
+    "ownerRole": "Administrator",
+    "members": 1,
+    "datasets": [
+      {
+        "name": "production",
+        "visibility": "public"
+      },
+      {
+        "name": "migration-staging",
+        "visibility": "private"
+      }
+    ],
+    "documentsReported": 0,
+    "assetsReported": 0,
+    "webhooksReported": 0,
+    "actualEditingPublishingTest": "NOT TESTED",
+    "cliBlocker": "Sanity CLI exits with uv_os_get_passwd ENOMEM before authentication",
+    "credentialsExported": false
+  },
+  "launchAuthorization": "Owner subsequently authorized launch once everything is done. This condition is not satisfied while critical pre-launch checks remain blocked, failed or untested.",
+  "updatedAt": "2026-09-10T20:06:54.809Z",
+  "github": {
+    "repository": "cash4goldandDiamonds/cash4gold-astro",
+    "private": true,
+    "defaultBranch": "main",
+    "repositoryId": 1362842876,
+    "owner": "cash4goldandDiamonds",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "pull": true,
+      "triage": true
+    },
+    "verification": "Connected GitHub get_repo response during this audit",
+    "completeAuditPushed": false,
+    "remoteQualityWorkflowRun": false
+  },
+  "instagram": {
+    "username": "cash4goldanddiamond",
+    "accountId": "17841461592404304",
+    "accountType": "Business; owner controls verified in the signed-in profile",
+    "profileGuideLink": "http://cash4goldanddiamond.com/blogs/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+    "linkVerification": "Owner corrected in mobile app; exact link read back in browser; plain HTTP blog destination returned 301 to HTTPS.",
+    "connection": "Owner completed Instagram sign-in. Cash4Gold Social Publishing-IG tester invitation accepted in Apps and Websites. Developer Roles no longer shows Pending; Instagram API setup lists the account and Generate token.",
+    "postsSent": 0
+  },
+  "meta": {
+    "appName": "Cash4Gold Social Publishing",
+    "appId": "1771403890678469",
+    "instagramAppId": "1737075570881921",
+    "created": true,
+    "ownerAdministrator": "Navid Lala",
+    "appState": "Unpublished",
+    "businessPortfolio": {
+      "name": "navid lalezari",
+      "id": "1131065491630831",
+      "ownerAccess": "Navid Lalezari (you): Full access, Everything",
+      "appConnection": "Connected by app ID; Meta confirmed automatic approval because the signed-in owner is an app administrator",
+      "verification": "Reloaded Business Suite Apps view: Cash4Gold Social Publishing, ID 1771403890678469, Owned by: navid lalezari; Navid Lalezari (You) Full access."
+    },
+    "readyForTesting": [
+      "instagram_business_basic",
+      "instagram_business_content_publish",
+      "pages_manage_posts",
+      "pages_read_engagement",
+      "pages_show_list"
+    ],
+    "scopeMeaning": "App capabilities and login configuration selected; does not prove a user grant, advanced access, a working token or live publishing.",
+    "instagramTester": "cash4goldanddiamond — accepted; no Pending status",
+    "facebookPage": {
+      "name": "Cash4goldanddiamonds",
+      "assetId": "107008765832415",
+      "pairedInstagram": "cash4goldanddiamond",
+      "evidence": "Business Suite Pages detail: Cash4goldanddiamonds, ID 107008765832415, Owned by: navid lalezari; Navid Lalezari (You) Full access. Earlier home view verified the Instagram pairing."
+    },
+    "facebookLoginConfiguration": {
+      "name": "Cash4Gold Page Publishing",
+      "id": "1713622949693414",
+      "loginVariation": "General",
+      "tokenType": "System-user access token",
+      "tokenExpiration": "60 days (recommended); configuration only, no token issued",
+      "assets": [
+        "Pages"
+      ],
+      "permissions": [
+        "pages_manage_posts",
+        "pages_read_engagement",
+        "pages_show_list"
+      ],
+      "verification": "Created successfully, then expanded saved configuration and read back all settings"
+    },
+    "serverTokensStored": false,
+    "tokensGenerated": false,
+    "postsSent": 0,
+    "identityCheck": "Owner completed Facebook and Instagram security checks; app creation, tester acceptance and saved Page configuration verified"
+  }
+}

@@ -1,0 +1,622 @@
+12:27:00 [types] Generated 228ms
+12:27:00 [check] Getting diagnostics for Astro files in C:\Users\judit\Documents\Codex\2026-09-09\realtime-voice-chat\cash4gold-audit...
+[96mscripts/add-missing-gold-bars.mjs[0m:[93m32[0m:[93m46[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m32[0m const goldGroup=b('.blog-card-grid').filter((i,e)=>b(e).find('a[href="/best-gold-coin-buyers-los-angeles-2026/"]').length).first();
+[7m  [0m [93m                                             ~[0m
+[96mscripts/add-missing-gold-bars.mjs[0m:[93m25[0m:[93m518[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m25[0m const originalPage={path:urlPath,title:source.title,heading:full('h1').first().text()||source.title,description:source.description,canonical:source.canonical,robots:source.robots,html:source.mainHtml,sections:[],images:source.images,meta:source.meta,schema:source.schema,sourceText:source.mainText,sourceUrl:source.url,sourceSha256:source.sourceSha256,publishedAt,modifiedAt:source.meta.find(m=>m.name==='article:modified_time')?.content,isArticle:true,author,categories:full('.meta-cat a,[rel="category tag"]').map((i,e)=>full(e).text()).get()};
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ~[0m
+[96mscripts/add-missing-gold-bars.mjs[0m:[93m23[0m:[93m46[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m23[0m const sources=$('.article-resources a').map((i,e)=>({title:$(e).text(),url:$(e).attr('href')})).get();
+[7m  [0m [93m                                             ~[0m
+
+[96mscripts/add-recovered-jewelry-buyers.mjs[0m:[93m33[0m:[93m58[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m33[0m  const before=card.toString();card.find('a[href]').each((i,a)=>{if((dom(a).attr('href')||'').includes('gold-buyer-downtown-los-angeles')||(dom(a).attr('href')||'').includes('best-gold-jewelry-buyers'))dom(a).attr('href',urlPath);});card.find('h2 a,h3 a,.entry-title a').text(heading);card.find('.entry-content p,.entry-summary p').first().text(description);p.html=dom.html();archiveChanges.push({path:p.path,before,after:card.toString()});
+[7m  [0m [93m                                                         ~[0m
+[96mscripts/add-recovered-jewelry-buyers.mjs[0m:[93m27[0m:[93m122[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m27[0m const blog=pages.find(p=>p.path==='/blogs/'),b=load(blog.html,{},false),hero=images[0],grid=b('.blog-card-grid').filter((i,e)=>b(e).find('a[href="/best-gold-coin-buyers-los-angeles-2026/"]').length).first();
+[7m  [0m [93m                                                                                                                         ~[0m
+[96mscripts/add-recovered-jewelry-buyers.mjs[0m:[93m23[0m:[93m256[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m23[0m const originalPage={path:urlPath,title:load(post.title.rendered).text(),heading:load(post.title.rendered).text(),description:'',canonical:'',robots:'',meta:[],schema:[],html:post.content.rendered,sections:[],images:load(post.content.rendered)('img').map((i,e)=>e.attribs).get(),sourceText:load(post.content.rendered).text(),sourceUrl:post.link,sourceSha256:hash(JSON.stringify(post)),publishedAt,modifiedAt:post.modified_gmt+'Z',isArticle:true,author:'Navid',categories:['E-commerce & Retail'],sourceMetadataUnavailable:['Rank Math title','meta description','canonical override','robots','social overrides','focus keywords']};
+[7m  [0m [93m                                                                                                                                                                                                                                                               ~[0m
+[96mscripts/add-recovered-jewelry-buyers.mjs[0m:[93m22[0m:[93m46[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m22[0m const sources=$('.article-resources a').map((i,e)=>({title:$(e).text(),url:$(e).attr('href')})).get(),publishedAt=post.date_gmt+'Z';
+[7m  [0m [93m                                             ~[0m
+
+[96mscripts/align-duplicate-articles.mjs[0m:[93m8[0m:[93m59[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m8[0m  const $=load(p.html,{},false),ids=new Set($('[id]').map((i,e)=>$(e).attr('id')).get());$.root().prepend(oldIds.filter(id=>!ids.has(id)).map(id=>'<span class="legacy-anchor" aria-hidden="true" id="'+id.replace(/["<>]/g,'')+'"></span>').join(''));p.html=$.html();p.sourceText=$.text().replace(/\s+/g,' ').trim();p.modifiedAt=main.modifiedAt;
+[7m [0m [93m                                                          ~[0m
+[96mscripts/align-duplicate-articles.mjs[0m:[93m7[0m:[93m140[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m7[0m for(const pair of pairs){const p=byPath.get(pair.path),main=byPath.get(pair.preferred),$old=load(p.html,{},false),oldIds=$old('[id]').map((i,e)=>$old(e).attr('id')).get();for(const key of ['title','heading','description','html','editorial','images','meta','schema'])p[key]=structuredClone(main[key]);p.sections=[];p.canonical=main.canonical;
+[7m [0m [93m                                                                                                                                           ~[0m
+
+[96mscripts/apply-audit-content-fixes.mjs[0m:[93m19[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m19[0m   $('a[href]').each((i,e)=>{const a=$(e),href=a.attr('href');if(href==='https://cash4goldanddiamond.com/author/'){a.attr('href','/author/navid-lalezari/');if(log)record.changes.push({type:'broken-link',before:href,after:a.attr('href')});}if(href==='https://cash4goldanddiamond.com/best-gold-jewelry-buyers-los-angeles-2026/'){const target=pages.find(p=>p.path==='/gold-buyer-downtown-los-angeles/');a.attr('href',target.path);if(!a.find('img').length)a.text(target.heading);if(log)record.changes.push({type:'broken-link',before:href,after:target.path,reason:'Existing source destination loops. Related working gold-buyer guide used for navigation; legacy URL disposition remains unresolved.'});}});
+[7m  [0m [93m                     ~[0m
+[96mscripts/apply-audit-content-fixes.mjs[0m:[93m17[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m17[0m    $('h4,h5').each((i,e)=>{e.tagName='h3';if(log)record.changes.push({type:'heading-semantics',reason:'Card headings follow their H2 section without skipping levels.'});});
+[7m  [0m [93m                    ~[0m
+[96mscripts/apply-audit-content-fixes.mjs[0m:[93m16[0m:[93m68[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m16[0m    $('h2').filter((i,e)=>/^[123]$/.test($(e).text().trim())).each((i,e)=>{$(e).replaceWith(`<span class="process-step-number" aria-hidden="true">${$(e).text()}</span>`);if(log)record.changes.push({type:'heading-semantics',reason:'Decorative step numbers are not section headings.'});});
+[7m  [0m [93m                                                                   ~[0m
+[96mscripts/apply-audit-content-fixes.mjs[0m:[93m16[0m:[93m20[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m16[0m    $('h2').filter((i,e)=>/^[123]$/.test($(e).text().trim())).each((i,e)=>{$(e).replaceWith(`<span class="process-step-number" aria-hidden="true">${$(e).text()}</span>`);if(log)record.changes.push({type:'heading-semantics',reason:'Decorative step numbers are not section headings.'});});
+[7m  [0m [93m                   ~[0m
+[96mscripts/apply-audit-content-fixes.mjs[0m:[93m15[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m15[0m    $('p,h4,h5').each((i,e)=>{const value=$(e).text().trim();const replacement=replacements.find(([from])=>value===from);if(replacement){$(e).text(replacement[1]);if(log)record.changes.push({type:'unsupported-claim',before:replacement[0],after:replacement[1]});}});
+[7m  [0m [93m                      ~[0m
+
+[96mscripts/apply-diamond-business-scope.mjs[0m:[93m10[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m10[0m const intro=$('p').filter((i,e)=>$(e).text().startsWith('Looking for trusted diamond buyers')).first();
+[7m  [0m [93m                           ~[0m
+
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m57[0m:[93m258[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m57[0m  for(const spec of specs){const article=byPath.get(spec.path),image=article.editorial.images[0];const cards=$('.blog-card').filter((i,e)=>$(e).attr('href')===spec.path).add($('article').filter((i,e)=>$(e).find('h2 a').attr('href')===spec.path));cards.each((i,e)=>{const card=$(e);card.find('h2 a,h3').text(article.heading);card.find('p').first().text(article.description);card.find('img').attr({src:image.variants[0].src,srcset:image.variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 600px) 90vw, 400px',width:String(image.width),height:String(image.height),alt:image.alt,loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');synced++;changed=true;});}
+[7m  [0m [93m                                                                                                                                                                                                                                                                 ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m57[0m:[93m195[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m57[0m  for(const spec of specs){const article=byPath.get(spec.path),image=article.editorial.images[0];const cards=$('.blog-card').filter((i,e)=>$(e).attr('href')===spec.path).add($('article').filter((i,e)=>$(e).find('h2 a').attr('href')===spec.path));cards.each((i,e)=>{const card=$(e);card.find('h2 a,h3').text(article.heading);card.find('p').first().text(article.description);card.find('img').attr({src:image.variants[0].src,srcset:image.variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 600px) 90vw, 400px',width:String(image.width),height:String(image.height),alt:image.alt,loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');synced++;changed=true;});}
+[7m  [0m [93m                                                                                                                                                                                                  ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m57[0m:[93m133[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m57[0m  for(const spec of specs){const article=byPath.get(spec.path),image=article.editorial.images[0];const cards=$('.blog-card').filter((i,e)=>$(e).attr('href')===spec.path).add($('article').filter((i,e)=>$(e).find('h2 a').attr('href')===spec.path));cards.each((i,e)=>{const card=$(e);card.find('h2 a,h3').text(article.heading);card.find('p').first().text(article.description);card.find('img').attr({src:image.variants[0].src,srcset:image.variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 600px) 90vw, 400px',width:String(image.width),height:String(image.height),alt:image.alt,loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');synced++;changed=true;});}
+[7m  [0m [93m                                                                                                                                    ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m50[0m:[93m55[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m50[0m  p.html=$.html();p.sections=[];p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=norm($.text());if(p.html===before)p.modifiedAt=previousModifiedAt;refreshMeta(p);
+[7m  [0m [93m                                                      ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m48[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m48[0m  const headings=$('h2').filter((i,e)=>!$(e).closest('aside,.article-resources,.article-related').length).toArray();
+[7m  [0m [93m                                ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m47[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m47[0m  $('h2,h3,h4').each((i,e)=>{if($(e).attr('id'))return;const base=slug($(e).text());let id=base,n=1;while(ids.has(id))id=base+'-'+(++n);ids.add(id);$(e).attr('id',id);});
+[7m  [0m [93m                     ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m46[0m:[93m38[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m46[0m  const ids=new Set();$('[id]').each((i,e)=>{const id=$(e).attr('id');if(ids.has(id))$(e).removeAttr('id');else ids.add(id);});
+[7m  [0m [93m                                     ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m44[0m:[93m111[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m44[0m  if(spec.file){$('.article-takeaway').after(figure(p.editorial.images[0],true));const heading=$('h2').filter((i,e)=>$(e).text()===spec.imageAfter).first();if(!heading.length)throw Error('Missing image placement');heading.next('p').after(figure(p.editorial.images[1],false));}
+[7m  [0m [93m                                                                                                              ~[0m
+[96mscripts/apply-gold-editorial-review.mjs[0m:[93m40[0m:[93m16[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m40[0m   $('p').each((i,e)=>{const text=norm($(e).text());if(text==='Item weight × gold purity = approximate pure-gold weight')$(e).text('Net alloy weight × gold purity = approximate pure-gold weight');if(text==='For example, imagine a piece weighs 20 grams and tests as 18K.')$(e).text('For example, imagine the gold alloy in a piece weighs 20 grams after accounting for stones and non-gold components, and tests as 18K.');if(text==='Gold value + gemstone value + potential jewelry/resale value')$(e).text('Consider metal content, stones, and the resale value of the complete piece without counting the same value twice.');});
+[7m  [0m [93m               ~[0m
+
+[96mscripts/apply-owner-buying-policy.mjs[0m:[93m19[0m:[93m177[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m19[0m for(const p of pages){p.html=rewriteHtml(p.html,p);p.sections=(p.sections||[]).map(s=>({...s,html:rewriteHtml(s.html,p)}));const $=load(p.html,{},false);p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=$.text().replace(/\s+/g,' ').trim();
+[7m  [0m [93m                                                                                                                                                                                ~[0m
+[96mscripts/apply-owner-buying-policy.mjs[0m:[93m17[0m:[93m202[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m17[0m  if(p.editorial?.group==='gemstone'){$('.article-next-step p').first().text(gemstonePolicy+' Bring the complete piece and existing records to discuss an evaluation.');$('.article-next-step a').filter((i,e)=>$(e).text().includes('Gemstone evaluations')).text('Large, high-quality gemstone evaluations in Los Angeles');}
+[7m  [0m [93m                                                                                                                                                                                                         ~[0m
+[96mscripts/apply-owner-buying-policy.mjs[0m:[93m16[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m16[0m  $('a[href]').each((i,e)=>{const a=$(e),target=byPath.get(a.attr('href'));if(!target?.isArticle||a.find('img').length)return;const t=a.text().trim();if(/Top \d+ Ranked|Buyers.*2026|Uncut Diamond Buyers/i.test(t)&&t.length>20){a.text(target.heading);}});
+[7m  [0m [93m                    ~[0m
+[96mscripts/apply-owner-buying-policy.mjs[0m:[93m15[0m:[93m87[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m15[0m const rewriteHtml=(html,p)=>{const $=load(html,{},false);if(!p.isArticle)$('p').each((i,e)=>{const t=$(e).text().replace(/\s+/g,' ').trim();if(/Since (?:our establishment in )?2007|since 2007|Welcome to Cash 4 Gold.*Since|has been buying.*2007/i.test(t))$(e).html('Cash 4 Gold &amp; Diamonds buys gold jewelry, scrap gold, heavy Cuban chains, gold and silver coins, natural polished diamonds and luxury watches in Downtown Los Angeles. Large quantities of gold and coins are welcome. '+gemstonePolicy);else if(/During your appointment, our certified experts/.test(t))$(e).text('During your appointment, we examine your items and explain the factors considered in a purchase offer.');else if(t.startsWith('Cash 4 Gold and Diamond is a trusted gold and diamond buyer'))$(e).text(businessDescription+' Visit us at 617 S. Hill Street, Los Angeles, CA 90014.');});
+[7m  [0m [93m                                                                                      ~[0m
+
+[96mscripts/apply-substantive-review.mjs[0m:[93m77[0m:[93m497[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m77[0m for(const p of pages){const $=load(p.html,{},false);let count=0;$('.blog-card').each((i,e)=>{const a=$(e),target=byPath.get(a.attr('href'));if(target?.isArticle){a.find('h3').text(target.heading);a.find('p').text(target.description);count++;}});$('article').each((i,e)=>{const card=$(e),target=byPath.get(card.find('h2 a').first().attr('href'));if(target?.isArticle){card.find('h2 a').text(target.heading);card.find('p').first().text(target.description);count++;}});$('.article-related a').each((i,e)=>{const target=byPath.get($(e).attr('href'));if(target?.isArticle){$(e).text(target.heading);count++;}});if(count){p.html=$.html();p.sections=[];cards+=count;const row=recorded.get(p.path);if(row?.status==='reviewed')row.afterHtmlSha256=hash(p.html);}}
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m77[0m:[93m265[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m77[0m for(const p of pages){const $=load(p.html,{},false);let count=0;$('.blog-card').each((i,e)=>{const a=$(e),target=byPath.get(a.attr('href'));if(target?.isArticle){a.find('h3').text(target.heading);a.find('p').text(target.description);count++;}});$('article').each((i,e)=>{const card=$(e),target=byPath.get(card.find('h2 a').first().attr('href'));if(target?.isArticle){card.find('h2 a').text(target.heading);card.find('p').first().text(target.description);count++;}});$('.article-related a').each((i,e)=>{const target=byPath.get($(e).attr('href'));if(target?.isArticle){$(e).text(target.heading);count++;}});if(count){p.html=$.html();p.sections=[];cards+=count;const row=recorded.get(p.path);if(row?.status==='reviewed')row.afterHtmlSha256=hash(p.html);}}
+[7m  [0m [93m                                                                                                                                                                                                                                                                        ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m77[0m:[93m87[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m77[0m for(const p of pages){const $=load(p.html,{},false);let count=0;$('.blog-card').each((i,e)=>{const a=$(e),target=byPath.get(a.attr('href'));if(target?.isArticle){a.find('h3').text(target.heading);a.find('p').text(target.description);count++;}});$('article').each((i,e)=>{const card=$(e),target=byPath.get(card.find('h2 a').first().attr('href'));if(target?.isArticle){card.find('h2 a').text(target.heading);card.find('p').first().text(target.description);count++;}});$('.article-related a').each((i,e)=>{const target=byPath.get($(e).attr('href'));if(target?.isArticle){$(e).text(target.heading);count++;}});if(count){p.html=$.html();p.sections=[];cards+=count;const row=recorded.get(p.path);if(row?.status==='reviewed')row.afterHtmlSha256=hash(p.html);}}
+[7m  [0m [93m                                                                                      ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m61[0m:[93m75[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m61[0m  p.modifiedAt=substantiveChange?now:old.modifiedAt;p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=$.text().replace(/\s+/g,' ').trim();
+[7m  [0m [93m                                                                          ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m57[0m:[93m46[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m57[0m  const renderedIds=new Set();$('[id]').each((i,e)=>{const id=$(e).attr('id');if(renderedIds.has(id))$(e).removeAttr('id');else renderedIds.add(id);});
+[7m  [0m [93m                                             ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m54[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m54[0m  const toc=$('h2').filter((i,e)=>!$(e).closest('aside,.article-resources,.article-related').length).toArray();
+[7m  [0m [93m                           ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m53[0m:[93m42[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m53[0m  const ids=new Set();$('h2,h3,h4').each((i,e)=>{const base=$(e).attr('id')||slug($(e).text());let id=base,n=1;while(ids.has(id))id=base+'-'+(++n);ids.add(id);$(e).attr('id',id);});
+[7m  [0m [93m                                         ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m43[0m:[93m67[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m43[0m  for(const patch of r.sectionPatches||[]){const h=$('h2').filter((i,e)=>$(e).text().trim()===patch.heading).first();if(!h.length)throw new Error('Missing review section '+patch.heading);let next=h.next();while(next.length&&!/^h[12]$/.test(next[0].name)){const after=next.next();next.remove();next=after;}h.after(patch.html);}
+[7m  [0m [93m                                                                  ~[0m
+[96mscripts/apply-substantive-review.mjs[0m:[93m38[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m38[0m  const oldIds=$old('[id]').map((i,e)=>$old(e).attr('id')).get();
+[7m  [0m [93m                                ~[0m
+
+[96mscripts/audit-migration.mjs[0m:[93m34[0m:[93m401[0m - [93mwarning[0m[90m ts(6133): [0m'k' is declared but its value is never read.
+
+[7m34[0m for(const name of await fs.readdir('migration')){if(!name.endsWith('.json'))continue;try{const j=await read('migration/'+name);reports.push({path:'migration/'+name,bytes:(await fs.stat('migration/'+name)).size,checkedAt:j.checkedAt||j.capturedAt||null,scope:j.scope||j.mode||j.checks||null,errors:j.errors||j.failures||[],warnings:j.warnings||[],summary:Object.fromEntries(Object.entries(j).filter(([k,v])=>v===null||['string','number','boolean'].includes(typeof v)))});}catch(e){reports.push({path:'migration/'+name,parseError:e.message});}}
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                ~[0m
+[96mscripts/audit-migration.mjs[0m:[93m27[0m:[93m45[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m27[0m  const headings=$('h1,h2,h3,h4,h5,h6').map((i,e)=>({level:Number(e.tagName.slice(1)),text:$(e).text()})).get();
+[7m  [0m [93m                                            ~[0m
+[96mscripts/audit-migration.mjs[0m:[93m23[0m:[93m47[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m23[0m  const $=load(p.html),links=$('a[href]').map((i,e)=>$(e).attr('href')).get();
+[7m  [0m [93m                                              ~[0m
+[96mscripts/audit-migration.mjs[0m:[93m19[0m:[93m972[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m19[0m  rows.push({sourceUrl:r.url,newUrl:p?'https://cash4goldanddiamond.com'+target:null,sourceStatus:r.status||r.error,sourceSitemap:r.sitemap,redirectNeeded:sourcePath!==target,configured301:sourcePath!==target&&redirects[sourcePath]===target,changedSinceCapture:old?text(old.mainHtml)!==text(r.mainHtml):true,status:!p&&r.mainHtml?'BLOCKED':p?'PASS':'NOT TESTED',migrationStatus:!p&&r.mainHtml?'MISSING LIVE PAGE':p?(knownEdits.has(target)?'Existing documented editorial revision':'URL retained'):'Source error/non-HTML needs disposition',contentVerified:p&&missing.length===0,seoMetadataVerified:p&&p.title===r.title&&p.description===r.description&&p.canonical===r.canonical,sourceTextBlocks:sourceBlocks.length,missingExactTextBlocks:missing.length,title:{source:r.title,target:p?.title},description:{source:r.description,target:p?.description},canonical:{source:r.canonical,target:p?.canonical},headings:{source:r.headings,target:p?load(p.html)('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:load(p.html)(e).text()})).get():[]},images:{source:r.images||[],target:p?.images||[]},categories:p?.categories||[],missingTextSamples:missing.slice(0,12)});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ~[0m
+[96mscripts/audit-migration.mjs[0m:[93m17[0m:[93m60[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m17[0m  const sourceBlocks=$('h1,h2,h3,h4,h5,h6,p,li,td,th').map((i,e)=>norm($(e).text())).get().filter(x=>x.length>8),body=p?text(p.html):'';
+[7m  [0m [93m                                                           ~[0m
+[96mscripts/audit-migration.mjs[0m:[93m3[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'crypto' is declared but its value is never read.
+
+[7m3[0m import crypto from 'node:crypto';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mscripts/audit-migration.mjs[0m:[93m2[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'path' is declared but its value is never read.
+
+[7m2[0m import path from 'node:path';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m1340[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m1194[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m1128[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m1032[0m - [93mwarning[0m[90m ts(6133): [0m'j' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m923[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m816[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m601[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m555[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m411[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                          ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m315[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                          ~[0m
+[96mscripts/crawl.mjs[0m:[93m31[0m:[93m238[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  Object.assign(record,{title:$('title').text().trim(),description:$('meta[name=description]').attr('content')||'',canonical:$('link[rel=canonical]').attr('href')||'',robots:$('meta[name=robots]').attr('content')||'',h1:$('main h1').map((i,e)=>$(e).text().trim()).get(),headings:main.find('h1,h2,h3,h4,h5,h6').map((i,e)=>({tag:e.tagName,text:$(e).text().trim()})).get(),meta:$('meta[property],meta[name]').map((i,e)=>({name:$(e).attr('property')||$(e).attr('name'),content:$(e).attr('content')})).get(),schema:$('script[type="application/ld+json"]').map((i,e)=>$(e).text()).get(),images:$('img').map((i,e)=>({src:$(e).attr('data-src')||$(e).attr('src'),srcset:$(e).attr('srcset')||$(e).attr('data-srcset'),alt:$(e).attr('alt')||'',width:$(e).attr('width'),height:$(e).attr('height')})).get(),links:$('a[href]').map((i,e)=>({href:new URL($(e).attr('href'),res.url).href,text:$(e).text().trim()})).get(),forms:$('form').map((i,e)=>({action:$(e).attr('action'),method:$(e).attr('method'),fields:$(e).find('input,select,textarea').map((j,f)=>({name:$(f).attr('name'),type:$(f).attr('type')})).get()})).get(),embeds:$('iframe').map((i,e)=>$(e).attr('src')).get(),scriptSources:$('script[src]').map((i,e)=>$(e).attr('src')).get(),mainHtml:main.html(),mainText:main.text().replace(/\s+/g,' ').trim(),elementorStyles:$('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(u=>u.includes('/uploads/elementor/'))});
+[7m  [0m [93m                                                                                                                                                                                                                                             ~[0m
+[96mscripts/crawl.mjs[0m:[93m22[0m:[93m315[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m22[0m async function sitemap(url){if(sitemapRecords.some(x=>x.url===url))return;const item={url};sitemapRecords.push(item);try{const {res,text}=await request(url);item.status=res.status;await fs.writeFile(path.join(out,hash(url)+'.xml'),text);if(!res.ok)return;const $=load(text,{xmlMode:true});const urls=$('loc').map((i,e)=>$(e).text()).get();if($('sitemapindex').length){for(const u of urls)if(same(u))await sitemap(u);}else for(const u of urls){const n=normalize(u);if(n){sitemapUrls.add(n);queue.push(n)}}}catch(e){item.error=e.message}}
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                          ~[0m
+
+[96mscripts/export-sanity.mjs[0m:[93m39[0m:[93m261[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m39[0m for(const p of pages){const $=load(p.html),faqs=[];$('details').each((i,e)=>{const question=$(e).children('summary').text().trim(),answer=$(e).children('div').text().trim();if(question&&answer)faqs.push({question,answer});});if(p.isArticle)$('h2,h3,h4').each((i,e)=>{const question=$(e).text().trim(),answer=$(e).next('p').text().trim();if(question.endsWith('?')&&answer&&!faqs.some(f=>f.question===question))faqs.push({question,answer});});const doc=documents.find(d=>d._id===id(p.path));doc.faqs=faqs.slice(0,12).map((f,i)=>{const _id=id(p.path+'#faq'+i);documents.push({_id,_type:'faq',...f,page:reference(id(p.path))});return {_key:'faq-'+i,...reference(_id)};});}
+[7m  [0m [93m                                                                                                                                                                                                                                                                    ~[0m
+[96mscripts/export-sanity.mjs[0m:[93m39[0m:[93m71[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m39[0m for(const p of pages){const $=load(p.html),faqs=[];$('details').each((i,e)=>{const question=$(e).children('summary').text().trim(),answer=$(e).children('div').text().trim();if(question&&answer)faqs.push({question,answer});});if(p.isArticle)$('h2,h3,h4').each((i,e)=>{const question=$(e).text().trim(),answer=$(e).next('p').text().trim();if(question.endsWith('?')&&answer&&!faqs.some(f=>f.question===question))faqs.push({question,answer});});const doc=documents.find(d=>d._id===id(p.path));doc.faqs=faqs.slice(0,12).map((f,i)=>{const _id=id(p.path+'#faq'+i);documents.push({_id,_type:'faq',...f,page:reference(id(p.path))});return {_key:'faq-'+i,...reference(_id)};});}
+[7m  [0m [93m                                                                      ~[0m
+[96mscripts/export-sanity.mjs[0m:[93m30[0m:[93m295[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m30[0m const documents=pages.map(p=>({_id:id(p.path),_type:'page',title:p.heading,path:p.path,kind:p.isArticle?'article':p.path==='/sell-your-golds/'?'service':p.path.startsWith('/tag/')?'archive':'page',contentMode:'imported',body:portable(p.html,p.isArticle),legacyAnchors:load(p.html)('[id]').map((i,e)=>e.attribs.id).get(),seo:{_type:'seo',title:p.title,description:p.description,canonical:p.canonical||'https://cash4goldanddiamond.com'+p.path,noindex:p.robots.includes('noindex'),nofollow:p.robots.includes('nofollow'),focusKeyword:p.editorial?.focusKeyword,secondaryKeywords:p.editorial?.secondaryKeywords,sourceSocialImage:p.meta?.find(m=>m.name==='og:image')?.content},publishedAt:p.publishedAt,author:p.isArticle?reference(authorId(p.author)):undefined,location:reference('location-downtown'),service:p.editorial?.service?reference(serviceId(p.editorial.service)):undefined,categories:[...(p.categories||[]).map((title,i)=>({_key:'source-'+i,...reference(categoryId(title))})),...(p.editorial?.group?[{_key:p.editorial.group,...reference('category-'+p.editorial.group)}]:[])],answer:p.editorial?.answer,sources:p.editorial?.sources?.map((s,i)=>({_key:'source-'+i,_type:'citation',...s})),related:p.editorial?.related?.map((path,i)=>({_key:'related-'+i,...reference(id(path))})),sourceUrl:p.sourceUrl,sourceSha256:p.sourceSha256,contentVerified:false,seoVerified:false}));
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                      ~[0m
+[96mscripts/export-sanity.mjs[0m:[93m21[0m:[93m255[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m21[0m  if(['ul','ol'].includes(n.name)){for(const li of el.children('li').toArray()){const defs=[];body.push({_type:'block',_key:key(),style:'normal',listItem:n.name==='ol'?'number':'bullet',level:level+1,markDefs:defs,children:inline($(li).contents().filter((i,e)=>!['ul','ol'].includes(e.name)).toArray(),[],defs)});walk($(li).children('ul,ol').toArray(),level+1)}continue}
+[7m  [0m [93m                                                                                                                                                                                                                                                              ~[0m
+[96mscripts/export-sanity.mjs[0m:[93m20[0m:[93m233[0m - [93mwarning[0m[90m ts(6133): [0m'j' is declared but its value is never read.
+
+[7m20[0m  if(n.name==='table'){body.push({_type:'sourceTable',_key:key(),rows:el.find('tr').map((i,tr)=>({_type:'tableRow',_key:key(),isHeader:$(tr).children('th').length>0&&$(tr).children('td').length===0,cells:$(tr).children('td,th').map((j,td)=>$(td).text()).get()})).get()});continue}
+[7m  [0m [93m                                                                                                                                                                                                                                        ~[0m
+[96mscripts/export-sanity.mjs[0m:[93m20[0m:[93m89[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m20[0m  if(n.name==='table'){body.push({_type:'sourceTable',_key:key(),rows:el.find('tr').map((i,tr)=>({_type:'tableRow',_key:key(),isHeader:$(tr).children('th').length>0&&$(tr).children('td').length===0,cells:$(tr).children('td,th').map((j,td)=>$(td).text()).get()})).get()});continue}
+[7m  [0m [93m                                                                                        ~[0m
+
+[96mscripts/finish-article-media.mjs[0m:[93m7[0m:[93m41[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m7[0m  p.html=$.html();p.images=$('img').map((i,e)=>({...e.attribs})).get();const r=ledger.rows.find(r=>r.path===p.path);if(r?.status==='reviewed')r.afterHtmlSha256=crypto.createHash('sha256').update(p.html).digest('hex');}
+[7m [0m [93m                                        ~[0m
+
+[96mscripts/fix-audit-layout-metadata.mjs[0m:[93m17[0m:[93m146[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m17[0m  if(record.changes.length){p.html=$.html();if(p.path!=='/')p.sections=[];p.sourceText=$.text().replace(/\s+/g,' ').trim();p.images=$('img').map((i,e)=>({...e.attribs})).get();record.beforeSha256=hash(before);record.afterSha256=hash(p.html);changes.push(record);}
+[7m  [0m [93m                                                                                                                                                 ~[0m
+[96mscripts/fix-audit-layout-metadata.mjs[0m:[93m13[0m:[93m64[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m   $('h1').each((i,e)=>{e.tagName='h2';});$('h2').first().each((i,e)=>{e.tagName='h1';});record.changes.push({type:'heading-semantics',reason:'Place the single H1 on the opening estate-service title; retain the former H1 text as a section heading.'});
+[7m  [0m [93m                                                               ~[0m
+[96mscripts/fix-audit-layout-metadata.mjs[0m:[93m13[0m:[93m17[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m   $('h1').each((i,e)=>{e.tagName='h2';});$('h2').first().each((i,e)=>{e.tagName='h1';});record.changes.push({type:'heading-semantics',reason:'Place the single H1 on the opening estate-service title; retain the former H1 text as a section heading.'});
+[7m  [0m [93m                ~[0m
+[96mscripts/fix-audit-layout-metadata.mjs[0m:[93m11[0m:[93m70[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m11[0m  if(p.path==='/contact-us/'||p.path==='/faqs/')$('h2').first().each((i,e)=>{if(/^(Contact Us|FAQ)$/.test($(e).text().trim())){e.tagName='p';record.changes.push({type:'heading-semantics',reason:'Decorative eyebrow appears before H1.'});}});
+[7m  [0m [93m                                                                     ~[0m
+
+[96mscripts/import-source.mjs[0m:[93m45[0m:[93m669[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m45[0m  const page={path:finalPath,title:r.title,heading,description:r.description,canonical:r.canonical,robots:r.robots,meta:r.meta,schema:r.schema,html,sections,sourceText:raw.text().replace(/\s+/g,' ').trim(),sourceSha256:r.sourceSha256,images:(r.images||[]).map(x=>({...x,src:localAsset(x.src)})),sourceUrl:r.url,formsPending:(r.forms||[]).length>0,publishedAt:r.meta?.find(m=>m.name==='article:published_time')?.content,modifiedAt:r.meta?.find(m=>m.name==='article:modified_time')?.content,isArticle:full('body').hasClass('single-post'),author:full('.meta-author,.author-name,[rel=author]').first().text().trim(),categories:full('.meta-cat a,[rel="category tag"]').map((i,e)=>full(e).text()).get()};
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ~[0m
+[96mscripts/import-source.mjs[0m:[93m36[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m36[0m  $('[class]').each((i,e)=>{const el=$(e);const cls=(el.attr('class')||'').split(/\s+/).filter(c=>/^(?:elementor-(?:top-section|section|container|column|row|widget-wrap|widget-(?:heading|text-editor|image|button|icon-box|testimonial|image-box|icon-list)|button|icon-box|image-box|testimonial|icon-list)|e-con(?:-inner)?$|source-|background-photo|integration-notice)/.test(c));el.attr('class',cls.join(' '));});
+[7m  [0m [93m                    ~[0m
+[96mscripts/import-source.mjs[0m:[93m35[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m35[0m  $('[data-id]').each((i,e)=>{const el=$(e),id=el.attr('data-id');el.attr('id','source-'+id);const bg=backgrounds.get(id);if(bg){const img=localAsset(bg);el.addClass('source-background');el.prepend('<img class="background-photo" src="'+img+'" alt="" loading="lazy" decoding="async">')}});
+[7m  [0m [93m                      ~[0m
+[96mscripts/import-source.mjs[0m:[93m34[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m34[0m  $('a[href]').each((i,e)=>{const a=$(e);a.attr('href',localLink(a.attr('href')));if(a.attr('target')==='_blank')a.attr('rel','noopener noreferrer')});
+[7m  [0m [93m                    ~[0m
+[96mscripts/import-source.mjs[0m:[93m33[0m:[93m17[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m33[0m  $('img').each((i,e)=>{const image=$(e);const src=image.attr('data-src')||image.attr('src');if(src)image.attr('src',localAsset(src));const set=image.attr('srcset')||image.attr('data-srcset');if(set)image.attr('srcset',set.split(',').map(x=>{const [u,size]=x.trim().split(/\s+/);return localAsset(u)+(size?' '+size:'')}).join(', '));image.attr('loading','lazy').attr('decoding','async');});
+[7m  [0m [93m                ~[0m
+[96mscripts/import-source.mjs[0m:[93m31[0m:[93m39[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m  $('.elementor-accordion-item').each((i,e)=>{const title=$(e).find('.elementor-accordion-title').first().text();const body=$(e).find('.elementor-tab-content').first().html();$(e).replaceWith('<details><summary>'+sanitizeHtml(title,{allowedTags:[]})+'</summary><div>'+(body||'')+'</div></details>')});
+[7m  [0m [93m                                      ~[0m
+[96mscripts/import-source.mjs[0m:[93m30[0m:[93m20[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m30[0m  $('iframe').each((i,e)=>{const src=$(e).attr('src');issues.push({path:pagePath,type:'embed-needs-review',src});$(e).replaceWith(src?.includes('google.com/maps')?'<p><a href="https://www.google.com/maps/search/?api=1&query=Cash+4+Gold+and+Diamonds+617+S+Hill+Street+Los+Angeles">View location on Google Maps</a></p>':'<p class="integration-notice">Appointment service connection pending.</p>')});
+[7m  [0m [93m                   ~[0m
+[96mscripts/import-source.mjs[0m:[93m29[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m29[0m  $('form').each((i,e)=>{issues.push({path:pagePath,type:'form-integration-pending'});$(e).replaceWith('<aside class="integration-notice"><p>The contact form is not connected in this local preview.</p><a href="tel:3106631340">Call 310-663-1340</a></aside>')});
+[7m  [0m [93m                 ~[0m
+[96mscripts/import-source.mjs[0m:[93m28[0m:[93m87[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m28[0m  $('.elementor-hidden-desktop.elementor-hidden-tablet.elementor-hidden-mobile').each((i,e)=>{issues.push({path:pagePath,type:'hidden-source-content',text:$(e).text().trim()});$(e).remove()});
+[7m  [0m [93m                                                                                      ~[0m
+[96mscripts/import-source.mjs[0m:[93m27[0m:[93m57[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m27[0m  $('#calendly-container,.calendly-inline-widget').each((i,e)=>{const url=$(e).attr('data-url')||'https://calendly.com/calidiamond310/30min';issues.push({path:pagePath,type:'appointment-link-preserved-not-booking-tested',url});$(e).replaceWith('<div class="appointment-link"><p><a class="elementor-button" href="'+url.replaceAll('&','&amp;')+'" target="_blank" rel="noopener noreferrer">Choose an appointment time</a></p><p>Scheduling opens on Calendly.</p></div>')});
+[7m  [0m [93m                                                        ~[0m
+[96mscripts/import-source.mjs[0m:[93m18[0m:[93m292[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m18[0m for(const r of records){for(const img of r.images||[]){if(img.src)addAsset(img.src);for(const part of (img.srcset||'').split(',')){const u=part.trim().split(/\s+/)[0];if(u)addAsset(u)}}for(const link of r.links||[])addAsset(link.href);const $=load(r.mainHtml||'');$('[data-settings]').each((i,e)=>{const value=$(e).attr('data-settings');for(const m of value.matchAll(/https?[^"\s]+?\.(?:webp|png|jpe?g|svg)/g))addAsset(m[0].replaceAll('\\/','/'));});}
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                   ~[0m
+
+[96mscripts/inspect-diamond-scope.mjs[0m:[93m6[0m:[93m246[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m6[0m  if(process.argv.slice(2).includes(p.path))console.log(JSON.stringify({path:p.path,title:p.title,description:p.description,body:$.text().replace(/\s+/g,' ').trim(),sections:p.sections.map(s=>({id:s.id,html:s.html.slice(0,100)})),h1:$('h1').map((i,e)=>$.html(e)).get()},null,2));
+[7m [0m [93m                                                                                                                                                                                                                                                     ~[0m
+
+[96mscripts/inspect-page-elements.mjs[0m:[93m4[0m:[93m280[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m4[0m for(const path of process.argv.slice(2)){const p=pages.find(p=>p.path===path);if(!p)continue;const $=load(p.html);console.log(JSON.stringify({path,heading:p.heading,title:p.title,matches:$('h1,p').filter((i,e)=>e.name==='h1'||/https?:\/\/|[\u202f\u00a0]/.test($(e).text())).map((i,e)=>$.html(e)).get()},null,2));}
+[7m [0m [93m                                                                                                                                                                                                                                                                                       ~[0m
+[96mscripts/inspect-page-elements.mjs[0m:[93m4[0m:[93m206[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m4[0m for(const path of process.argv.slice(2)){const p=pages.find(p=>p.path===path);if(!p)continue;const $=load(p.html);console.log(JSON.stringify({path,heading:p.heading,title:p.title,matches:$('h1,p').filter((i,e)=>e.name==='h1'||/https?:\/\/|[\u202f\u00a0]/.test($(e).text())).map((i,e)=>$.html(e)).get()},null,2));}
+[7m [0m [93m                                                                                                                                                                                                             ~[0m
+
+[96mscripts/inspect-service-pages.mjs[0m:[93m4[0m:[93m413[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m4[0m for(const path of ['/sell-gemstones-for-cash-in-los-angeles/','/start-selling-gold-and-diamonds/','/faqs/','/sell-your-diamonds-in-los-angeles/','/']){const p=pages.find(p=>p.path===path),$=load(p.html);console.log(JSON.stringify({path,title:p.title,description:p.description,heading:p.heading,sections:p.sections.map(s=>s.id),images:$('img').map((i,e)=>({...e.attribs})).get(),copy:$('h1,h2,h3,p,summary').map((i,e)=>$(e).text().replace(/\s+/g,' ').trim()).get(),schema:p.schema},null,2));}
+[7m [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                            ~[0m
+[96mscripts/inspect-service-pages.mjs[0m:[93m4[0m:[93m349[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m4[0m for(const path of ['/sell-gemstones-for-cash-in-los-angeles/','/start-selling-gold-and-diamonds/','/faqs/','/sell-your-diamonds-in-los-angeles/','/']){const p=pages.find(p=>p.path===path),$=load(p.html);console.log(JSON.stringify({path,title:p.title,description:p.description,heading:p.heading,sections:p.sections.map(s=>s.id),images:$('img').map((i,e)=>({...e.attribs})).get(),copy:$('h1,h2,h3,p,summary').map((i,e)=>$(e).text().replace(/\s+/g,' ').trim()).get(),schema:p.schema},null,2));}
+[7m [0m [93m                                                                                                                                                                                                                                                                                                                                                            ~[0m
+
+[96mscripts/inspect-source.mjs[0m:[93m7[0m:[93m51[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m7[0m console.log('css', $('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().slice(0,10));
+[7m [0m [93m                                                  ~[0m
+[96mscripts/inspect-source.mjs[0m:[93m6[0m:[93m44[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m6[0m console.log('forms', $('form,iframe').map((i,e)=>({tag:e.tagName,action:$(e).attr('action'),src:$(e).attr('src'),id:$(e).attr('id')})).get());
+[7m [0m [93m                                           ~[0m
+[96mscripts/inspect-source.mjs[0m:[93m5[0m:[93m49[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m5[0m console.log('images', $('img').slice(0,15).map((i,e)=>({src:$(e).attr('src'),alt:$(e).attr('alt')})).get());
+[7m [0m [93m                                                ~[0m
+[96mscripts/inspect-source.mjs[0m:[93m4[0m:[93m80[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m4[0m console.log('content containers', $('main,article,[data-elementor-type]').map((i,e)=>({tag:e.tagName,cls:$(e).attr('class'),type:$(e).attr('data-elementor-type'),id:$(e).attr('data-elementor-id')})).get());
+[7m [0m [93m                                                                               ~[0m
+
+[96mscripts/optimize-editorial.mjs[0m:[93m208[0m:[93m770[0m - [93mwarning[0m[90m ts(6133): [0m'j' is declared but its value is never read.
+
+[7m208[0m for(const p of pages.filter(p=>!p.isArticle&&p.path!=='/blogs/')){const $=load(p.html,{},false);let count=0;$('article').each((i,e)=>{const card=$(e),href=card.find('h2 a[href]').first().attr('href'),article=byPath.get(preferred(href));if(!article?.isArticle)return;const image=article.editorial.images[0],variant=image.variants[0];card.find('h2 a').text(article.heading).attr('href',new URL(article.canonical).pathname);card.find('img').attr({src:variant.src,srcset:image.variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 600px) 90vw, 400px',width:String(image.width),height:String(image.height),alt:image.alt,loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');card.find('p').first().text(article.description);card.find('a[href]').each((j,a)=>{if($(a).attr('href')===href){$(a).attr('href',new URL(article.canonical).pathname);if(!$(a).find('img').length&&!$(a).closest('h2').length)$(a).text('Read the guide →');}});count++;});if(count){p.html=$.html();p.sections=[];revisions.push({path:p.path,type:'archive-listing-sync',cards:count,sourceArchive:baseline});}}
+[7m   [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m208[0m:[93m128[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m208[0m for(const p of pages.filter(p=>!p.isArticle&&p.path!=='/blogs/')){const $=load(p.html,{},false);let count=0;$('article').each((i,e)=>{const card=$(e),href=card.find('h2 a[href]').first().attr('href'),article=byPath.get(preferred(href));if(!article?.isArticle)return;const image=article.editorial.images[0],variant=image.variants[0];card.find('h2 a').text(article.heading).attr('href',new URL(article.canonical).pathname);card.find('img').attr({src:variant.src,srcset:image.variants.map(v=>`${v.src} ${v.width}w`).join(', '),sizes:'(max-width: 600px) 90vw, 400px',width:String(image.width),height:String(image.height),alt:image.alt,loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');card.find('p').first().text(article.description);card.find('a[href]').each((j,a)=>{if($(a).attr('href')===href){$(a).attr('href',new URL(article.canonical).pathname);if(!$(a).find('img').length&&!$(a).closest('h2').length)$(a).text('Read the guide →');}});count++;});if(count){p.html=$.html();p.sections=[];revisions.push({path:p.path,type:'archive-listing-sync',cards:count,sourceArchive:baseline});}}
+[7m   [0m [93m                                                                                                                               ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m196[0m:[93m328[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m196[0m  p.html=$.html();p.sections=[];p.title=b.title;p.heading=b.title;p.description=b.description;p.canonical=b.canonical;p.author=(p.author||'Navid').replace(/^Post author:\s*/i,'').trim()||'Navid';p.modifiedAt='2026-09-09T19:00:00Z';p.editorial={...b,images:images.map(x=>({...x,...imageManifest[x.key]}))};p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=norm($.text());p.formsPending=false;metadata(p,p.images[0].src);schemas(p);
+[7m   [0m [93m                                                                                                                                                                                                                                                                                                                                       ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m195[0m:[93m26[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m195[0m  $('a[href^="#"]').each((i,e)=>{const target=decodeURIComponent($(e).attr('href').slice(1));if(!ids.has(target))$(e).replaceWith($(e).contents());});
+[7m   [0m [93m                         ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m193[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m193[0m  const toc=$('h2').filter((i,e)=>!$(e).closest('aside,.article-resources,.article-related').length).slice(0,12).toArray();if(toc.length>=4){const html=`<nav class="article-toc" aria-label="In this guide"><p>In this guide</p><ul>${toc.map(e=>`<li><a href="#${$(e).attr('id')}">${esc($(e).text())}</a></li>`).join('')}</ul></nav>`;const hero=$('.article-hero');if(hero.length)hero.after(html);else $('.article-takeaway').after(html);}
+[7m   [0m [93m                           ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m192[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m192[0m  $('h2,h3,h4').each((i,e)=>{if($(e).attr('id'))return;const base=slug($(e).text())||'section';let id=base,n=1;while(ids.has(id))id=base+'-'+(++n);ids.add(id);$(e).attr('id',id);});
+[7m   [0m [93m                     ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m191[0m:[93m38[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m191[0m  const ids=new Set();$('[id]').each((i,e)=>{const id=$(e).attr('id');if(ids.has(id))$(e).removeAttr('id');else ids.add(id);});
+[7m   [0m [93m                                     ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m186[0m:[93m164[0m - [93mwarning[0m[90m ts(6133): [0m'key' is declared but its value is never read.
+
+[7m186[0m  for(const item of review.currentImages.filter(i=>/retain_small/.test(i.verdict)||/diagram/.test(i.reason))){const found=Object.entries(audit.assetCatalog).find(([key,a])=>a.src===item.localSource);if(found&&!images.some(i=>i.key===found[0]))$.root().append(figure({key:found[0],...found[1]},1));}
+[7m   [0m [93m                                                                                                                                                                   ~~~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m173[0m:[93m26[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m173[0m  $('p,div,span').filter((i,e)=>!$(e).children().length&&!norm($(e).text())).remove();
+[7m   [0m [93m                         ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m172[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m172[0m  $('h2,h3,h4,h5,h6').each((i,e)=>{const t=norm($(e).text()).replace(/^#?\d+[.):]?\s+/,'');$(e).text(t.replace(/^Final Recommendations$/i,'Before you decide').replace(/^Why Local Beats Online Every Time$/i,'Comparing a local and an online sale'));});
+[7m   [0m [93m                           ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m171[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m171[0m  $('p,li').each((i,e)=>{const text=norm($(e).text());if(/Cash\s*4\s*Gold/i.test(text)&&/(?:no transfers|cash (?:immediately|in hand)|pays? (?:in )?cash|same.day (?:cash|payment)|20.year|20\+ years)/i.test(text)){$(e).html(`At Cash 4 Gold &amp; Diamonds, discuss an evaluation of your actual items and review the final purchase offer. Payment is available by cash, bank wire, or business check. <a href="/contact-us/">Contact the Downtown Los Angeles location</a> to arrange your visit.`);removedClaims.push({path:p.path,type:'owner-confirmed-payment-copy',text:text.slice(0,180)});}});
+[7m   [0m [93m                 ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m168[0m:[93m19[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m168[0m   $('p,li').each((i,e)=>{const text=norm($(e).text());if(/\$/.test(text)&&/per gram|per ounce|today|current|right now|as of 2026|spot price|raw gold value/i.test(text)&&!/(?:if .* were|hypothetical|only an example)/i.test(text)){removedClaims.push({path:p.path,type:'stale-price-claim',text:text.slice(0,250)});$(e).remove();}});
+[7m   [0m [93m                  ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m167[0m:[93m20[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m167[0m   $('table').each((i,e)=>{const text=norm($(e).text());if(/\$/.test(text)&&/price|payout|gram|ounce|spot/i.test(text)){removedClaims.push({path:p.path,type:'unverified-price-table',text:text.slice(0,250)});$(e).remove();}});
+[7m   [0m [93m                   ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m165[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m165[0m  $('p,li').each((i,e)=>{const text=norm($(e).text());if(/\b(?:506\s+S\.?\s+Grand|606\s+S\s+Broadway|650\s+South\s+Hill)/i.test(text)){removedClaims.push({path:p.path,type:'unverified-third-party-location',text});$(e).remove();}else if(/8483 Melrose Place/i.test(text)){$(e).text('Retail overhead and service costs can influence an offer. Compare the final purchase amount and the explanation for the specific diamond you own.');}else if(/613 S Hill St/i.test(text)){$(e).text('The Hill Street corridor is part of the Downtown Los Angeles Jewelry District. When comparing watch buyers, confirm each business’s location and arrange a visit to review the actual watch.');}});
+[7m   [0m [93m                 ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m164[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m164[0m  $('p,li').each((i,e)=>{const text=norm($(e).text());if(/ranked #1|guaranteed.*best price|J\.P\. Morgan forecasts|\$6,000 per ounce|call or to/i.test(text)){removedClaims.push({path:p.path,type:'unsupported-claim-or-broken-copy',text});$(e).remove();}});
+[7m   [0m [93m                 ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m163[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m163[0m  $('p,li').each((i,e)=>{const text=norm($(e).text());if(/(?:we[’']ve|we have|we|I[’']ve|I have)\s+(?:personally\s+)?(?:tested|ranked|researched|spent time researching)|(?:our|the) (?:top pick|top recommendation|#1 pick|clear winner)|beats every|30[-–]50% below fair market/i.test(text)){removedClaims.push({path:p.path,type:'unsupported-comparative-claim',text:text.slice(0,220)});$(e).remove();}});
+[7m   [0m [93m                 ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m162[0m:[93m19[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m162[0m  $('table').each((i,e)=>{if(/★|Rating|Rank|Winner|Best For|Cash 4 Gold/i.test($(e).text())){removedClaims.push({path:p.path,type:'unsupported-comparison-table',text:norm($(e).text()).slice(0,180)});$(e).remove();}});
+[7m   [0m [93m                  ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m161[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m161[0m  $('h2,h3,h4').each((i,e)=>{if(!e.parent)return;const text=norm($(e).text());if(/^(?:#\d+|\d+[.):]\s+.*(?:Cash 4|Blue Nile|Zales|Mejuri|Tiffany|Cartier|Van Cleef|Marco Bicego|Eastman|Landstrom|Amazon|Local Jewelry|Black Hills Gold Direct)|Best (?:for|Overall):)|comparison table|top .* (?:ranked|brands compared)|why cash.*wins|why .* (?:is your best|ranks|wins)|^the bottom line: why cash|#1 (?:Pick|Choice)/i.test(text)){removedClaims.push({path:p.path,type:'unsupported-ranking-section',text});stripSection($,e);}});
+[7m   [0m [93m                     ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m158[0m:[93m17[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m158[0m  $('p').filter((i,e)=>/^Related:/i.test($(e).text().trim())).remove();
+[7m   [0m [93m                ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m157[0m:[93m105[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m157[0m  $('h2,h3,h4').filter((i,e)=>/you might also like|related (?:posts|articles)/i.test($(e).text())).each((i,e)=>stripSection($,e));
+[7m   [0m [93m                                                                                                        ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m157[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m157[0m  $('h2,h3,h4').filter((i,e)=>/you might also like|related (?:posts|articles)/i.test($(e).text())).each((i,e)=>stripSection($,e));
+[7m   [0m [93m                       ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m150[0m:[93m103[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m150[0m  if(type==='Service'){const $=load(p.html);graph.push({'@type':'FAQPage',mainEntity:$('details').map((i,e)=>({'@type':'Question',name:$(e).find('summary').text(),acceptedAnswer:{'@type':'Answer',text:$(e).children('div').text()}})).get()});}
+[7m   [0m [93m                                                                                                      ~[0m
+[96mscripts/optimize-editorial.mjs[0m:[93m129[0m:[93m56[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m129[0m function normalizeLinks($,p,config){$('a[href]').each((i,e)=>{const a=$(e),old=a.attr('href');let u;try{u=new URL(old,origin+p.path);}catch{a.replaceWith(a.contents());return;}if(!/^https?:$/.test(u.protocol))return;for(const key of [...u.searchParams.keys()])if(/^(utm_|srsltid$|fbclid$)/.test(key))u.searchParams.delete(key);
+[7m   [0m [93m                                                       ~[0m
+
+[96mscripts/prepare-iced-jewelry-images.mjs[0m:[93m96[0m:[93m78[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m96[0m   for(const p of pages){const $=load(p.html,{},false);p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=$.text().replace(/\s+/g,' ').trim();const row=ledger.rows.find(r=>r.path===p.path);if(row?.status==='reviewed')row.afterHtmlSha256=hash(p.html);}
+[7m  [0m [93m                                                                             ~[0m
+
+[96mscripts/read-editorial-review.mjs[0m:[93m13[0m:[93m330[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m  console.log(JSON.stringify({index,path:p.path,title:p.title,description:p.description,canonical:p.canonical,beforeHtmlSha256:crypto.createHash('sha256').update(baseline.find(b=>b.path===originalPath(p.path)).html).digest('hex'),body:$.root().text().replace(/[ \t]+/g,' ').replace(/\n\s*\n/g,'\n').trim(),links:$('a[href]').map((i,e)=>({text:$(e).text(),href:$(e).attr('href')})).get()},null,2));
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                         ~[0m
+
+[96mscripts/review-editorial.mjs[0m:[93m7[0m:[93m92[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m7[0m for(const p of pages.filter(p=>p.isArticle)){const $=load(p.html);$('h2,h3,p,li,td').each((i,e)=>{const t=$(e).text().trim();if(/★★★★★|we[’']ve tested|GIA.certified apprais|guaranteed.*(?:price|payout)|#1|\b550 S|\b609 S|call or to|\$[\d,]+.*(?:per gram|today)|(?:tested|ranked)\s+(?:five|six|seven|the top)/i.test(t))claims.push({path:p.path,text:t.slice(0,700)});});}
+[7m [0m [93m                                                                                           ~[0m
+
+[96mscripts/source-details.mjs[0m:[93m7[0m:[93m58[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m7[0m console.log('Home widgets', $('[data-widget_type]').map((i,e)=>({type:$(e).attr('data-widget_type'),text:$(e).text().replace(/\s+/g,' ').trim().slice(0,180)})).get());
+[7m [0m [93m                                                         ~[0m
+[96mscripts/source-details.mjs[0m:[93m6[0m:[93m56[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m6[0m console.log('Home sections', $('body').children().map((i,e)=>({tag:e.tagName,cls:$(e).attr('class'),id:$(e).attr('data-id'),text:$(e).text().replace(/\s+/g,' ').trim().slice(0,240)})).get());
+[7m [0m [93m                                                       ~[0m
+
+[96mscripts/sync-final-content.mjs[0m:[93m13[0m:[93m26[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m   p.images=$('img').map((i,e)=>({...e.attribs})).get();
+[7m  [0m [93m                         ~[0m
+
+[96mscripts/verify-built-site.mjs[0m:[93m20[0m:[93m515[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m20[0m  rows.push({path:p.path,htmlBytes:Buffer.byteLength(html),htmlGzipBytes:gzipSync(html).length,title:$('title').text(),description:$('meta[name=description]').attr('content'),canonical,robots,singleH1:$('main h1').length===1,headingSkips:headings.flatMap((level,i)=>i&&level>headings[i-1]+1?[{previous:headings[i-1],level}]:[]),images:$('img').length,missingAlt:$('img:not([alt])').length,missingImageDimensions:$('img').toArray().filter(e=>!e.attribs.width||!e.attribs.height).length,scripts:$('script[src]').map((i,e)=>$(e).attr('src')).get(),referencedFallbackAssetBytes:[...pageAssets].reduce((n,u)=>n+(assets.get(u)?.bytes||0),0),note:'Referenced image totals include lazy/offscreen assets, not initial transfer size.'});
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ~[0m
+[96mscripts/verify-built-site.mjs[0m:[93m13[0m:[93m144[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m  const canonical=$('link[rel=canonical]').attr('href'),robots=$('meta[name=robots]').attr('content'),headings=$('main h1,h2,h3,h4,h5,h6').map((i,e)=>Number(e.tagName.slice(1))).get();
+[7m  [0m [93m                                                                                                                                               ~[0m
+[96mscripts/verify-built-site.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'byPath' is declared but its value is never read.
+
+[7m8[0m const byPath=new Map(pages.map(p=>[p.path,p])),documents=new Map(),errors=[],rows=[],assets=new Map(),incoming=new Map(pages.map(p=>[p.path,new Set()]));
+[7m [0m [93m      ~~~~~~[0m
+
+[96mscripts/verify-cms-projection.mjs[0m:[93m8[0m:[93m724[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m8[0m for(const doc of docs.filter(d=>d._type==='page'&&d.kind==='article')){try{const old=byPath.get(doc.path),p=projectCmsPage({...expand(doc),contentMode:'richText'},old,{projectId:'preview',dataset:'staging'}),$=load(p.html),schema=JSON.parse(p.schema[0])['@graph'].find(n=>n['@type']==='BlogPosting');assert.equal(p.title,old.title);assert.equal(p.description,old.description);assert.equal(p.publishedAt,old.publishedAt);assert.equal(schema.headline,old.heading);assert.equal(schema.url,old.canonical);assert.equal($('img').length,old.images.length);assert.equal($('.article-takeaway').length,1);assert.equal($('.article-resources').length,1);assert.equal($('.article-related').length,1);assert.equal(new Set($('[id]').map((i,e)=>$(e).attr('id')).get()).size,$('[id]').length);for(const s of doc.sources)assert.ok($('a').toArray().some(e=>$(e).attr('href')===s.url));for(const anchor of doc.legacyAnchors||[])assert.ok($('[id]').toArray().some(e=>$(e).attr('id')===anchor));articles++;images+=$('img').length;anchors+=(doc.legacyAnchors||[]).length;}catch(e){errors.push({path:doc.path,error:e.message});}}
+[7m [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ~[0m
+
+[96mscripts/verify-policy-output.mjs[0m:[93m8[0m:[93m209[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m8[0m  const robots=await fs.readFile(folder+'/robots.txt','utf8'),headers=await fs.readFile(folder+'/_headers','utf8'),xml=load(await fs.readFile(folder+'/sitemap.xml','utf8'),{xmlMode:true}),urls=xml('loc').map((i,e)=>xml(e).text()).get(),expected=sitemapEntries(pages,{indexable:production});
+[7m [0m [93m                                                                                                                                                                                                                ~[0m
+
+[96mscripts/verify-substantive.mjs[0m:[93m25[0m:[93m78[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m25[0m  check(p.path,'Two distinct reviewed image placements',new Set($('img').map((i,e)=>$(e).attr('src')).get()).size>=2);
+[7m  [0m [93m                                                                             ~[0m
+[96mscripts/verify-substantive.mjs[0m:[93m22[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m22[0m  const ids=$('[id]').map((i,e)=>$(e).attr('id')).get();check(p.path,'No duplicate body IDs',ids.length===new Set(ids).size);
+[7m  [0m [93m                          ~[0m
+
+[96mscripts/verify.mjs[0m:[93m27[0m:[93m251[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m27[0m  if(originalHtml||editorialRevision){const raw=load(editorialRevision?p.html:originalHtml);raw('script,style,noscript,form,.elementor-hidden-desktop.elementor-hidden-tablet.elementor-hidden-mobile').remove();raw('h1,h2,h3,h4,h5,h6,p,li,td,th').each((i,e)=>{const text=norm(correctAddressText(raw(e).text(),p.path));if(text.length>8){compared++;if(!renderedText.includes(text))missing.push(text.slice(0,180))}})}else failures.push({path:p.path,check:'source-evidence-missing'});
+[7m  [0m [93m                                                                                                                                                                                                                                                          ~[0m
+
+[96mscripts/write-audit-handoff.mjs[0m:[93m26[0m:[93m900[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m26[0m  return {sourceId:s?.id||'unavailable',sourceType:type,sourceStatus:s?.status||c?.status||c?.error||'source status unavailable',oldUrl,sourceTimestamp:s?.modified_gmt||c?.capturedAt||'See capture report',title:text(s?.title?.rendered)||c?.title||p?.title||'',contentReference:s?base+'/wordpress-api/'+(s.type==='post'?'posts':'pages')+'.json#id='+s.id:c?.originalFile?base+'/live-source/html/'+c.originalFile:'migration/source-evidence/crawl.json',sourceChecksum:s?hash(JSON.stringify(s)):c?.sourceSha256||'unavailable',headings:dom('h1,h2,h3,h4,h5,h6').map((i,e)=>dom(e).text()).get().join(' | '),author:s?.author!==undefined?'WordPress author ID '+s.author:p?.author||'unavailable',publishedAt:s?.date_gmt||p?.publishedAt||'',modifiedAt:s?.modified_gmt||p?.modifiedAt||'',categories:JSON.stringify(s?.categories||p?.categories||[]),tags:JSON.stringify(s?.tags||[]),imageReferences:dom('img').map((i,e)=>dom(e).attr('src')).get().join(' | '),seoTitle:c?.title||'private Rank Math value unavailable',seoDescription:c?.description||'private Rank Math value unavailable',canonical:c?.canonical||'unavailable from source',robots:c?.robots||'unavailable from source',schemaReference:c?.originalFile?base+'/live-source/html/'+c.originalFile:'Unavailable in public REST fields',proposedDestination:p?'https://cash4goldanddiamond.com'+p.path:'UNRESOLVED source error/redirect or export needed',sanityId:doc?._id||'',action:p?(p.isArticle?'Preserve route; proposed editorial revision retained separately':target!==new URL(oldUrl).pathname?'Existing redirect mapping':'Preserve route and compare sections'):'Investigate; no removal approved',approvalReference:p?.isArticle?'Rewrite preparation authorized; human factual/media approval not recorded':'Owner facts: HOME-DISPLAY-AND-BUSINESS-NOTES.md; full disposition pending',migrationStatus:p?'BLOCKED — route present; source/metadata/disposition approval incomplete':'BLOCKED — no approved disposition',verificationEvidence:'wordpress-reconciliation.json; migration-comparison.json; substantive-review.json; verification.json'};
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ~[0m
+[96mscripts/write-audit-handoff.mjs[0m:[93m26[0m:[93m560[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m26[0m  return {sourceId:s?.id||'unavailable',sourceType:type,sourceStatus:s?.status||c?.status||c?.error||'source status unavailable',oldUrl,sourceTimestamp:s?.modified_gmt||c?.capturedAt||'See capture report',title:text(s?.title?.rendered)||c?.title||p?.title||'',contentReference:s?base+'/wordpress-api/'+(s.type==='post'?'posts':'pages')+'.json#id='+s.id:c?.originalFile?base+'/live-source/html/'+c.originalFile:'migration/source-evidence/crawl.json',sourceChecksum:s?hash(JSON.stringify(s)):c?.sourceSha256||'unavailable',headings:dom('h1,h2,h3,h4,h5,h6').map((i,e)=>dom(e).text()).get().join(' | '),author:s?.author!==undefined?'WordPress author ID '+s.author:p?.author||'unavailable',publishedAt:s?.date_gmt||p?.publishedAt||'',modifiedAt:s?.modified_gmt||p?.modifiedAt||'',categories:JSON.stringify(s?.categories||p?.categories||[]),tags:JSON.stringify(s?.tags||[]),imageReferences:dom('img').map((i,e)=>dom(e).attr('src')).get().join(' | '),seoTitle:c?.title||'private Rank Math value unavailable',seoDescription:c?.description||'private Rank Math value unavailable',canonical:c?.canonical||'unavailable from source',robots:c?.robots||'unavailable from source',schemaReference:c?.originalFile?base+'/live-source/html/'+c.originalFile:'Unavailable in public REST fields',proposedDestination:p?'https://cash4goldanddiamond.com'+p.path:'UNRESOLVED source error/redirect or export needed',sanityId:doc?._id||'',action:p?(p.isArticle?'Preserve route; proposed editorial revision retained separately':target!==new URL(oldUrl).pathname?'Existing redirect mapping':'Preserve route and compare sections'):'Investigate; no removal approved',approvalReference:p?.isArticle?'Rewrite preparation authorized; human factual/media approval not recorded':'Owner facts: HOME-DISPLAY-AND-BUSINESS-NOTES.md; full disposition pending',migrationStatus:p?'BLOCKED — route present; source/metadata/disposition approval incomplete':'BLOCKED — no approved disposition',verificationEvidence:'wordpress-reconciliation.json; migration-comparison.json; substantive-review.json; verification.json'};
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ~[0m
+[96mscripts/write-audit-handoff.mjs[0m:[93m14[0m:[93m428[0m - [93mwarning[0m[90m ts(6133): [0m'accounts' is declared but its value is never read.
+
+[7m14[0m const built=await optional(base+'/built-site-verification.json'),projection=await optional('migration/cms-projection-verification.json'),editorial=await optional('migration/editorial-verification.json'),preservation=await optional('migration/verification.json'),substantive=await optional('migration/substantive-verification.json'),backlog=await optional(base+'/social-backlog.json'),baseline=await read(base+'/baseline.json'),accounts=await read(base+'/account-observations.json');
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                                                                                                           ~~~~~~~~[0m
+[96mscripts/write-audit-handoff.mjs[0m:[93m14[0m:[93m66[0m - [93mwarning[0m[90m ts(6133): [0m'projection' is declared but its value is never read.
+
+[7m14[0m const built=await optional(base+'/built-site-verification.json'),projection=await optional('migration/cms-projection-verification.json'),editorial=await optional('migration/editorial-verification.json'),preservation=await optional('migration/verification.json'),substantive=await optional('migration/substantive-verification.json'),backlog=await optional(base+'/social-backlog.json'),baseline=await read(base+'/baseline.json'),accounts=await read(base+'/account-observations.json');
+[7m  [0m [93m                                                                 ~~~~~~~~~~[0m
+
+[96msrc/layouts/Base.astro[0m:[93m30[0m:[93m31[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m30[0m  {page.schema?.map(s=><script type="application/ld+json" set:html={safeSchema(s)}/>)}
+[7m  [0m [93m                              ~~~~[0m
+
+[96msrc/lib/article-image-assignments.mjs[0m:[93m31[0m:[93m35[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m31[0m      const node=$('[id]').filter((i,e)=>['source-'+section.id,section.id].includes($(e).attr('id'))).first();
+[7m  [0m [93m                                  ~[0m
+[96msrc/lib/article-image-assignments.mjs[0m:[93m24[0m:[93m242[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m24[0m    for(const path of ['/large-diamond-buyer-los-angeles/','/where-to-sell-fine-jewelry-downtown-los-angeles/','/best-18k-gold-rings-2026-ranked/','/3-5-carat-oval-diamond-ring-buying-step-by-step-guide/']){const card=$('.blog-card').filter((i,e)=>$(e).attr('href')===path).first();if(card.length){card.attr('id','guide-'+assignments[path].key);featured.append(card);}}
+[7m  [0m [93m                                                                                                                                                                                                                                                 ~[0m
+[96msrc/lib/article-image-assignments.mjs[0m:[93m20[0m:[93m56[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m20[0m   if(!p.isArticle)$('a[href]').not('.blog-card').each((i,e)=>{const link=$(e),target=byPath.get(link.attr('href'));if(!target?.isArticle)return;const img=link.find('img').first();if(img.length&&target.images[0]){img.attr({...target.images[0],sizes:'(max-width: 600px) 90vw, 400px',loading:'lazy'});touched=true;}});
+[7m  [0m [93m                                                       ~[0m
+[96msrc/lib/article-image-assignments.mjs[0m:[93m19[0m:[93m25[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m19[0m   $('.blog-card').each((i,e)=>{const card=$(e),target=byPath.get(card.attr('href'));if(!assignments[target?.path])return;const img=card.find('img').first();if(!img.length)return;const first=target.images[0];card.attr('id','guide-'+assignments[target.path].key);img.attr({...first,sizes:'(max-width: 600px) 90vw, (max-width: 900px) 44vw, 400px',loading:'lazy'});touched=true;});
+[7m  [0m [93m                        ~[0m
+[96msrc/lib/article-image-assignments.mjs[0m:[93m11[0m:[93m56[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m11[0m   p.html=$.html();p.sections=[];p.images=$('img').map((i,e)=>({...e.attribs})).get();p.sourceText=$.text().replace(/\s+/g,' ').trim();
+[7m  [0m [93m                                                       ~[0m
+
+[96msrc/lib/cms-page.mjs[0m:[93m35[0m:[93m89[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m35[0m  const $=load(html,{},false);$('h1').first().text(doc.title);const images=$('img').map((i,e)=>({...e.attribs})).get(),title=doc.seo?.title||doc.title,description=doc.seo?.description||'',socialImage=cmsImageUrl(doc.seo?.socialImage,context)||(doc.contentMode==='richText'&&images[0]?.src?new URL(images[0].src,origin).href:doc.seo?.sourceSocialImage)||(images[0]?.src?new URL(images[0].src,origin).href:'');
+[7m  [0m [93m                                                                                        ~[0m
+[96msrc/lib/cms-page.mjs[0m:[93m21[0m:[93m63[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m21[0m  for(const faq of doc.faqs||[]){const h=$('h2,h3,h4').filter((i,e)=>$(e).text().trim()===faq.question).first();if(h.length&&h.next('p').length)h.next('p').text(faq.answer);}
+[7m  [0m [93m                                                              ~[0m
+[96msrc/lib/cms-page.mjs[0m:[93m17[0m:[93m49[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m17[0m  const seen=new Set();$('h2,h3,h4,h5,h6').each((i,e)=>{const base=$(e).attr('id')||$(e).text().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'section';let id=base,n=1;while(seen.has(id))id=base+'-'+(++n);seen.add(id);$(e).attr('id',id);});
+[7m  [0m [93m                                                ~[0m
+
+[96msrc/lib/content.ts[0m:[93m20[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'escape' is declared but its value is never read.
+
+[7m20[0m const escape=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+[7m  [0m [93m      ~~~~~~[0m
+
+[96msrc/lib/editorial-checks.mjs[0m:[93m2[0m:[93m8[0m - [93mwarning[0m[90m ts(6133): [0m'text' is declared but its value is never read.
+
+[7m2[0m  const text=(doc.body||[]).flatMap(b=>(b.children||[]).map(c=>c.text||'')).join(' ');
+[7m [0m [93m       ~~~~[0m
+
+[96msrc/lib/image-overrides.mjs[0m:[93m10[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m10[0m  $('img[src]').each((i,node)=>{
+[7m  [0m [93m                     ~[0m
+
+[96msrc/pages/[...slug].astro[0m:[93m7[0m:[93m20[0m - [93mwarning[0m[90m ts(6133): [0m'status' is declared but its value is never read.
+
+[7m7[0m const {page,target,status}=Astro.props as {page:Page,target?:string,status?:301|302};
+[7m [0m [93m                   ~~~~~~[0m
+
+[96mtests/social-publishing.test.mjs[0m:[93m58[0m:[93m135[0m - [93mwarning[0m[90m ts(6133): [0m'options' is declared but its value is never read.
+
+[7m58[0m  const result=await publishSocial(makeSocialJob(approved(),'instagram'),env,{saveContainer:async id=>saved.push(id),fetcher:async(url,options)=>{calls.push(new URL(url).pathname);if(calls.length===3)assert.deepEqual(saved,['11']);const value=responses.shift();if(!value)throw Error('read unavailable');return Response.json(value);}});
+[7m  [0m [93m                                                                                                                                      ~~~~~~~[0m
+
+[96mworkers/social/index.mjs[0m:[93m67[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'controller' is declared but its value is never read.
+
+[7m67[0m  async scheduled(controller,env,ctx){ctx.waitUntil(runSocialAutomation(env));},
+[7m  [0m [93m                 ~~~~~~~~~~[0m
+
+Result (139 files): 
+- 0 errors
+- 0 warnings
+- 143 hints
+

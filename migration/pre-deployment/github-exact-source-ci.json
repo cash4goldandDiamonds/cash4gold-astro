@@ -1,0 +1,15 @@
+{
+  "repository": "cash4goldandDiamonds/cash4gold-astro",
+  "branch": "audit/pre-deployment-2026-09-10",
+  "commit": "c4ea1238669f1385e80deb998ae5a09455191dcb",
+  "tree": "89bd404ad96b7b1cd181a17e2afc2b3e856ab4b7",
+  "files": 1046,
+  "run": 34557899635,
+  "job": 103134392646,
+  "url": "https://github.com/cash4goldandDiamonds/cash4gold-astro/actions/runs/34557899635",
+  "status": "PASS",
+  "tests": 33,
+  "failures": 0,
+  "method": "Authenticated GitHub Actions UI: fresh checkout pinned to exact head; source identity, test totals, completed install/build/verification steps inspected",
+  "bytes": 103354486
+}

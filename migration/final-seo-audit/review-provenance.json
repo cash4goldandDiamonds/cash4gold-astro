@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-09-11T11:31:16.543Z",
+  "method": "Read-only Google Maps business profile and review share dialogs; no business listing, review or owner reply was edited.",
+  "business": "Cash 4 Gold & Diamonds",
+  "address": "617 S Hill St, Los Angeles, CA 90014",
+  "phone": "310-663-1340",
+  "website": "https://cash4goldanddiamond.com/",
+  "profile": "https://maps.app.goo.gl/zcu9rXLfB5BWKnKy9",
+  "excerptWordCount": 17,
+  "records": [
+    {
+      "publicDisplayName": "Nikki Mirmaid",
+      "url": "https://maps.app.goo.gl/zgroqCXXFqnVcqjPA",
+      "displayedAge": "5 months ago",
+      "excerptScope": "Opening seven words, with ellipsis; full review visible in Google Maps."
+    },
+    {
+      "publicDisplayName": "Jennifer V",
+      "url": "https://maps.app.goo.gl/cQ99HXxoi4m42kYJ8",
+      "displayedAge": "3 months ago",
+      "excerptScope": "Complete ten-word communication sentence visible in Google Maps."
+    }
+  ],
+  "publication": "Two short attributed excerpts on Reviews only. No rating, count, reviewer image, Review or AggregateRating schema. Public review attribution is intentional; no private customer records are included."
+}

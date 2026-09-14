@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-11T03:10:01.473Z",
+  "method": "Authenticated GitHub Actions browser inspection",
+  "status": "PASS",
+  "headCommit": "577f11953037dc7f3098cfad4a0f5a090be4c93e",
+  "baseCommit": "ed8571bd28de71525eec46b14f56956934e26410",
+  "run": 34554005853,
+  "job": 103122668882,
+  "url": "https://github.com/cash4goldandDiamonds/cash4gold-astro/actions/runs/34554005853",
+  "checkout": "Fresh GitHub PR merge checkout; log shows merge of exact head into unchanged original main",
+  "checkedSteps": [
+    "frozen-lockfile install",
+    "unit tests",
+    "schema",
+    "source-security",
+    "Astro check",
+    "production build",
+    "built site",
+    "CMS projection",
+    "editorial",
+    "substantive",
+    "source/routes",
+    "dependency audit"
+  ],
+  "limitations": [
+    "No staging deployment or hosted QA implied"
+  ]
+}

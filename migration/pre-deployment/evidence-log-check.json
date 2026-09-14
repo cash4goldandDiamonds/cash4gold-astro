@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-09-10T20:22:00.318Z",
+  "scope": "Known local audit command logs; UTF-8/UTF-16 decoding and high-confidence credential/assignment patterns. Not a complete security certification.",
+  "logs": [
+    {
+      "file": "migration/pre-deployment/build.log",
+      "bytes": 15892,
+      "sha256": "a8329dbece4a757abfc0a6cf8b5b74d258131d2564aea1514e12a1aeedf87b3f"
+    },
+    {
+      "file": "migration/pre-deployment/built-site-tests.log",
+      "bytes": 184,
+      "sha256": "007aaebe6e89c42b9d1cff7ac4a856b6e2e15eeb61c27871264de6253cd1d3dd"
+    },
+    {
+      "file": "migration/pre-deployment/cloudflare-local-runtime.log",
+      "bytes": 638,
+      "sha256": "6dedfb631378b597b79fb9167daf70f563e2b0ac1da7b3dd04c98b326b0a65cc"
+    },
+    {
+      "file": "migration/pre-deployment/cms-export.log",
+      "bytes": 71,
+      "sha256": "16ad1e3b6dc79c425a18fc3e0bfa08ddcf47c1f1f831a4e5dc0d3e5e13edecb8"
+    },
+    {
+      "file": "migration/pre-deployment/cms-tests.log",
+      "bytes": 313,
+      "sha256": "92fde10e9c97209a70b83bc6933ed3b5a8f18774d76709e3e3e02110d0a9ba89"
+    },
+    {
+      "file": "migration/pre-deployment/design-tests.log",
+      "bytes": 481,
+      "sha256": "b652938adab1d41619885af38132236124fd92e7f4fe69c84cda767eea37e11c"
+    },
+    {
+      "file": "migration/pre-deployment/editorial-tests.log",
+      "bytes": 105,
+      "sha256": "468f19b45bb95d66d549a60c3e1a90e446b76cbb266671221f27f5fbd75e66b3"
+    },
+    {
+      "file": "migration/pre-deployment/import-dry-run.log",
+      "bytes": 111,
+      "sha256": "9c7bd896f1ec5336487f36af64642b15445495424c9f45f989b32ef57c3298a4"
+    },
+    {
+      "file": "migration/pre-deployment/install.log",
+      "bytes": 2308,
+      "sha256": "a04703a70592780236b130cff80a864250b1a59d3723033e9f569eaa92f18ece"
+    },
+    {
+      "file": "migration/pre-deployment/preservation-tests.log",
+      "bytes": 108,
+      "sha256": "927353023e4dc69e7b07d058e7865c75dea8d82066a6e55286a36c3059f7b6cb"
+    },
+    {
+      "file": "migration/pre-deployment/production-audit-build.log",
+      "bytes": 15921,
+      "sha256": "d05b316eadfae94138bca833872fc7e933a8bbf5af7d2cd9f5ef9bf11ad5c7a0"
+    },
+    {
+      "file": "migration/pre-deployment/release-readiness.log",
+      "bytes": 97,
+      "sha256": "ff9ac81a9de2bf9b5b48dc9b2cca009dc2e2fa52504cb9af023866004eaefaf5"
+    },
+    {
+      "file": "migration/pre-deployment/schema-tests.log",
+      "bytes": 43,
+      "sha256": "08f987d261d870bc7227f9f9777d6c10ef4d8f93baba0e72b40a245c88cbe77d"
+    },
+    {
+      "file": "migration/pre-deployment/social-queue-tests-initial.log",
+      "bytes": 2444,
+      "sha256": "2a5f91e3427d593728efa68bc31f64077aa59e2acf781cd061dee8862391e13e"
+    },
+    {
+      "file": "migration/pre-deployment/social-queue-tests.log",
+      "bytes": 1475,
+      "sha256": "66eda57d03c34a83a2dd3ffc29355aa0dc8cd6b36cce6fd9b6c8cb05e4565fc4"
+    },
+    {
+      "file": "migration/pre-deployment/substantive-tests.log",
+      "bytes": 42,
+      "sha256": "fe4f1f3bdca57e30ce6217566062bda65445f835e5c9e3ccebca16fd12ca389c"
+    },
+    {
+      "file": "migration/pre-deployment/tooling-install.log",
+      "bytes": 1517,
+      "sha256": "f6ba50f84f6b0956cb6a7ceda779de75f04ba5edc0deddfd0914ba6f1102ee1f"
+    },
+    {
+      "file": "migration/pre-deployment/tooling-security-fix.log",
+      "bytes": 1739,
+      "sha256": "df0f325a537b2df7e4a76bb73abf49bbb406adcd1ae0e4ad46ff8fe7e316c2f2"
+    },
+    {
+      "file": "migration/pre-deployment/typecheck.log",
+      "bytes": 117229,
+      "sha256": "c3e52755a1686f18b70506ff29db99b0f54a7676bca67850d5011898a201670c"
+    },
+    {
+      "file": "migration/pre-deployment/unit-tests.log",
+      "bytes": 2888,
+      "sha256": "c706b94359c3cfb31b82d9a3b25f0eb31afa370d9b03f06b9e55aff6fb33eca7"
+    },
+    {
+      "file": "migration/pre-deployment/wrangler-help.log",
+      "bytes": 4900,
+      "sha256": "a784c1b4d54c00cc6af8934918e6dfed00b3d83bfad558e56bad19d264474d06"
+    }
+  ],
+  "findings": []
+}

@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-10T23:09:51.475Z",
+  "method": "Actual Studio keyboard edit followed by API readback",
+  "text": "Synthetic rich-text editing check.x",
+  "sourceId": "preserved-section-anchor",
+  "className": "preserved-paragraph",
+  "blockKey": "preserved-block",
+  "legacyAnchors": [
+    "preserved-section-anchor"
+  ],
+  "published": false,
+  "status": "PASS"
+}

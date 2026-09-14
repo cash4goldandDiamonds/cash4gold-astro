@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-09-10T22:42:07.057Z",
+  "projectId": "gisdw6qa",
+  "dataset": "migration-staging",
+  "status": "BLOCKED",
+  "method": "Actual Sanity Actions API using an isolated synthetic FAQ; not an editor-role or Studio usability test",
+  "steps": [
+    {
+      "name": "Private dataset verified",
+      "status": "PASS",
+      "checkedAt": "2026-09-10T22:42:07.412Z"
+    }
+  ],
+  "productionWrites": 0,
+  "probeId": "acceptance-probe-7853c86b-2d8c-4341-bafe-6de73233abf2",
+  "backupDirectory": ".cache\\cms-backups\\lifecycle-1789080127059",
+  "failure": {
+    "code": "ERR_ASSERTION",
+    "httpStatus": null,
+    "assertion": "The expression evaluated to a falsy value:\n\n  assert.ok([401,403,404].includes(anonymousStatus))\n"
+  },
+  "completedAt": "2026-09-10T22:42:07.742Z",
+  "notProven": [
+    "Studio browser editing and image upload",
+    "Editor/contributor permission boundaries",
+    "Full dataset and asset restoration into another private dataset",
+    "Protected deployed draft preview",
+    "Webhook-triggered build and deployment"
+  ]
+}
