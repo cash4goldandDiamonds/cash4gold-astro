@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Cash 4 Gold &amp; Diamonds</name>
+    <address>617 S. Hill Street, Los Angeles, CA 90014</address>
+    <phoneNumber>310-663-1340</phoneNumber>
+    <description>Website: https://cash4goldanddiamond.com/</description>
+    <Point>
+      <coordinates>-118.2535846,34.0470879</coordinates>
+    </Point>
+  </Placemark>
+</kml>

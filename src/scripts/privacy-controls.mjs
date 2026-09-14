@@ -1,4 +1,5 @@
 import {CONSENT_STORAGE_KEY,CONSENT_LIFETIME,readConsent,createConsent,safeConversion,analyticsSettings} from '../lib/privacy-consent.mjs';
+import {conversionClick} from '../lib/conversion-click.mjs';
 export function initializePrivacyControls(){
  const root=document.querySelector('[data-privacy-controls]');if(!root||root.dataset.ready)return;root.dataset.ready='true';
  const dialog=root.querySelector('[data-privacy-dialog]'),choice=root.querySelector('[data-analytics-choice]'),status=root.querySelector('[data-privacy-status]');
@@ -70,8 +71,8 @@ export function initializePrivacyControls(){
   if(!hasConsent()||!loaded)return;const event=safeConversion(name,pagePath);if(event)gtag('event',event.name,{send_to:id,...event.parameters,...(environment==='preview'?{debug_mode:true}:{})});
  };
  document.addEventListener('click',event=>{
-  const anchor=event.target instanceof Element?event.target.closest('a[href]'):null;if(!anchor)return;let u;try{u=new URL(anchor.href,location.href);}catch{return;}
-  if(u.protocol==='tel:')track('phone_click');else if(u.protocol==='mailto:')track('email_click');else if(u.hostname==='calendly.com')track('appointment_click');else if((u.hostname==='www.google.com'&&u.pathname.startsWith('/maps'))||u.hostname==='maps.app.goo.gl')track('directions_click');
+  const anchor=event.target instanceof Element?event.target.closest('a[href]'):null;if(!anchor)return;
+  const name=conversionClick(anchor.href,anchor.getAttribute('aria-label')||anchor.textContent,location.href);if(name)track(name);
  });
  window.addEventListener('cash4gold:inquiry-accepted',()=>track('inquiry_accepted'));
  window.addEventListener('storage',event=>{

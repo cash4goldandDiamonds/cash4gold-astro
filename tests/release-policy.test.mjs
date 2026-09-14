@@ -6,3 +6,13 @@ test('preview fails closed and never advertises URLs for indexing',()=>{const p=
 test('production indexing requires both explicit settings and published content',()=>{assert.throws(()=>releasePolicy({SITE_ENV:'production'}));assert.throws(()=>releasePolicy({ENABLE_PRODUCTION_INDEXING:'true'}));assert.throws(()=>releasePolicy({SITE_ENV:'production',ENABLE_PRODUCTION_INDEXING:'true',SANITY_PERSPECTIVE:'drafts'}));assert.throws(()=>releasePolicy({SITE_ENV:'typo'}));assert.equal(releasePolicy({SANITY_PERSPECTIVE:'drafts'}).perspective,'drafts');});
 test('production sitemap excludes aliases, noindex pages, errors and future dates',()=>{const policy=releasePolicy({SITE_ENV:'production',ENABLE_PRODUCTION_INDEXING:'true'});const entries=sitemapEntries([{path:'/',modifiedAt:'2026-01-01'},{path:'/alias/',canonical:siteOrigin+'/'},{path:'/private/',robots:'noindex,follow'},{path:'/future/',modifiedAt:'2999-01-01'},{path:'/404/'}],policy);assert.deepEqual(entries.map(x=>x.loc),[siteOrigin+'/',siteOrigin+'/future/']);assert.equal(entries[1].lastmod,undefined);assert.match(sitemapXml(entries),/<lastmod>2026-01-01T00:00:00.000Z<\/lastmod>/);assert.equal(pageRobots({path:'/x/',robots:'index,nofollow'},policy),'index,nofollow,max-image-preview:large');assert.doesNotMatch(hostHeaders(policy).split('/404.html')[0],/X-Robots-Tag: noindex/);});
 test('CMS redirects support 302 while rejecting missing targets, loops and dangerous paths',()=>{const pages=[{path:'/target/'}];assert.deepEqual(resolveRedirects({'/old/':'/target/'},[{from:'/temp/',to:'/target/',status:302}],pages),[{from:'/old/',to:'/target/',status:301},{from:'/temp/',to:'/target/',status:302}]);for(const rules of [[{from:'/a/',to:'/b/'},{from:'/b/',to:'/a/'}],[{from:'/target/',to:'/target/'}],[{from:'/a/',to:'//evil.example/'}],[{from:'/a/',to:'/%2e%2e/'}],[{from:'/a/',to:'/missing/'}],[{from:'/a/',to:'/target/'},{from:'/a/',to:'/target/'}]])assert.throws(()=>resolveRedirects({},rules,pages));});
+
+test('the restored location asset has an exact XML MIME rule without weakening preview or global security headers',()=>{
+ for(const env of [{},{SITE_ENV:'production',ENABLE_PRODUCTION_INDEXING:'true'}]){
+  const policy=releasePolicy(env),headers=hostHeaders(policy);
+  assert.match(headers,/\n\/locations\.kml\n  Content-Type: application\/vnd\.google-earth\.kml\+xml; charset=utf-8\n/);
+  assert.match(headers,/X-Content-Type-Options: nosniff/);
+  assert.match(headers,/Content-Security-Policy: default-src 'self'/);
+  if(!policy.indexable){assert.match(headers,/^\/\*\n  X-Robots-Tag: noindex, nofollow, noarchive/);assert.match(headers,/Cache-Control: private, no-store/);}
+ }
+});
