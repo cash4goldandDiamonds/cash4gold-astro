@@ -1,3 +1,5 @@
+> Current status, September 14, 2026: the owner-authorized static rebuild is LIVE. The initial release passed 111 tests, fresh GitHub/Cloudflare builds and all 122 public sitemap URL checks. See the [verified live release and stabilization record](reports/LIVE_RELEASE_2026-09-14.md) for source identity, active routing, rollback and remaining integrations. The notes below are preserved historical evidence; their prelaunch status and route-only rollback wording are superseded.
+
 # Continue the existing rebuild — September 14 handoff
 
 Use [the initial production release plan](reports/INITIAL_PRODUCTION_RELEASE_2026-09-14.md). The owner explicitly authorized launch with optional work afterward. Source is in the existing work/documentation-checkpoint; preserve original copies. PR #2 holds the reviewed integration branch. The deliberate static mode avoids publishing private CMS data, requires an exact clean Git commit, and keeps existing CMS safeguards. Complete final candidate CI and hosting verification before reporting launch.

@@ -1,38 +1,23 @@
 # Cash 4 Gold & Diamonds
 
-**Latest release preparation - September 14, 2026:** The owner authorized launch with optional improvements afterward. Read the [initial production release plan](reports/INITIAL_PRODUCTION_RELEASE_2026-09-14.md). The deliberate reviewed-static mode preserves Sanity's separate approval safeguards and requires an exact clean Git commit. Four newly published articles are included: 202 content pages, 115 articles and 18 preserved redirects. Final candidate validation and actual production cutover remain pending; this is not a claim that launch has occurred.
+The existing private WordPress-to-Astro/Sanity rebuild is live at https://cash4goldanddiamond.com/. The September 10 inspection remains the authoritative migration starting point. Both original local copies, WordPress hosting/backups and useful GitHub planning files are preserved.
 
-Continue the existing private WordPress-to-Astro/Sanity rebuild in https://github.com/cash4goldandDiamonds/cash4gold-astro. The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point; both original local copies and useful GitHub planning/configuration files remain preserved.
+## Verified launch — September 14, 2026
 
-## Current status — September 14, 2026
+Initial main commit: 036eaf1bd4bca45461e4eb31aef9c51e8bfcaa90. Cloudflare Worker version: ee22bf08-0c48-4035-8668-a72d2215cb8c. The release contains 202 content pages, 115 articles, 122 indexable sitemap URLs and 18 existing redirects. It passed 111 tests, fresh GitHub production builds and 54 Lighthouse measurements. All 122 public sitemap URLs and the launch smoke/HTTPS/www redirect checks passed. Lab checks do not establish field Core Web Vitals or real inbox delivery.
 
-Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last deployed source is `cd6d3f8`. The uploaded `e1f0d69` baseline passed exact-head GitHub quality checks on September 14, including the native Worker and Studio builds. Its separate performance run found a missing favicon, now restored in the source. The final combined candidate requires a new exact-head production build. Earlier test totals and account observations below are dated evidence.
+Read [the live release record](reports/LIVE_RELEASE_2026-09-14.md) for exact build/commit identities, preserved migration assets, runtime settings, rollback and the subsequent conservative wording patch. Historical checkpoints remain dated evidence.
 
-Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
+## Development and release verification
 
-## Development and verification
+Use Node 24.19.0 and pnpm 11.19.0 with the frozen lockfile. Run pnpm install --frozen-lockfile, pnpm test, pnpm verify:schema, pnpm verify:source-security, pnpm exec astro check, pnpm build, node scripts/verify-built-site.mjs, pnpm verify:accessibility, pnpm verify:seo, pnpm verify, pnpm verify:cms, pnpm verify:editorial and pnpm verify:substantive. The GitHub workflow runs these checks from its exact candidate checkout, native Worker/Studio builds, dependency auditing and a reviewed-static production build. The separate Lighthouse workflow runs the frozen audit tooling.
 
-Use Node 24.19.0 and pnpm 11.19.0. The project uses Astro 7.3.2 and Sanity 6.13.0.
+Production deliberately uses CONTENT_SOURCE=reviewed-static and requires STATIC_RELEASE_COMMIT to equal the clean checked-out commit. The CMS mode retains its separate safeguards; production does not read private Sanity content or isolated audit output. Studio and temporary build manifests are excluded. Production robots, canonicals and sitemap allow indexing. Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/ with its existing all-traffic Access policy and noindex protections.
 
-1. `pnpm install --frozen-lockfile`
-2. `pnpm test`, `pnpm verify:schema`, `pnpm verify:source-security`, `pnpm exec astro check`
-3. `pnpm build`, then `node scripts/verify-built-site.mjs`
-4. `pnpm verify`, `pnpm verify:cms`, `pnpm verify:editorial`, `pnpm verify:substantive`, `pnpm verify:design`, `pnpm audit --audit-level high`
+## Deployment and remaining integrations
 
-`pnpm dev` starts the local preview. Blank Sanity settings use the complete preserved content snapshot. The GitHub quality workflow checks a fresh exact-head checkout with a locked dependency install. The new isolated Lighthouse workflow has a separate frozen tooling lock and explicitly runs `node --test tools/performance/audit-policy.test.mjs`; its lab measurements remain pending. Cloudflare Builds separately uses the audit branch and protected preview configuration. Staging indexing stays disabled. See the current checkpoint for the three staging analytics build variables and their CSP/finalizer integration.
+The two live apex/www Worker routes and canonical GET/HEAD redirect are recorded in configuration. Cloudflare Builds uploads inactive versions only. Review and validate a new exact source revision, deliberately set its build pin, verify its uploaded version and only then promote it. Preserve nameservers and mail DNS. A WordPress rollback needs both the saved origin DNS and removal of Worker routes; restoring provider service may require revalidation. DNS backups and runtime credentials stay outside Git.
 
-## Open launch gates
+The automated inquiry form and analytics remain disabled for the initial release. Honest phone/email options and the existing appointment link are available. Sender activation, owner inbox testing, analytics consent/receipt verification and CMS editing/publishing acceptance remain follow-ups. No QA email or booking was submitted. Free Cloudflare managed protection and DDoS protection are active, and search/AI crawler policies permit access. Wordfence remains on WordPress because its PHP plugin cannot run in Astro.
 
-Inquiry configuration/delivery, hosted Sanity reconciliation/draft preview/rebuild/rollback, actual analytics receipt/consent, remaining SEO/media reconciliation, measured performance and final content acceptance remain open. The owner's privacy retention policy is incorporated into local source; deployment and hosted-service consistency remain separate. The owner reports the WordPress backup complete; a restore has not been independently exercised. Inbox testing remains deferred until after confirmed launch and real booking tests remain declined. Neither deferral is a passing result or launch approval.
-
-The Worker-specific Access policy must protect all traffic. Never attach `cash4goldanddiamond.com` or change the live WordPress site without separate explicit launch approval. Deployments disable Worker endpoints by default; re-enable only the staging hostname after verifying the build and Access. Preview-version URLs stay off.
-
-## Preserved records
-
-- [Migration requirements](MIGRATION-REQUIREMENTS.md) and [migration status](MIGRATION-STATUS.md)
-- [September 11 hosted QA](reports/PROTECTED_STAGING_QA_2026-09-11.md) and [September 11 local validation](reports/FINAL_STAGING_LOCAL_VALIDATION_2026-09-11.json)
-- [Repository preservation](REPOSITORY_SYNC.md), [handoff](CODEX_HANDOFF.md), and [launch checklist](LAUNCH-CHECKLIST.md)
-- [Authenticated WordPress inspection](reports/WORDPRESS_AUTHENTICATED_INSPECTION_2026-09-10.md) and [Rank Math follow-up](reports/RANK_MATH_AUTHENTICATED_FOLLOWUP_2026-09-11.md)
-- [Historical checkpoints](migration/pre-deployment/prior-instructions/)
-
-Do not commit credentials, account-verification values, real environment files, raw private exports, customer submissions, caches, build output or unnecessary original media. Required website media, source, configuration, scripts, tests, redirects and workflows are preserved.
+Do not commit credentials, actual environment files, customer submissions, private exports, caches or temporary build output. Preserve required source, configuration, content, media, scripts, tests, redirects and workflows.

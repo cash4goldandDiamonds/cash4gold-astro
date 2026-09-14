@@ -1,3 +1,5 @@
+> Current status, September 14, 2026: the owner-authorized static rebuild is LIVE. The initial release passed 111 tests, fresh GitHub/Cloudflare builds and all 122 public sitemap URL checks. See the [verified live release and stabilization record](LIVE_RELEASE_2026-09-14.md) for source identity, active routing, rollback and remaining integrations. The notes below are preserved historical evidence; their prelaunch status and route-only rollback wording are superseded.
+
 # Initial production release — September 14, 2026
 
 The owner explicitly authorized launch and asked to continue optional improvements afterward. This supersedes older conditional-approval and CMS-completion requirements in dated checkpoints. Production has not been changed by this source checkpoint; publication requires the exact candidate to pass its production build and hosting verification.

@@ -1,3 +1,5 @@
+> Current status, September 14, 2026: the owner-authorized static rebuild is LIVE. The initial release passed 111 tests, fresh GitHub/Cloudflare builds and all 122 public sitemap URL checks. See the [verified live release and stabilization record](reports/LIVE_RELEASE_2026-09-14.md) for source identity, active routing, rollback and remaining integrations. The notes below are preserved historical evidence; their prelaunch status and route-only rollback wording are superseded.
+
 # Migration status
 
 **Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
