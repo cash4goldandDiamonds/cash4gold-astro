@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-11T16:09:38.215Z",
-  "total": 111,
-  "reviewed": 111,
+  "updatedAt": "2026-09-14T15:10:24.461Z",
+  "total": 115,
+  "reviewed": 115,
   "scope": "Actual article prose, intent, metadata and adjacent source support; no ranking or plugin score claimed.",
   "rows": [
     {
@@ -3771,7 +3771,114 @@
         }
       ],
       "sourceArchive": "migration/pre-deployment/wordpress-api/posts.json (id 3728)"
+    },
+    {
+      "path": "/gold-watches-for-men/",
+      "status": "reviewed",
+      "decision": "improve",
+      "reviewedAt": "2026-09-14T15:10:24.461Z",
+      "findings": [
+        "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
+        "Applied independent essential corrections and regenerated crawl metadata/schema.",
+        "Removed solid-gold authenticity claim, unsupported investment assurance and market attribution."
+      ],
+      "beforeHtmlSha256": "0c40bd99376230f9cd3f5819981baf3fe59d7c5461469332246c709c4c550480",
+      "afterHtmlSha256": "2e5a228e3b2ed91f03d41f2d8ab5fe75db36aa3ba16f57c5488c2c7ed06d9852",
+      "title": "Gold Watches for Men: Materials, Records and Resale Value",
+      "description": "Understand gold watch construction, authenticity checks, records and resale considerations before discussing an inherited or pre-owned watch in Los Angeles.",
+      "focusKeyword": "gold watches for men resale evaluation",
+      "sources": [
+        {
+          "title": "FTC: understanding gold purity and markings",
+          "url": "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry"
+        },
+        {
+          "title": "Rolex: caring for your watch",
+          "url": "https://www.rolex.com/en-us/watch-care-and-service/caring-for-your-rolex"
+        }
+      ],
+      "canonical": "https://cash4goldanddiamond.com/gold-watches-for-men/",
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4315"
+    },
+    {
+      "path": "/18k-gold-jewelry-guide/",
+      "status": "reviewed",
+      "decision": "improve",
+      "reviewedAt": "2026-09-14T15:10:24.461Z",
+      "findings": [
+        "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
+        "Applied independent essential corrections and regenerated crawl metadata/schema.",
+        "Removed obsolete 10K US minimum claim, repair guarantee and unsupported market timing."
+      ],
+      "beforeHtmlSha256": "811884bb295d6a7ae219b055567b9150b155fce013883e0c7831187a8fb8ad2a",
+      "afterHtmlSha256": "04a5b0543c025752d4ee5fd6bc71cb521882257ace35963903f7e107285ec7eb",
+      "title": "18K Gold Jewelry: Purity, Markings and Selling Preparation",
+      "description": "Learn what 18K and 750 markings mean, how metal weight differs from total weight, and what to bring when selling inherited gold jewelry in Los Angeles.",
+      "focusKeyword": "18K gold jewelry purity and selling",
+      "sources": [
+        {
+          "title": "FTC: understanding gold purity and markings",
+          "url": "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry"
+        },
+        {
+          "title": "World Gold Council: gold reference prices and units",
+          "url": "https://www.gold.org/goldhub/data/gold-prices"
+        }
+      ],
+      "canonical": "https://cash4goldanddiamond.com/18k-gold-jewelry-guide/",
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4307"
+    },
+    {
+      "path": "/14k-gold-rings-for-women/",
+      "status": "reviewed",
+      "decision": "improve",
+      "reviewedAt": "2026-09-14T15:10:24.461Z",
+      "findings": [
+        "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
+        "Applied independent essential corrections and regenerated crawl metadata/schema.",
+        "Removed unsupported retail prices, price-based quality guarantees and categorical durability claims."
+      ],
+      "beforeHtmlSha256": "4c9b0595dbae6a71d3596e2cbb9ab975346b3403bf8ce523ea01b9e306ca443c",
+      "afterHtmlSha256": "97b043abba7dbf97db87a94707a300b2a77ee589b336835ddf568580c414c8a8",
+      "title": "14K Gold Rings for Women: Quality, Care and Resale Checks",
+      "description": "Review markings, settings, condition and records for 14K gold rings, including inherited pieces, before arranging a jewelry evaluation in Los Angeles.",
+      "focusKeyword": "14K gold rings for women resale preparation",
+      "sources": [
+        {
+          "title": "FTC: understanding gold purity and markings",
+          "url": "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry"
+        }
+      ],
+      "canonical": "https://cash4goldanddiamond.com/14k-gold-rings-for-women/",
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4304"
+    },
+    {
+      "path": "/gold-price-per-gram/",
+      "status": "reviewed",
+      "decision": "improve",
+      "reviewedAt": "2026-09-14T15:10:24.461Z",
+      "findings": [
+        "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
+        "Applied independent essential corrections and regenerated crawl metadata/schema."
+      ],
+      "beforeHtmlSha256": "407d1cf54251910d90b290ed1c189846183b44716efd7dc4b2a8c8e64435bfa0",
+      "afterHtmlSha256": "8856b4f08b99f6e8b992aca193c5e196e7d9f590eb3dd94ade34d60620910e29",
+      "title": "Gold Price Per Gram: Calculate Gold Content and Compare Offers",
+      "description": "Convert gold prices into grams, adjust for purity and actual metal weight, and compare offers for jewelry, scrap gold, Cuban chains and coins.",
+      "focusKeyword": "gold price per gram calculation",
+      "sources": [
+        {
+          "title": "World Gold Council: gold reference prices and units",
+          "url": "https://www.gold.org/goldhub/data/gold-prices"
+        },
+        {
+          "title": "FTC: understanding gold purity and markings",
+          "url": "https://consumer.ftc.gov/articles/buying-platinum-gold-and-silver-jewelry"
+        }
+      ],
+      "canonical": "https://cash4goldanddiamond.com/gold-price-per-gram/",
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4301"
     }
   ],
-  "uniqueReviewedPaths": 111
+  "uniqueReviewedPaths": 115
 }
