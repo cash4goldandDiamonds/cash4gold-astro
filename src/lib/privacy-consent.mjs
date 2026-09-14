@@ -11,5 +11,8 @@ export function safeConversion(name,pathname){
  return {name,parameters:{page_path:pathname}};
 }
 export function analyticsSettings({enabled,id,environment,siteEnvironment}){
- return {enabled:enabled==='true'&&/^G-[A-Z0-9]{4,20}$/.test(id||'')&&environment===siteEnvironment&&['preview','production'].includes(environment),id:/^G-[A-Z0-9]{4,20}$/.test(id||'')?id:'',environment};
+ // This stream receives live WordPress traffic. A preview label alone must never
+ // authorize sending rebuild tests into that production destination.
+ const isolatedDestination=environment!=='preview'||id!=='G-149Y3HZKHT';
+ return {enabled:enabled==='true'&&/^G-[A-Z0-9]{4,20}$/.test(id||'')&&environment===siteEnvironment&&['preview','production'].includes(environment)&&isolatedDestination,id:/^G-[A-Z0-9]{4,20}$/.test(id||'')?id:'',environment};
 }
