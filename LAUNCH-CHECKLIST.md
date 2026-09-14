@@ -1,6 +1,6 @@
 # Launch acceptance checklist
 
-Status on September 14, 2026: **NOT READY**. Checked items have only the evidence stated; unchecked items remain incomplete, unverified or explicitly deferred. Use [the current release checkpoint](reports/LAUNCH_CHECKPOINT_2026-09-14.md) for source/account scope. Final combined QA and exact-head Linux CI are pending; earlier passing runs are historical.
+Current release scope: [initial production release plan](reports/INITIAL_PRODUCTION_RELEASE_2026-09-14.md). The owner authorized launch and deferred optional enhancements. Initial release uses verified static content, honest contact fallbacks and disabled analytics; private CMS acceptance follows later. Final candidate CI, production output and hosting cutover remain pending. The detailed historical checklist below records evidence and follow-up work; unchecked optional items do not revoke the current authorization.
 
 ## Source preservation
 

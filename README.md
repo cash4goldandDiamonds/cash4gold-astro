@@ -1,14 +1,14 @@
 # Cash 4 Gold & Diamonds
 
-**Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
+**Latest release preparation - September 14, 2026:** The owner authorized launch with optional improvements afterward. Read the [initial production release plan](reports/INITIAL_PRODUCTION_RELEASE_2026-09-14.md). The deliberate reviewed-static mode preserves Sanity's separate approval safeguards and requires an exact clean Git commit. Four newly published articles are included: 202 content pages, 115 articles and 18 preserved redirects. Final candidate validation and actual production cutover remain pending; this is not a claim that launch has occurred.
 
 Continue the existing private WordPress-to-Astro/Sanity rebuild in https://github.com/cash4goldandDiamonds/cash4gold-astro. The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point; both original local copies and useful GitHub planning/configuration files remain preserved.
 
 ## Current status — September 14, 2026
 
-Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last synchronized source is `cd6d3f8`; the September 14 candidate requires a new reviewed upload, exact-head checks and staging build. The preserved site has 198 content pages, 111 articles and 18 redirects. Earlier test totals, generated-route counts, commit IDs and account observations below are dated evidence, not verification of this candidate.
+Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last deployed source is `cd6d3f8`. The uploaded `e1f0d69` baseline passed exact-head GitHub quality checks on September 14, including the native Worker and Studio builds. Its separate performance run found a missing favicon, now restored in the source. The final combined candidate requires a new exact-head production build. Earlier test totals and account observations below are dated evidence.
 
-Both original local copies and original GitHub main/safety branches remain preserved. September 14 owner approval covers three sender DNS additions and a restricted sending key; website routing, WordPress and nameservers remain unchanged. Production launch still requires separate explicit owner approval.
+Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
 
 ## Development and verification
 

@@ -8,7 +8,7 @@ The last synchronized audit commit is `cd6d3f81422d88d865338f44e88b9b03aca9aa49`
 
 Review branch `review/final-launch-checks-2026-09-14` was created from `cd6d3f8`; its planned private PR targets `audit/pre-deployment-2026-09-10`. Uploads and final commit are pending at this checkpoint. Preserve every required source/test/workflow/media file; exclude credentials, raw private snapshots, installed tools, caches and generated output. A passing historical run does not verify the next uploaded head.
 
-Both original local copies and original GitHub main/safety branches remain preserved. The owner authorized three sender DNS additions and a restricted sending key on September 14. The original 12 DNS records were verified unchanged; website routing, WordPress and nameservers remain unchanged. Production launch requires separate explicit approval.
+Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
 
 ## Earlier checkpoints and supporting evidence
 
