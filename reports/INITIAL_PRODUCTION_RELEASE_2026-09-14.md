@@ -1,0 +1,15 @@
+# Initial production release — September 14, 2026
+
+The owner explicitly authorized launch and asked to continue optional improvements afterward. This supersedes older conditional-approval and CMS-completion requirements in dated checkpoints. Production has not been changed by this source checkpoint; publication requires the exact candidate to pass its production build and hosting verification.
+
+The initial release deliberately uses `CONTENT_SOURCE=reviewed-static`: tracked website content, address, navigation and redirects. It requires `STATIC_RELEASE_COMMIT` to equal the clean checked-out Git commit. It does not read private Sanity content, invent an editorial approval, or reuse isolated audit output. The existing CMS mode and its review safeguards remain available for later verified connection.
+
+Four articles published September 11–14 were recovered from the public WordPress site. Their exact URLs, publication dates, observed author and 11 original photo assignments remain preserved. Corrections remove false live gold rates, unsupported guarantees, mistaken authenticity claims and obsolete purity statements. Local responsive WebP images, citations, seller guidance, metadata and blog cards are included. The existing 111 articles are unchanged; the source now has 202 content pages, 115 articles and the same 18 redirects. Original capture evidence stays outside Git; sanitized public article records are preserved in the migration folder.
+
+The existing WordPress favicon is restored as a real ICO. This addresses the observed Lighthouse resource failure without disabling resource checks. The first baseline mobile homepage run scored 98; it was incomplete, so it is not a full performance pass.
+
+Production configuration starts with no public routes, no workers.dev or version-preview URL, and no public Studio. The initial inquiry form is explicitly disabled until its production sender and challenge configuration are verified; visitors receive honest phone/email fallback options and the existing appointment link. No QA email or calendar booking was sent. Analytics stays disabled for the initial release; receipt verification and private CMS publishing remain follow-up work.
+
+Deploy the exact reviewed commit with production indexing enabled and all Sanity/audit/Studio settings unset or disabled. Verify normal `dist` output, correct robots/canonicals/sitemap, local media, private-editor exclusion and contact fallbacks. Existing apex/www origin DNS and WordPress stay intact for rollback. Activating the two specific Worker routes is cutover; removing them restores the previous origin. The canonical GET/HEAD redirect rule is separately recorded and initially disabled.
+
+After manually attaching routes, disable automatic production builds until those routes are recorded in the next reviewed production configuration; a deployment using an empty route list can remove manually attached routes. Keep the private staging application's Access policy unchanged. DNS backup and runtime credentials are never committed.

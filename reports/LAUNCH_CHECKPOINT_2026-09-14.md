@@ -1,6 +1,6 @@
 # Release preparation checkpoint — September 14, 2026
 
-**NOT READY TO GO LIVE.** This report records the September 14 candidate and account preparation. It supersedes older current-status paragraphs, without relabeling historical tests or deployments as fresh evidence. Final combined QA, source identity, upload and exact-head Linux CI remain pending at this checkpoint.
+**Earlier September 14 checkpoint.** The later [initial production release plan](INITIAL_PRODUCTION_RELEASE_2026-09-14.md) supersedes this report’s pending-approval and CMS-before-launch scope. Baseline e1f0d69 now passed exact-head GitHub quality CI. Four later articles, the favicon repair and explicit static production mode are in the final candidate; actual launch is not claimed by this historical record.
 
 ## Source and staging identity
 

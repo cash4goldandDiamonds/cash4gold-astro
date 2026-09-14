@@ -1,72 +1,18 @@
 {
-  "checkedAt": "2026-09-10T20:32:29.252Z",
+  "checkedAt": "2026-09-14T15:12:41.284Z",
   "scope": "Removed account-verification records from repository captures. Original data remains in ignored local backups. Public business contact details and substantive page content are retained.",
   "changes": [
     {
       "file": "src/data/pages.json",
-      "removedVerificationRecords": 395,
-      "originalSha256": "55e6509bc9309f6b304270ccf3ef0184df4526202caf1c69dc0a2d6bf0e56881",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/src/data/pages.json"
-    },
-    {
-      "file": "migration/editorial-baseline.json",
-      "removedVerificationRecords": 393,
-      "originalSha256": "63d0746cca1f658d493063b2030c4ddc800ff6e5e8f8304aad12f41c5beca89f",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/editorial-baseline.json"
-    },
-    {
-      "file": "migration/editorial-before-home-resume.json",
       "removedVerificationRecords": 8,
-      "originalSha256": "cba43359820f6a047be97c2e1d8a25a3df9760388632483addcbe30952c131c3",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/editorial-before-home-resume.json"
-    },
-    {
-      "file": "migration/mobile-overflow-before.json",
-      "removedVerificationRecords": 4,
-      "originalSha256": "2c799e987b191970ed48ae8ceaaf2bc76dc37a6fda748c4348074f80cc1f5ff6",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/mobile-overflow-before.json"
+      "originalSha256": "a2415647419b8eb1354a2308610ad4f937290a060541e82ade9e7841c572f0a9",
+      "localBackup": "backups/source-metadata/2026-09-14T15-12-40-181Z/src/data/pages.json"
     },
     {
       "file": "migration/pre-deployment/additions.json",
-      "removedVerificationRecords": 2,
-      "originalSha256": "d337b04c0083a3db3b6ae987387b68a13cab219526feae296a2bb6df05995df2",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/pre-deployment/additions.json"
-    },
-    {
-      "file": "migration/pre-deployment/live-source/crawl.json",
-      "removedVerificationRecords": 423,
-      "originalSha256": "91970f037e406ad3ac5648678b2805c3e3c83e6b164410b13cad69b8ddeb3666",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/pre-deployment/live-source/crawl.json"
-    },
-    {
-      "file": "migration/reconciled-home-gold-pages.json",
       "removedVerificationRecords": 8,
-      "originalSha256": "47e8f8563ae64889ccb252be2127d4a1849ac0463be546ca1b99f387eefb1c7a",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/reconciled-home-gold-pages.json"
-    },
-    {
-      "file": "migration/source-evidence/crawl.json",
-      "removedVerificationRecords": 421,
-      "originalSha256": "c378063beb20c38e1d9735dcc4b93d3bc6e6529bb77a70d10a393a5031e821e9",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/source-evidence/crawl.json"
-    },
-    {
-      "file": "migration/source-evidence/iced-jewelry-before-2026-09-10.json",
-      "removedVerificationRecords": 21,
-      "originalSha256": "ea08d9182ac48d38931a6aff6391b6dc688f0b2106be2d9265b731ff0d4b4666",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/source-evidence/iced-jewelry-before-2026-09-10.json"
-    },
-    {
-      "file": "migration/source-evidence/privacy-before-home-review.json",
-      "removedVerificationRecords": 2,
-      "originalSha256": "3340b0612bb4a773954e69c5887a8da8f4a34de7cbed96543477913ab5aa2fa2",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/source-evidence/privacy-before-home-review.json"
-    },
-    {
-      "file": "migration/substantive-review-baseline.json",
-      "removedVerificationRecords": 393,
-      "originalSha256": "2d391e88bf50dafca2981968784c865a7053b8fcff3e9dce50103aa3dd8c89f0",
-      "localBackup": "backups/source-metadata/2026-09-10T20-32-27-828Z/migration/substantive-review-baseline.json"
+      "originalSha256": "1e920d5ecfb5753d9327385a06e77467575dd0892a6b95ba0664be44393e536c",
+      "localBackup": "backups/source-metadata/2026-09-14T15-12-40-181Z/migration/pre-deployment/additions.json"
     }
   ]
 }
