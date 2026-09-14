@@ -1,12 +1,14 @@
 # Repository synchronization checkpoint
 
-**Latest audit — September 11, 2026:** The [final SEO/content/conversion/UX audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md) supersedes older page-quality and validation claims below. Gold/home/reviews/contact and supporting copy are updated; all 111 articles have individual recommendations. NO-GO remains: delivery, analytics/consent, hosted CMS, backup/restore, remaining SEO/media acceptance and measured performance are incomplete. No production change is authorized.
+**Latest checkpoint — September 14, 2026:** [Current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md) records source fixes, the separate staging analytics property, sender-only DNS approval and pending acceptance. Older synchronized identities and test totals below remain historical. No final September 14 source hash, upload or CI pass is claimed here. **NOT READY TO GO LIVE.**
 
-## Current status — September 11, 2026
+## Current synchronization state — September 14, 2026
 
-**NOT READY TO GO LIVE.** Protected GitHub-backed staging now exists at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The current source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated routes. All 33 automated tests and the complete local verification/build passed after the three Rank Math redirect fixes. All 198 content routes rendered behind account-only Cloudflare Access. [Current staging QA and launch blockers](reports/PROTECTED_STAGING_QA_2026-09-11.md) supersede earlier statements below that no staging site exists, that only 15 redirects exist, or that authorization is pending. Earlier commit IDs/counts are historical evidence. The audit branch's final uploaded source requires its own exact-head CI/deployment verification, recorded in the final handoff.
+The last synchronized audit commit is `cd6d3f81422d88d865338f44e88b9b03aca9aa49`, tree `1db8392ed596b135a86efd8c3f3596ce0fa9fc9e`. Local checkpoint `64f08d3c25478bdb811336fb70b84642a4220f08` has the same historical tree. Protected staging at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/ was deployed from that source. The later September 14 edits require their own complete file manifest, final combined validation and exact-head quality/performance CI.
 
-Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
+Review branch `review/final-launch-checks-2026-09-14` was created from `cd6d3f8`; its planned private PR targets `audit/pre-deployment-2026-09-10`. Uploads and final commit are pending at this checkpoint. Preserve every required source/test/workflow/media file; exclude credentials, raw private snapshots, installed tools, caches and generated output. A passing historical run does not verify the next uploaded head.
+
+Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
 
 ## Earlier checkpoints and supporting evidence
 

@@ -14,7 +14,7 @@ export function releaseFingerprint(bundle){return digest(JSON.stringify(canonica
 // Review binds to source bytes, not a mutable branch name or dates. Keep all
 // rendering code, preserved content, images and build configuration in scope.
 export function renderingSourceFingerprint(root=process.cwd(),fixturePaths){
- const roots=['src','public','studio','scripts','workers','package.json','pnpm-lock.yaml','astro.config.mjs','sanity.config.js','sanity.cli.js','wrangler.preview.jsonc'];
+ const roots=['src','public','studio','scripts','workers','package.json','pnpm-lock.yaml','pnpm-workspace.yaml','tsconfig.json','.npmrc','astro.config.mjs','sanity.config.js','sanity.cli.js','wrangler.preview.jsonc','wrangler.production.jsonc','cloudflare'];
  const hash=createHash('sha256');
  function visit(relative){
   if(path.isAbsolute(relative)||relative.split(/[\\/]/).includes('..'))throw new Error('Invalid release source path.');

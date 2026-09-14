@@ -1,12 +1,12 @@
 # Migration status
 
-**Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
+**Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
 
-## Current status — September 11, 2026
+## Current status — September 14, 2026
 
-**NOT READY TO GO LIVE.** Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated website routes. See the latest integration checkpoint above for current implementation and acceptance status. Counts, commit IDs and account observations in the earlier-checkpoint sections below are historical evidence.
+Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last deployed source is `cd6d3f8`. The uploaded `e1f0d69` baseline passed exact-head GitHub quality checks on September 14, including the native Worker and Studio builds. Its separate performance run found a missing favicon, now restored in the source. The final combined candidate requires a new exact-head production build. Earlier test totals and account observations below are dated evidence.
 
-Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
+Both original local copies and original GitHub main/safety branches remain preserved. The owner approved the limited sender setup and later explicitly approved production launch. Website routing, WordPress and nameservers remain unchanged at this source checkpoint. Initial production uses honest contact fallbacks with inquiry sending and analytics disabled; their verification and CMS publishing follow after launch.
 
 ## Earlier checkpoints and supporting evidence
 

@@ -1,0 +1,74 @@
+name: Isolated Lighthouse lab audit
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      SITE_ENV: production
+      ENABLE_PRODUCTION_INDEXING: 'true'
+      ISOLATED_PRODUCTION_AUDIT: 'true'
+      ASTRO_OUT_DIR: .cache/production-audit
+      BUILD_STAGING_STUDIO: 'false'
+      PUBLIC_ANALYTICS_ENABLED: 'false'
+      PUBLIC_GA4_MEASUREMENT_ID: ''
+      PUBLIC_TURNSTILE_SITE_KEY: ''
+      SANITY_PROJECT_ID: ''
+      SANITY_DATASET: ''
+      PERFORMANCE_REPETITIONS: '3'
+      PERFORMANCE_EXPECTED_HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - name: Record exact source and local Chrome version
+        run: |
+          git rev-parse HEAD
+          git rev-parse 'HEAD^{tree}'
+          test "$(git rev-parse HEAD)" = "$PERFORMANCE_EXPECTED_HEAD"
+          git diff --exit-code
+          google-chrome --version
+          printf 'CHROME_PATH=%s\n' "$(command -v google-chrome)" >> "$GITHUB_ENV"
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.19.0'
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          version: '11.19.0'
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - name: Install isolated pinned Lighthouse tooling
+        run: pnpm --dir tools/performance install --frozen-lockfile --ignore-scripts
+      - name: Audit the isolated Lighthouse dependency lock
+        run: pnpm --dir tools/performance audit --audit-level high
+      - name: Verify isolation, complete results and metric budget handling
+        run: node --test tools/performance/audit-policy.test.mjs
+      - name: Build and finalize isolated production snapshot
+        run: |
+          node node_modules/astro/bin/astro.mjs build
+          node scripts/finalize-build.mjs
+      - name: Validate loopback harness without launching a browser
+        run: node scripts/audit-local-performance.mjs
+        env:
+          PERFORMANCE_VALIDATE_ONLY: 'true'
+      - name: Measure nine routes on mobile and desktop, three runs each
+        run: node scripts/audit-local-performance.mjs
+      - name: Preserve lab reports, traces and source evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: lighthouse-lab-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .cache/performance-results/
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: warn
+      # No deploy, provider secret, personal browser or staging Access session.

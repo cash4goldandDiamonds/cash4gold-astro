@@ -1,6 +1,6 @@
 # Inquiry and tracking implementation — September 11, 2026
 
-The rebuild now has an accessible inquiry component, a same-origin Cloudflare Worker handler, optional-analytics preferences and explicit conversion hooks. External delivery and analytics stay disabled until their configuration is complete. This change does not establish inbox delivery, a booking reservation or production launch readiness.
+This September 11 record describes the initial inquiry/consent implementation and its historical tests. [The September 14 checkpoint](LAUNCH_CHECKPOINT_2026-09-14.md) supersedes its account/configuration state: retry and consent defects are fixed, a separate staging GA4 property/build configuration is prepared, the sender domain and restricted encrypted key are configured, and the owner-policy privacy replacement is prepared in local source. Reviewed source enables inquiries with that privacy page in the next protected build; the currently deployed runtime remains disabled. No actual analytics receipt, inbox delivery, booking reservation or launch readiness is established.
 
 ## Inquiry behavior
 
@@ -19,15 +19,17 @@ The rebuild now has an accessible inquiry component, a same-origin Cloudflare Wo
 - Advertising storage, advertising user data, personalized advertising and Google signals are disabled by this implementation. It does not import or publish the existing production GTM/Ads configuration.
 - Explicit event names distinguish `phone_click`, `email_click`, `directions_click`, `appointment_click` and `inquiry_accepted`. No confirmed-booking or inbox-delivery event is inferred from clicking a link or seeing a response.
 - Explicit payloads contain only the build-known page path. Page query strings, fragments, arbitrary requested 404 paths, external referrer paths, phone/email destinations and inquiry fields are excluded.
-- A separate staging GA4 stream must be checked for automatic/enhanced-measurement events, duplicate tags and actual request payloads before acceptance. Explicit safe hooks alone cannot prove third-party behavior.
+- A separate staging GA4 property was configured September 14; another stream inside the live property would not provide that separation. Actual requests, duplicate tags, automatic behavior and received events still require acceptance. Explicit safe hooks alone cannot prove third-party behavior.
 
 ## Configuration and acceptance still required
 
 1. Configure the existing protected staging origin, the native inquiry rate-limit binding, a staging-allowed Turnstile widget, and its server secret.
-2. Select/authorize the delivery provider and securely configure a verified sender, approved recipient and sending credential. The code currently supplies a replaceable Resend adapter; no provider account, sender, credential or DNS record was created by this implementation.
-3. Send the previously authorized clearly labeled synthetic inquiry to the business recipient and verify actual receipt, error/retry behavior and challenge usability. Provider acceptance is only one step in that check.
-4. Configure a separate analytics test destination, confirm the privacy wording, and test accept/reject/withdraw/persistence and actual event receipts. Preserve the existing production GA4/GTM/Ads configuration until a separately approved launch.
-5. Verify a safe appointment reservation, confirmation and cancellation path with the scheduling provider. The existing Calendly link remains; a real reservation is a separate action.
+2. Root verified `notify.cash4goldanddiamond.com` after the three owner-approved DNS additions and securely stored a domain-restricted Resend sending key. Reviewed source prepares `inquiries@notify.cash4goldanddiamond.com` as sender and activates only the protected staging origin with the new privacy page. Verify the new build, Access and read-only runtime readiness; do not infer provider validity from configuration presence.
+3. **Owner decision updated September 14:** sender setup, the restricted key and protected staging activation are authorized. Actual inquiry/inbox testing remains deferred until after a confirmed website launch. No test email was sent. This is not a delivery pass or launch authorization; complete receipt checks only under the owner's later testing instruction.
+4. Rebuild with the verified separate staging property configuration, review the owner-policy privacy source, and test actual accept/reject/withdraw/persistence and event receipt. Preserve the existing production GA4/GTM/Ads configuration until a separately approved launch.
+5. **Owner decision recorded September 13:** the owner declined a real booking test. Preserve the existing Calendly link and calendar, and record booking acceptance as unverified rather than repeatedly requesting or making a reservation.
+
+The exact runtime configuration and remaining setup sequence are documented in [the inquiry operations guide](../workers/inquiry/README.md). Its configuration checks establish presence only; they cannot establish provider authorization, inbox receipt or production launch readiness.
 
 ## Validation recorded by this implementation track
 

@@ -3,6 +3,9 @@
 // settings that are not otherwise referenced by the compiled module.
 export const buildEnvironment = {
   SITE_ENV: import.meta.env.SITE_ENV,
+  CONTENT_SOURCE: import.meta.env.CONTENT_SOURCE,
+  STATIC_RELEASE_COMMIT: import.meta.env.STATIC_RELEASE_COMMIT,
+  BUILD_STAGING_STUDIO: import.meta.env.BUILD_STAGING_STUDIO,
   ENABLE_PRODUCTION_INDEXING: import.meta.env.ENABLE_PRODUCTION_INDEXING,
   SANITY_PROJECT_ID: import.meta.env.SANITY_PROJECT_ID,
   SANITY_DATASET: import.meta.env.SANITY_DATASET,

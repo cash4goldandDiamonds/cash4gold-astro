@@ -1,0 +1,48 @@
+{
+  "preparedAt": "2026-09-14T15:10:24.461Z",
+  "scope": "Four recovered articles; existing articles preserved; no redirects or CMS writes.",
+  "report": [
+    {
+      "id": 4315,
+      "path": "/gold-watches-for-men/",
+      "sourceHtmlSha256": "25b6c3799c31781dd282fc2e413c2264a8d500d590e985d47e5f6f86729cbc50",
+      "originalBodySha256": "0c40bd99376230f9cd3f5819981baf3fe59d7c5461469332246c709c4c550480",
+      "reviewedBodySha256": "2e5a228e3b2ed91f03d41f2d8ab5fe75db36aa3ba16f57c5488c2c7ed06d9852",
+      "images": 2,
+      "supplements": [
+        "Removed solid-gold authenticity claim, unsupported investment assurance and market attribution."
+      ]
+    },
+    {
+      "id": 4307,
+      "path": "/18k-gold-jewelry-guide/",
+      "sourceHtmlSha256": "daa58e298f2710b761629bc05f8d7b9bb84f326bbf579d32b2eab95aca2cce4b",
+      "originalBodySha256": "811884bb295d6a7ae219b055567b9150b155fce013883e0c7831187a8fb8ad2a",
+      "reviewedBodySha256": "04a5b0543c025752d4ee5fd6bc71cb521882257ace35963903f7e107285ec7eb",
+      "images": 3,
+      "supplements": [
+        "Removed obsolete 10K US minimum claim, repair guarantee and unsupported market timing."
+      ]
+    },
+    {
+      "id": 4304,
+      "path": "/14k-gold-rings-for-women/",
+      "sourceHtmlSha256": "7e0180fada46eced5969fd5358764b4fdc889ca2e85224a7bad100017cab9c3c",
+      "originalBodySha256": "4c9b0595dbae6a71d3596e2cbb9ab975346b3403bf8ce523ea01b9e306ca443c",
+      "reviewedBodySha256": "97b043abba7dbf97db87a94707a300b2a77ee589b336835ddf568580c414c8a8",
+      "images": 3,
+      "supplements": [
+        "Removed unsupported retail prices, price-based quality guarantees and categorical durability claims."
+      ]
+    },
+    {
+      "id": 4301,
+      "path": "/gold-price-per-gram/",
+      "sourceHtmlSha256": "dbcce1a5a867d2cc85a225d87093c6cac1ab38ec3af980a3ca3938ea958b0a76",
+      "originalBodySha256": "407d1cf54251910d90b290ed1c189846183b44716efd7dc4b2a8c8e64435bfa0",
+      "reviewedBodySha256": "8856b4f08b99f6e8b992aca193c5e196e7d9f590eb3dd94ade34d60620910e29",
+      "images": 3,
+      "supplements": []
+    }
+  ]
+}
