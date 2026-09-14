@@ -10,9 +10,10 @@
   "vars": {
     "SITE_ENV": "preview",
     "STAGING_STUDIO_ENABLED": "true",
-    "INQUIRY_ENABLED": "false",
+    "INQUIRY_ENABLED": "true",
     "INQUIRY_PROVIDER": "resend",
     "INQUIRY_ALLOWED_ORIGINS": "https://cash4gold-private-preview.cash4goldanddiamond.workers.dev",
+    "INQUIRY_FROM": "inquiries@notify.cash4goldanddiamond.com",
     "INQUIRY_TO": "cash4goldanddiamond@gmail.com",
     "INQUIRY_TURNSTILE_SITE_KEY": "0x4AAAAAAEwdb5Av8PaY6cRA"
   },

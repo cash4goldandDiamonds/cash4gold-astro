@@ -1,12 +1,12 @@
 # Migration status
 
-**Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
+**Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
 
-## Current status — September 11, 2026
+## Current status — September 14, 2026
 
-**NOT READY TO GO LIVE.** Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated website routes. See the latest integration checkpoint above for current implementation and acceptance status. Counts, commit IDs and account observations in the earlier-checkpoint sections below are historical evidence.
+Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last synchronized source is `cd6d3f8`; the September 14 candidate requires a new reviewed upload, exact-head checks and staging build. The preserved site has 198 content pages, 111 articles and 18 redirects. Earlier test totals, generated-route counts, commit IDs and account observations below are dated evidence, not verification of this candidate.
 
-Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
+Both original local copies and original GitHub main/safety branches remain preserved. September 14 owner approval covers three sender DNS additions and a restricted sending key; website routing, WordPress and nameservers remain unchanged. Production launch still requires separate explicit owner approval.
 
 ## Earlier checkpoints and supporting evidence
 

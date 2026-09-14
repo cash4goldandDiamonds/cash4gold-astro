@@ -1,14 +1,14 @@
 # Cash 4 Gold & Diamonds
 
-**Latest integration checkpoint — September 11, 2026:** Read [remaining launch work](reports/LAUNCH_INTEGRATIONS_2026-09-11.md) together with the [SEO/content audit](reports/FINAL_SEO_CONTENT_UX_AUDIT_2026-09-11.md). Inquiry/consent code, CMS safeguards and accessibility fixes are implemented. Provider sending and optional analytics remain disabled until verified. The owner reports the WordPress backup complete and declined real booking tests. Final source/build/deployment evidence is recorded in the task handoff. **NOT READY TO GO LIVE.**
+**Latest checkpoint — September 14, 2026:** Read [current release preparation](reports/LAUNCH_CHECKPOINT_2026-09-14.md). Inquiry retry, consent and raw-CMS safeguards have focused regression evidence; privacy wording incorporates the owner's policy. The separate staging GA4 property, verified sender domain and restricted encrypted sending key are configured. Source prepares inquiry activation with the privacy page in the next protected build; current runtime remains disabled. Actual event receipt, inquiry delivery, hosted CMS acceptance and final exact-head Linux quality/performance checks remain open. **NOT READY TO GO LIVE.**
 
 Continue the existing private WordPress-to-Astro/Sanity rebuild in https://github.com/cash4goldandDiamonds/cash4gold-astro. The [September 10 inspection](reports/INSPECTION_2026-09-10.md) is the authoritative starting point; both original local copies and useful GitHub planning/configuration files remain preserved.
 
-## Current status — September 11, 2026
+## Current status — September 14, 2026
 
-**NOT READY TO GO LIVE.** Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. The source preserves 198 content pages and 111 articles, with 18 redirects and 217 generated website routes. See the latest integration checkpoint above for current implementation and acceptance status. Counts, commit IDs and account observations in the earlier-checkpoint sections below are historical evidence.
+Protected staging remains at https://cash4gold-private-preview.cash4goldanddiamond.workers.dev/. Its last synchronized source is `cd6d3f8`; the September 14 candidate requires a new reviewed upload, exact-head checks and staging build. The preserved site has 198 content pages, 111 articles and 18 redirects. Earlier test totals, generated-route counts, commit IDs and account observations below are dated evidence, not verification of this candidate.
 
-Both original local copies and original GitHub main/safety branches are preserved. No production, DNS, nameserver, GoDaddy or paid-service changes were made. Launch requires separate explicit owner approval.
+Both original local copies and original GitHub main/safety branches remain preserved. September 14 owner approval covers three sender DNS additions and a restricted sending key; website routing, WordPress and nameservers remain unchanged. Production launch still requires separate explicit owner approval.
 
 ## Development and verification
 
@@ -19,18 +19,18 @@ Use Node 24.19.0 and pnpm 11.19.0. The project uses Astro 7.3.2 and Sanity 6.13.
 3. `pnpm build`, then `node scripts/verify-built-site.mjs`
 4. `pnpm verify`, `pnpm verify:cms`, `pnpm verify:editorial`, `pnpm verify:substantive`, `pnpm verify:design`, `pnpm audit --audit-level high`
 
-`pnpm dev` starts the local preview. Blank Sanity settings use the complete preserved content snapshot. The GitHub quality workflow checks a fresh exact-head checkout with a locked dependency install. Cloudflare Builds separately uses the audit branch and the protected preview configuration. Build output is optimized for hosting while indexing remains disabled on staging.
+`pnpm dev` starts the local preview. Blank Sanity settings use the complete preserved content snapshot. The GitHub quality workflow checks a fresh exact-head checkout with a locked dependency install. The new isolated Lighthouse workflow has a separate frozen tooling lock and explicitly runs `node --test tools/performance/audit-policy.test.mjs`; its lab measurements remain pending. Cloudflare Builds separately uses the audit branch and protected preview configuration. Staging indexing stays disabled. See the current checkpoint for the three staging analytics build variables and their CSP/finalizer integration.
 
 ## Open launch gates
 
-Inquiry delivery, hosted Sanity draft preview/rebuild/rollback, analytics receipt/consent, remaining SEO/media reconciliation, measured performance and owner content acceptance remain open. The owner reports the WordPress backup complete; a restore has not been independently exercised. Real appointment confirmation/cancellation tests were declined by the owner. This is **NOT READY TO GO LIVE**.
+Inquiry configuration/delivery, hosted Sanity reconciliation/draft preview/rebuild/rollback, actual analytics receipt/consent, remaining SEO/media reconciliation, measured performance and final content acceptance remain open. The owner's privacy retention policy is incorporated into local source; deployment and hosted-service consistency remain separate. The owner reports the WordPress backup complete; a restore has not been independently exercised. Inbox testing remains deferred until after confirmed launch and real booking tests remain declined. Neither deferral is a passing result or launch approval.
 
 The Worker-specific Access policy must protect all traffic. Never attach `cash4goldanddiamond.com` or change the live WordPress site without separate explicit launch approval. Deployments disable Worker endpoints by default; re-enable only the staging hostname after verifying the build and Access. Preview-version URLs stay off.
 
 ## Preserved records
 
 - [Migration requirements](MIGRATION-REQUIREMENTS.md) and [migration status](MIGRATION-STATUS.md)
-- [Current hosted QA](reports/PROTECTED_STAGING_QA_2026-09-11.md) and [local validation](reports/FINAL_STAGING_LOCAL_VALIDATION_2026-09-11.json)
+- [September 11 hosted QA](reports/PROTECTED_STAGING_QA_2026-09-11.md) and [September 11 local validation](reports/FINAL_STAGING_LOCAL_VALIDATION_2026-09-11.json)
 - [Repository preservation](REPOSITORY_SYNC.md), [handoff](CODEX_HANDOFF.md), and [launch checklist](LAUNCH-CHECKLIST.md)
 - [Authenticated WordPress inspection](reports/WORDPRESS_AUTHENTICATED_INSPECTION_2026-09-10.md) and [Rank Math follow-up](reports/RANK_MATH_AUTHENTICATED_FOLLOWUP_2026-09-11.md)
 - [Historical checkpoints](migration/pre-deployment/prior-instructions/)
