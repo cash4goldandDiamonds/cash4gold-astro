@@ -65,6 +65,6 @@ jobs:
           ENABLE_PRODUCTION_INDEXING: 'true'
           BUILD_STAGING_STUDIO: 'false'
           PUBLIC_ANALYTICS_ENABLED: 'false'
-      - name: Validate the route-free production Worker without deployment
+      - name: Validate the production Worker configuration without deployment
         run: pnpm exec wrangler deploy --config wrangler.production.jsonc --dry-run --outdir .cache/production-worker-dry-run --no-autoconfig
       # No deploy, publish, repository write or secret is used in this workflow.
