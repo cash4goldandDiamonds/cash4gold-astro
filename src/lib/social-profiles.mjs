@@ -13,6 +13,12 @@ export function normalizeSocialProfiles(values=capturedProfiles){
 }
 export function schemaWithSocialProfiles(raw,profiles){
  const data=JSON.parse(raw),graph=data['@graph']||[data];
- for(const entity of graph)if(entity['@id']==='https://cash4goldanddiamond.com/#organization')entity.sameAs=profiles.map(profile=>profile.href);
+ for(const entity of graph){
+  if(entity['@id']==='https://cash4goldanddiamond.com/#organization'){
+   entity.sameAs=profiles.map(profile=>profile.href);
+   if(entity.legalName==='Cash 4 Gold &amp; Diamonds')entity.legalName='Cash 4 Gold & Diamonds';
+  }
+  if(entity['@id']==='https://cash4goldanddiamond.com/#website'&&entity.name==='Cash 4 Gold &amp; Diamonds')entity.name='Cash 4 Gold & Diamonds';
+ }
  return JSON.stringify(data).replace(/</g,'\\u003c');
 }
