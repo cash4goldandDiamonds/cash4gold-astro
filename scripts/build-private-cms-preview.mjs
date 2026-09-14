@@ -5,6 +5,7 @@ import {spawnSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {createClient} from '@sanity/client';
 import {privateCmsPreviewPlan} from '../src/lib/private-cms-preview-plan.mjs';
+import {readPrivateCmsRevisions} from '../src/lib/private-cms-revisions.mjs';
 
 const plan=privateCmsPreviewPlan(process.env);
 const session=JSON.parse(await fs.readFile(process.env.SANITY_SESSION_FILE||'.cache/sanity-staging/session.json','utf8'));
@@ -13,7 +14,7 @@ assert.ok(typeof session.token==='string'&&session.token.length>10,'A private lo
 const env={...process.env,...plan.environment,ASTRO_TELEMETRY_DISABLED:'1',SANITY_PROJECT_ID:session.projectId,SANITY_DATASET:session.dataset,SANITY_READ_TOKEN:session.token};
 const client=createClient({projectId:session.projectId,dataset:session.dataset,token:session.token,apiVersion:'2026-09-09',useCdn:false,perspective:plan.perspective});
 const report={startedAt:new Date().toISOString(),status:'BLOCKED',perspective:plan.perspective,output:plan.output,mode:'Actual private Sanity-backed Astro build; local output only, not a Cloudflare deployment',steps:[]};
-const revisions=()=>client.fetch('*[]|order(_id){_id,_rev}');
+const revisions=()=>readPrivateCmsRevisions(client);
 let log='';
 try {
   assert.ok((await client.datasets.list()).some(d=>d.name===session.dataset&&d.aclMode==='private'));
