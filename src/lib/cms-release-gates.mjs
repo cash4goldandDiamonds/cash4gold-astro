@@ -2,6 +2,15 @@ import {isLocalPath} from './redirects.mjs';
 import {validatePageReview} from '../../studio/review-validation.js';
 
 export function assertContentEnvironment(env = {}) {
+  const source = env.CONTENT_SOURCE || 'cms';
+  if (!['cms', 'reviewed-static'].includes(source)) throw new Error('Unknown CONTENT_SOURCE.');
+  if (source === 'reviewed-static') {
+    if (env.SITE_ENV !== 'production' || env.ENABLE_PRODUCTION_INDEXING !== 'true') throw new Error('Reviewed static release requires explicit production indexing.');
+    if (env.ISOLATED_PRODUCTION_AUDIT === 'true' || env.ASTRO_OUT_DIR || env.BUILD_STAGING_STUDIO === 'true') throw new Error('Reviewed static release requires normal dist output without audit mode or Studio.');
+    if (env.SANITY_PROJECT_ID || env.SANITY_DATASET || env.SANITY_READ_TOKEN || env.SANITY_AUTH_TOKEN || env.SANITY_WRITE_TOKEN || env.CMS_RELEASE_REVIEW || (env.SANITY_PERSPECTIVE && env.SANITY_PERSPECTIVE !== 'published')) throw new Error('Reviewed static release cannot mix CMS data, credentials, draft perspective or CMS approvals.');
+    if (!/^[a-f0-9]{40}$/i.test(env.STATIC_RELEASE_COMMIT || '')) throw new Error('Reviewed static release requires the exact reviewed Git commit.');
+    return {isolatedSnapshotAudit: false, reviewedStatic: true};
+  }
   if (env.SITE_ENV !== 'production') return {isolatedSnapshotAudit: false};
   const isolated = env.ISOLATED_PRODUCTION_AUDIT === 'true' && /^\.?[\\/]?\.cache[\\/]production-audit(?:[\\/]|$)/.test(env.ASTRO_OUT_DIR || '');
   if (isolated && !env.SANITY_PROJECT_ID && !env.SANITY_DATASET) return {isolatedSnapshotAudit: true};
