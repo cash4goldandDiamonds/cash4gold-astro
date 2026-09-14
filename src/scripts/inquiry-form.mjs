@@ -9,7 +9,7 @@ function loadTurnstile(){
 export async function initializeInquiryForm(){
  const root=document.querySelector('[data-inquiry-component]');if(!root||root.dataset.ready)return;root.dataset.ready='true';
  const form=root.querySelector('[data-inquiry-form]'),availability=root.querySelector('[data-inquiry-availability]'),status=root.querySelector('[data-inquiry-status]'),submit=root.querySelector('[data-inquiry-submit]');
- let startedAt=Date.now(),requestId=crypto.randomUUID(),token='',busy=false,widget,turnstile;
+ let startedAt=Date.now(),requestId=crypto.randomUUID(),submittedContent='',token='',busy=false,widget,turnstile;
  const showStatus=message=>{status.textContent=message;};
  const showErrors=fields=>{
   form.querySelectorAll('[aria-invalid]').forEach(el=>el.removeAttribute('aria-invalid'));form.querySelectorAll('[data-field-error]').forEach(el=>{el.textContent='';});
@@ -27,19 +27,24 @@ export async function initializeInquiryForm(){
   // Compact is 150 by 140 pixels and fits the contact card at 320-pixel phone widths.
   widget=turnstile.render(root.querySelector('[data-turnstile-container]'),{sitekey:config.siteKey,action:'inquiry',size:'compact',theme:'auto',callback:value=>{token=value;submit.disabled=busy;},'expired-callback':()=>{token='';submit.disabled=true;},'error-callback':()=>{token='';submit.disabled=true;showStatus(INQUIRY_MESSAGES.challenge);}});
  }catch{availability.textContent=INQUIRY_MESSAGES.unavailable;form.hidden=true;return;}
- form.addEventListener('input',()=>{if(!busy){requestId=crypto.randomUUID();showStatus('');}});
+ form.addEventListener('input',()=>{if(!busy)showStatus('');});
  form.addEventListener('submit',async event=>{
   event.preventDefault();if(busy)return;showErrors({});showStatus('');
   const fields=new FormData(form),input=Object.fromEntries(['name','email','phone','itemType','message','website'].map(key=>[key,String(fields.get(key)||'')]));
   Object.assign(input,{permission:fields.get('permission')==='on',startedAt,requestId,turnstileToken:token});
   const checked=validateInquiry(input);if(!checked.ok){showStatus(INQUIRY_MESSAGES.invalid);showErrors(checked.fields);form.querySelector('[aria-invalid=true]')?.focus();return;}
+  // Compare the same normalized fields that reach the provider. Editing and undoing,
+  // toggling permission or refreshing the challenge must not defeat retry deduplication.
+  const content=JSON.stringify(['name','email','phone','itemType','message'].map(key=>checked.value[key]));
+  if(submittedContent&&content!==submittedContent)requestId=crypto.randomUUID();
+  input.requestId=requestId;submittedContent=content;
   busy=true;submit.disabled=true;submit.textContent='Sending…';form.setAttribute('aria-busy','true');
   const controls=Array.from(form.querySelectorAll('input,select,textarea')).map(control=>({control,disabled:control.disabled}));controls.forEach(({control})=>{control.disabled=true;});
   try{
    const response=await fetch(INQUIRY_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},credentials:'same-origin',body:JSON.stringify(input),signal:AbortSignal.timeout(30_000)});
    const result=await response.json();
    if(response.status===202&&result.ok===true&&result.state==='accepted'){
-    showStatus(INQUIRY_MESSAGES.accepted);form.reset();startedAt=Date.now();requestId=crypto.randomUUID();
+    showStatus(INQUIRY_MESSAGES.accepted);form.reset();startedAt=Date.now();requestId=crypto.randomUUID();submittedContent='';
     // No inquiry fields or customer identifiers are attached to this event.
     window.dispatchEvent(new Event('cash4gold:inquiry-accepted'));
    }else{showStatus(typeof result.message==='string'?result.message:INQUIRY_MESSAGES.retry);showErrors(result.fields||{});}
