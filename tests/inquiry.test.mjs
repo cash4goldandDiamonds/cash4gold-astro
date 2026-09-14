@@ -58,3 +58,34 @@ test('unrelated page requests retain the static assets handler',async()=>{
  const result=await worker.fetch(new Request(origin+'/sell-your-golds/'),{ASSETS:{fetch:async req=>new Response(new URL(req.url).pathname)}});assert.equal(await result.text(),'/sell-your-golds/');
  assert.match(inquiryEmail(validateInquiry(input(),now).value,{preview:false}).subject,/^Website inquiry/);
 });
+
+for(const status of [301,302,303,304,307,308]){
+ test(`Siteverify HTTP ${status} fails closed without following Location or sending email`,async()=>{
+  const calls=[];let cancelled=false;
+  const body=status===304?null:new ReadableStream({cancel(){cancelled=true;}});
+  const result=await handleInquiry(request(),env(),{now,fetcher:async(url,options)=>{
+   calls.push(url);
+   assert.equal(url,'https://challenges.cloudflare.com/turnstile/v0/siteverify');
+   assert.equal(options.redirect,'manual');
+   return new Response(body,{status,headers:{Location:'https://untrusted.example.invalid/collect'}});
+  }});
+  assert.equal(result.status,403);
+  assert.equal((await result.json()).ok,false);
+  assert.deepEqual(calls,['https://challenges.cloudflare.com/turnstile/v0/siteverify']);
+  assert.equal(cancelled,status!==304);
+ });
+ test(`Resend HTTP ${status} fails closed without following Location or reporting acceptance`,async()=>{
+  const calls=[];let cancelled=false;
+  const body=status===304?null:new ReadableStream({cancel(){cancelled=true;}});
+  const result=await handleInquiry(request(),env(),{now,fetcher:async(url,options)=>{
+   calls.push(url);assert.equal(options.redirect,'manual');
+   if(url==='https://challenges.cloudflare.com/turnstile/v0/siteverify')return challenge();
+   assert.equal(url,'https://api.resend.com/emails');
+   return new Response(body,{status,headers:{Location:'https://untrusted.example.invalid/collect'}});
+  }});
+  assert.equal(result.status,502);
+  assert.equal((await result.json()).ok,false);
+  assert.deepEqual(calls,['https://challenges.cloudflare.com/turnstile/v0/siteverify','https://api.resend.com/emails']);
+  assert.equal(cancelled,status!==304);
+ });
+}

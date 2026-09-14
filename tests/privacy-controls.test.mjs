@@ -13,7 +13,7 @@ function browserFixture(t,{consented=true,storageThrows=false,removalThrows=fals
  controls['data-privacy-dialog']=dialog;
  const root={dataset:{analyticsEnabled:'true',analyticsId:id,analyticsEnvironment:'preview',analyticsPath:'/contact-us/'},querySelector:selector=>controls[selector.slice(1,-1)]};
  const localStorage={getItem:key=>storage.get(key)??null,setItem(key,value){if(storageThrows)throw Error('storage_unavailable');storage.set(key,value);},removeItem(key){if(removalThrows)throw Error('storage_unavailable');storage.delete(key);}};
- class Element{constructor(href){this.href=href;}closest(){return this;}}
+ class Element{constructor(href,textContent='',ariaLabel=''){this.href=href;this.textContent=textContent;this.ariaLabel=ariaLabel;}closest(){return this;}getAttribute(name){return name==='aria-label'?this.ariaLabel:null;}}
  const globals={document:globalThis.document,window:globalThis.window,location:globalThis.location,localStorage:globalThis.localStorage,Element:globalThis.Element};
  Object.assign(globalThis,{Element,localStorage,location:{origin:'https://preview.example.invalid',hostname:'preview.example.invalid',href:'https://preview.example.invalid/contact-us/?email=private@example.invalid#private',reload(){reloads++;}},
   document:{referrer:'https://search.example.invalid/private/customer?email=private@example.invalid#private',visibilityState:'visible',querySelector:()=>root,createElement:()=>({dataset:{}}),head:{append:script=>scripts.push(script)},addEventListener:(name,fn)=>{documentEvents[name]=fn;},get cookie(){return '_ga=synthetic; _ga_TESTONLY=synthetic; essential=keep';},set cookie(value){cookieWrites.push(value);}},
@@ -25,7 +25,7 @@ function browserFixture(t,{consented=true,storageThrows=false,removalThrows=fals
  return {controls,dialog,storage,scripts,cookieWrites,windowEvents,documentEvents,timers,localStorage,
   advance(ms){now+=ms;},get reloads(){return reloads;},
   events(){return (window.dataLayer||[]).map(args=>Array.from(args)).filter(args=>args[0]==='event');},
-  link(href){documentEvents.click({target:new Element(href)});},
+  link(href,textContent='',ariaLabel=''){documentEvents.click({target:new Element(href,textContent,ariaLabel)});},
   save(value){controls['data-analytics-choice'].checked=value;controls['data-save-privacy'].listeners.click();}
  };
 }
@@ -120,4 +120,24 @@ test('consent-gated events use only the staging destination and sanitized page c
  const config=window.dataLayer.map(args=>Array.from(args)).find(args=>args[0]==='config')[2];
  assert.equal(config.send_page_view,false);assert.equal(config.page_location,'https://preview.example.invalid/contact-us/');assert.equal(config.page_referrer,'https://search.example.invalid');
  assert.doesNotMatch(JSON.stringify(window.dataLayer),/private@|customer|\?body=|#private/);
+});
+
+test('appointment intent is consent gated and review or privacy links are not conversions',t=>{
+ const fixture=browserFixture(t,{consented:false});
+ const links=()=>{
+  fixture.link('/contact-us/?private=value','Book an Appointment');
+  fixture.link('/contact-us/','', 'Appointment');
+  fixture.link('https://calendly.com/calidiamond310/30min','Choose an appointment time');
+  fixture.link('/contact-us/','Contact Us');
+  fixture.link('https://maps.app.goo.gl/zcu9rXLfB5BWKnKy9','Read all reviews on Google');
+  fixture.link('https://www.google.com/maps/place/Cash4Gold','Google profile');
+  fixture.link('https://calendly.com/privacy','Calendly privacy notice');
+  fixture.link('https://www.google.com/maps/search/?query=business','Get directions');
+ };
+ links();assert.deepEqual(fixture.events(),[]);assert.equal(fixture.scripts.length,0);
+ fixture.save(true);fixture.scripts[0].onload();links();
+ assert.deepEqual(fixture.events().map(args=>args[1]),['page_view','appointment_click','appointment_click','appointment_click','directions_click']);
+ assert.ok(fixture.events().every(args=>args[2].send_to==='G-TESTONLY'&&args[2].debug_mode===true));
+ assert.doesNotMatch(JSON.stringify(fixture.events()),/private=value|zcu9|calendly|query=business/);
+ fixture.save(false);const count=fixture.events().length;links();assert.equal(fixture.events().length,count);
 });
