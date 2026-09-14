@@ -23,9 +23,9 @@ export function inquiryReady(env){
 const digest=async value=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(value))),b=>b.toString(16).padStart(2,'0')).join('');
 export async function verifyChallenge(token,request,env,fetcher=fetch){
  const response=await fetcher('https://challenges.cloudflare.com/turnstile/v0/siteverify',{
-  method:'POST',redirect:'error',headers:{'Content-Type':'application/json'},body:JSON.stringify({secret:env.INQUIRY_TURNSTILE_SECRET,response:token,remoteip:request.headers.get('CF-Connecting-IP')||undefined}),signal:AbortSignal.timeout(10_000),
+  method:'POST',redirect:'manual',headers:{'Content-Type':'application/json'},body:JSON.stringify({secret:env.INQUIRY_TURNSTILE_SECRET,response:token,remoteip:request.headers.get('CF-Connecting-IP')||undefined}),signal:AbortSignal.timeout(10_000),
  });
- if(!response.ok)return false;
+ if(!response.ok){await response.body?.cancel();return false;}
  const result=JSON.parse(await limitedText(response,16_384));
  return result.success===true&&result.action==='inquiry'&&result.hostname===new URL(request.url).hostname;
 }
@@ -35,7 +35,7 @@ export async function deliverInquiry(value,env,fetcher=fetch){
  // Never automatically retry an ambiguous network outcome with a new key.
  const key='inquiry/'+await digest(JSON.stringify({from:env.INQUIRY_FROM,to:env.INQUIRY_TO,email:value.email,...mail}));
  const response=await fetcher('https://api.resend.com/emails',{
-  method:'POST',redirect:'error',headers:{Authorization:'Bearer '+env.INQUIRY_RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':key},
+  method:'POST',redirect:'manual',headers:{Authorization:'Bearer '+env.INQUIRY_RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':key},
   body:JSON.stringify({from:env.INQUIRY_FROM,to:[env.INQUIRY_TO],reply_to:value.email,...mail}),signal:AbortSignal.timeout(15_000),
  });
  if(!response.ok){await response.body?.cancel();return {accepted:false};}
