@@ -3780,10 +3780,11 @@
       "findings": [
         "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
         "Applied independent essential corrections and regenerated crawl metadata/schema.",
-        "Removed solid-gold authenticity claim, unsupported investment assurance and market attribution."
+        "Removed solid-gold authenticity claim, unsupported investment assurance and market attribution.",
+        "Postlaunch stabilization: independently reviewed sentence-dash punctuation only; words, URLs, claims, images and publication metadata unchanged."
       ],
       "beforeHtmlSha256": "0c40bd99376230f9cd3f5819981baf3fe59d7c5461469332246c709c4c550480",
-      "afterHtmlSha256": "2e5a228e3b2ed91f03d41f2d8ab5fe75db36aa3ba16f57c5488c2c7ed06d9852",
+      "afterHtmlSha256": "4bd51210a478dce9397b87b966d94bbfd9bf4a61a4d094c32e95c65c2f30e92e",
       "title": "Gold Watches for Men: Materials, Records and Resale Value",
       "description": "Understand gold watch construction, authenticity checks, records and resale considerations before discussing an inherited or pre-owned watch in Los Angeles.",
       "focusKeyword": "gold watches for men resale evaluation",
@@ -3798,7 +3799,18 @@
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/gold-watches-for-men/",
-      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4315"
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4315",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-14T17:27:20.495Z",
+          "scope": "Owner-authorized punctuation-only stabilization",
+          "findingIds": [
+            "WORD-09"
+          ],
+          "previousHtmlSha256": "2e5a228e3b2ed91f03d41f2d8ab5fe75db36aa3ba16f57c5488c2c7ed06d9852",
+          "afterHtmlSha256": "4bd51210a478dce9397b87b966d94bbfd9bf4a61a4d094c32e95c65c2f30e92e"
+        }
+      ]
     },
     {
       "path": "/18k-gold-jewelry-guide/",
@@ -3836,10 +3848,11 @@
       "findings": [
         "Recovered published WordPress article after migration checkpoint; preserved route, publication date, byline and original photo assignments.",
         "Applied independent essential corrections and regenerated crawl metadata/schema.",
-        "Removed unsupported retail prices, price-based quality guarantees and categorical durability claims."
+        "Removed unsupported retail prices, price-based quality guarantees and categorical durability claims.",
+        "Postlaunch stabilization: independently reviewed sentence-dash punctuation only; words, URLs, claims, images and publication metadata unchanged."
       ],
       "beforeHtmlSha256": "4c9b0595dbae6a71d3596e2cbb9ab975346b3403bf8ce523ea01b9e306ca443c",
-      "afterHtmlSha256": "97b043abba7dbf97db87a94707a300b2a77ee589b336835ddf568580c414c8a8",
+      "afterHtmlSha256": "f271525a5ba1b50110db3259bcef626bb7149406d50260957b1e76bfb5355a82",
       "title": "14K Gold Rings for Women: Quality, Care and Resale Checks",
       "description": "Review markings, settings, condition and records for 14K gold rings, including inherited pieces, before arranging a jewelry evaluation in Los Angeles.",
       "focusKeyword": "14K gold rings for women resale preparation",
@@ -3850,7 +3863,21 @@
         }
       ],
       "canonical": "https://cash4goldanddiamond.com/14k-gold-rings-for-women/",
-      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4304"
+      "sourceArchive": "migration/pre-deployment/late-2026-09-14/posts.json#4304",
+      "followupReviews": [
+        {
+          "reviewedAt": "2026-09-14T17:27:20.497Z",
+          "scope": "Owner-authorized punctuation-only stabilization",
+          "findingIds": [
+            "WORD-10",
+            "WORD-11",
+            "WORD-12",
+            "WORD-13"
+          ],
+          "previousHtmlSha256": "97b043abba7dbf97db87a94707a300b2a77ee589b336835ddf568580c414c8a8",
+          "afterHtmlSha256": "f271525a5ba1b50110db3259bcef626bb7149406d50260957b1e76bfb5355a82"
+        }
+      ]
     },
     {
       "path": "/gold-price-per-gram/",
