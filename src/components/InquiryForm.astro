@@ -1,8 +1,8 @@
 <section class="inquiry-form-section" aria-labelledby="inquiry-heading" data-inquiry-component>
  <h2 id="inquiry-heading">Send an inquiry</h2>
  <p>Describe the items you would like evaluated. Do not include identification documents, banking information or other sensitive details. This form does not reserve an appointment.</p>
- <p data-inquiry-availability role="status">Checking online inquiry availability… You can also <a href="tel:3106631340">call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email us</a>.</p>
- <p><a href="tel:3106631340">Call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email cash4goldanddiamond@gmail.com</a> if you prefer, or if the online form is unavailable.</p>
+ <p data-inquiry-availability role="status">Checking online inquiry availability… You can also <a href="tel:+13106631340">call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email us</a>.</p>
+ <p><a href="tel:+13106631340">Call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email cash4goldanddiamond@gmail.com</a> if you prefer, or if the online form is unavailable.</p>
  <form action="/api/inquiry/" method="post" data-inquiry-form hidden aria-describedby="inquiry-note">
   <div class="inquiry-grid">
    <div><label for="inquiry-name">Your name <span>(required)</span></label><input id="inquiry-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required aria-describedby="inquiry-name-error"/><p id="inquiry-name-error" data-field-error="name" class="field-error"></p></div>
@@ -18,7 +18,7 @@
   <button type="submit" class="elementor-button" data-inquiry-submit disabled>Send inquiry</button>
   <p data-inquiry-status role="status" aria-live="polite" tabindex="-1"></p>
  </form>
- <noscript><p>The online form requires JavaScript for spam protection. Please <a href="tel:3106631340">call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email cash4goldanddiamond@gmail.com</a>.</p></noscript>
+ <noscript><p>The online form requires JavaScript for spam protection. Please <a href="tel:+13106631340">call 310-663-1340</a> or <a href="mailto:cash4goldanddiamond@gmail.com">email cash4goldanddiamond@gmail.com</a>.</p></noscript>
 </section>
 <script>import {initializeInquiryForm} from '../scripts/inquiry-form.mjs'; initializeInquiryForm();</script>
 <style>
