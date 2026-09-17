@@ -15,7 +15,7 @@ const normalizeLegacyAnchors=createLegacyAnchorNormalizer(await getRedirects(),p
 <Base page={page}>
  {home&&page.sections.length?<div class="source-home">{page.sections.map(section=>section.id==='6733923a'?<ServiceCards/>:section.id==='76334454'?<Gallery/>:<Fragment set:html={normalizeLegacyAnchors(section.html)}/>)}</div>:<div class:list={['page-shell',{'service-page':!page.isArticle}]}>
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span>{page.isArticle&&<><a href="/blogs/">Blogs</a><span>/</span></>}<span>{'breadcrumbLabel' in page?String(page.breadcrumbLabel):page.heading}</span></nav>
-  {!alreadyHasH1&&<header class="page-title"><h1>{page.heading}</h1>{page.isArticle&&<p class="byline">{page.author}{page.publishedAt&&<> · <time datetime={page.publishedAt}>{new Date(page.publishedAt).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time></>}</p>}</header>}
+  {!alreadyHasH1&&<header class="page-title"><h1>{page.heading}</h1>{page.isArticle&&<p class="byline">{page.author&&<a href="/about-us-sell-gold-and-diamonds-online/">{page.author}</a>}{page.publishedAt&&<> · <time datetime={page.publishedAt}>{new Date(page.publishedAt).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time></>}</p>}</header>}
   <div class:list={['imported-content',{'prose':page.isArticle}]} set:html={normalizeLegacyAnchors(page.html)}/>
   {page.path==='/contact-us/'&&<InquiryForm/>}
  </div>}
