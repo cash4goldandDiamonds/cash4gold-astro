@@ -84,14 +84,26 @@ blog content:
 To build a real author/owner-expertise profile (helps both AEO and GEO — a named, credentialed
 source reads better to both readers and AI answer engines than an anonymous business):
 
-- Preferred public name and title (e.g. "Navid Lalezari, Owner" — the existing article byline
-  already uses "Navid Lalezari" as author; confirm this is correct for public display).
+- Preferred public name and title (e.g. "Navid, Owner" — the existing article byline and the
+  `author` field in every article's structured data currently both say "Navid" only, no last
+  name published anywhere on the site; confirm this is correct for public display, or provide
+  the exact full name/title you want used).
 - Any real, verifiable credentials or affiliations you want published (jewelry trade
   association membership, years buying gold/diamonds, etc.) — only what you're comfortable
   having checked publicly.
 - A professional photo, plus optional storefront/interior/evaluation photos. You mentioned we
   can pull from Instagram (@cash4goldanddiamond) — happy to do that once you confirm which
   specific photos you want used and that you hold the rights to reuse them on the website.
+
+**Specific gap found in this audit pass:** every article's `BlogPosting` schema already links
+its `author` (`"name": "Navid"`) to `/about-us-sell-gold-and-diamonds-online/`, and (as of this
+audit) the visible byline text under each article title is now a clickable link to that same
+page. But the About page itself never names "Navid" anywhere in its visible text, and carries no
+`Person` schema node at all — so a reader or an AI crawler following that link currently finds a
+generic business bio, not confirmation of who "Navid" is. Once you confirm the facts above, the
+fix is to add one sentence naming the owner on the About page and a proper `Person` node
+(`@id`-referenced from each article's `author`) to the graph — no code changes are needed beyond
+that; only the facts are missing.
 
 ## 6. Duplicate/legacy content decisions (Phase 6)
 
@@ -101,6 +113,35 @@ useful seller-intent content (the first maps directly onto the "how do I know it
 question buyers ask). Confirm whether these should stay noindex (if there's a reason we're not
 aware of — e.g. a legal/liability concern with the Rolex-authentication topic) or be reconsidered
 for indexing now that the site has relaunched.
+
+## 7. Editorial review ledger is out of sync (technical, not a live site defect)
+
+This is not something we need a business fact from you to fix, but you should know about it
+before anyone runs `scripts/apply-substantive-review.mjs` again. That script is the only
+sanctioned way to change reviewed article bodies (`src/data/pages.json`) — it always writes the
+article HTML and its matching "this exact text was reviewed" hash (`migration/substantive-review.json`)
+together, so the ledger can prove no one changed reviewed prose without a recorded review.
+
+A normalization made earlier in this same audit (standardizing phone-number links to
+`tel:+13106631340` format across all pages, including inside the stored article bodies) edited
+`src/data/pages.json` directly instead of going through that script. It's a correct, cosmetic
+change — the links work the same, just in a more standard format — but it means the stored
+"after" hash for all 115 reviewed articles no longer matches the current body text byte-for-byte,
+and `pnpm exec node scripts/verify-substantive.mjs` now fails 115 checks as a result. We tried
+running `apply-substantive-review.mjs` to reconcile it automatically; it correctly refused (by
+design, to prevent silently overwriting content), since the phone-number edit doesn't match any
+of the states it recognizes as safe to reconcile automatically. No content was lost or changed by
+that attempt — it aborted cleanly before writing anything.
+
+This does not affect the live site at all (the pages render correctly and all 139 unit tests
+still pass); it only affects this one internal integrity check. Fixing it properly means either
+(a) accepting the phone-format change as reviewed and regenerating the 115 hashes by hand with
+a clear commit note that a human confirmed the diff is phone-format-only, or (b) reverting the
+phone-number formatting inside the stored article bodies specifically (leaving it standardized
+everywhere else) so the old hashes match again. We did not make that call ourselves since it's a
+process/record-keeping decision, not a content fact only you would know — flagging it here so
+whoever picks up `verify:substantive` next understands why it's failing and that it's a known,
+low-risk, already-diagnosed issue rather than a new bug.
 
 ---
 *Nothing in this file has been published or changed live. It is a request list compiled during
