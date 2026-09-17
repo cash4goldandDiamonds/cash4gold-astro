@@ -17,6 +17,23 @@ test('optional analytics hosts stay blocked unless the feature is the literal bo
  }
 });
 
+test('the Cloudflare Web Analytics beacon stays blocked unless its feature is the literal boolean true',()=>{
+ for(const features of [{},{cloudflareBeacon:false},{cloudflareBeacon:'true'},{cloudflareBeacon:1},{cloudflareBeacon:null}]){
+  const headers=hostHeaders(releasePolicy(),features);
+  assert.doesNotMatch(headers,/cloudflareinsights\.com/);
+ }
+});
+
+test('enabling the Cloudflare beacon adds only its own narrow script-src/connect-src hosts',()=>{
+ const off=csp(hostHeaders(releasePolicy(),{})),on=csp(hostHeaders(releasePolicy(),{cloudflareBeacon:true}));
+ assert.ok(on['script-src'].includes('https://static.cloudflareinsights.com'));
+ assert.ok(on['connect-src'].includes('https://cloudflareinsights.com'));
+ assert.ok(!off['script-src'].includes('https://static.cloudflareinsights.com'));
+ assert.ok(!off['connect-src'].includes('https://cloudflareinsights.com'));
+ for(const directive of Object.keys(on))if(!['script-src','connect-src'].includes(directive))assert.deepEqual(on[directive],off[directive],directive);
+ for(const unsafe of ["'unsafe-inline'","'unsafe-eval'",'data:','*'])assert.ok(!on['script-src'].includes(unsafe),unsafe);
+});
+
 test('analytics consent support does not loosen form submission or executable-content safeguards',()=>{
  const rules=csp(hostHeaders(releasePolicy(),{analytics:true}));
  assert.ok(rules['script-src'].includes('https://www.googletagmanager.com'));
