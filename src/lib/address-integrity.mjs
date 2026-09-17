@@ -1,4 +1,5 @@
 import profile from '../data/business-profile.json' with {type:'json'};
+import {siteOrigin} from './release-policy.mjs';
 
 const corrections=[
  {path:'/best-gemstone-ring-buyers-los-angeles/',pattern:/\b550\s+S\.?\s+Hill\s+St(?:reet)?\.?[,]?\s+Suite\s+564\b/gi},
@@ -17,6 +18,7 @@ function visit(value,path){
  if(/^https:\/\/cash4goldanddiamond\.com\/#(?:place|organization)$/.test(result['@id']||'')&&result.address){
   result.address={'@type':'PostalAddress',streetAddress:profile.streetAddress,addressLocality:profile.city,addressRegion:profile.region,postalCode:profile.postalCode,addressCountry:profile.country};
   if(result.geo||result.hasMap){delete result.geo;result.hasMap=mapUrl;}
+  if(result['@type']==='JewelryStore'&&profile.logo){result.image=siteOrigin+profile.logo;result.logo={'@type':'ImageObject',url:siteOrigin+profile.logo};}
  }
  return result;
 }
