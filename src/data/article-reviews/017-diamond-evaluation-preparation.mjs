@@ -28,7 +28,7 @@ body:`<h2>Define the purpose before booking</h2>
 <p><a href="https://www.gia.edu/gia-website/analysis-grading-sample-report-diamond">GIA's sample diamond reports</a> show stone-quality information. They do not replace a monetary appraisal or guarantee what a buyer will pay. Bring existing records without treating their different figures and descriptions as interchangeable.</p>
 <h2>If your purpose is selling a natural diamond</h2>
 <p>Cash 4 Gold &amp; Diamonds buys natural polished diamonds of any size and shape. We do not buy laboratory-grown, uncut or rough diamonds. Our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying service</a> concerns evaluating an item for purchase.</p>
-<p>Call <a href="tel:3106631340">310-663-1340</a> or <a href="/contact-us/">arrange a visit</a> to 617 S. Hill Street, Los Angeles, CA 90014. Explain any separate formal-report requirement before assuming a purchase evaluation meets it.</p>
+<p>Call <a href="tel:+13106631340">310-663-1340</a> or <a href="/contact-us/">arrange a visit</a> to 617 S. Hill Street, Los Angeles, CA 90014. Explain any separate formal-report requirement before assuming a purchase evaluation meets it.</p>
 <h3>Must I buy an appraisal before requesting an offer?</h3><p>Not automatically. Explain your purpose and documents first, then decide whether a separate valuation would help with the decision you need to make.</p>`
 },
 {
@@ -55,7 +55,7 @@ body:`<h2>Start with the exact report type</h2>
 <p>Ask what the proposed purchase includes: just the diamond, the complete ring or additional pieces. Compare final amounts for the same items and conditions. No fixed percentage premium applies to every stone simply because a particular laboratory name appears on the document.</p>
 <h2>Bring existing paperwork to Downtown Los Angeles</h2>
 <p>Cash 4 Gold &amp; Diamonds buys natural polished diamonds of any size and shape, loose or in jewelry. We do not buy laboratory-grown, uncut or rough diamonds. If paperwork is missing, contact us with what you know before paying for replacement or new laboratory work.</p>
-<p>Call <a href="tel:3106631340">310-663-1340</a> or <a href="/contact-us/">arrange an evaluation</a> at 617 S. Hill Street, Los Angeles, CA 90014. Our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying page</a> explains the service. Cash, bank wire and business check are available for agreed purchases.</p>`
+<p>Call <a href="tel:+13106631340">310-663-1340</a> or <a href="/contact-us/">arrange an evaluation</a> at 617 S. Hill Street, Los Angeles, CA 90014. Our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying page</a> explains the service. Cash, bank wire and business check are available for agreed purchases.</p>`
 },
 {
 path:'/sell-diamond-necklace-for-cash-los-angeles/',beforeHtmlSha256:'24cfbfef78a8186ec4b0930dead408a792dc1afb2644848786b77c7680be10b5',decision:'rewrite',intent:'Prepare diamond necklaces as complete designs and distinguish total diamond weight from an individual stone.',
@@ -79,7 +79,7 @@ body:`<h2>Identify the necklace design and included parts</h2>
 <p><a href="https://4cs.gia.edu/en-us/blog/appraisal-tips/">An insurance valuation and a grading report serve different purposes</a>. Compare an actual purchase offer with another offer for the same item, not a retail price for a new necklace. Confirm outstanding checks, charges and payment arrangements.</p>
 <h2>Arrange your Downtown LA necklace evaluation</h2>
 <p>Cash 4 Gold &amp; Diamonds buys natural polished diamonds only, any size and shape, loose or in jewelry. We welcome substantial diamond necklaces and collections. We do not buy laboratory-grown, uncut or rough diamonds.</p>
-<p>Call <a href="tel:3106631340">310-663-1340</a> or <a href="/contact-us/">contact us</a> at 617 S. Hill Street, Los Angeles, CA 90014. Discuss the necklace through our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying service</a>. Cash, bank wire and business check are available for agreed purchases.</p>
+<p>Call <a href="tel:+13106631340">310-663-1340</a> or <a href="/contact-us/">contact us</a> at 617 S. Hill Street, Los Angeles, CA 90014. Discuss the necklace through our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying service</a>. Cash, bank wire and business check are available for agreed purchases.</p>
 <h3>Can I bring a broken diamond necklace?</h3><p>Yes. Bring the piece and its detached components, describe the damage and ask how the actual materials and condition affect the offer.</p>`
 },
 {
@@ -105,7 +105,7 @@ body:`<h2>Choose the result you actually need</h2>
 <p>Cash 4 Gold &amp; Diamonds offers payment by cash, bank wire or business check for agreed purchases. Confirm the method and arrangements before accepting. The time spent examining jewelry is a separate question from the completion or availability of a payment.</p>
 <h2>Arrange a natural-diamond purchase evaluation</h2>
 <p>We buy natural, cut and polished diamonds only, of any size and shape. We do not buy laboratory-grown, rough or uncut diamonds. Visit our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying page</a> for the service we provide.</p>
-<p>Call <a href="tel:3106631340">310-663-1340</a> or <a href="/contact-us/">arrange your visit</a> to 617 S. Hill Street, Los Angeles, CA 90014. Explain any formal appraisal requirement at the outset.</p>
+<p>Call <a href="tel:+13106631340">310-663-1340</a> or <a href="/contact-us/">arrange your visit</a> to 617 S. Hill Street, Los Angeles, CA 90014. Explain any formal appraisal requirement at the outset.</p>
 <h3>Does an evaluation require accepting an offer?</h3><p>You decide whether to accept a purchase proposal. Clarify any separately agreed examination or report charges before commissioning that work.</p>`
 },
 {
@@ -131,6 +131,6 @@ body:`<h2>Organize stones one at a time</h2>
 <p>Confirm any outstanding costs, the duration of the offer and payment arrangements. If you remove an item from the sale, request a revised amount. A quote for a different origin, grade or set of items cannot settle the comparison.</p>
 <h2>Contact the Downtown Los Angeles location</h2>
 <p>Cash 4 Gold &amp; Diamonds buys natural polished diamonds of any size and shape. We do not buy laboratory-grown diamonds or rough and uncut material. Tell us what the documentation says if origin is uncertain.</p>
-<p>Call <a href="tel:3106631340">310-663-1340</a> or <a href="/contact-us/">contact us</a> to arrange a visit to 617 S. Hill Street, Los Angeles, CA 90014. Our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying service</a> offers cash, bank wire or business-check payment for agreed purchases.</p>`
+<p>Call <a href="tel:+13106631340">310-663-1340</a> or <a href="/contact-us/">contact us</a> to arrange a visit to 617 S. Hill Street, Los Angeles, CA 90014. Our <a href="/sell-your-diamonds-in-los-angeles/">diamond-buying service</a> offers cash, bank wire or business-check payment for agreed purchases.</p>`
 }
 ];
