@@ -4,7 +4,7 @@ import {hostHeaders,robotsTxt,sitemapXml,siteOrigin} from '../src/lib/release-po
 import {analyticsSettings} from '../src/lib/privacy-consent.mjs';
 const out=path.resolve(process.env.ASTRO_OUT_DIR||'dist');
 const manifest=JSON.parse(await fs.readFile(path.join(out,'build-manifest.json'),'utf8'));
-await fs.writeFile(path.join(out,'_headers'),hostHeaders(manifest.policy,{analytics:analyticsSettings({enabled:process.env.PUBLIC_ANALYTICS_ENABLED,id:process.env.PUBLIC_GA4_MEASUREMENT_ID,environment:process.env.PUBLIC_ANALYTICS_ENV,siteEnvironment:manifest.policy.environment}).enabled}));
+await fs.writeFile(path.join(out,'_headers'),hostHeaders(manifest.policy,{analytics:analyticsSettings({enabled:process.env.PUBLIC_ANALYTICS_ENABLED,id:process.env.PUBLIC_GA4_MEASUREMENT_ID,environment:process.env.PUBLIC_ANALYTICS_ENV,siteEnvironment:manifest.policy.environment}).enabled,cloudflareBeacon:process.env.PUBLIC_CLOUDFLARE_BEACON_ENABLED==='true'}));
 await fs.writeFile(path.join(out,'_redirects'),manifest.redirects.map(r=>`${r.from} ${r.to} ${r.status}`).join('\n')+'\n');
 await fs.writeFile(path.join(out,'robots.txt'),robotsTxt(manifest.policy));
 const entries=manifest.sitemap;
